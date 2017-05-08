@@ -8,4 +8,4 @@ twitter_username: "jfoss117"
 github_username:  "fossj117"
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
