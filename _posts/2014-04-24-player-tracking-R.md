@@ -2,6 +2,7 @@
 layout: post
 title:  Grabbing NBA Player Tracking Data with R
 date: 2014-04-24
+comments: true 
 ---
 
 # NBA Player Tracking

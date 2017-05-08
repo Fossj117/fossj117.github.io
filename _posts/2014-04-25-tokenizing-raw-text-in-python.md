@@ -2,6 +2,7 @@
 layout: post 
 title:  Tokenizing Raw Text in Python
 date: 2014-04-25 23:24:28
+comments: true
 tags: 
 - python 
 - nlp 
