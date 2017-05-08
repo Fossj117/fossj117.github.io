@@ -9,3 +9,4 @@ github_username:  "fossj117"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge

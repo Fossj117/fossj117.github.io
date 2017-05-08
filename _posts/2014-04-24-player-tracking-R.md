@@ -20,7 +20,7 @@ A few points about this project. The first step was to find the location of the 
 In any case, here's the list of raw data addresses: 
 
 
-{% highlight r %}
+```r
 addressList <- list(
 pullup_address="http://stats.nba.com/js/data/sportvu/pullUpShootData.js", drives_address = "http://stats.nba.com/js/data/sportvu/drivesData.js",		defense_address="http://stats.nba.com/js/data/sportvu/defenseData.js",	passing_address = "http://stats.nba.com/js/data/sportvu/passingData.js", 
 touches_address = "http://stats.nba.com/js/data/sportvu/touchesData.js", 
@@ -28,11 +28,11 @@ speed_address = "http://stats.nba.com/js/data/sportvu/speedData.js", rebounding_
 catchshoot_address = "http://stats.nba.com/js/data/sportvu/catchShootData.js", 
 shooting_address = "http://stats.nba.com/js/data/sportvu/shootingData.js"
 )
-{% endhighlight %}
+```
 
 The next step was to write a function to read in the raw data from one of these addresses, and convert it to a form that's readable by one of R's i/o functions. There are a couple of ways to do this, I think, but I found the following approach to be the easiest: 
 
-{% highlight r %}
+```r
 # function that grabs the data from the website and converts to R data frame
 readIt <- function(address) {
     web_page <- readLines(address)
@@ -47,24 +47,24 @@ readIt <- function(address) {
     nba <- read.table(textConnection(x4), header = T, sep = ",", skip = 2, stringsAsFactors = FALSE)
     return(nba)
 }
-{% endhighlight %}
+```
 
 
 The regex essentially just strip out some of the JS headers and convert the nested JSON that actually contains the data into a csv that can be read by read.table(). The obvious alternative approach would be to strip just the very beginning of the JS stuff and read it as a JSON, e.g something like this:
 
 
-{% highlight r %}
+```r
 x1 <- gsub("var \\w+Data = (.*);", "\\1", web_page, perl = TRUE)
 x2 <- fromJSON(x1)  #from rjson package
-{% endhighlight %}
+```
 
 
 This works fine, but is a bit annoying since it returns a big nested list object to reflect the structure of the original JSON (and I really just wanted a flat file). Either way, with all this in place, grabbing the data is now a simple matter of:
 
 
-{% highlight r %}
+```r
 df_list <- lapply(addressList, readIt)
-{% endhighlight %}
+```
 
 
 That's the gist of it anyway. You can look at or download the full script from my github [here](https://github.com/Fossj117/NBAdata.git). The script also has some code for merging the various data sets in to one big data frame (with one listing per player). I also have a fairly recent csv in the github repo that can be opened with excel or whatever, in case you just want the data. 
