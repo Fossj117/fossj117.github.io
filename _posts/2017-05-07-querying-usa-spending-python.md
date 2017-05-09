@@ -2,6 +2,7 @@
 layout: post 
 title: Querying USA Spending Data with Python
 date: 2017-05-07
+comments: true
 ---
 
 ## Introduction
@@ -14,7 +15,7 @@ As a simple test case, let's use the API to pull all the awards from the Departm
 
 To begin, here is a basic function to pull from the awards endpoint for a given agency (by CGAC code): 
 
-```python 
+{% highlight python %}
 import requests
 
 def get_awards(CGAC = None): 
@@ -40,21 +41,21 @@ def get_awards(CGAC = None):
 		page+=1
 
 	return output
-```
+{% endhighlight %}
 
 To pull all the DoD data, we now just run the function using the DoD CGAC code: 
 
-```python 
+{% highlight python%} 
 data = get_awards(CGAC = '097')
-```
+{% endhighlight %}
 
 This returns a list of nested JSON objects corresponding the list of awards. In this case, the API returns `3016` records, each of which looks something like this: 
 
-```python
+{% highlight python%}
 data[0]
-```
+{% endhighlight %}
 
-```python
+{% highlight python%}
 {u'awarding_agency': {u'id': 1159,
   u'office_agency': None,
   u'subtier_agency': {u'abbreviation': u'',
@@ -110,26 +111,26 @@ data[0]
  u'type': u'04',
  u'type_description': u'Project Grant',
  u'uri': None}
-```
+{% endhighlight %}
 
 ## Exploring the Data
 
 Given the API response data, it's easy to use `pandas` to start exploring the data. First, we dump the API response data into a data frame: 
 
-```python 
+{% highlight python %} 
 import pandas as pd
 
 # creates a data frame with a bunch of nested structure
 df = pd.DataFrame(data)
-```
+{% endhighlight %}
 
 This gives us data frame with a bunch of nested structure like this: 
 
-```
+{% highlight python %}
 df.head()
-```
+{% endhighlight %}
 
-```
+{% highlight python %}
                                      awarding_agency date_signed  \
 0  {u'office_agency': None, u'id': 1159, u'subtie...  2017-02-16   
 1  {u'office_agency': None, u'id': 1141, u'subtie...  2017-01-30   
@@ -192,17 +193,17 @@ df.head()
 2         Delivery Order  None  
 3  Cooperative Agreement  None  
 4  Cooperative Agreement  None  
-```
+{% endhighlight %}
 
 One interesting thing we can look at straight away is the distribution of award sizes, using the `total_obligation` field, which the [data dictionary](https://api.usaspending.gov/docs/data-dictionary) defines as "The amount of money the government is obligated to pay for the award". 
 
 First a few summary statistics: 
 
-```python
+{% highlight python %}
 df.total_obligation.describe()
-```
+{% endhighlight %}
 
-```python
+{% highlight python%}
 count        3016.000000
 mean       290584.619460
 std        922759.315605
@@ -212,7 +213,7 @@ min      -2200666.000000
 75%        240431.500000
 max      20091931.000000
 Name: total_obligation, dtype: float64
-```
+{% endhighlight %}
 It looks like the average award is about ~\$290k, with the largest being just over \$20M. The \$20M award is [this](https://api.usaspending.gov/api/v1/awards/?awarding_agency__toptier_agency__cgac_code=097&id=172195) one, titled "1001 PA ARMY NATIONAL GUARD FACILITIES PROGRAM" that went to PA Military & Veterans Affairs, which makes sense. 
 
 One odd thing we notice is that some awards seem to be negative. In fact, this includes about 3% of the awards in the sample. I'm not sure exactly why this would be the case, but one hypothesis is that these are de-obligations e.g. when money is returned to the DoD because a project came in under budget. Some of these negative awards are quite large--e.g. [this](https://api.usaspending.gov/api/v1/awards/?awarding_agency__toptier_agency__cgac_code=097&id=172172
