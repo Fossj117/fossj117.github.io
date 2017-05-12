@@ -9,4 +9,12 @@ github_username:  "fossj117"
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+highlighter: rogue
+
+kramdown:
+  parse_block_html: true
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
