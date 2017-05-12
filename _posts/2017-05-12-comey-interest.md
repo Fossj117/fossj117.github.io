@@ -33,7 +33,7 @@ As outlined above, Comey and the FBI have been involved in storylines involving 
 
 Much of the Comey search volume is independent and associated with neither candidate; however, to the extent that the candidate searches *are* associated with Comey, the degree of association for each candidate depends on the event. In particular, Clinton was more associated with the email stories, whereas Trump was more associated with the FBI probe and Comey's firing, as we'd expect. To see this more clearly, here is the normalized share of Comey searches also including "Trump" vs. "Clinton" for each major Comey event[^2]: 
 
-![center](/figs/2017-05-12-comey-interest/comey_clinton_trump_by_event.png)
+![center](/figs/2017-05-12-comey-interest/comey_clinton_trump_by_event_2.png)
 
 This plot gives us a sense, for each event, of the *degree* to which Comey attention was associated with Trump vs. Clinton. Interestingly, it seems that some Comey events were more singularly associated with a particular candidate (e.g. Clinton & the email server press conference, Trump & Russia probe), whereas others showed more of a mix (e.g. Comey's pre-election letters to congress) [^3]. 
 
