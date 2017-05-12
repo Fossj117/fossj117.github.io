@@ -11,11 +11,11 @@ James Comey has loomed large in American political discourse over the past year.
 
 This chart shows the relative frequency[^1] of US google searches for the term "Comey" over the past year, and can be used as rough proxy for US public "interest" in Comey-related stories[^2]. 
 
-As the chart suggests, Comey has drawn substantial public attention at least four times over the past year. Here is a timeline of the major instances:
+As the chart suggests, Comey has drawn substantial public attention at least four times over the past year. Here is a timeline of the major events:
 
-* **Jul. 5, 2016**: Comey [gives press conference](https://www.fbi.gov/news/pressrel/press-releases/statement-by-fbi-director-james-b-comey-on-the-investigation-of-secretary-hillary-clinton2019s-use-of-a-personal-e-mail-system) on Clinton's use of private email server. Comey recommended that Clinton not be prosecuted, but noted that she was "extremely careless" in handling of classified information. 
+* **Jul. 5, 2016**: Comey [gives press conference](https://www.fbi.gov/news/pressrel/press-releases/statement-by-fbi-director-james-b-comey-on-the-investigation-of-secretary-hillary-clinton2019s-use-of-a-personal-e-mail-system) on Clinton's use of private email server. Comey recommends that Clinton not be prosecuted, but noted that she was "extremely careless" in handling of classified information. 
 
-* **Oct. 28, 2016**: Comey sends [letter to Congress](https://www.washingtonpost.com/apps/g/page/politics/oct-28-fbi-letter-to-congressional-leaders-on-clinton-email-investigation/2113/) informing leadership that FBI will be investigating newly-discovered Clinton emails from Huma Abedin's laptop. Comey would [later announce]((https://www.washingtonpost.com/politics/9-days-after-roiling-campaign-fbi-says-it-wont-seek-charges-against-clinton/2016/11/06/6f0f5d5c-a468-11e6-8fc0-7be8f848c492_story.html?utm_term=.e54a13872a2a)) (on Nov. 6) that new emails do not change the FBI's previous recommendation that Clinton not be prosecuted. 
+* **Oct. 28, 2016**: Comey sends [letter to Congress](https://www.washingtonpost.com/apps/g/page/politics/oct-28-fbi-letter-to-congressional-leaders-on-clinton-email-investigation/2113/) informing leadership that FBI will be investigating newly-discovered Clinton emails from Huma Abedin's laptop. Comey would [later announce]((https://www.washingtonpost.com/politics/9-days-after-roiling-campaign-fbi-says-it-wont-seek-charges-against-clinton/2016/11/06/6f0f5d5c-a468-11e6-8fc0-7be8f848c492_story.html?utm_term=.e54a13872a2a)) (on Nov. 6) that new emails will not change the FBI's previous recommendation that Clinton not be prosecuted. 
 
 * **Mar. 20, 2017**: Comey [confirms existence of FBI probe on Russia election hacking & Trump campaign connections to Russia](https://www.theatlantic.com/politics/archive/2017/03/its-official-the-fbi-is-investigating-trumps-links-to-russia/520134/). 
 
@@ -27,8 +27,8 @@ While the extra attention to the Comey firing is certainly warranted to some ext
 
 ## Comey was Associated with both Clinton and Trump at Different Times
 
-As outlined above, Comey and the FBI have been involved in storylines involving both President Trump and Secretary Clinton over the past year. Which stories were associated with which candidate? [Google search data](https://trends.google.com/trends/explore?date=2016-05-12%202017-05-12&geo=US&q=comey,comey%20trump,comey%20clinton) can again shed some light: 
-
+As outlined above, Comey and the FBI have been involved in storylines involving both President Trump and Secretary Clinton over the past year. But which stories were associated with which candidate, and to what degree? [Google search data](https://trends.google.com/trends/explore?date=2016-05-12%202017-05-12&geo=US&q=comey,comey%20trump,comey%20clinton) can again shed some light on these questions: 
+ 
 ![center](/figs/2017-05-12-comey-interest/comey_clinton_trump.png)
 
 Much of the Comey search volume is independent and associated with neither candidate; however, to the extent that the candidate searches *are* associated with Comey, the degree of association for each candidate depends on the event. In particular, Clinton was more associated with the email stories, whereas Trump was more associated with the FBI probe and Comey's firing, as we'd expect. To see this more clearly, here is the normalized share of Comey searches also including "Trump" vs. "Clinton" for each major Comey event[^3]: 
