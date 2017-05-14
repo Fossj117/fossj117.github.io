@@ -9,7 +9,7 @@ github_username:  "fossj117"
 
 # Build settings
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 
 kramdown:
   parse_block_html: true
