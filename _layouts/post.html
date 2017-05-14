@@ -6,7 +6,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-    	{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+    	{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} </br>
+    	{% include social.html %}
     </p>
   </header>
 
@@ -14,6 +15,8 @@ layout: default
     {{ content }}
   </article>
 
+  {% include social.html %}
+  
   {% if page.comments %}
   <div id="disqus_thread"></div>
 	<script>
