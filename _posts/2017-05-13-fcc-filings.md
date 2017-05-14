@@ -46,7 +46,7 @@ However, most striking is that the top-submitted comment ("the unprecedented reg
 
 We can't say for sure that all of these submissions were due to a bot (see below); however, [various](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) [reports](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) [suggest](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) that there are good reasons to believe that many of them were. In particular, although the spam submissions include real names and addresses, many individuals whose names appear [have](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) [denied](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) submitting the comments. 
 
-### Most Spam Comments Have Names and Addresses from a Leaked Database
+### Spam Comment Emails May Have Come From a Data Breach
 
 Earlier this week, [The Verge reported](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) that the names and email addresses used in the fraudulent filings may have been pulled from a data breach of River City Media (RCM).  
 
