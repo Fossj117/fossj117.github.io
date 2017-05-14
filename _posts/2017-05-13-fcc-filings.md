@@ -25,18 +25,78 @@ The chart also shows evidence of other periods of intermittent downtime througho
 
 Not long after Oliver's segment aired, [reports](https://www.recode.net/2017/5/10/15612864/fcc-net-neutrality-bots-spam-comments-online-government-rules-ajit-pai) [began](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) to surface that FCC commenting had become a target of bots and spammers. What was the impact of these efforts? After some light text cleaning[^3], here are the top 10 most common free text filings: 
 
-| Rank |Statement[^4]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Count  | % of Total |
-|:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------:|:----------:|
-|  1   |the unprecedented regulatory power the obama administration imposed on the internet is smothering innovation...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 446,137 |    39.3%    |
-|  2   |i support strong net neutrality backed by title 2 oversight of isps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 25,571  |    2.3%     |
-|  3   |i was outraged by the obama wheeler fccs decision to reclassify the internet as a regulated public utility... | 16,936  |    1.5%     |
-|  4   |i specifically support strong net neutrality backed by title 2 oversight of isps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 16,070  |    1.4%     |
-|  5   |preserve net neutrality and title 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 11,837  |    1.0%     |
-|  6   |i support net neutrality backed by title 2 oversite of internet service providers                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |  5,706  |    0.5%     |
-|  7   |please preserve net neutrality and title 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |  4,806  |    0.4%     |
-|  8   |i am in support of strong net neutrality backed by title 2 oversight of isps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  4,445  |    0.4%     |
-|  9   |as an internet user im asking the fcc to protect the net neutrality protections currently in place...                      |  4,275  |    0.4%     |
-|  10  |i strongly support net neutrality backed by title 2 oversight of isps                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  3,971  |    0.3%     |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Rank</th>
+      <th style="text-align: left">Statement<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></th>
+      <th style="text-align: center">Count</th>
+      <th style="text-align: center">% of Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: left">the unprecedented regulatory power the obama administration imposed on the internet is smothering innovation…</td>
+      <td style="text-align: center">446,137</td>
+      <td style="text-align: center">39.3%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: left">i support strong net neutrality backed by title 2 oversight of isps</td>
+      <td style="text-align: center">25,571</td>
+      <td style="text-align: center">2.3%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: left">i was outraged by the obama wheeler fccs decision to reclassify the internet as a regulated public utility…</td>
+      <td style="text-align: center">16,936</td>
+      <td style="text-align: center">1.5%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: left">i specifically support strong net neutrality backed by title 2 oversight of isps</td>
+      <td style="text-align: center">16,070</td>
+      <td style="text-align: center">1.4%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: left">preserve net neutrality and title 2</td>
+      <td style="text-align: center">11,837</td>
+      <td style="text-align: center">1.0%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">6</td>
+      <td style="text-align: left">i support net neutrality backed by title 2 oversite of internet service providers</td>
+      <td style="text-align: center">5,706</td>
+      <td style="text-align: center">0.5%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">7</td>
+      <td style="text-align: left">please preserve net neutrality and title 2</td>
+      <td style="text-align: center">4,806</td>
+      <td style="text-align: center">0.4%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">8</td>
+      <td style="text-align: left">i am in support of strong net neutrality backed by title 2 oversight of isps</td>
+      <td style="text-align: center">4,445</td>
+      <td style="text-align: center">0.4%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">9</td>
+      <td style="text-align: left">as an internet user im asking the fcc to protect the net neutrality protections currently in place…</td>
+      <td style="text-align: center">4,275</td>
+      <td style="text-align: center">0.4%</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">10</td>
+      <td style="text-align: left">i strongly support net neutrality backed by title 2 oversight of isps</td>
+      <td style="text-align: center">3,971</td>
+      <td style="text-align: center">0.3%</td>
+    </tr>
+  </tbody>
+</table>
 
 Many of the top comments are variants of [Oliver's recommended comment](https://www.youtube.com/watch?v=92vuuZt7wak&t=16m08s) supporting net neutrality backed by Title II oversight. This demonstrates that Oliver was likely an inspiration for many filings[^5]. 
 
