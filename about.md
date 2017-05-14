@@ -9,3 +9,5 @@ I am a data scientist pursuing an [AM in Statistics at Harvard](https://statisti
 My interests include: technology, internet, & data ethics and policy; politics; causal inference; matching markets; natural language processing; the sharing economy. 
 
 You can find a copy of my resume [here](/files/jeffreyfossettresume.pdf).
+
+<img src="/files/jeff_face.jpg" alt="My face. Hi." width="200" height="200">
