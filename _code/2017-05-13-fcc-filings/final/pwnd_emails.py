@@ -42,6 +42,7 @@ if __name__ == "__main__":
 	results_dic = [(e, get_data_about_email(e)) for e in emails_clean]
 
 	results_df = pd.DataFrame(results_dic)
+	results_df.columns = ['email', 'breaches']
 
 	results_df['in_RCM'] = results_df.breaches.apply(lambda x: 1 if 'RiverCityMedia' in x else 0)
 	results_df['in_SpecialK'] = results_df.breaches.apply(lambda x: 1 if 'SpecialKSpamList' in x else 0)
