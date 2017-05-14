@@ -3,7 +3,7 @@ title: "JFoss Blog"
 email: "fossj117@gmail.com"
 description: "Data, philosophy, technology & policy"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://jeffreyfossett.com" # the base hostname & protocol for your site
 twitter_username: "jfoss117"
 github_username:  "fossj117"
 
