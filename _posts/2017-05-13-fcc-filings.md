@@ -70,7 +70,7 @@ As noted above, we don't know for sure that the spam comments are exclusively fr
 
 ### The FCC Should Reconsider its Position on Net Neutrality 
 
-The FCC has [now entered](https://assets.documentcloud.org/documents/3719846/DA-17-454A1.pdf) a "Sunshine" period for docket 17-108, during which it will not consider new comments. Given the magnitude of filings (~695,000 if you exclude the spam) and the balance of opinion expressed (97% in favor of net neutrality or 59% if you include the spam), **this analysis suggests that the FCC should reconsider its position on net neutrality** during this period of reflection[^10].  
+The FCC has [now entered](https://assets.documentcloud.org/documents/3719846/DA-17-454A1.pdf) a "Sunshine" period for docket 17-108, during which it will not consider new comments. Given the magnitude of filings (~695,000 if you exclude the anti-NN spam) and the balance of opinion expressed (97% in favor of net neutrality or 59% if you include the spam), **this analysis suggests that the FCC should reconsider its position on net neutrality** during this period of reflection[^10].  
 
 ### Appendix
 
