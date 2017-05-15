@@ -60,13 +60,13 @@ To further investigate this hypothesis, I randomly sampled 1000 filings that use
 
 This lends some support to the claim that many of the spam comments are fraudulent. However, a few caveats are worth keeping in mind. First, the RCM breach is extremely large (1.4 billion records), and so the majority of *any* random list of emails might show up in the breach. Second, just because an email shows up on the RCM list doesn't mean that the associated filing is bogus, given that we [know](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) that a conservative group called Center for Individual Freedom provided a form to its supporters that included the same spam text. 
 
-### After Removing the Spam, Filings Overwhelmingly Support Net Neutrality 
+### After Removing the Anti-NN Spam, Filings Overwhelmingly Support Net Neutrality 
 
-Supposing that the anti-net neutrality spam *is* all fraudulent, do most filings support or oppose net neutrality? To find out, I took a [random sample](https://docs.google.com/spreadsheets/d/1SrM59Ol5OtLM96mH8Mm1QanBoyESy4V5YV9rJDmbD38/edit?usp=sharing) of 200 comments from the pool of filings (excluding the spam noted above) and hand-tagged the comments as "Supports net neutrality", "Opposes net neutrality" or "Other". The results show that non-spam comments overwhelming support net neutrality[^7]:
+Supposing that the anti-net neutrality spam *is* all fraudulent, do most filings support or oppose net neutrality? To find out, I took a [random sample](https://docs.google.com/spreadsheets/d/1SrM59Ol5OtLM96mH8Mm1QanBoyESy4V5YV9rJDmbD38/edit?usp=sharing) of 200 comments from the pool of filings (excluding the spam noted above) and hand-tagged the comments as "Supports net neutrality", "Opposes net neutrality" or "Other". The results show that the remaining non-spam comments overwhelming support net neutrality[^7]:
 
 ![](/figs/2017-05-13-fcc-filings/final_version/non_spam_support.png) 
 
-As noted above, we don't know for sure that the spam comments are exclusively fraudulent; however, even if the spam comments *were all legitimate*[^8], this analysis suggests that filings *would still be in favor of net neutrality* by roughly a 59-40 margin overall[^9]. 
+As noted above, we don't know for sure that the spam comments are exclusively fraudulent; however, even if the spam comments *were all legitimate*[^8], this analysis suggests that filings *would still be in favor of net neutrality* by roughly a 59-40 margin overall[^9]. We also don't know the extent or impact of possible botting / spamming on the pro-NN side, which could shift the balance of opinion as well.  
 
 ### The FCC Should Reconsider its Position on Net Neutrality 
 
