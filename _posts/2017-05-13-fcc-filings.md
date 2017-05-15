@@ -7,7 +7,7 @@ latex: true
 ---
 
 <i> 
-**EDIT**: did not expect this to blow up as much as it has. Some important caveats to keep in mind when reading this post: (i) this is just one person's interpretation of the data; (ii) we don't know for sure what share of the "spam" comments are legitimate, though we do know that some are fabriacted; (iii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not investigated in this post, and could shift conclusions.
+**EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) we don't know for sure what share of the "spam" comments are legitimate, though we do know that some are fabriacted; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not investigated in this post, and could shift conclusions. If anyone is interested to investigate these questions, please let me know and I am happy to collaborate or share data. 
 </i> 
 
 ### An Explosion of Comments 
