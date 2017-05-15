@@ -1,10 +1,14 @@
 ---
 layout: post 
-title: FCC Filings Overwhelmingly Support Net Neutrality Once Spam is Removed
+title: FCC Filings Overwhelmingly Support Net Neutrality Once Anti-Net Neutrality Spam is Removed
 date: 2017-05-13
 comments: true
 latex: true 
 ---
+
+<i> 
+**EDIT**: did not expect this to blow up as much as it has. Some important caveats to keep in mind when reading this post: (i) this is just one persons interpretation of the data; (ii) we don't know for sure what share of the "spam" comments are legitimate, though we do know that some are fabriacted; (iii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not investigated in this post. 
+</i> 
 
 ### An Explosion of Comments 
 
@@ -44,7 +48,7 @@ However, most striking is that the top-submitted comment ("the unprecedented reg
 
 ![](/figs/2017-05-13-fcc-filings/final_version/hourly_filings_spam_vs_organic.png) 
 
-We can't say for sure that all of these submissions were due to a bot (see below); however, [various](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) [reports](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) [suggest](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) that there are good reasons to believe that many of them were. In particular, although the spam submissions include real names and addresses, many individuals whose names appear [have](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) [denied](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) submitting the comments. 
+We can't say for sure that all of these submissions were due to a bot (see below); however, [various](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) [reports](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) [suggest](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) that there are good reasons to believe that some share of them were. In particular, although the spam submissions include real names and addresses, many individuals whose names appear [have](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) [denied](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) submitting the comments. 
 
 ### Spam Comment Emails May Have Come From a Data Breach
 
