@@ -7,7 +7,7 @@ latex: true
 ---
 
 <i> 
-**EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) we don't know for sure what share of the "spam" comments are legitimate, though we do know that some are fabriacted; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not investigated in this post, and could shift conclusions. If anyone is interested to investigate these questions, please let me know and I am happy to collaborate or share data. 
+**EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) in this post I use the term "spam" to connote an identical bit of text that was repeatedly filed many times; importantly, we don't know exactly what share of these "spam" comments are legitimate, though we do know that some are fabricated; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not addressed in this post, and could shift conclusions. If anyone is interested to futher address these caveats, please let me know and I am happy to collaborate or share data. 
 </i> 
 
 ### An Explosion of Comments 
@@ -48,25 +48,25 @@ However, most striking is that the top-submitted comment ("the unprecedented reg
 
 ![](/figs/2017-05-13-fcc-filings/final_version/hourly_filings_spam_vs_organic.png) 
 
-We can't say for sure that all of these submissions were due to a bot (see below); however, [various](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) [reports](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) [suggest](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) that there are good reasons to believe that some share of them were. In particular, although the spam submissions include real names and addresses, many individuals whose names appear [have](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) [denied](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) submitting the comments. 
+We can't say for sure whether these submissions were due to a bot (see below); however, [various](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) [reports](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) [suggest](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) that there are reasons to believe that at least some share of them were. In particular, although the repeated (hereafter: "spam") submissions include real names and addresses, a number of individuals whose names appear [have](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) [denied](http://www.zdnet.com/article/a-bot-is-flooding-the-fccs-website-with-fake-anti-net-neutrality-comments/) submitting the comments. 
 
 ### Spam Comment Emails May Have Come From a Data Breach
 
 Earlier this week, [The Verge reported](https://www.theverge.com/2017/5/11/15626278/net-neutrality-spam-bot-fcc-leak-data) that the names and email addresses used in the fraudulent filings may have been pulled from a data breach of River City Media (RCM).  
 
-To further investigate this hypothesis, I randomly sampled 1000 filings that used the spam text and queried the [HaveIBeenPwned API](https://haveibeenpwned.com/API/v2#BreachesForAccount) to retrieve a list of known data breaches that the associated emails were involved in. I found that ~76% of spam emails had been involved in at least one data breach, and ~66% were part of the RCM breach specifically: 
+To further investigate this hypothesis, I randomly sampled 1000 filings that used the repeated text and queried the [HaveIBeenPwned API](https://haveibeenpwned.com/API/v2#BreachesForAccount) to retrieve a list of known data breaches that the associated emails were involved in. I found that ~76% of emails associated with the repeated comment had been involved in at least one data breach, and ~66% were part of the RCM breach specifically: 
 
 ![](/figs/2017-05-13-fcc-filings/final_version/breach_appearances.png) 
 
-This lends some support to the claim that many of the spam comments are fraudulent. However, a few caveats are worth keeping in mind. First, the RCM breach is extremely large (1.4 billion records), and so the majority of *any* random list of emails might show up in the breach. Second, just because an email shows up on the RCM list doesn't mean that the associated filing is bogus, given that we [know](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) that a conservative group called Center for Individual Freedom provided a form to its supporters that included the same spam text. 
+This lends some support to the claim that many of the repeated comments are fraudulent. However, a few caveats are worth keeping in mind. First, the RCM breach is extremely large (1.4 billion records), and so the majority of *any* random list of emails might show up in the breach. Second, just because an email shows up on the RCM list doesn't mean that the associated filing is bogus, given that we [know](https://www.theverge.com/2017/5/10/15610744/anti-net-neutrality-fake-comments-identities) that a conservative group called Center for Individual Freedom provided a form to its supporters that included the same spam text. 
 
 ### After Removing the Anti-NN Spam, Filings Overwhelmingly Support Net Neutrality 
 
-Supposing that the anti-net neutrality spam *is* all fraudulent, do most filings support or oppose net neutrality? To find out, I took a [random sample](https://docs.google.com/spreadsheets/d/1SrM59Ol5OtLM96mH8Mm1QanBoyESy4V5YV9rJDmbD38/edit?usp=sharing) of 200 comments from the pool of filings (excluding the spam noted above) and hand-tagged the comments as "Supports net neutrality", "Opposes net neutrality" or "Other". The results show that the remaining non-spam comments overwhelming support net neutrality[^7]:
+Supposing that the anti-net neutrality spam *is* all fraudulent, do most filings support or oppose net neutrality? To find out, I took a [random sample](https://docs.google.com/spreadsheets/d/1SrM59Ol5OtLM96mH8Mm1QanBoyESy4V5YV9rJDmbD38/edit?usp=sharing) of 200 comments from the pool of filings (excluding the repeated anti-NN comments) and hand-tagged the comments as "Supports net neutrality", "Opposes net neutrality" or "Other". The results show that the remaining comments overwhelming support net neutrality[^7]:
 
 ![](/figs/2017-05-13-fcc-filings/final_version/non_spam_support.png) 
 
-As noted above, we don't know for sure that the spam comments are exclusively fraudulent; however, even if the spam comments *were all legitimate*[^8], this analysis suggests that filings *would still be in favor of net neutrality* by roughly a 59-40 margin overall[^9]. We also don't know the extent or impact of possible botting / spamming on the pro-NN side, which could shift the balance of opinion as well.  
+As noted above, we don't know for sure whether the spam comments are (exclusively) fraudulent; however, even if the spam comments *were all legitimate*[^8], this analysis suggests that filings *would still be in favor of net neutrality* by roughly a 59-40 margin overall[^9]. We also don't know the extent or impact of possible botting / spamming on the pro-NN side, which could shift the balance of opinion as well.  
 
 ### The FCC Should Reconsider its Position on Net Neutrality 
 
