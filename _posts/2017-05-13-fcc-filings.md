@@ -10,6 +10,8 @@ latex: true
 
 <i> **EDIT 2**: For more analysis on this topic (including important points not addressed here), I highly recommend you check out [this](https://medium.com/@csinchok/an-analysis-of-the-anti-title-ii-bots-463f184829bc) analysis from [Chris Sinchok](https://twitter.com/chrissinchok), as well as [this](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) analysis from [Nathaniel Fruchter](http://www.nathanielfruchter.com/) 
 
+<i> **EDIT 3**: [New analysis](http://dailycaller.com/2017/05/17/more-than-300000-pro-net-neutrality-comments-on-fccs-public-forum-likely-fakes/) from the Daily Caller suggests that substantial pro-NN botting may have occurred as well (a point not addressed here). Please take a look!
+
 ### An Explosion of Comments 
 
 Public comments on [the FCC's anti-net neutrality proceeding](https://www.fcc.gov/ecfs/search/filings?proceedings_name=17-108&sort=date_disseminated,DESC) have 
