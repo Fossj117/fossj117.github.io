@@ -6,11 +6,9 @@ comments: true
 latex: true 
 ---
 
-<i> 
-**EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) in this post I use the term "spam" to connote an identical bit of text that was repeatedly filed many times; importantly, we don't know exactly what share of these "spam" comments are legitimate, though we do know that some are fabricated; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not addressed in this post, and could shift conclusions. If anyone is interested to futher address these caveats, please let me know and I am happy to collaborate or share data. 
+<i> **EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) in this post I use the term "spam" to connote an identical bit of text that was repeatedly filed many times; importantly, we don't know exactly what share of these "spam" comments are legitimate, though we do know that some are fabricated; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not addressed in this post, and could shift conclusions. If anyone is interested to futher address these caveats, please let me know and I am happy to collaborate or share data. 
 
-**EDIT 2**: For more analysis on this topic (including important points not addressed here), I highly recommend you check out [this](https://medium.com/@csinchok/an-analysis-of-the-anti-title-ii-bots-463f184829bc) analysis from [Chris Sinchok](https://twitter.com/chrissinchok), as well as [this](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) analysis from [Nathaniel Fruchter](http://www.nathanielfruchter.com/)
-</i> 
+<i> **EDIT 2**: For more analysis on this topic (including important points not addressed here), I highly recommend you check out [this](https://medium.com/@csinchok/an-analysis-of-the-anti-title-ii-bots-463f184829bc) analysis from [Chris Sinchok](https://twitter.com/chrissinchok), as well as [this](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) analysis from [Nathaniel Fruchter](http://www.nathanielfruchter.com/) 
 
 ### An Explosion of Comments 
 
