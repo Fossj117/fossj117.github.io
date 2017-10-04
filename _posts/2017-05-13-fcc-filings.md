@@ -4,13 +4,11 @@ title: FCC Filings Overwhelmingly Support Net Neutrality Once Anti-Net Neutralit
 date: 2017-05-13
 comments: true
 latex: true 
+tags: 
+- data
+- journalism
+- R
 ---
-
-<i> **EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) in this post I use the term "spam" to connote an identical bit of text that was repeatedly filed many times; importantly, we don't know exactly what share of these "spam" comments are legitimate, though we do know that some are fabricated; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not addressed in this post, and could shift conclusions. If anyone is interested to futher address these caveats, please let me know and I am happy to collaborate or share data. 
-
-<i> **EDIT 2**: For more analysis on this topic (including important points not addressed here), I highly recommend you check out [this](https://medium.com/@csinchok/an-analysis-of-the-anti-title-ii-bots-463f184829bc) analysis from [Chris Sinchok](https://twitter.com/chrissinchok), as well as [this](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) analysis from [Nathaniel Fruchter](http://www.nathanielfruchter.com/) 
-
-<i> **EDIT 3**: [New analysis](http://dailycaller.com/2017/05/17/more-than-300000-pro-net-neutrality-comments-on-fccs-public-forum-likely-fakes/) from the Daily Caller suggests that substantial pro-NN botting may have occurred as well (a point not addressed here). Please take a look!
 
 ### An Explosion of Comments 
 
@@ -73,6 +71,14 @@ As noted above, we don't know for sure whether the spam comments are (exclusivel
 ### The FCC Should Reconsider its Position on Net Neutrality 
 
 The FCC has [now entered](https://assets.documentcloud.org/documents/3719846/DA-17-454A1.pdf) a "Sunshine" period for docket 17-108, during which it will not consider new comments. Given the magnitude of filings (~695,000 if you exclude the anti-NN spam) and the balance of opinion expressed (97% in favor of net neutrality or 59% if you include the spam), **this analysis suggests that the FCC should reconsider its position on net neutrality** during this period of reflection[^10].  
+
+### Edits 
+
+<i> **EDIT**: Did not expect this to blow up as much as it has! With that, wanted to highlight some important caveats to keep in mind when reading this post: (i) in this post I use the term "spam" to connote an identical bit of text that was repeatedly filed many times; importantly, we don't know exactly what share of these "spam" comments are legitimate, though we do know that some are fabricated; (ii) there is some evidence of botting/spamming on the pro-NN side as well (though likely not to the same degree), which is not addressed in this post, and could shift conclusions. If anyone is interested to futher address these caveats, please let me know and I am happy to collaborate or share data. 
+
+<i> **EDIT 2**: For more analysis on this topic (including important points not addressed here), I highly recommend you check out [this](https://medium.com/@csinchok/an-analysis-of-the-anti-title-ii-bots-463f184829bc) analysis from [Chris Sinchok](https://twitter.com/chrissinchok), as well as [this](https://medium.com/@nhf/whats-up-with-all-of-those-identical-comments-on-the-fcc-net-neutrality-docket-105835f59c3e) analysis from [Nathaniel Fruchter](http://www.nathanielfruchter.com/) 
+
+<i> **EDIT 3**: [New analysis](http://dailycaller.com/2017/05/17/more-than-300000-pro-net-neutrality-comments-on-fccs-public-forum-likely-fakes/) from the Daily Caller suggests that substantial pro-NN botting may have occurred as well (a point not addressed here). Please take a look!
 
 ### Appendix
 
