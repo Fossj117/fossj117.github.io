@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am a data scientist and incoming doctoral student at Harvard Business School. Previously, I was a member of the data science team at [Airbnb](http://airbnb.com), received my [AM in Statistics at Harvard University](https://statistics.fas.harvard.edu/pages/graduate-statistics-general-information), and my BA in mathematics and philosophy from [Williams College](https://www.williams.edu/).
-
-My interests include: technology, internet, & data economics and policy; politics; causal inference; matching markets; natural language processing; bayesian statistics; the sharing economy. 
+I am a data scientist and [doctoral student](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1068421) in the Technology and Operations Management group at Harvard Business School, interested in studying economic and policy questions related to technology platforms and online marketplaces. Previously, I was a member of the [data science team at Airbnb](https://medium.com/airbnb-engineering/at-airbnb-data-science-belongs-everywhere-917250c6beba), received my [AM in Statistics at Harvard University](https://statistics.fas.harvard.edu/alumni), and my BA in Mathematics and Philosophy from [Williams College](https://www.williams.edu/).
 
 You can find a copy of my resume [here](/files/jeffrey_fossett_resume_spring_2018.pdf).
