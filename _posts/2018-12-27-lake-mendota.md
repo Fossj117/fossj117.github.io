@@ -17,7 +17,7 @@ The goal of this data visualization is to explore trends over time in yearly "Ic
 
 ### Analysis
 
-The plots show that Lake Mendota's seasonal days of ice cover has decreased over time by 0.18 days per year on average (p<0.01; 95% CI: [0.12  0.23]). The decrease in days in total days of ice cover is due in roughly equal parts to "Ice On" occuring later in the season (roughly 0.09 days later per year on average; p<0.01) and "Ice Off" occuring earlier in the season (roughly 0.09 days earlier per year on average; p < 0.01). Here are bivariate regression results supporting these findings: 
+The plots show that Lake Mendota's seasonal days of ice cover has decreased over time by 0.18 days per year on average (p<0.01; 95% CI: [0.12  0.23]). The decrease in total days of ice cover is due in roughly equal parts to "Ice On" occuring later in the season (roughly 0.09 days later per year on average; p<0.01) and "Ice Off" occuring earlier in the season (roughly 0.09 days earlier per year on average; p < 0.01). Here are bivariate regression results supporting these findings: 
 
 <table style="text-align:center"><tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="3"><em>Dependent variable:</em></td></tr>
 <tr><td></td><td colspan="3" style="border-bottom: 1px solid black"></td></tr>
