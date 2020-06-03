@@ -1,7 +1,7 @@
 # Site settings
-title: "JFoss Blog"
+title: "Jeff Fossett"
 email: "fossj117@gmail.com"
-description: "Data, philosophy, technology & policy"
+description: "Economics, technology, policy"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jeffreyfossett.com" # the base hostname & protocol for your site
 twitter_username: "jfoss117"
