@@ -21,7 +21,9 @@ In short, my read of O'Reilly's take is that he does not take issue with the fun
 
 When I had just come out of the world of building digital technologies I had ideas that were in many ways consonant with Tim's. I had been working in a role where I was myself a technocrat, concerned with the "right management" of a digital platform market. When I left that space for an academic path, intending to focus on broader questions in technology policy, I took with me many of the implicit governance assumptions that I'd internalized as a data scientists. 
 
-In short, I felt that governance of digital platforms through data (experiments etc.) was largely appropriate on some level, though perhaps with a broader set of more socially-oriented goals in mind. I did have some seeds of anti-technocracy, though -- I remember a conversation with B and T and others about the lack of democratic input by platform participants into the various governance / design decisions that we were making. 
+In short, I felt that governance of digital platforms through data (experiments etc.) was largely appropriate on some level, though perhaps with a broader set of more socially-oriented goals in mind. For example, in my first stint at [the Berkman Klein Center](https://cyber.harvard.edu/), I can remember reading and being excited about so-called "Regulation 2.0" ideas (see, for example,[1](https://scholarship.law.vanderbilt.edu/jetlaw/vol19/iss1/4/), and [2](https://medium.com/@nickgrossman/regulation-the-internet-way-636461a9ff77)) along these lines[^1]. 
+
+Throught my time in the tech world, I did have some serious seeds of anti-technocracy, though -- in my prior work, I can remember having conversations with various colleagues about the lack of democratic input by platform participants into the various governance / design decisions that we were making, and so on. 
 
 Still, in listening to O'Reilly, I noticed how much my views have evolved. Here is the question that I typed out to put to Tim (though I did not submit it): 
 
@@ -37,3 +39,5 @@ Contra my initial perspectives on these topics (more in line with O'Reilly), I n
 4. Interaction with the blockchain world
 
 While these influences may seem disparate, they intertwine for me in mutually questioning the implicit technocratic logics of corporate tech platform governance and, in different ways and different settings, injecting greater democratic input into the governance of digital spaces. 
+
+[^1] I haven't revisited these ideas in a while, so I am not sure what I would think about them these days. It would be interesting to explore them again. 
