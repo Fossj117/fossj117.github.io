@@ -40,4 +40,4 @@ Contra my initial perspectives on these topics (more in line with O'Reilly), I n
 
 While these influences may seem disparate, they intertwine for me in mutually questioning the implicit technocratic logics of corporate tech platform governance and, in different ways and different settings, injecting greater democratic input into the governance of digital spaces. 
 
-[^1] I haven't revisited these ideas in a while, so I am not sure what I would think about them these days. It would be interesting to explore them again. 
+[^1]: I haven't revisited these ideas in a while, so I am not sure what I would think about them these days. It would be interesting to explore them again. 
