@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "More Reflections on Lessig's Code 2.0: Identity on the Net" 
-date: 2021-04-12
+date: 2021-04-14
 latex: true 
 mathjax: true
 comments: true
