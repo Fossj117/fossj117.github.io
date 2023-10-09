@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Digital forms of public reason" 
+title: "Digital Forms of Public Reason" 
 date: 2020-02-20
 latex: true 
 mathjax: true
