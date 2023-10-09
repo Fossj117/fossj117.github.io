@@ -13,9 +13,9 @@ As the lecture’s title suggests, a key theme is exploring/understanding compan
 
 So if cross-species relationship or companionship (“companion speciesism”) is the motivating concept of the lecture, what does Haraway want us to learn from / about it? I understood two main, interrelated themes. One big theme seems to be recovering a genuine mutuality or symmetry (i.e. de-centering the human) in our understanding of these sorts of cross-species relationships. Haraway illustrates this theme in many examples: 
 
-* Barbara Smuts’ baboons which come into relationship to Smuts — expecting her to respond to social cues etc. — just as much as she, the scientist and supposed “agent” in the setting, comes into relationship with them. 
+* [Barbara Smuts](https://en.wikipedia.org/wiki/Barbara_Smuts)’ baboons which come into relationship to Smuts — expecting her to respond to social cues etc. — just as much as she, the scientist and supposed “agent” in the setting, comes into relationship with them. 
 * The false historical narrative of humans “domesticating” dogs, which renders the dogs without agency, a mere object that is acted on. In reality, there are moves and agency by both actors in the story (humans and dogs) — e.g. the dogs come into relation to humans to take advantage of their food waste and so on.  
-* Most concisely, the comic: “We found her wandering at the edge of the forest. She was raised by scientists.” The joke relies on inverting the usual human-centric way of thinking about our relation to animals. 
+* Most concisely, [the comic](https://condenaststore.com/featured/we-found-her-wandering-at-the-edge-of-the-forest-warren-miller.html): “We found her wandering at the edge of the forest. She was raised by scientists.” The joke relies on inverting the usual human-centric way of thinking about our relation to animals. 
 
 This kind of move toward “symmetry” and taking seriously the agency of non-human actors in the drama is very in the spirit of other STS thinkers as well (e.g. Latour/ANT). 
 
