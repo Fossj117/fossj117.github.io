@@ -7,7 +7,7 @@ mathjax: true
 comments: true
 ---
 
-## Overview
+### Overview
 
 This past year, I was part of the inaugural [Techtopia](https://cyber.harvard.edu/projects/techtopia) cohort at the Berkman Klein Center (note: this program later merged with the "[Assembly](https://www.berkmankleinassembly.org/)" program), organized by Jonathan Zittrain within the [Ethics & Governance of AI Initiative](https://cyber.harvard.edu/topics/ethics-and-governance-ai). The program involved participating in a series of resesearch seminars alongside an interesting cohort of other students from across the university, as well as the completion of a group project in the spring semester. 
 
@@ -15,7 +15,7 @@ For the project phase, I helped develop the "Technology Procurement Playbook Pro
 
 While the project so far has not made it out of the "draft" phase, I wanted to reflect a bit on what I learned from engaging with it[^2]. I will highlight two main buckets of learnings. 
 
-## Tech Ethics in Municipal Government
+### Tech Ethics in Municipal Government
 
 First, I learned three main things about the context of deploying automated decision-making systems in local governments, and addressing tech ethics & governace questions in this setting:
 
@@ -27,7 +27,7 @@ The learnings around (1) and (2) mainly arose out of our conversations with loca
 
 On point (3), procurement is a relevant point of intervention for two reasons. First, local governments are often working with third-party contractors to develop or procure these systems rather than building them in-house (due to technical limitations). Second, the procurement process puts government stakeholders face-to-face with contractors and is a high-leverage moment (before a purchase commitment is made) to ask questions or extract concenssions from contractors around moral / ethical / governance issues that are relatively more important to government stakeholders in the negotiation[^3].
 
-## Centering Algorithmic Accountability
+### Centering Algorithmic Accountability
 
 Second, I learned that making general recommendations around the responsible deployment of automated decision-making systems -- that will apply across various complex sociotechnical contexts -- is hard. This is true for all of the same reasons that social science and policy are hard: social contexts are complex and particular, and the specific issues that might arise in deploying a new technical system--and the best ways to address them--are likewise varied and difficult to predict ex ante. 
 
