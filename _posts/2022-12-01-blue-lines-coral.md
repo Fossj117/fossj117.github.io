@@ -38,4 +38,4 @@ The point here is not that diffusion-limited aggregation is a "realistic" model 
 
 Here is a creative prompt I wrote for myself on this theme: 
 
-> How might we use data to become *less* certain? In statistical analysis, data is used to minimize, manage, control, and quanify uncertaninty. How might we instead use data to introduce more complexity, uncertainty, un-knowing — and their counterparts: richness, nuance, diversity — into the world?
+> How might we use data to become *less* certain? In statistical analysis, data is used to minimize, manage, control, and quanify uncertainty. How might we instead use data to introduce more complexity, uncertainty, un-knowing — and their counterparts: richness, nuance, diversity — into the world?
