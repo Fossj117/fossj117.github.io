@@ -1,0 +1,20 @@
+---
+layout: post 
+title: "Tree Portraits" 
+date: 2023-03-06
+latex: true 
+mathjax: true
+comments: true
+---
+
+*This project is a collaboration with [Evan](https://www.linkedin.com/in/evanfinkle/) via [90percentart](https://90percentart.com/)*
+
+<p align="center">
+  <img alt="Light" src="/figs/2023-03-06-tree-portraits/tree1.jpg" width="45%">
+&nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="/figs/2023-03-06-tree-portraits/tree2.jpg" width="45%">
+</p>
+
+*Tree Portraits* is a series of machine-drawn portraits of local trees in Cambridge, MA. Portraits of humans serve many purposes — they may capture a likeness, individuate, honor, memorialize, or signal status & power. In contrast with our human relationships, we often relate to the natural world as a collective. We speak of “nature” or “the environment” at large, or conjure & reflect on the interests of whole groups (save “the rainforest”). *Tree Portraits* asks: how would it be to symmetrically apply the logics of individuation — typically reserved for humans — to non-human actors in the natural world? How might this open opportunities for new types of intimacy, honor, and connection that are built on such individuation? Who are the particular trees, plants, animals, that live in my area, after all? And what makes them different, special, and worthy of acknowledgement?
+
+[See](https://www.instagram.com/p/CnPqVZHp4rf/?igshid=MzRlODBiNWFlZA==) [more](https://www.instagram.com/p/CnZ7UKNpsGQ/?igshid=MzRlODBiNWFlZA==) on [Instagram](https://www.instagram.com/reel/Co0o2mpDf-Y/?igshid=MzRlODBiNWFlZA==). 
