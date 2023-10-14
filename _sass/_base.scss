@@ -23,8 +23,6 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -67,15 +65,6 @@ ul, ol {
     margin-left: $spacing-unit;
 }
 
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
-
 /**
  * Headings
  */
@@ -111,8 +100,8 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    font-size: $small-font-size;
+    // letter-spacing: -1px;
     font-style: italic;
 
     > :last-child {
@@ -226,3 +215,13 @@ table thead, table tr.even {
         }
     }
 }
+
+.post-list{
+    font-size: $small-font-size;
+
+    ul li {
+            margin: $spacing-unit/4;
+        }
+
+}
+
