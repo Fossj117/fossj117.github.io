@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Reacting to Baker's (2019) "Preventing the Political Misuse of Antitrust"
-date: 2020-06-05
+date: 2020-06-18
 latex: true 
 mathjax: true
 comments: true

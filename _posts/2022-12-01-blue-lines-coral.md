@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Data x Design Exhibit: Blue Lines & Future Coral" 
-date: 2023-03-06
+date: 2022-12-01
 latex: true 
 mathjax: true
 comments: true
