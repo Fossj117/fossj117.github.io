@@ -7,7 +7,7 @@ mathjax: true
 comments: true
 ---
 
-I was thinking about making a submission to the [Cambridge Sidewalk Poetry Contest](https://www.cambridgema.gov/arts/Programs/sidewalkpoetry). The winning poems are stamped in concrete as part of the city's sidwalk repair program. Here are a few silly poems I came up with:
+I was thinking about making a submission to the [Cambridge Sidewalk Poetry Contest](https://www.cambridgema.gov/arts/Programs/sidewalkpoetry). The winning poems are stamped in concrete as part of the city's sidwalk repair program. Here are a few silly poems I came up with that seemed good for sidewalks. A first untitled one: 
 
 <p class="poem">
 Can’t tell you where the sidewalk ends,<br>
