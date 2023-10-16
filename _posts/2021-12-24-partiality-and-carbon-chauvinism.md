@@ -1,0 +1,56 @@
+---
+layout: post 
+title: "Morality, Partiality, and Carbon Chauvinism" 
+date: 2021-12-24
+latex: true 
+mathjax: true
+comments: true
+---
+
+## Preamble
+
+In this post, I want to share an essay that I wrote for [a course in the philosophy of technology](https://www.hks.harvard.edu/courses/philosophy-technology-marx-and-heidegger-ai-genome-editing-and-geoengineering) about the morality of so-called "carbon chauvinism". 
+
+In general, I have mixed feelings about the type of universalistic moral questioning & reasoning that is common in analytic philosophy, and the tight, logical, analytical writing style that usually goes with it (both of which are on display in this essay). Some of these feelings are alluded to in [this](https://jeffreyfossett.com/2021/09/21/philosophy-of-tech-sts-universalism.html) post. 
+
+With that said, I do feel a certain comfort engaging in this sort of intellectual approach given my background and training in it. If nothing else, I think it can be a useful exercise in intellectual clarity. This essay was also interesting for me because it connected to some intellectual reference points that I hadn't thought about in a long time--including Searle's [Chinese Room](https://plato.stanford.edu/entries/chinese-room/), Nagel's "[What is it Like to be a Bat?](https://www.sas.upenn.edu/~cavitch/pdf-library/Nagel_Bat.pdf)", and MacIntyre's "[Is Patriotism a Virtue?](https://mirror.explodie.org/Is%20Patriotism%20a%20Virtue-1984.pdf)". All of these references for me date back to my undergrad experience as a student in philosophy and cognitive science (almost 10 years ago now); I also took [a tutorial](https://catalog.williams.edu/PHIL/detail/?strm=1223&cn=235&crsid=018335) on "Morality and Partiality" where I remembered reading the MacIntyre piece.
+
+Anyhow, on to the essay. 
+
+## Morality, Partiality, and Carbon Chauvinism
+
+In this essay I will discuss the moral consideration of non-carbon-based entities, with a particular focus on forms of “carbon chauvinism” that would privilege carbon-based entities in moral considerations over non-carbon based entities such as silicon-based artificial intelligences (AIs). Following Tegmark (2018), I will argue *against* two cases for the position I call “strong carbon chauvinism”, which would wholly exclude non-carbon-based entities from the realm of moral consideration. However, I will argue in favor of a related position which I call “weak carbon chauvinism” or “carbon partialism”. This position does not deny moral status to non-carbon based entities, but holds that the property of “being carbon-based” is a morally-relevant attribute for human actors that justifies partial treatment in at least some situations. My argument for carbon partialism will draw on common-sense moral reasoning which regularly regards some forms of partiality (such as loyalty to one’s own family, community, or country) as morally-permissible or required; I will also extend an argument from MacIntyre’s (1984) defense of the morality of patriotism. 
+
+In this essay, I define “strong carbon chauvinism” as the position that *non-carbon-based entities*—-including silicon-based AIs-—do not and cannot have *moral status*. Two terms in this definition bear further clarification. First, following Risse, I say that entity X has *moral status* if X matters on its own terms and for its own sake. If X has moral status and is affected by action A, then the treatment of or outcomes for X are (non-instrumentally) relevant to the moral valence of A[^1]. Second, I use the term *carbon-based* to refer to the property of being a carbon-based lifeform developed on Earth through the same evolutionary processes that created modern humans[^2]. To defend strong carbon chauvinism then involves answering two key questions: (1) what standard determines whether an entity has moral status? And (2) do or can non-carbon-based entities meet this standard? Per Risse, a typical answer to (1) is what I will call the “consciousness standard” — i.e. X has moral status if and only if X has conscious / subjective experience (there is “something that it is like” to be X, per Nagel, 1980). 
+
+With this background in mind, I will now outline and critique two possible arguments in favor of strong carbon chauvinism: (1) the “carbon exceptionalism” argument, and (2) the “no machine consciousness” argument. The carbon exceptionalism argument *denies* the consciousness standard and justifies carbon chauvinism on the grounds that there is something special about carbon-based life that uniquely justifies its moral status. The challenge for this argument is defending against the charge of arbitrary bias or prejudice; why, exactly, should the property of “being carbon-based” be relevant to granting moral status? To sharpen the point, we can imagine a hypothetical AI which is fully conscious in the same manner as humans, with identical ability to form plans and goals, experience pleasure and pain, and so on. The carbon exceptionalist must articulate why such an entity is not worthy of any moral consideration, while human beings nonetheless are. This would appear particularly difficult for the carbon exceptionalist who would like to extend moral status to carbon-based non-human animals while continuing to exclude such a conscious AIs. 
+
+I now consider the “no machine consciousness” argument for strong carbon chauvinism. This approach *accepts* the consciousness standard (or something like it) for moral status granting, but *denies* that non-carbon-based agents (and in particular silicon-based AIs) can ever meet this standard. I understand Tegmark (2018) as responding to this kind of argument. According to Tegmark, consciousness is an emergent property of certain kinds of complex information processing; it is “the way information feels when being processed in certain complex ways”[^3]. Further, we know from computer science (Turing) that information processing is “substrate independent” in the sense that many different kinds of physical “hardware” can implement any given logical / computational algorithm. Thus, consciousness must be substrate independent as well, and can therefore be produced in silicon-based AIs if the latter can eventually implement the right sorts of complex information processing. Literature in the philosophy of mind and cognitive science has outlined many potential objections, complications, and alternatives to Tegmark’s computational understanding of consciousness (e.g. influentially, Searle’s Chinese room thought experiment). However, if we accept (1) Tegmark’s understanding of consciousness, and (2) the consciousness standard for moral status, then we must reject strong carbon chauvinism. 
+
+Having outlined and critiqued two arguments for strong carbon chauvinism, I will now defend a related position which I call “weak” carbon chauvinism, or more aptly “carbon partialism”. This position does not *deny* moral status to non-carbon-based entities, but holds that the property of “being carbon-based” is a morally-relevant attribute that may justify partial or differential treatment (relative to non-carbon based entities) among entities that are otherwise similar (e.g. in terms of the nature of their conscious experience). 
+
+To motivate this position, I first note that common sense moral reasoning regularly regards some forms of partiality among carbon-based *human agents* (such as loyalty to or support for one’s own family, community, or country) as morally permissible, admirable, or even required. For example, a parent who failed to show special care to their child would be regarded morally-questionable, even though this entails a form of partial treatment — other, unrelated, children might benefit equivalently if not more from this attention. Likewise, we generally find it morally-permitted or praiseworthy to support one’s own community, even if this excludes other forms of beneficial work which would be preferred by a wholly impartial observer. While these examples do not yet justify carbon partialism, they suggest that thoroughgoing impartiality among equivalently-conscious agents is not the only feature of moral reasoning. 
+
+A substantial body of literature in moral philosophy has argued for the presence of both irreducible *partial* and *impartial* elements in morality[^4]. For example, MacIntyre (1984) defends the virtue of patriotism on the basis that humans are fundamentally constituted as moral actors in the context of larger groups like communities and countries (and *their* stories). We understand both ourselves, our stories, and the substance of our moral obligations in the context of these larger groups, and are morally-reinforced (i.e. made to be better moral actors) through our participation in them. Viewed in this way, I am unlikely to flourish as a moral actor if stripped from this context; hence, partial action to support my community is not in opposition to morality, but rather in support of my continued existence as a moral actor. 
+
+Carbon partialism can be justified in similar terms. Recall that my being “carbon-based” entails not merely having the property of being made of carbon, but also my sharing membership in a broad community of humans and animals with a particular social, evolutionary, and biological history that is constitutive and supportive of my moral and personal identities. Partial action to preserve and perfect this community, then, likewise supports my continued existence as a moral actor. As I have argued above, this does not mean that non-carbon-based entities are to be excluded from moral consideration altogether; still, we bear unique moral relationship toward the communities which constitute our moral and personal identities, and this justifies partial action toward them—and others who share in them—in at least some cases.
+
+## References
+
+Maclntyre, A. (1984). *Is patriotism a virtue?*. University of Kansas, Department of Philosophy.
+
+Nagel, T. (1980). What is it like to be a bat?. In The Language and Thought Series (pp. 159-168). Harvard University Press.
+
+Searle, J. R. (1980). Minds, brains, and programs. Behavioral and brain sciences, 3(3), 417-424.
+
+Tegmark, M. (2018). Life 3.0: Being human in the age of artificial intelligence. Vintage.
+
+## Footnotes
+
+[^1]: i.e. whether it is good/bad/acceptable/unacceptable etc. 
+
+[^2]: Note that on this definition, both silicon-based AIs and extraterrestrial life (with carbon-based biochemistry or not) would be considered non-carbon-based.
+
+[^3]: Tegmark (2018), page 301; also developed in https://www.edge.org/response-detail/27126 
+
+[^4]: For an overview, see: Jollimore, Troy, "Impartiality", The Stanford Encyclopedia of Philosophy (Fall 2021 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2021/entries/impartiality/>.
