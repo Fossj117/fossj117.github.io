@@ -22,6 +22,7 @@ Some other things that are on our radar:
 * [*Blockchain Radicals*](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Davila; and other [left-wing ideas about Blockchain](https://theblockchainsocialist.com/)
 * Literature connected to the [platform cooperativism](https://platform.coop/) movement
 * Writing from the [collective intelligence project](https://cip.org/)
+* [*The Descent of Icarus*](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth. 
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (fossj117 at gmail dot com). 
 
