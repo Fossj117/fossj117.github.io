@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Sidwalk Poems" 
+title: "Sidewalk Poems" 
 date: 2022-02-19
 latex: true 
 mathjax: true
