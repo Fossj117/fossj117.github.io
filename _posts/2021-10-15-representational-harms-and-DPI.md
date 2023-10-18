@@ -9,9 +9,9 @@ comments: true
 
 ## Preamble
 
-This essay was written for [a course in the philosophy of technology](https://www.hks.harvard.edu/courses/philosophy-technology-marx-and-heidegger-ai-genome-editing-and-geoengineering)  and seemed worth posting / preserving. The essay prompt was something along the lines of: Is Zuckerman's "Digital Public Infrastructure" (DPI) framework a good way to address the representational harms raised in Safiya Noble's book, *Algorithms of Oppression*? 
+*This essay was written for [a course in the philosophy of technology](https://www.hks.harvard.edu/courses/philosophy-technology-marx-and-heidegger-ai-genome-editing-and-geoengineering)  and seemed worth posting / preserving. The essay prompt was something along the lines of: "Is Zuckerman's "Digital Public Infrastructure" (DPI) framework a good way to address the representational harms raised in Safiya Noble's book, Algorithms of Oppression*?"
 
-While I am somewhat critical of DPI here, I want to be clear that I am overall sympathetic to DPI--and more broadly, democratically-informed technological design--as a direction for addressing at least some (maybe many?) of the internet's problems. I think that some of the critiques I am raising here are actually deeper issues related to minority rights and protections under democracy (which also apply to the DPI vision). In short, to "democratize" something is not per se to ensure that it is just or fair or aligned with any particular vision of the good. This is something I would like to think and learn about more.
+*While I am somewhat critical of DPI here, I want to be clear that I am overall sympathetic to DPI--and more broadly, democratically-informed technological design--as a direction for addressing at least some (maybe many?) of the internet's problems. I think that some of the critiques I am raising here are actually deeper issues related to minority rights and protections under democracy (which also apply to the DPI vision). In short, to "democratize" something is not per se to ensure that it is just or fair or aligned with any particular vision of the good. This is something I would like to think and learn about more. For now, on to the essay.*
 
 ## Representational Harms & Digital Public Infrastructure
 

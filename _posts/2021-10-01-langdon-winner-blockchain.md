@@ -9,7 +9,7 @@ comments: true
 
 ## Preamble
 
-In this essay (which is excerpted from another one), I apply some ideas from Langdon Winners influential "Do Artifacts Have Politics" to think about the politics of blockchain. 
+*In this essay (which is excerpted from another one), I apply some ideas from Langdon Winners influential "Do Artifacts Have Politics" to think about the politics of blockchain.*
 
 ## Politically Relevant and Inherently Political Technologies 
 
