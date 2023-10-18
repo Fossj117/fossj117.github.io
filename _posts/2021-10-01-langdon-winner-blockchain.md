@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Langdon Winner & The Politics of Blockchain
-date: 2022-08-22
+date: 2021-08-22
 latex: true 
 mathjax: true
 comments: true
