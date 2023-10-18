@@ -7,7 +7,7 @@ mathjax: true
 comments: true
 ---
 
-Somewhere in the depths of the covid-19 pandemic, I started this project where I would cut up self-help book and make collaged found-poem type things out of them (sometimes with little illustrations). The initial idea was that I thought it would be funny to re-configure self-help books into dark and/or cynical poems. Here is one from *The Subtle Art of Not Giving a Fuck*: 
+Somewhere in the depths of the covid-19 pandemic, I started this project where I would cut up self-help books and make collaged found-poem type things out of them (sometimes with little illustrations). The initial idea was that I thought it would be funny to re-configure self-help books into dark and/or cynical poems. For example, here is one from *The Subtle Art of Not Giving a Fuck*: 
 
 <p>
 <center>
