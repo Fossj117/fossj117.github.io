@@ -7,20 +7,23 @@ mathjax: true
 comments: true
 ---
 
-Somewhere in the depths of the covid-19 pandemic, I started this project where I would cut up self-help book and make collaged found-poem type things out of them (sometimes with little illustrations). The initial idea was that I thought it would be funny to re-configure self-help books into dark and/or cynical poems (from *The Subtle Art of Not Giving a Fuck* and *The Life Changing Art of Tidying Up* respecitvely): 
+Somewhere in the depths of the covid-19 pandemic, I started this project where I would cut up self-help book and make collaged found-poem type things out of them (sometimes with little illustrations). The initial idea was that I thought it would be funny to re-configure self-help books into dark and/or cynical poems. Here is one from *The Subtle Art of Not Giving a Fuck*: 
 
 <p>
 <center>
 <img alt="Life Changing" align="center" src="/figs/2020-09-24-pandemic-art/life_changing.jpg" width="50%">
 </center>
 </p>
+
+Here's one from *The Life Changing Art of Tidying Up*:
+
 <p>
 <center>
 <img alt="Tidying" align="center" src="/figs/2020-09-24-pandemic-art/tidying.jpg" width="50%">
 </center>
 </p>
 
-But I also made some nicer ones (I forget the source of this one): 
+But I also made some nicer ones: 
 
 <p>
 <center>
