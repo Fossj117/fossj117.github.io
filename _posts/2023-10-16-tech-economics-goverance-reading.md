@@ -24,6 +24,8 @@ Some other things that are on our radar:
 * Writing from the [collective intelligence project](https://cip.org/)
 * [*The Descent of Icarus*](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth. 
 * [Metagov](https://metagov.pubpub.org/participate) projects. 
+* Zuckerman's writing on Digital Public Infrastructure ([for example](https://knightcolumbia.org/content/the-case-for-digital-public-infrastructure))
+* In general, I want to strengthen my foundations in political and democratic theory. 
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (fossj117 at gmail dot com). 
 
