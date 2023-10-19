@@ -19,7 +19,7 @@ This is not a great model of a platform like Facebook, where platform power aris
 
 By contrast, BeReal is arguably much more similar to the panopticon -- users are never sure when the platform is going to check in or start watching, but it is always a possibility. Per Foucault's analysis, it seems to me that this is much more likely to create consequences for how we behave in day-to-day life -- forcing us to behave/perform in line with social expectations in situations that could previously be made "backstage". 
 
-There are lots of other intellectual references on these ideas such as Goffman (hence performative/backstage). Also, I always think of Dave Eggers' *The Circle* on these themes.  
+There are lots of other intellectual references on these ideas such as Goffman (hence performative/backstage). Also, I always think of Dave Eggers' *The Circle* on these themes. Finally, this obviously connects to a lot of ideas about privacy online; I am particularly reminded of [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2412564) paper from Marthews and Tucker (2014) arguing that people became less willing to search for sensitive search terms on Google following the Snowden surveillance revelations. In other words, the paper claims that people changed behavior when they realized they were being watched. 
 
 Anyhow, the original take is written in a jokey polemical style, but I thought was worth preserving, so here it is: 
 
