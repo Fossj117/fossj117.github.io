@@ -8,7 +8,7 @@ comments: true
 ---
 *This project is a collaboration with [Evan](https://www.linkedin.com/in/evanfinkle/) via [90percentart](https://90percentart.com/)*
 
-I took this graduate bayesian statistics course a while back ([Stat 220](https://statistics.fas.harvard.edu/statistics-courses)). The course largely involved working through different pieces of the Gelman et al. [Bayesian Data Analysis](https://books.google.com/books?id=ZXL6AQAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false) textbook (which is an excellent textbook), and implementing a whole bunch of [Markov Chain Monte Carlo](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) (MCMC) algorithms. 
+I took this graduate bayesian statistics course a while back ([Stat 220](https://statistics.fas.harvard.edu/statistics-courses)). The course largely involved working through different pieces of the Gelman et al. [Bayesian Data Analysis](https://books.google.com/books?id=ZXL6AQAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false) textbook[^1], and implementing a whole bunch of [Markov Chain Monte Carlo](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo) (MCMC) algorithms. 
 
 Later on after I got into generative art, I thought that these MCMC methods could be used to create paths that could be rendered via a drawing machine. The basic idea is to think of a greyscale image as a 2D probability distribution, where darker areas of the image are areas with more probability mass. This distribution (or some transformation of it), can then be taken as the target distribution in an MCMC method, generating a continuous path which has a stationary distribution that matches the target. Rendering this path with a pen then amounts to adding pigment to areas of the paper roughly in proportion to how dark they are in the original image, yielding some reflection of the original. 
 
@@ -34,3 +34,7 @@ Here is a final image of the drawing machine at work:
 </p>
 
 See more about this work [on](https://www.instagram.com/p/CRppt1Ituiv/?igshid=MzRlODBiNWFlZA==) [our](https://www.instagram.com/p/CPd4bwNH9JF/?igshid=MzRlODBiNWFlZA==) [Instagram](https://www.instagram.com/p/CYg70lXlgi5/?igshid=MzRlODBiNWFlZA==).
+
+## Footnotes
+
+[^1]: This is an excellent textbook which, incidentally, I believe I borrowed from [Carlos](https://omega0.xyz/omega8008/) a super long time ago.
