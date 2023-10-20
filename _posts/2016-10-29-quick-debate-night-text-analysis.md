@@ -27,7 +27,7 @@ Examining the full distribution of utterances, we see that Trump also had the lo
 </center>
 </p>
 
-Another interesting thing to look at is how the length of responses (perhaps a rough proxy for more “substantive” discussion vs. quippy back-and-forth) changed over the course of the night. In the next chart, we show how utterance length varied over the course of the debate for each speaker:
+Another interesting thing to look at is how the length of responses changed over the course of the night. I think of this as perhaps a rough proxy for whether discussion was more "substantive" & expository or more quippy & back-and-forth. In the next chart, I show how utterance length varied over the course of the debate for each speaker:
 
 <p>
 <center>
@@ -47,7 +47,7 @@ The segment of shorter responses earlier on (around response #50) seems to corre
 
 The cluster of interruptions around the 150 mark are Trumps repeated “wrong” interjections as Clinton accused him of supporting the Iraq war.
 
-To be sure, there’s a lot more that could be done with this data. For anyone interested, my cleaned up version of the transcript is on google sheets [here](https://docs.google.com/spreadsheets/d/1-OHfz7eUWORNDLdz9FB4AhBy1ogVNSetBQrb9iVCe90/edit?usp=sharing).
+To be sure, there is a lot more that could be done with this data. For anyone interested, my cleaned up version of the transcript is on google sheets [here](https://docs.google.com/spreadsheets/d/1-OHfz7eUWORNDLdz9FB4AhBy1ogVNSetBQrb9iVCe90/edit?usp=sharing).
 
 
 
