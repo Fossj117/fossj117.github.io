@@ -21,7 +21,7 @@ For example, when thinking about expert audiences: on the one hand, I can imagin
 
 More generally, I can imagine the audience as a curious set of potential collaborators or discussion partners or sources of feedback and improvement, rather than as a set of critics or antagonists.  
 
-Where does this all leave me? Of course, there eventually the audience of any work is not imaginary. There *is* some fact of the matter: they will be experts or not, critics or not and so on. However, in many cases, I will never really know for sure; and I will especially not know ahead of time, before the work is shared. So I think a lot of this comes down to imagination. 
+Where does this all leave me? Of course, eventually the audience of any piece of work is not imaginary -- there *is* some fact of the matter: they will be experts or not, critics or not and so on. However, in many cases, I will never really know for sure; and I will especially not know ahead of time, before the work is shared. So I think a lot of this comes down to imagination. 
 
 In general, I think that there are a lot other reasons why sharing work is valuable[^2]; hence, from a pragmatist sort of perspective, it seems more useful (emotionally and functionally) for me to imagine my audience in constructive, positive terms -- even if sometimes that might not be true in the end. 
 
