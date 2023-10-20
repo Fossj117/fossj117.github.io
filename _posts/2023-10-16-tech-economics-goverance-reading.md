@@ -21,11 +21,13 @@ Some other things that are on our radar:
 * Various work by [Audrey Tang](https://en.wikipedia.org/wiki/Audrey_Tang)
 * [*Blockchain Radicals*](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Davila; and other [left-wing ideas about Blockchain](https://theblockchainsocialist.com/)
 * Literature connected to the [platform cooperativism](https://platform.coop/) movement
-* Writing from the [collective intelligence project](https://cip.org/)
+* Writing from the [collective intelligence project](https://cip.org/) including [this](https://arxiv.org/abs/2303.11074) paper. 
 * [*The Descent of Icarus*](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth. 
 * [Metagov](https://metagov.pubpub.org/participate) projects. 
 * Zuckerman's writing on Digital Public Infrastructure ([for example](https://knightcolumbia.org/content/the-case-for-digital-public-infrastructure))
-* In general, I want to strengthen my foundations in political and democratic theory. 
+* More on [collective intelligence](https://compdemocracy.org/collective-intelligence/)
+* More on anarchism (e.g. [James' Scott's work?](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism))
+* In general, want to strengthen my foundations in political and democratic theory. 
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (fossj117 at gmail dot com). 
 
