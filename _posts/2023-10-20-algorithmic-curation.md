@@ -15,9 +15,7 @@ Back in the early days of Web 2.0 social media, feeds were not so algorithmicall
 
 For content consumers (readers, viewers), the "feed" was something closer to a chronological timeline of the posts or videos of the people you followed. 
 
-This world was good for creators -- and especially established creators -- in at least some ways. It meant that as a creator, you could build a stable community around your content. As you grew and gained more followers, you knew that there was a consistent audience who would consume -- or at least have a chance to consume -- the content that you shared. 
-
-Among other things, this meant relative consistency for creators who were able to get established & build a following. In economic terms, your following -- along with the chronological feed -- was a kind of "moat" that ensured consistent viewership and revenue, and all the psychological and financial security -- and creative freedom -- that came with that. 
+This world was good for creators -- and especially established creators -- in at least some ways. It meant that as a creator, you could build a stable community around your content. As you grew and gained more followers, you knew that there was a consistent audience who would consume -- or at least have a chance to consume -- the content that you shared. In economic terms, your following -- along with the chronological feed -- was a kind of "moat" that ensured consistent viewership and revenue, and all the psychological and financial security -- and creative freedom -- that came with that. 
 
 However, this world began to change somewhere in the early 2010s (or perhaps even earlier). Content platforms generally make money from advertising to content consumers. Because of this, they care first and foremost about engaging content consumers -- keeping them on the platform, getting them to consume more, and so on. 
 
