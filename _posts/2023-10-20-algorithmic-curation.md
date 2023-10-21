@@ -43,7 +43,7 @@ Well, in some ways the algorithmic feed *is* good for consumers. Tik tok is hype
 
 But also, it's complicated. As has been discussed by others, the engagement measures that platforms are able to optimize against--and the basis that creators are then "competing" on--are *limited*, and don't fully reflect the interests of consumers. Consequently, the content that results from this competition is likewise limited in benefiting consumers (more on this below). 
 
-And further, algorithmic prediction has, perhaps, become "too good". Platforms like Tik Tok [are addictive for viewers](https://www.aeaweb.org/articles?id=10.1257/aer.20210867). Like cigarettes or sugary drinks, algorithmic content platforms increasingly exploit the behavioral limitations of consumers. Even if I know that it would be better to put down my phone and go to bed, I can't. I am indeed "engaged" in the sense of viewing content, but it is to my detriment after a point. 
+And further, algorithmic prediction has, perhaps, become "too good". Platforms like Tik Tok [are addictive for viewers](https://www.aeaweb.org/articles?id=10.1257/aer.20210867). Like cigarettes or sugary drinks, algorithmic content platforms increasingly exploit the behavioral limitations of consumers, including their limited self-control. Even if I know that it would be better to put down my phone and go to bed, I can't. I am indeed "engaged" in the sense of viewing content, but it is to my detriment (after a point). 
 
 Finally, what about the consequences of all this for the *type of content* that is produced online? For our digital cultural production? 
 
