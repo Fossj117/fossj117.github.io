@@ -55,9 +55,9 @@ There are potentially postive effects on content quality as well. In the algorit
 
 ## Conclusion
 
-Where does this all leave us? Are we collectively better off with the algorithmic feed? It's hard to say. 
+Where does this all leave us? Are we collectively better off with the algorithmic feed? It's hard to say. Per above, there are good things and bad things, which are sometimes at odds for different stakeholders. 
 
-On some of the negatives consequences outlined above, there are clear roles for policy. For example, just as we might regulate cigarettes or [ban sugary drinks](https://www.hsph.harvard.edu/nutritionsource/healthy-drinks/beverages-public-health-concerns/), we can likewise take action against algorithmically-driven digital addiction. 
+On at least some of the negatives consequences outlined above, there are clear roles for policy. For example, just as we might regulate cigarettes or [ban sugary drinks](https://www.hsph.harvard.edu/nutritionsource/healthy-drinks/beverages-public-health-concerns/), we can likewise take action against algorithmically-driven digital addiction. 
 
 However, when it comes to questions about the *type* and *quality* of content that the algorithmic feed induces, it is harder to say. If Jack Conte is right, and creators strongly prefer having tighter connections with their audience, and having the scope to make "art", then perhaps Patreon's new products will win out. But of course, the challenge is viewers, who may be stuck on the ever-engaging Tik Tok feed. 
 
