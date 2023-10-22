@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Philosophy of Technology, Universalism, and STS" 
-date: 2021-09-21
+date: 2021-09-20
 latex: true 
 mathjax: true
 comments: true
