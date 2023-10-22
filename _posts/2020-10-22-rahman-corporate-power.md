@@ -7,7 +7,7 @@ mathjax: true
 comments: true
 ---
 
-In this post, I want to share some rambling reactions to K. Sabeel Rahman's piece "[The New Octopus](https://logicmag.io/scale/the-new-octopus/)" in Logic Magazine. I read the piece as a participant in the 2020 [AMRI Academy](https://lpeproject.org/amri-academy/), and found it thought-provoking and articulate (as is much of Rahman's work). I don't claim that any of the points or arguments offered here are particularly decisive -- they are mainly just articulated ideas/questions/concerns that cam up for me as I read the piece. 
+In this post, I want to share some rambling reactions to K. Sabeel Rahman's piece "[The New Octopus](https://logicmag.io/scale/the-new-octopus/)" in Logic Magazine. I read the piece as a participant in the 2020 [AMRI Academy](https://lpeproject.org/amri-academy/), and found it thought-provoking and articulate (as is much of Rahman's work). I don't claim that any of the points or arguments offered here are particularly decisive -- they are mainly just articulated ideas/questions/concerns that came up for me as I read the piece. 
 
 The main point I want to mull over in this post is the idea that excessive corporate power could be *per se* problematic, regardless of whether it is exercised. This point seems important -- perhaps central -- in Law & Political Economy (LPE) thinking more broadly, and especially in how it differs from more conventional economic approaches. Here is a key articulation of the idea from Rahman (Rahman is here characterizing earlier legal thinkers like Brandeis; emphasis mine): 
 
