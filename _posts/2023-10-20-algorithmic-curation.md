@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "The Rise of the Algorithmic Feed and its Consequences"
-date: 2023-10-19
+date: 2023-10-20
 latex: true 
 mathjax: true
 comments: true
