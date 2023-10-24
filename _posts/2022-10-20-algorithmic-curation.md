@@ -1,17 +1,19 @@
 ---
 layout: post 
-title: "The Rise of the Algorithmic Feed and its Consequences"
-date: 2023-10-20
+title: "Some notes on the Rise of the Algorithmic Feed and its Consequences"
+date: 2022-10-20
 latex: true 
 mathjax: true
 comments: true
 ---
 
+*These are some open-ended thoughts on algorithmic curation on social content platforms.*
+
 ## Rise of The Algorithmic Feed[^1]
 
 "Following" or "subscribing" to someone on the internet used to mean something. 
 
-Back in the early days of Web 2.0 social media, feeds were not so algorithmically-curated as they are today. "Following" a creator on a platform like YouTube or Twitter meant that you would basically see their posts in your feed. 
+Back in the early days of Web 2.0 social media, feeds were not so algorithmically-curated as they are today. "Following" a creator on a platform like YouTube meant that you would basically see their posts in your feed. 
 
 For content consumers (readers, viewers), the "feed" was something closer to a chronological timeline of the posts or videos of the people you followed. 
 
