@@ -37,7 +37,7 @@ A third and final line of criticism questions whether it is helpful think about 
 
 ## Conclusion
 
-Where does this all leave us? Although it is beyond the scope of this essay, there is an interesting question about how we ought to mediate competing perspectives (even technical perspectives) on questions like algorithmic bias. For example, considering the competing bias measures outlined above which are evidently in tension -- who should get to decide which of these measures prevails? Is it technical experts? 
+Where does this all leave us? Although it is beyond the scope of this essay, there is an interesting question about how we ought to mediate competing perspectives (even technical perspectives) on questions like algorithmic bias. For example, considering the competing bias measures outlined above which are evidently in tension -- how are we to decide which of these is the "right" measure? Perhaps more importanlty: *who* gets to decide, and on what terms? Is it technical experts? (Democratically-elected) policymakers? Or perhaps communities that are directly affected by these choices? In general, are quantitative fairness metrics the right way to approach questions around algorithmic bias in the first place? Or should we thinking from a broader perspective, e.g. rooted in justice and contestability. These are all relevant questions to think on further. 
 
 ## References 
 
