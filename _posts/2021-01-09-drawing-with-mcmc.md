@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Drawing with Markov Chain Monte Carlo" 
-date: 2022-01-09
+date: 2021-01-09
 latex: true 
 mathjax: true
 comments: true

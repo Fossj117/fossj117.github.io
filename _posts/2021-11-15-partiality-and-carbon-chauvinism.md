@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Morality, Partiality, and Carbon Chauvinism" 
-date: 2021-12-24
+date: 2021-11-15
 latex: true 
 mathjax: true
 comments: true
