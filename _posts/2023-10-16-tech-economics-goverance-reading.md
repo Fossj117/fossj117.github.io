@@ -18,7 +18,9 @@ Some other things that are on our radar:
 
 * [*Political Theory of the Digital Age*](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
 * [*The Politics of Bitcoin: Software as Right-Wing Extremism*](https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804) by Golumbia
-* Various work by [Audrey Tang](https://en.wikipedia.org/wiki/Audrey_Tang)
+* Various work by [Audrey Tang](https://en.wikipedia.org/wiki/Audrey_Tang), including [the plurality book](https://github.com/pluralitybook/plurality). 
+* Paul Gowder's [book](https://networked-leviathan.com/) and [Elettra's response](https://lpeproject.org/blog/how-not-to-regulate-digital-platforms/?utm_source=mailpoet&utm_medium=email&utm_campaign=lpe-blog-update)
+* Various recent work from [Elettra](https://www.elettrabietti.com/publications) (e.g. [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4275143))
 * [*Blockchain Radicals*](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Davila; and other [left-wing ideas about Blockchain](https://theblockchainsocialist.com/)
 * Literature connected to the [platform cooperativism](https://platform.coop/) movement
 * Writing from the [collective intelligence project](https://cip.org/) including [this](https://arxiv.org/abs/2303.11074) paper. 
@@ -29,6 +31,6 @@ Some other things that are on our radar:
 * More on anarchism (e.g. [James' Scott's work?](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism))
 * In general, want to strengthen my foundations in political and democratic theory. 
 
-I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (fossj117 at gmail dot com). 
+I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`). 
 
 We are also interested in reading/thinking/building in a more applied vein on these themes, so that may be a direction going forward. 
