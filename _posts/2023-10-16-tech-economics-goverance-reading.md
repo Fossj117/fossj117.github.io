@@ -13,6 +13,7 @@ comments: true
 * [*Governing the Commons*](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5) by Ostrom. 
 * [*Code 2.0*](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some prior posts from an earlier reading on this site)
 * [Moloch Ventures whitepaper](https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf)
+* [*Two Cheers for Anarchism*]((https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism)) by James Scott. 
 
 Some other things that are on our radar: 
 
@@ -28,7 +29,6 @@ Some other things that are on our radar:
 * [Metagov](https://metagov.pubpub.org/participate) projects. 
 * Zuckerman's writing on Digital Public Infrastructure ([for example](https://knightcolumbia.org/content/the-case-for-digital-public-infrastructure))
 * More on [collective intelligence](https://compdemocracy.org/collective-intelligence/)
-* More on anarchism (e.g. [James' Scott's work?](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism))
 * In general, want to strengthen my foundations in political and democratic theory. 
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`). 
