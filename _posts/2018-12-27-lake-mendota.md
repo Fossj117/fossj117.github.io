@@ -11,7 +11,7 @@ tags:
 
 ### Data Visualization
 
-The goal of this data visualization is to explore trends over time in yearly "Ice On", "Ice Off" and "Days of Ice Cover" on [Lake Mendota](https://en.wikipedia.org/wiki/Lake_Mendota) using [data](http://www.aos.wisc.edu/~sco/lakes/Mendota-ice.html) from the Wisconsin State Climatology Office. The visualization is an entry in the [December 2018 /r/dataisbeautiful DataViz Battle](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/).
+The goal of this data visualization is to explore trends over time in yearly "Ice On", "Ice Off" and "Days of Ice Cover" on [Lake Mendota](https://en.wikipedia.org/wiki/Lake_Mendota) using [data](http://www.aos.wisc.edu/~sco/lakes/Mendota-ice.html) from the Wisconsin State Climatology Office. The visualization is an entry in the [December 2018 /r/dataisbeautiful DataViz Battle](https://www.reddit.com/r/dataisbeautiful/comments/a2p5f0/battle_dataviz_battle_for_the_month_of_december/) (UPDATE: this visualization was [awarded second place](https://www.reddit.com/r/dataisbeautiful/comments/adihze/comment/edh5esv/?utm_source=share&utm_medium=web2x&context=3) in the competition).
 
 ![center](/figs/2018-12-27-lake-mendota/mendota_plot_final.png)
 
