@@ -9,7 +9,6 @@ comments: true
 
 I haven't tried doing any `p5.js` in this blog; today, I was in the mood to give it a try. I decided to try embedding an old sketch I did for [genuary 2022](https://genuary.art/2022/prompts) for the prompt "Destroy a square". The code relies on `p5` and `matter.js`:
 
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <div id="sketch-holder"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
 <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.js"></script>
