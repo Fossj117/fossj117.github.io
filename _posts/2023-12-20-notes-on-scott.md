@@ -11,7 +11,7 @@ In this post, I outline a few notes on Scott's _Two Cheers for Anarchism_ ahead 
 
 ## What is Anarchism About?
 
-Scott endorses what he calls a "anarchist squint" as being useful in various aspects of politics and political analysis. The idea (I think), is both that aspects of anarchism are both useful and more common & relevant than they are often given credit for. And so you gain something by looking at the world through anarchist glasses so to speak.
+Scott endorses what he calls a "anarchist squint" as being useful in various aspects of politics and political analysis. The idea is that aspects of anarchism are both useful and more common than they are often given credit for. We gain something by looking at the world through anarchist glasses.
 
 A few anarchist principles that Scott highlights:
 
@@ -56,15 +56,17 @@ To summarize Scott's argument about infrapolitics:
 4. This result (3) is not incidental but rather _intentional_ on behalf of the political actors engaged in these behaviors.
 5. Political actors engaged in these behaviors are often doing so _precisely because_ they lack the political power / luxury of open rebellion or protest.
 
-I can think of various examples of how this type of infrapolitics emerge in digital environments as forms of resistance to dominant platforms. For example, I think of gig workers that form groups to exchange tips about the best ways to game platform incentive systems. Not exactly the same, but roughly: ways to "follow the rules" on paper without really following them. The recent (so-called) epidemic of "quiet quitting" is another example.
+I can think of various examples of how this type of infrapolitics emerge in digital environments as forms of resistance to dominant platforms. For example, I think of gig workers that form groups to exchange tips about the best ways to game platform incentive systems. Roughly: various ways to "follow the rules" on paper without really following them. The recent (so-called) epidemic of "quiet quitting" is another example.
 
 ## On Flexible Use and Bottom-up Design
 
-A big focus in the middle of the book is on "_top-down_", rigorously-organized forms of design and planning -- e.g. Scott disucsses the case of institutionalized forestry, which wound up to be highly brittle despite being rigorously planned andd visually ordered -- vs. "_bottom-up_" modes of design. For example, Scott also discusses the design of "open" style playgrounds that assume little about the interests and creative pursuits of users vs ones that assume a specific mode of play. He offers a related normative standard:
+A big focus in the middle of the book is on "_top-down_", rigorously-organized forms of design and planning vs. "_bottom-up_" modes of design. For example, Scott disucsses the case of institutionalized forestry (also coverd in _Seeing Like a State_), which wound up to be highly brittle despite being rigorously planned andd visually ordered. Scott also discusses the design of "open" style playgrounds that assume little about the interests and creative pursuits of users vs ones that assume a specific mode of play.
+
+On the topic of bottom-up system/institutional design, he offers a normative standard:
 
 > "Almost any human institution can be evaluated in these terms. How open is it to the purposes and talents of those who inhabit it?" (60)
 
-A similar standard could be applied to the design of a technological artifacts: how much is it open to the purposes and needs of those who will use it?
+A similar standard could be applied to the design of technological artifacts: how much is this artifact open to the purposes and needs of those who will use it? How much does this artifact's design assume about how it will be used?
 
 What is Scott's basis for preferring bottom-up design? It is a mix of descriptive and normative points. On the descriptive front, Scott seems to be arguing that bottom-up systems/technologies are:
 
@@ -76,11 +78,11 @@ From a more normative perspective, bottom-up systems are preferrable because:
 3. They enact a desirable humility about the needs/goals/desires of users.
 4. They grant users more control over their engagement with the system/artifact.
 
-I want to think more about these themes. I think there are clear connections to philosophy of technology ideas about [the designer fallacy](https://www.uop.edu.jo/PDF%20File/uop%20uop%20[Architecture_Ebook]_Philosophy_and_Design_-_From_Engineering_to_Architecture-19490_Part31.pdf); I think they also connect to other conversations that [Ryan](https://ryansepassi.com/) and I have had about the value of modularity in technological design.
+I want to think more about these themes. There are clear connections to philosophy of technology ideas like [the designer fallacy](https://www.uop.edu.jo/PDF%20File/uop%20uop%20[Architecture_Ebook]_Philosophy_and_Design_-_From_Engineering_to_Architecture-19490_Part31.pdf); these themes also connect to conversations that [Ryan](https://ryansepassi.com/) and I have had about the value of modularity in technological design.
 
 ## On Audit Society & Quantitative Measures
 
-In chapter five, Scott expresses thoroughgoing skepticism of the use of "quantitative measures of quality" in a range of policy contexts (e.g. the SAT, standardized testing, [SSCI](https://en.wikipedia.org/wiki/Social_Sciences_Citation_Index)). These points resonate with (and rehash) a lot of other STS work, including [Porter](https://press.princeton.edu/books/paperback/9780691208411/trust-in-numbers) (who he quotes), and [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State#:~:text=Seeing%20Like%20a%20State%3A%20How,accordance%20with%20purported%20scientific%20laws.).
+In chapter five, Scott expresses thoroughgoing skepticism of the use of "quantitative measures of quality" in a range of policy contexts (e.g. the SAT, standardized testing, [SSCI](https://en.wikipedia.org/wiki/Social_Sciences_Citation_Index)). These points resonate with (and rehash) a lot of other STS work, including [Porter](https://press.princeton.edu/books/paperback/9780691208411/trust-in-numbers) (who he quotes), and Scott's own [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State#:~:text=Seeing%20Like%20a%20State%3A%20How,accordance%20with%20purported%20scientific%20laws.).
 
 What are Scott's main points about these quantitative standards? First, two obvious points:
 
@@ -89,9 +91,11 @@ What are Scott's main points about these quantitative standards? First, two obvi
 
 More deeply, Scott's emphasizes that quantitative assessment systems are "de-politicizing" machines. They are tools for taking sets of issues _off the democratic stage_ of political discourse/deliberation/disagreeement-- and instead delegating their management to expert technocrats or other technical tools (like tests or audits). The presence of a seemingly neutral, "objective" standard like the SAT neuters the impetus for democratic political debate about the meaning of qualitative concepts like "intelligence" or "merit".
 
-These points are all well-articulated by Scott, but have been made before by Scott and other STS scholars (and can also be applied more broadly to many types of technical "knowledge"). What is novel about Scott's articulation of these points is the connection with anarchism. What is the nature of that connection? A few thoughts:
+These points are all well-articulated by Scott, but have been made before by Scott and other STS scholars (and can also be applied more broadly to many types of technical "knowledge"). What is novel about Scott's articulation of these points is the connection with anarchism. What is the nature of this connection? A few thoughts:
 
-1. These quantitative systems are oft deployed hierarchically, or most preferred by managers or states that are furthest from the reality of what's happening on "the ground". They are fundamentally tools of administration, management, hierarchy in some sense.
+1. These quantitative systems are oft deployed hierarchically, or most preferred by managers or states that are furthest from the reality of what's happening "on the ground". They are fundamentally tools of administration, management, hierarchy in some sense.
 2. Connection with broader anarchist preference for "messy" localism, deliberation etc. over tidy, top-down organization.
 
-I wish Scott engaged more with normative arguments about the non-managerial benefits of clear quantitative standards. For example, he admits that e.g. excising the SSCI from tenure debates leaves more space for other sorts of bias and power dynamics to enter decision-making. Clear quantitative standards for judgment _do_ have an aspect of making things "more fair" in a sense: they remove arbitrary power & discretion (which might be influenced by all sorts of things, including racial or gender bias) from decision-makers and put it back in the hands of those being assessed. In view of these considerations, it's not clear to me that we ought to do away with all systems of quantitative assessment; instead, I think this points towards some middle path: recognizing the value of these systems while also keeping them open for democratic debate; not naturalizing (say) the SAT as _the_ be-all-end-all measure of merit, but holding it loosely in a pragmatist sort of sense, recognizing it is useful but also has limits, and is always up for re-assessment.
+I wish Scott engaged more with normative arguments about the (non-managerial) benefits of clear quantitative standards. For example, he admits that e.g. excising the SSCI from tenure debates leaves more space for other sorts of bias and power dynamics to enter decision-making. Clear quantitative standards for judgment--even if imperfect--_do_ have an aspect of making decisions "more fair": they remove arbitrary power & discretion (which might be influenced by all sorts of things, including racial or gender bias) from decision-makers and put it back in the hands of those being assessed.
+
+In view of these considerations, it's not clear to me that we ought to do away with all systems of quantitative assessment; instead, I think this points towards some middle path: recognizing the value of these systems while also keeping them open for democratic debate; not naturalizing (say) the SAT as _the_ be-all-end-all measure of merit, but holding it loosely in a pragmatist sort of sense, recognizing it is useful but also has limits, and is always up for re-assessment.
