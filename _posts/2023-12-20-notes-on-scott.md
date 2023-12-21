@@ -56,7 +56,7 @@ To summarize Scott's argument about infrapolitics:
 4. This result (3) is not incidental but rather _intentional_ on behalf of the political actors engaged in these behaviors.
 5. Political actors engaged in these behaviors are often doing so _precisely because_ they lack the political power / luxury of open rebellion or protest.
 
-I can think of various examples of how this type of infrapolitics emerge in digital environments as forms of resistance to dominant platforms. For example, I think of gig workers that form groups to exchange tips about the best ways to game platform incentive systems. Roughly: various ways to "follow the rules" on paper without really following them. The recent (so-called) epidemic of "quiet quitting" is another example.
+I can think of various examples of how this type of infrapolitics emerge in digital environments as forms of resistance to dominant platforms. For example, I think of gig workers that form groups to exchange tips about the best ways to game platform incentive systems. Roughly: various ways to "follow the rules" on paper without really following them. The recent (so-called) epidemic of "quiet quitting" is another example. Interestingly, contra Scott's argument, quiet quitting _was_ widely baked into high-level narratives about what was happening in the labor market at the time; see, for example, [this New York Times](https://www.nytimes.com/2022/08/23/style/quiet-quitting-tiktok.html) article.
 
 ## On Flexible Use and Bottom-up Design
 
