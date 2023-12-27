@@ -37,7 +37,7 @@ Key idea is that there is currently a tension between (digital) technology and d
 - "the path technology and democracy as systems have taken have put them at loggerheads and the ensuing battle has claimed victims on both sides"
 - Issues from recent developments in both AI and blockchain: "The dominant trends in technology in recent decades have been artificial intelligence and blockchains. These have, respectively, empowered centralized top-down control and turbo-charged atomized polarization and financial capitalism. Both outcomes are corrosive to the values of democratic pluralism"
   - I was a little surprised to see blockchain critiqued here, but I agree with the pieces critiqued. I want to understand more what they mean by "turbo-charged atomized polarization"
-  - General skepticism that democracy is working well right now, partly because of its lethargy in keeping up technologically.
+  - General skepticism that democracy is working well right now, partly because of its lethargy in keeping up technologically. Interesting to note the resonances here with [Scott and his brand of anarchism](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html). Something I will be keeping an eye on in the plurality space is what version and "scale" of democracy seems to be the main focus; so far, I think I detect a set of values that are consonant with Scott (e.g. emphasizing small-scale participatory models over large-scale hierarchies even if democratic). But it will be interesting to keep an eye on this.
 
 Key counterpoint: technology and democracy can be natural allies.
 
