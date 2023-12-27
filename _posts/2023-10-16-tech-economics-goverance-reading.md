@@ -11,9 +11,12 @@ comments: true
 
 - [_Radical Markets_](https://press.princeton.edu/books/hardcover/9780691177502/radical-markets) by Weyl & Posner; especially chapters on Harberger taxes and quadratic voting.
 - [_Governing the Commons_](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5) by Ostrom.
-- [_Code 2.0_](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some prior posts from an earlier reading on this site)
+- [_Code 2.0_](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some [prior](https://jeffreyfossett.com/2021/04/12/lessig-code-resonances.html) [posts](https://jeffreyfossett.com/2021/04/14/more-lessig-code-reflections.html) from an earlier reading on this site)
 - [Moloch Ventures whitepaper](https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf)
-- [_Two Cheers for Anarchism_](<(https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism)>) by James Scott.
+- [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism)) by James Scott.
+  - [My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html)
+- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang.
+  - [My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)
 
 Some other things that are on my radar on these themes:
 
