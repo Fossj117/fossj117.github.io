@@ -13,14 +13,13 @@ comments: true
 - [_Governing the Commons_](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5) by Ostrom.
 - [_Code 2.0_](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some [prior](https://jeffreyfossett.com/2021/04/12/lessig-code-resonances.html) [posts](https://jeffreyfossett.com/2021/04/14/more-lessig-code-reflections.html) from an earlier reading on this site)
 - [Moloch Ventures whitepaper](https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf)
-- [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism)) by James Scott.
-  - [My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html)
-- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang.
-  - [My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)
+- [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism)) by James Scott.([My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html))
+- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html))
 
 Some other things that are on my radar on these themes:
 
 - [_Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity_](https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530) by Acemoglu and Johnson.
+- _The Public and Its Problems_ by Dewey.I've read pieces of this but would love to dig in further.
 - [_Political Theory of the Digital Age_](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
 - [_The Politics of Bitcoin: Software as Right-Wing Extremism_](https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804) by Golumbia
 - Various work by [Audrey Tang](https://en.wikipedia.org/wiki/Audrey_Tang), including [the plurality book](https://github.com/pluralitybook/plurality).
