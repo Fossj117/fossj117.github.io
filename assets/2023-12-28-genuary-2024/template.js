@@ -1,9 +1,31 @@
-function setup() {
-  const canvas = createCanvas(windowWidth * 0.75, windowHeight * 0.75);
-  canvas.parent("jan-1");
-}
-function draw() {}
+const janX = (s) => {
+  let elements = [];
+  let bgcolor = "white";
+  let cWidth, cHeight;
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+  s.setup = () => {
+    const myDiv = document.getElementById("jan-1");
+    cWidth = myDiv.clientWidth;
+    cHeight = s.windowHeight * 0.5;
+    s.createCanvas(cWidth, cHeight);
+
+    background(bgcolor);
+    elements.push(new Element());
+  };
+
+  s.draw = () => {
+    s.background(bgcolor);
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].update();
+      elements[i].draw();
+    }
+  };
+
+  class Element {
+    constructor() {}
+    update() {}
+    draw() {}
+  }
+};
+
+let janXsketch = new p5(janX, "jan-X");
