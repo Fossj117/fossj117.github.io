@@ -7,12 +7,21 @@ permalink: /posts/
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-	      <li>
+	      <!-- <li>
 	        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 	        <h3>
 	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	        </h3>
-	      </li>
+	      </li> -->
+		  <li>
+		  <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"  style="display: inline;">{{ post.title }}</a>
+		  <span class="post-tag">
+			{% for tag in post.tag %}
+				{{- tag -}}
+		  		{% unless forloop.last %},{% endunless %}
+		  	{% endfor %}
+		</span>
+		  </li>
     {% endfor %}
   </ul>
 

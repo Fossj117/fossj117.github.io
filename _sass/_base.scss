@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit *.4;
 }
 
 
@@ -63,6 +63,14 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+}
+
+// When a list is within another list, don't add the spacing
+ul ul {
+    margin-bottom: 0; 
+}
+ol ul {
+    margin-bottom: 0;
 }
 
 /**
@@ -215,13 +223,3 @@ table thead, table tr.even {
         }
     }
 }
-
-.post-list{
-    font-size: $small-font-size;
-
-    ul li {
-            margin: $spacing-unit/4;
-        }
-
-}
-

@@ -173,20 +173,31 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    font-size: $small-font-size;
 
     > li {
-        margin-bottom: $spacing-unit/2;
+        margin-bottom: $spacing-unit/5;
     }
 }
 
-.post-meta {
+.post-meta { // on the feed
+    font-size: $small-font-size*.8;
+    color: $grey-color;
+}
+
+.post-meta-in-post { // in the post 
     font-size: $small-font-size;
     color: $grey-color;
 }
 
+.post-tag {
+    font-size: $small-font-size*.7;
+    color: lighten($grey-color,10%);
+}
+
 .post-link {
     display: block;
-    font-size: 20px;
+    font-size: $small-font-size;
 }
 
 
