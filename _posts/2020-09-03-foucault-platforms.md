@@ -5,6 +5,7 @@ date: 2020-09-03
 latex: true
 mathjax: true
 comments: true
+tag: ["sts", "econ"]
 ---
 
 Systems of classification and normalization abound in digital platforms. Indeed, there is much recognizable of Foucault’s disciplinary mechanisms in e.g. Uber's systems for including, excluding, promoting or demoting drivers, or in Facebook / Google / Youtube / Tik Tok’s choices about how to promote or rank content, ads and so on. As in Foucault’s description, platforms create (material) systems of “examination” that hierarchize individuals and -- through their links to punishments (e.g. being removed from the platform) and rewards (e.g. having your content “promoted”) -- produce conformity in behavior. As others have pointed out, such systems encode normative judgments about what types of behavior _are_ or _are not_ desirable. Platforms often directly or indirectly attempt to attribute these value judgments to _other_ platform constituents -- e.g. YouTube or Tik Tok is just ranking your content based on "how appealing it is to viewers"; Google is just ranking content based on "how relevant" it is to searchers -- de-emphasizing the platform's role in algorithmic curation processes & in defining normative concepts like "relevance".

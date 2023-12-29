@@ -1,11 +1,13 @@
 ---
-layout: post 
-title: "Loose Ends" 
+layout: post
+title: "Loose Ends"
 date: 2023-10-19
-latex: true 
+latex: true
 mathjax: true
 comments: true
+tag: ["art"]
 ---
+
 <br>
 <p>
 <center>
@@ -13,11 +15,11 @@ comments: true
 </center>
 </p>
 <br>
-*Loose Ends* (2023), incomplete collage. 
+*Loose Ends* (2023), incomplete collage.
 
-Much of my last summer was spent cleaning out the home of my late uncle. The process of cleaning out a loved one’s home is both intimate and distancing. The former because an unfiltered tour of a person’s physical things can shed new light on a person’s life; the latter because it can raise new, and unanswerable questions. What did you find appealing about this colorful — if a bit gaudy — tiffany-style lamp, uncle? Tell me about your trip to Alaska; what is the story of this photo you took? 
+Much of my last summer was spent cleaning out the home of my late uncle. The process of cleaning out a loved one’s home is both intimate and distancing. The former because an unfiltered tour of a person’s physical things can shed new light on a person’s life; the latter because it can raise new, and unanswerable questions. What did you find appealing about this colorful — if a bit gaudy — tiffany-style lamp, uncle? Tell me about your trip to Alaska; what is the story of this photo you took?
 
-This collage work is made from photos found in my uncle’s home, from old travels I do not know the stories of. The design of the collage is inspired by his gaudy lamp, whose origin story is also a mystery. 
+This collage work is made from photos found in my uncle’s home, from old travels I do not know the stories of. The design of the collage is inspired by his gaudy lamp, whose origin story is also a mystery.
 
 For me, the piece is also about the strange process of inter-generational transformation that is tied up with inheritance. The photos that made this collage represented my uncle’s art, his vision of the world as a traveler and hobbyist photographer. Here, they are reconstituted into something new, filtered through my own lens and understanding.
 <br>
@@ -34,5 +36,3 @@ For me, the piece is also about the strange process of inter-generational transf
 <!-- <i>Somewhere in Alaska</i> -->
 </p>
 </center>
-
-

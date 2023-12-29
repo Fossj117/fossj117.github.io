@@ -1,10 +1,11 @@
 ---
-layout: post 
-title: "Quick Debate Night Text Analysis" 
+layout: post
+title: "Quick Debate Night Text Analysis"
 date: 2016-10-29
-latex: true 
+latex: true
 mathjax: true
 comments: true
+tag: ["analysis", "dataviz"]
 ---
 
 After watching the first debate earlier this fall & listening to the following coverage, I was curious to apply a data-driven perspective to some of the news narratives that resulted. Fortunately, I was able to pull [Vox’s debate transcript](https://www.vox.com/2016/9/26/13065174/first-presidential-debate-live-transcript-clinton-trump). Here is what I found.
@@ -35,9 +36,9 @@ Another interesting thing to look at is how the length of responses changed over
 </center>
 </p>
 
-The overlaid lines here are locally smoothed trend lines by speaker. We see that responses seemed to get longer in the middle/latter portion of the debate, around the time when the discussion shifted to Trump’s business record and later race & policing. 
+The overlaid lines here are locally smoothed trend lines by speaker. We see that responses seemed to get longer in the middle/latter portion of the debate, around the time when the discussion shifted to Trump’s business record and later race & policing.
 
-The segment of shorter responses earlier on (around response #50) seems to correspond to the portion of the debate where Trump was on attack about NAFTA and interrupting a lot, generating a lot of back-and-forth. A *very* rough coding of Trump interruptions (based on [this](https://www.youtube.com/watch?v=PDEC0iMxokw&ab_channel=CNN) video from CNN) confirms this hypothesis. Here is the same plot as above, but now with Trump interruptions overlaid with vertical lines:
+The segment of shorter responses earlier on (around response #50) seems to correspond to the portion of the debate where Trump was on attack about NAFTA and interrupting a lot, generating a lot of back-and-forth. A _very_ rough coding of Trump interruptions (based on [this](https://www.youtube.com/watch?v=PDEC0iMxokw&ab_channel=CNN) video from CNN) confirms this hypothesis. Here is the same plot as above, but now with Trump interruptions overlaid with vertical lines:
 
 <p>
 <center>
@@ -48,10 +49,3 @@ The segment of shorter responses earlier on (around response #50) seems to corre
 The cluster of interruptions around the 150 mark are Trumps repeated “wrong” interjections as Clinton accused him of supporting the Iraq war.
 
 To be sure, there is a lot more that could be done with this data. For anyone interested, my cleaned up version of the transcript is on google sheets [here](https://docs.google.com/spreadsheets/d/1-OHfz7eUWORNDLdz9FB4AhBy1ogVNSetBQrb9iVCe90/edit?usp=sharing).
-
-
-
-
-
-
-

@@ -1,12 +1,10 @@
 ---
-layout: post 
+layout: post
 title: Visualize the Freezing and Thawing Cycle of Lake Mendota
 date: 2018-12-27
 comments: true
-latex: true 
-tags: 
-- data
-- R
+latex: true
+tag: ["dataviz"]
 ---
 
 ### Data Visualization
@@ -17,7 +15,7 @@ The goal of this data visualization is to explore trends over time in yearly "Ic
 
 ### Analysis
 
-The plots show that Lake Mendota's seasonal days of ice cover has decreased over time by 0.18 days per year on average (p<0.01; 95% CI: [0.12  0.23]). The decrease in total days of ice cover is due in roughly equal parts to "Ice On" occuring later in the season (roughly 0.09 days later per year on average; p<0.01) and "Ice Off" occuring earlier in the season (roughly 0.09 days earlier per year on average; p < 0.01). Here are bivariate regression results supporting these findings: 
+The plots show that Lake Mendota's seasonal days of ice cover has decreased over time by 0.18 days per year on average (p<0.01; 95% CI: [0.12 0.23]). The decrease in total days of ice cover is due in roughly equal parts to "Ice On" occuring later in the season (roughly 0.09 days later per year on average; p<0.01) and "Ice Off" occuring earlier in the season (roughly 0.09 days earlier per year on average; p < 0.01). Here are bivariate regression results supporting these findings:
 
 <table style="text-align:center"><tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="3"><em>Dependent variable:</em></td></tr>
 <tr><td></td><td colspan="3" style="border-bottom: 1px solid black"></td></tr>
@@ -36,15 +34,14 @@ The plots show that Lake Mendota's seasonal days of ice cover has decreased over
 <tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td colspan="4" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
 </table>
 
-Note that Ice On / Ice Off "Day of Season" are defined as the number of days *after* November 1st that Ice On / Ice Off occured so that the negative coefficient in model (2) means that Ice Off occured earlier in the season, while the positive coefficient in model (3) means that Ice On occurred later. 
+Note that Ice On / Ice Off "Day of Season" are defined as the number of days _after_ November 1st that Ice On / Ice Off occured so that the negative coefficient in model (2) means that Ice Off occured earlier in the season, while the positive coefficient in model (3) means that Ice On occurred later.
 
-### Data Preparation Details 
+### Data Preparation Details
 
-Data for this analysis was pulled from [here](https://docs.google.com/spreadsheets/d/1_cYXBTsv5pzXj-BYuGQIFAQHiPEq4jZYCeJuhj3kg5w/edit) and was aggregated by "Season" (i.e. "Start Year"). Dates for Ice On and Ice Off were computed manually for each season based on the earliest/last date of reported ice cover respectively. "Days of Ice Cover" was computed manually as the difference between the derived Ice On and Ice Off dates. This derived field mostly matches the "Days" field of the original dataset, though deviates somewhat in cases where the Lake was opened / closed multiple times in a season. Note that the analysis excludes the seasons 1852-1854, as the data for these years were incomplete. All code for this analysis and visualization is available in the github for this blog post [here](https://github.com/Fossj117/fossj117.github.io) (see the `_code` folder). 
+Data for this analysis was pulled from [here](https://docs.google.com/spreadsheets/d/1_cYXBTsv5pzXj-BYuGQIFAQHiPEq4jZYCeJuhj3kg5w/edit) and was aggregated by "Season" (i.e. "Start Year"). Dates for Ice On and Ice Off were computed manually for each season based on the earliest/last date of reported ice cover respectively. "Days of Ice Cover" was computed manually as the difference between the derived Ice On and Ice Off dates. This derived field mostly matches the "Days" field of the original dataset, though deviates somewhat in cases where the Lake was opened / closed multiple times in a season. Note that the analysis excludes the seasons 1852-1854, as the data for these years were incomplete. All code for this analysis and visualization is available in the github for this blog post [here](https://github.com/Fossj117/fossj117.github.io) (see the `_code` folder).
 
-Please note that visualizations presented here were inspired by similar plots found in Magee et al. (2016).  
+Please note that visualizations presented here were inspired by similar plots found in Magee et al. (2016).
 
 ### References
 
 Magee, M., Wu, C., Robertson, D., Lathrop, R., & Hamilton, D. (2016). Trends and abrupt changes in 104 years of ice cover and water temperature in a dimictic lake in response to air temperature, wind speed, and water clarity drivers. Hydrology and Earth System Sciences, 20(5), 1681-1702.
-

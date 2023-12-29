@@ -5,6 +5,7 @@ date: 2023-12-27
 latex: true
 mathjax: true
 comments: true
+tag: ["plurality", "notes"]
 ---
 
 In this post, I will keep some very rough notes about the [Plurality book](https://github.com/pluralitybook/plurality/tree/main/contents/english) led by Weyl and Tang. These notes are mostly for personal use, but I like the idea of documenting them publicly for various reasons. Maybe I will make a separate blog section for reading notes at some point.

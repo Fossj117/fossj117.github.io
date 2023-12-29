@@ -5,6 +5,7 @@ date: 2023-12-14
 latex: true
 mathjax: true
 comments: true
+tag: ["p5", "art"]
 ---
 
 I haven't tried doing any `p5.js` in this blog; today, I was in the mood to give it a try. Here is an old sketch I did for [genuary 2022](https://genuary.art/2022/prompts) for the prompt "Destroy a Square" which uses `p5` and `matter.js`:

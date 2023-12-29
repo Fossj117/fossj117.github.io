@@ -1,13 +1,14 @@
 ---
-layout: post 
-title: "Sidewalk Poems" 
+layout: post
+title: "Sidewalk Poems"
 date: 2022-02-19
-latex: true 
+latex: true
 mathjax: true
 comments: true
+tag: ["poetry"]
 ---
 
-I was thinking about making a submission to the [Cambridge Sidewalk Poetry Contest](https://www.cambridgema.gov/arts/Programs/sidewalkpoetry). The winning poems are stamped in concrete as part of the city's sidwalk repair program. Here are a few silly poems I came up with that seemed good for sidewalks. A first untitled one: 
+I was thinking about making a submission to the [Cambridge Sidewalk Poetry Contest](https://www.cambridgema.gov/arts/Programs/sidewalkpoetry). The winning poems are stamped in concrete as part of the city's sidwalk repair program. Here are a few silly poems I came up with that seemed good for sidewalks. A first untitled one:
 
 <p class="poem">
 Can’t tell you where the sidewalk ends,<br>
@@ -20,7 +21,7 @@ New chance for walking, seeing, doing,<br>
 New adventures to appear.<br>
 </p>
 
-This got me in a Shel Silverstein headspace which then led to this one I called "Worry Croc": 
+This got me in a Shel Silverstein headspace which then led to this one I called "Worry Croc":
 
 <p class="poem">
 Deep below this sidewalk,<br>
@@ -37,7 +38,7 @@ Let croc gobble up your fears<br>
 And enjoy a tasty meal.<br>
 </p>
 
-And this one: 
+And this one:
 
 <p class="poem">
 Somewhere there’s a sidewalk<br>

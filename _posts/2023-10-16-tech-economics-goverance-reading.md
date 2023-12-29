@@ -5,6 +5,7 @@ date: 2023-10-16
 latex: true
 mathjax: true
 comments: true
+tag: ["sts", "econ"]
 ---
 
 [Ryan](https://ryansepassi.com/) and I (and sometimes including [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) and [Jesse](https://jessecallahanbryant.com/)) have been meeting regularly to read and discuss around a set of themes connected to digital technology governance, politics, and economics with a bent towards cooperative/democratic/public interest/pluralistic/progressive themes. In this post, I will keep tabs on some of our reading; I'll also keep a list of other things I find interesting on these themes. Some reading we have worked through (to various extents) so far:

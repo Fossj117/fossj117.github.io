@@ -5,6 +5,7 @@ date: 2023-12-20
 latex: true
 mathjax: true
 comments: true
+tag: ["notes"]
 ---
 
 In this post, I outline a few notes on Scott's _Two Cheers for Anarchism_ ahead of a discussion with [Ryan](https://ryansepassi.com/) and [Jesse](https://jessecallahanbryant.com/).

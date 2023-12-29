@@ -1,13 +1,14 @@
 ---
-layout: post 
+layout: post
 title: "Pandemic Art: Found Collage Poems"
 date: 2020-09-24
-latex: true 
+latex: true
 mathjax: true
 comments: true
+tag: ["poetry"]
 ---
 
-Somewhere in the depths of the covid-19 pandemic, I started this project where I would cut up self-help books and make collaged found-poem type things out of them (sometimes with little illustrations). The initial idea was that I thought it would be funny to re-configure self-help books into dark and/or cynical poems. For example, here is one from *The Subtle Art of Not Giving a Fuck*: 
+Somewhere in the depths of the covid-19 pandemic, I started this project where I would cut up self-help books and make collaged found-poem type things out of them (sometimes with little illustrations). The initial idea was that I thought it would be funny to re-configure self-help books into dark and/or cynical poems. For example, here is one from _The Subtle Art of Not Giving a Fuck_:
 
 <p>
 <center>
@@ -15,7 +16,7 @@ Somewhere in the depths of the covid-19 pandemic, I started this project where I
 </center>
 </p>
 
-Here's one from *The Life Changing Art of Tidying Up*:
+Here's one from _The Life Changing Art of Tidying Up_:
 
 <p>
 <center>
@@ -23,7 +24,7 @@ Here's one from *The Life Changing Art of Tidying Up*:
 </center>
 </p>
 
-But I also made some nicer ones: 
+But I also made some nicer ones:
 
 <p>
 <center>

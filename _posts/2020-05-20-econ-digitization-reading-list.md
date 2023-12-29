@@ -5,6 +5,7 @@ date: 2020-05-20
 latex: true
 mathjax: true
 comments: true
+tag: ["econ"]
 ---
 
 For my PhD field exam, I developed a list of papers to familiarize myself with across several areas of economics that I am interested in, including:
