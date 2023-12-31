@@ -5,7 +5,7 @@ const jan3 = (s) => {
   let scaleFactor = 0.995; // how much to scale down size on each recurse
 
   s.setup = () => {
-    const myDiv = document.getElementById("jan-1");
+    const myDiv = document.getElementById("jan-3");
     cWidth = myDiv.clientWidth;
     cHeight = s.windowHeight * 0.5;
     s.colorMode(s.HSB, 100);
@@ -17,8 +17,8 @@ const jan3 = (s) => {
         y: s.random(0, cHeight - cHeight * scaleFactor),
         width: cWidth * scaleFactor,
         height: cHeight * scaleFactor,
-        xSpeed: s.random(0.0005, 0.008),
-        ySpeed: s.random(0.0005, 0.008),
+        xSpeed: s.random(0.0005, 0.004),
+        ySpeed: s.random(0.0005, 0.004),
         xMax: cWidth,
         yMax: cHeight,
         fill: 100,

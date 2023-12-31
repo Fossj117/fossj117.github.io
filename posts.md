@@ -7,6 +7,8 @@ permalink: /posts/
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
+		{% if post.tag contains 'genuary2024'%}
+		{% else %}
 	      <!-- <li>
 	        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 	        <h3>
@@ -22,6 +24,7 @@ permalink: /posts/
 		  	{% endfor %}
 		</span>
 		  </li>
+		  {% endif %}
     {% endfor %}
   </ul>
 

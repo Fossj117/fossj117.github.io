@@ -3,8 +3,8 @@ const jan2 = (s) => {
   let bgcolor = "white";
   let cWidth, cHeight;
 
-  let NUMFLOWERS = 200;
-  let maxElements = 5000;
+  let NUMFLOWERS = 400;
+  let maxElements = 10000;
 
   s.setup = () => {
     const myDiv = document.getElementById("jan-2");
@@ -49,7 +49,7 @@ const jan2 = (s) => {
     if (s.random() < 0.05) {
       return s.random(-20, 20);
     } else {
-      return s.random(-5, 5);
+      return s.random(-3, 3);
     }
   };
 
@@ -65,8 +65,8 @@ const jan2 = (s) => {
           sat: s.clamp(90 + s.random(-20, 20)),
           bright: 90 + s.random(-10, 10),
           alpha: 90 + s.random(-10, 10),
-          growthrate: s.random(0.35, 0.9),
-          lifetime: s.random(20, 100),
+          growthrate: s.random(0.07, 0.2),
+          lifetime: s.random(100, 700),
           state: "GROWING",
         })
       );
@@ -114,8 +114,8 @@ const jan2 = (s) => {
         if (this.age >= this.lifetime) {
           // you're dead!
           this.state = "DYING";
-          if (s.random() > 0.2) {
-            let numOffspring = s.random(0, 3);
+          if (s.random() > 0.34) {
+            let numOffspring = s.random(0, 2);
             for (let i = 0; i < numOffspring; i++) {
               elements.push(
                 new Flower({
@@ -127,7 +127,7 @@ const jan2 = (s) => {
                   bright: s.clamp(this.bright + s.random(-5, 5)),
                   alpha: s.clamp(this.alpha + s.random(-5, 5)),
                   growthrate: this.growthrate,
-                  lifetime: s.random(20, 100),
+                  lifetime: s.random(100, 700),
                   state: "GROWING",
                 })
               );
@@ -136,7 +136,7 @@ const jan2 = (s) => {
         }
       } else if (this.state == "DYING") {
         if (this.alpha > 0) {
-          this.alpha = this.alpha - 1;
+          this.alpha = this.alpha - 0.5;
         } else {
           this.alpha = 0;
           this.state = "DEAD";

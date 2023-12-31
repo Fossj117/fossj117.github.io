@@ -9,7 +9,7 @@ const janX = (s) => {
     cHeight = s.windowHeight * 0.5;
     s.createCanvas(cWidth, cHeight);
 
-    background(bgcolor);
+    s.background(bgcolor);
     elements.push(new Element());
   };
 
