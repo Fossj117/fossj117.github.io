@@ -28,13 +28,15 @@ const jan5 = (s) => {
           "#A0D6B4", // Mint Green
         ])
       );
-      s.rect(
-        cWidth / 2 + s.random(-cWidth / 20, cWidth / 20),
-        cHeight / 2 + s.random(-cHeight / 20, cHeight / 20),
-        minSize / 3 + shock + s.random(-minSize / 10, minSize / 10),
-        minSize / 3 + shock + s.random(-minSize / 10, minSize / 10),
-        s.random(0, 5)
-      );
+      try {
+        s.rect(
+          cWidth / 2 + s.random(-cWidth / 20, cWidth / 20),
+          cHeight / 2 + s.random(-cHeight / 20, cHeight / 20),
+          minSize / 3 + shock + s.random(-minSize / 10, minSize / 10),
+          minSize / 3 + shock + s.random(-minSize / 10, minSize / 10),
+          s.random(0, 5)
+        );
+      } catch {}
       s.pop();
     }
   };
