@@ -55,8 +55,8 @@ const jan4 = (s) => {
       s.mouseIsPressed
     ) {
       try {
-        let curX = s.mouseX + s.random(-20, 20);
-        let curY = s.mouseY + s.random(-20, 20);
+        let curX = s.mouseX; //+ s.random(-20, 20);
+        let curY = s.mouseY; //+ s.random(-20, 20);
         mousePix = pixelLookup[canvasXYtoPixelKey(curX, curY)];
         mousePix.state = "SPINNING";
         //console.log(mousePix);
