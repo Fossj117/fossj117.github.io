@@ -43,13 +43,13 @@ const jan8 = (s) => {
   };
 
   s.draw = () => {
-    s.fill(0, 128, 128, 100);
+    s.fill(0, 128, 128, 50);
     s.ellipse(currXY.x, currXY.y, 4);
 
     if (currIter < nIters) {
       currXY = bogMapper.map(currXY);
     }
-    console.log(currXY);
+    // console.log(currXY);
   };
 
   class BogMapper {
@@ -63,10 +63,11 @@ const jan8 = (s) => {
       this.maxX = maxX;
     }
     map({ x, y }) {
-      let y_new =
+      let y_new = Math.abs(
         (y + this.epsilon * y + this.k * x * (x - 1) + this.mu * x * y) %
-        this.maxY;
-      let x_new = (x + y_new) % this.maxX;
+          this.maxY
+      );
+      let x_new = Math.abs((x + y_new) % this.maxX);
       return { x: x_new, y: y_new };
     }
   }

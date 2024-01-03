@@ -28,7 +28,7 @@ $$
 y_{n+1} = y_n + \varepsilon y_n + k*x_n(x_n-1) + \mu x_ny_n
 $$
 
-The map seemed to be sending things off to very large numbers; so, here I am in each step updating the value modulus the canvas width and height. I am choosing random values in $(-3,3)$ (or exactly $0$) for $\varepsilon$, $\mu$, and $k$ and iterating on a single starting point in the middle of the canvas (note the chosen values are printed with `console.log` for now). I would like to play with this more and see what parameter values yield interesting results (or see what else I can do with it), but don't have time today. Still, this has convinced me that playing around with different sorts of chaotic maps would be fun in the future.
+The map seemed to be sending things off to very large numbers; so, here I am in each step updating the value modulus the canvas width and height and taking the absolute value. I am choosing random values in $(-3,3)$ (or exactly $0$) for $\varepsilon$, $\mu$, and $k$ and iterating on a single starting point in the middle of the canvas (note the chosen values are printed with `console.log` for now). I would like to play with this more and see what parameter values yield interesting results (or see what else I can do with it), but don't have time today. Still, this has convinced me that playing around with different sorts of chaotic maps would be fun in the future.
 
 [back to the genuary index]({{ base.url | prepend: site.url }}/2023/12/28/genuary-2024.html)
 
