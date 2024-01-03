@@ -72,3 +72,41 @@ This section of the book seems to be largerly under development still at the tim
 - **The Digital Ministry**: The [ministry of digital affairs in Taiwan](<https://en.wikipedia.org/wiki/Ministry_of_Digital_Affairs_(Taiwan)>), which I'd also like to learn more about
 
 Incidentally, I noticed as I was googling about these that, indeed, Tang identifies as a "conservative anarchist" in the sense described [here](<https://en.wikipedia.org/wiki/Ministry_of_Digital_Affairs_(Taiwan)>). Essentially, her politics emphasize voluntary cooperation rather than top-down hierarchy (whether from the state or capitalist actors) in the anarchist sense; the "conservative" modifier seems to refer to a respect for the diversity of existing cultures and traditions that exist in Taiwan, and a desire to preseve these. In practice, Tang seems to connect these values with an emphasis on radical openness and transparency. I would be interested to see this political perspective expanded on further.
+
+## [Living in a Plural World](https://github.com/pluralitybook/plurality/blob/main/contents/english/03-01-living-in-a-plural-world.md)
+
+Basic idea of this section is to think about different conceptual foundations of science, and explain how these lead to the different sociotechnical imaginaries outlined in the previous section. The section is pretty ranging (perhaps a bit too much so); but my understanding of the basic ideas:
+
+- They first define the "monist atomist" understanding of science and argue that it informs the Abundance Technocracy (AT) and Entrepreneurial Sovereignty (ES) worldviews outlined in the previous chapters.
+- The monist atomist view understands the physical (or social) world as having an objective state and as obeying an ultimately simple set of laws, waiting to be discovered. There's a commitment to a kind of reductionism here -- breaking complex phenomena down to atomic parts, which can be modeled in clear mathematical terms.
+- The monist atomist / reductionist approach is then contrasted with scientific paradigms based in complexity, emergence, networks and collective intellgience.
+- They argue that the latter paradigm has been influential across a range of scientific fields over the past century or so including math, physics, neuroscience and biology
+- The rough idea is then to align the plurality project with this latter set of paradigms. Very coarsely: "monist atomist" is to AT/ES as "complexity/emergence/collective intelligence" are to the plural sociotechnical imaginary (DD?) that they are trying to develop.
+
+Here is one way that this is stated (my parenthetical):
+
+> Plurality is, scientifically, the application of an analogous perspective (to that of the complexity/emergence/network/collective intelligence paradigms) to the understanding of human societies and, technologically, the attempt to build formal information and governance systems that account for and resemble these structures as physical technologies built on plural science
+
+There is an extended discussion of Granovetter and network sociology themes, which is contrasted with the methodological individualism of economics. Interestingly, "science of science" is aligned with the former.
+
+I have a lot of thoughts on this section that I need to process more. One thing that I would like to see more of here is a connection with how STS scholars think about knowledge and expertise as a governing technology/institution in society. Thus when thinking about "plural" (social) science, the goal should not be just to integrate e.g. more network science considerations into economic modeling, while retaining the rest of the technocratic knowledge-making aparatus as is; instead, I think it should be more about how to pluralize/democratize the tools and systems of knowledge making, and thinking about how to mediate between different modes of knowing -- e.g. as I've discussed a bit [here](https://jeffreyfossett.com/2023/10/25/brainstorm-on-plurality-and-quant-social-science.html). I think this idea is also present more abstractly e.g. in [Latour](https://jeffreyfossett.com/2021/10/19/we-have-never-been-modern.html) and others.
+
+## [The Lost DAO](https://github.com/pluralitybook/plurality/blob/main/contents/english/03-02-the-lost-dao.md)
+
+<!-- They connect to network science, Granovetter.
+
+> While we have emphasized the positive vision of pluralistic social science (a “network society”), it is important to note that beyond its inherent plausibility, a key reason for adopting such a perspective is the impossibility of explaining most social problems using monistic atomism given both complexity and chaos. Even in the social science field, economics, that most consistently aims for “methodological individualism”, it is universally accepted that trying to model complex organizations exclusively as the outgrowth of individual behavior is unpromising.
+
+I feel like this is not reflecting on the more important aspect of plural social science. Plurality in the creation of social scientific knowledge...
+
+> Yet, whatever level of explanation is chosen [in economics], actors are almost always modeled as atomistically self-interested and planners as coherent, objective maximizers, rather than socially-embedded intersections of group affiliations
+
+Instead, plurality seeks to capture:
+
+> social nature of motivations, to empower a diversity of social groups, to anticipate and support social dynamism and evolution, to ground personal identity in social affiliations and group choices in collective, democratic participation and to facilitate the establishment and maintenance of social context facilitating community.
+
+I think for me a richer perspective here would focus on the role of plurality in the making of scientific and expert knowledge in society.
+
+<!-- * "The simplest and most naïve way to think about science is what might be called “objectivist”, “rationalist” or, as we will dub it, “monist atomism”3. The physical world has an objective state and obeys an ultimately quite simple set of laws, waiting to be discovered"
+* "They are also the foundation of the Abundance Technocracy (AT) and Entrepreneurial Sovereignty (ES) worldviews we discussed in the last chapter, though each emphasizes a different aspect. AT focuses on the unity of reason and science inherent in monism and seeks to similarly rationalize social life, harnessing technology. ES focuses on the fragmentation intrinsic to atomism and seeks to model “natural laws” for the interaction of these atoms (like natural selection and market processes). In this sense, while ES and AT seem opposite, they are opposites within an aligned scientific worldview."
+* "Critical to all these developments are ideas such as “complexity”, “emergence”, “networks”, and “collective intelligence” that challenge the elegance of monist atomism." --> -->
