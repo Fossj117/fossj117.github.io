@@ -5,10 +5,27 @@ date: 2023-12-27
 latex: true
 mathjax: true
 comments: true
+toc: true
 tag: ["plurality", "notes"]
 ---
 
 In this post, I will keep some very rough notes about the [Plurality book](https://github.com/pluralitybook/plurality/tree/main/contents/english) led by Weyl and Tang. These notes are mostly for personal use, but I like the idea of documenting them publicly for various reasons. Maybe I will make a separate blog section for reading notes at some point.
+
+<div id="toc"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    var toc = $("<ul>");
+    $("article h2").each(function(index) {
+      var text = $(this).text();
+      var id = "section-" + index;
+      $(this).attr("id", id);
+      var listItem = $("<li><a href='#" + id + "'>" + text + "</a></li>");
+      toc.append(listItem);
+    });
+    $("#toc").append("<h2>Table of Contents</h2>").append(toc);
+  });
+</script>
 
 ## [Preface](https://github.com/pluralitybook/plurality/blob/main/contents/english/01-preface.md)
 
@@ -91,7 +108,7 @@ There is an extended discussion of Granovetter and network sociology themes, whi
 
 I have a lot of thoughts on this section that I need to process more. One thing that I would like to see more of here is a connection with how STS scholars think about knowledge and expertise as a governing technology/institution in society. Thus when thinking about "plural" (social) science, the goal should not be just to integrate e.g. more network science considerations into economic modeling, while retaining the rest of the technocratic knowledge-making aparatus as is; instead, I think it should be more about how to pluralize/democratize the tools and systems of knowledge making, and thinking about how to mediate between different modes of knowing -- e.g. as I've discussed a bit [here](https://jeffreyfossett.com/2023/10/25/brainstorm-on-plurality-and-quant-social-science.html). I think this idea is also present more abstractly e.g. in [Latour](https://jeffreyfossett.com/2021/10/19/we-have-never-been-modern.html) and others.
 
-## [The Lost DAO](https://github.com/pluralitybook/plurality/blob/main/contents/english/03-02-the-lost-dao.md)
+<!-- ## [The Lost DAO](https://github.com/pluralitybook/plurality/blob/main/contents/english/03-02-the-lost-dao.md) -->
 
 <!-- They connect to network science, Granovetter.
 
@@ -109,4 +126,4 @@ I think for me a richer perspective here would focus on the role of plurality in
 
 <!-- * "The simplest and most naïve way to think about science is what might be called “objectivist”, “rationalist” or, as we will dub it, “monist atomism”3. The physical world has an objective state and obeys an ultimately quite simple set of laws, waiting to be discovered"
 * "They are also the foundation of the Abundance Technocracy (AT) and Entrepreneurial Sovereignty (ES) worldviews we discussed in the last chapter, though each emphasizes a different aspect. AT focuses on the unity of reason and science inherent in monism and seeks to similarly rationalize social life, harnessing technology. ES focuses on the fragmentation intrinsic to atomism and seeks to model “natural laws” for the interaction of these atoms (like natural selection and market processes). In this sense, while ES and AT seem opposite, they are opposites within an aligned scientific worldview."
-* "Critical to all these developments are ideas such as “complexity”, “emergence”, “networks”, and “collective intelligence” that challenge the elegance of monist atomism." --> -->
+* "Critical to all these developments are ideas such as “complexity”, “emergence”, “networks”, and “collective intelligence” that challenge the elegance of monist atomism." -->
