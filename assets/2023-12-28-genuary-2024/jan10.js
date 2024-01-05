@@ -10,6 +10,7 @@ const jan10 = (s) => {
     "#6FB98F", // Light Green
     "#A0D6B4", // Mint Green
   ];
+  let frameCount = 0;
 
   s.setup = () => {
     const myDiv = document.getElementById("jan-10");
@@ -45,6 +46,7 @@ const jan10 = (s) => {
   };
 
   s.draw = () => {
+    frameCount += 1;
     s.background(bgcolor);
     for (let i = 0; i < elements.length; i++) {
       elements[i].update();
@@ -111,7 +113,7 @@ const jan10 = (s) => {
       s.pop();
     }
     updateTarget() {
-      if (s.random() < 0.2) {
+      if (s.random() < Math.abs(Math.sin((frameCount / 120) * (s.PI / 12)))) {
         this.target = { x: s.random(0, cWidth), y: s.random(0, cHeight) };
       } else {
         this.target = s.random(this.targets);
