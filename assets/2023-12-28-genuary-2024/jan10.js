@@ -115,8 +115,10 @@ const jan10 = (s) => {
     updateTarget() {
       if (s.random() < Math.abs(Math.sin((frameCount / 120) * (s.PI / 12)))) {
         this.target = { x: s.random(0, cWidth), y: s.random(0, cHeight) };
+        this.speed = s.random(0.5, 1.4);
       } else {
         this.target = s.random(this.targets);
+        this.speed = s.random(1.5, 5);
       }
       this.direction = normalizeVector({
         x: this.target.x - this.pos.x + s.random(-5, 5),
