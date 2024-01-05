@@ -113,7 +113,11 @@ const jan10 = (s) => {
       s.pop();
     }
     updateTarget() {
-      if (s.random() < Math.abs(Math.sin((frameCount / 120) * (s.PI / 12)))) {
+      if (
+        s.random() <
+        Math.sin((frameCount / 120) * (s.PI / 12)) *
+          Math.sin((frameCount / 120) * (s.PI / 12))
+      ) {
         this.target = { x: s.random(0, cWidth), y: s.random(0, cHeight) };
         this.speed = s.random(0.5, 1.4);
       } else {
