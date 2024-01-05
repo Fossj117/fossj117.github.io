@@ -93,7 +93,7 @@ const jan10 = (s) => {
       this.pos = { x: x, y: y };
       this.targets = targets;
       this.color = s.random(greenPalette);
-      this.speed = s.random(2, 5);
+      this.speed = s.random(0.5, 3);
       this.updateTarget();
     }
     update() {
