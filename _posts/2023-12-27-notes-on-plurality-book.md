@@ -108,7 +108,66 @@ There is an extended discussion of Granovetter and network sociology themes, whi
 
 I have a lot of thoughts on this section that I need to process more. One thing that I would like to see more of here is a connection with how STS scholars think about knowledge and expertise as a governing technology/institution in society. Thus when thinking about "plural" (social) science, the goal should not be just to integrate e.g. more network science considerations into economic modeling, while retaining the rest of the technocratic knowledge-making aparatus as is; instead, I think it should be more about how to pluralize/democratize the tools and systems of knowledge making, and thinking about how to mediate between different modes of knowing -- e.g. as I've discussed a bit [here](https://jeffreyfossett.com/2023/10/25/brainstorm-on-plurality-and-quant-social-science.html). I think this idea is also present more abstractly e.g. in [Latour](https://jeffreyfossett.com/2021/10/19/we-have-never-been-modern.html) and others.
 
-<!-- ## [The Lost DAO](https://github.com/pluralitybook/plurality/blob/main/contents/english/03-02-the-lost-dao.md) -->
+## [The Lost DAO](https://github.com/pluralitybook/plurality/blob/main/contents/english/03-02-the-lost-dao.md)
+
+Note: I am reading as of [this](https://github.com/pluralitybook/plurality/commit/41f6428a4a15a1502f90908f1b1ad27d6997c90b) commit on the project. This section seems to be still under development.
+
+Here is a key motivating claim at the outset of the chapter:
+
+> Liberal democracies often celebrate themselves as pluralistic societies, which would seem to indicate they have already drawn the available lessons from plural social science. Yet despite this formal commitment to pluralism and democracy, almost **every country has been forced by the limits of available information systems to homogenize and simplify social institutions in a monist atomist mold that runs into direct conflict with its values**.
+
+Importantly, this is a claim about technologies and social institutions: that the limits of our existing information systems render our social institutions insufficiently supportive of the pluralism that we seek in liberal democracy. The goal of the research program is then to overcome these limitations and bring information technology into better alignment with the goals of pluralism.
+
+Key features of liberal democracy that they are going to focus on: private property, identity and rights, voting. The basic claim is that these institutions are all too much based on "monist atomist" type principles.
+
+### Property
+
+This bit looks to be still in development. Here's a bit from later on:
+
+> Where once commons-based property systems inhibited innovation when outsiders and industrialists found it impossible to navigate a thicket of local customs, private property cleared a path to development and trade by reducing those who could inhibit change
+
+This reminds me of another piece from an STS course along the lines of _Seeing Like a State_, but it's not by Scott. The idea is similar though, about the imposition of systems of private property and capital by colonialists. More critical perspective than this one.
+
+### Identity
+
+Not sure about the story they tell here. Would be interesting to connect this narrative more to STS folks -- Porter, and Scott especially. I feel like this section especially should be peppered with Scott citations. And it makes me want to re-read _Seeing Like A State_ in more depth.
+
+Here's the main piece:
+
+> These documentary practices mean that some aspect of identity could be rooted outside of direct personal relations and into new abstrct relationship with the state based on primary registration at birth and secondary registration with subsequent documents usually issued in early adulthood. These state issued documents serve as foundational trust anchors for many other types of institutions
+
+Thesis is that these forms of identity abstract people. Identity not based in (kin-, relationship-)based networks that are personally meaningful; instead abstracted identity that is really about the relationship with the state.
+
+Interesting that so much of the argument for why we should move away from this seems to center on "how things were done through most of history" -- a kind of appeal to tradition argument. Seems like fleshing out the critique here would be productive (Scott cites could probably help). In any case, what is the new direction they propose?
+
+> We have an opportunity to extend these documentary practices of state institutions and other formal institutions to peer and networked institutions
+
+### Voting
+
+Here's the baseline, centered around "one person one vote":
+
+> the idea that numerical majorities (or in some cases supermajorities) should prevail regardless of the social composition of groups is at the core of how democracy is typically understood.
+
+Presumably this is going to push towards quadratic voting type ideas once it is fleshed out further.
+
+### Plural Social Science
+
+The next section goes through a handful of social scientific thinkers who have critiqued these foundational institutions
+
+- **Henry George** -- land tax ideas, also discussed in _Radical Markets_. Roughly, questioning ideas of private property in relation to land especially; who creates / is entitled to the value that accrues in land? Generally compelling.
+- **George Simmel** -- "intersectional" theories of identity. Main idea:
+  > humans are deeply social creatures and thus their identities are deeply formed through their social relations. Humans gain crucial aspects of their sense of self, their goals, and their meaning through participation in social, linguistic, and solidaristic groups
+- One reference that this brings to mind for me is [MacIntyre on the virtue of patriotism](https://mirror.explodie.org/Is%20Patriotism%20a%20Virtue-1984.pdf) which I wrote about [here](https://jeffreyfossett.com/2021/11/15/partiality-and-carbon-chauvinism.html) in a random context. Never thought much about how that might connect to this research program, but in a sense it is a good moral philosophy analogue of the kind of shift they are recommending from an individualist focus (e.g. as represented by e.g. Mill) to one that understands people as existing in (and constituted by) networked, social contexts.
+- **John Dewey** - love this citation, and want to read again / more completely _The Public and its Problems_. I wrote about it a bit in my reflection [here](https://jeffreyfossett.com/2020/02/20/sts-public-reason.html). Reading their discussion here convinces me I definitely need to dive deeper on Dewey. I'm intrigued by what they say about his discussion of technology:
+  > Dewey focused specifically on the role of technology in creating new forms of interdependence that created the necessity for new publics. Railroads connected people commercially and socially who would never have met. Radio created shared political understanding and action across thousands of miles. Pollution from industry was affecting rivers and urban air. All these technologies resulted from research, the benefits of which spread with little regards for local and national boundaries. The social challenges (e.g. governance railway tariffs, safety standards, and disease propagation; fairness in access to scarce radio) arising from these forms of interdependence are poorly managed by both capitalist markets and preexisting “democratic” governance structures.
+- Key ideas on what it means to be "democratic". I love this and need to dive in on him more. Democracy is not just about "voting" per se:
+  > Core to true democracy is the idea that the “relevant public”, the set of people whose lives are actually shaped by the phenomenon in question, manage that challenge. Because technology is constantly throwing up new forms of interdependence, which will almost never correspond precisely to existing political boundaries, true democracy requires new publics to constantly emerge and reshape existing jurisdictions.
+- And then, more interesting stuff about the role of experts in society:
+  > Furthermore, because new forms of interdependence are not easily perceived by most individuals in their everyday lives, Dewey saw a critical role for what he termed “social science experts” ... to perceive a new form of interdependence (e.g. solidarity among workers, the carbon-to-global-warming chain), explain it to those involved by both word and deed, and thereby empower a new public to come into existence.
+- This is a really interesting way to think about the purpose / role of expertise in society, and something that I want to think about and internalize more. Dewey is so good, I feel like need to read _The Public and its Problems_ ASAP from cover to cover and internalize it. I love that they are drawing on him here.
+- Here's their final Deweyan punchline on democracy:
+  > Dewey’s conception of democracy and emergent publics is at once profoundly democratic and yet challenges and even overturns our usual conception of democracy. Democracy, in this conception, is not the static system of representation of a nation-state with fixed borders.
+- **Norbert Wiener** and cybernetics.
 
 <!-- They connect to network science, Granovetter.
 
