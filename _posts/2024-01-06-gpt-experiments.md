@@ -5,6 +5,7 @@ date: 2024-01-05
 latex: true
 mathjax: true
 comments: true
+tag: ["joke"]
 ---
 
 <p><img alt="1" src="/figs/2024-01-05-gpt-experiments/colors-solve-problems/1.jpg"></p>
