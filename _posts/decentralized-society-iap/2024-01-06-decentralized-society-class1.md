@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Notes on 'The Benefits of Cooperation' (Heath)"
+date: 2024-01-07
+latex: true
+mathjax: true
+comments: true
+class_num: 1
+tag: ["governance", "plurality", "iap"]
+---
+
+## Summary of Heath
+
+In this post I will summarize and respond to Joseph Heath's article "The Benefits of Cooperation" (2006).
+
+Heath begins with what I think of as a fairly standard "economistic" social contract theory type understanding of the world -- essentially, individuals are assumed to be rational and self-interested in the state of nature; "society" / institutions exist, then, to enable better cooperative outcomes (i.e. pareto imprvements) than would otherwise be achieved in the equilibrium that would obtain without them. Per Heath, a social institution is a set of norms that codify the constraints that ensure the out-of-equilibrium solution obtains.
+
+Heath thinks that analysis of cooperation has historically been too high-level, abstracting away from the exact mechanism(s) by which by cooperation may ensure pareto benefits. Where mechanisms _have_ been explored, the focus has been overly "callactic" -- i.e. preoccupied with the market and its mode of benefits, which Heath taxonomizes as the "gains from trade" mechanism of cooperative benefit. According to Heath, this callactic focus (and the attendant impoverished understanding of cooperation) has consequences for how we understand the role of the welfare state in society; in particular, the callactic focus understands the welfare state as playing a "residual" role -- essentially, the state is there to (1) ensure the market can work properly (to secure "gains from trade"), or (2) to enact "redistribution" to ensure fairness that market efficiency doesn't guarantee. Since these are the only two options on this (impoverished) understanding, much of the state's activity gets (wrongly) bucketed as "redistribution", when actually it is securing other forms of cooperative benefit.
+
+To address these issues, Heath offers a taxonomy of five distinct mechanisms of cooperative benefit; they are:
+
+1. **Economies of scale**. Individuals can do some things working together that they simply cannot achieve working alone; this is a form of economies of scale.
+2. **Gains from trade**. Heath uses this as a kind of catch-all for the market; but basically: there are possible pareto gains from reorganizing production tasks according to differences in skills or benefits according to differences preferences. Even without adding more "stuff" (outputs, productive inputs), there are gains from exchange, due to preference/ability heterogeneity.
+3. **Risk pooling**. Even if everyone has the same preferences, pooling risk can make us all better off ex ante because of risk aversion and the law of large numbers. Especially relevant in cases where the average benefit is small and there is a lot of variance in outcomes.
+4. **Self-binding**. Individuals have limited self-control and sometimes may be tempted to act against their own best interest; cooperation can help mitigate this e.g. by "giving away the keys".
+5. **Information transmission**. We can cooperate e.g. by sharing information and learning etc. This helps economize on learning costs.
+
+Having outlined these different modes of cooperation, Heath proceeds to argue that various social institutions can be usefully understood as mechanisms to ensure these various sorts of cooperative benefits (and, in particular, constrain the particular forms of "free riding" that can arise in each of the cases). In short, per the standard argument, various institutions indeed promote cooperation and increase efficiency; however, per Heath, they do this in very different ways -- by addressing different modes of cooperation, and controlling different corresponding modes of free-riding.
+
+One important consequence of this (for Heath), is then that there can be _conflicts between_ these different insitutions / modes of cooperation; promoting one sort of cooperation may undermine the achievement of another. Heath illustrates this by discussing the market / "gains from trade" mode of cooperation, and showing how it comes into conflict with all four other modes. I agree with some of the specifics in this section but not others; but it's an interesting framework in any case.
+
+Where does this leave things? Well, going back to the above discussion, Heath thinks that there is insufficient appreciation for the variety of modes of cooperative benefit; one consequence of this is that some social policy debates masquerade as being debates about efficiency vs. equality, when _really_ they are debates about the merits of different types of cooperation -- i.e. different modes of guaranteeing effiency gains, which sometimes are in conflict per above. This masquerading arises because of the "callactic focus" which treats the market as the entire story for ensuring cooperative efficiency benefits; as such, everything else that the state does must get bucketed as either (1) facilitating the market, or (2) engaging in redistribution ("equality") concerns.
+
+## Comments
+
+A few (very) quick note-to-self comments for now:
+
+- Some confusing imprecision in use of terms -- e.g. "free riding" that stands in for any threat to cooperative efficiency. Some quibbles about his claimed tensions between these different modes of cooperative efficiency. For example, the example of private property to address tragedy of the commons as being in tension with risk pooling. Kind of but not really? Nothing about privatization in that example prohibits the provision of further insurance, no? Maybe I am missing something.
+- What do we miss in taking for granted this economistic perspective? Contrast with anarchrist perspectives on "cooperation". What happens to our imaginaries of what is possible when we conjure these types of self-interested publics? What do we pay attention to or not? Relatedly, would be interested to read this analysis against Ostrom.
+- Something that confuses me about the ultimate critique. Suppose we grant the main argument that there are multiple modes of producing cooperative efficiency and there are tensions between some of them some of the time, and that sometimes social policy debates are about which of these modes of cooperation to priortize. Well, under this understanding, such social policy debates are eminently "solvable" -- i.e. in such a debate, everyone is essentially on the same page about the target (efficiency / welfare); the outcomes are commensurate. And so it's ultimately just a "technical" debate (which economists or whoever can presumably help arbitrate) about who is right about maximizing the agreed upon target. Insofar as this is not the case, e.g. because different forms of cooperation drive toward different locations on the pareto frontier, then it really _is_ still a debate about distribution, since we are debating between different efficient outcomes. So e.g. he has this claim: "very little thought has been put into the question of what principles should govern our choice when we are forced to trade one form of cooperative benefit off against another". But isn't that wrong if it's all just about efficiency at the end of the day? (Under this framework).
+- Discussion of self-binding as a role of the state and a form of cooperative benefit is super interesting to me. It is totally correct, and made me think of a lot of the recent FTC discourse e.g. about dark patterns. There are complicated questions about how to think about these issues though.
