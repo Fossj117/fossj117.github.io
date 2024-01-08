@@ -8,22 +8,24 @@ comments: true
 tag: ["sts", "econ"]
 ---
 
+Last updated: Jan 8 2024.
+
 [Ryan](https://ryansepassi.com/) and I (and sometimes including [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) and [Jesse](https://jessecallahanbryant.com/)) have been meeting regularly to read and discuss around a set of themes connected to digital technology governance, politics, and economics with a bent towards cooperative/democratic/public interest/pluralistic/progressive themes. In this post, I will keep tabs on some of our reading; I'll also keep a list of other things I find interesting on these themes. Some reading we have worked through (to various extents) so far:
 
 - [_Radical Markets_](https://press.princeton.edu/books/hardcover/9780691177502/radical-markets) by Weyl & Posner; especially chapters on Harberger taxes and quadratic voting.
 - [_Governing the Commons_](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5) by Ostrom.
 - [_Code 2.0_](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some [prior](https://jeffreyfossett.com/2021/04/12/lessig-code-resonances.html) [posts](https://jeffreyfossett.com/2021/04/14/more-lessig-code-reflections.html) from an earlier reading on this site)
 - [Moloch Ventures whitepaper](https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf)
-- [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism)) by James Scott.([My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html))
+- [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism) by James Scott. ([My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html))
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html))
+- \[**Upcoming**\]: _The Public and Its Problems_ by Dewey.
+- \[**Upcoming**\]: We have a planned discussion on the recent Epic v. Google decision at the end of January 2024.
 
 Some other things that are on my radar on these themes:
 
 - [_Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity_](https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530) by Acemoglu and Johnson.
-- _The Public and Its Problems_ by Dewey.I've read pieces of this but would love to dig in further.
 - [_Political Theory of the Digital Age_](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
 - [_The Politics of Bitcoin: Software as Right-Wing Extremism_](https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804) by Golumbia
-- Various work by [Audrey Tang](https://en.wikipedia.org/wiki/Audrey_Tang), including [the plurality book](https://github.com/pluralitybook/plurality).
 - Paul Gowder's [book](https://networked-leviathan.com/) and [Elettra's response](https://lpeproject.org/blog/how-not-to-regulate-digital-platforms/?utm_source=mailpoet&utm_medium=email&utm_campaign=lpe-blog-update)
 - Various recent work from [Elettra](https://www.elettrabietti.com/publications) (e.g. [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4275143))
 - [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Davila; and other [left-wing ideas about Blockchain](https://theblockchainsocialist.com/)
