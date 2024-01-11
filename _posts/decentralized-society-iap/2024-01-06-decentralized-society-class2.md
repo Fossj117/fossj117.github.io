@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Notes on Ostrom's Reflections on the Commons"
-date: 2024-01-07
+title: "Notes on 'Reflections on the Commons' (Ostrom)"
+date: 2024-01-09
 latex: true
 mathjax: true
 comments: true
@@ -11,7 +11,7 @@ tag: ["governance", "plurality", "iap"]
 
 <!-- There's a handful of readings this class. Here I will share some notes on two influential ones (Ostrom and Hayek). -->
 
-## Ostrom's "Reflections on the Commons"
+<!-- ## Ostrom's "Reflections on the Commons" -->
 
 Setup:
 
@@ -36,10 +36,10 @@ Basically: the constraints that are assumed to be fixed _in the model_ are taken
 
 In practice, these "tragedy" models are typically used to motivate one of two possible policy prescriptions:
 
-1. "**Leviathan as the 'only' way**: i.e. if rational self interest inevitably destroys resources, then need strong central government to intervene and manage the resources.
+1. "**Leviathan as the 'only' way**": i.e. if rational self interest inevitably destroys resources, then need strong central government to intervene and manage the resources.
    - Retort: but this assumes the government has accurate information, monitory and can sanction reliably.
    - In practice, central gov could make many errors. Simple model shows that if government has incomplete information, can still get prisoners dilemma outcome but the payoffs are even worse in equilibrium .
-2. "**Privatization as the 'only' way**: i.e. we need private property rights so that the costs of "grazing" are fully internalized.
+2. "**Privatization as the 'only' way**": i.e. we need private property rights so that the costs of "grazing" are fully internalized.
    - Retort is only partial here? There are practical challenges if the common resource is not homogenous, or there is variance in outcomes. Also in some cases it might be difficult to establish property rights. What does it mean to have partial property right to a fishing area etc.
 
 Regardless of these possibilities, Ostrom's main point is that these two options are not the _only_ option. When you look at the world, there are many different solutions to many variants of the problem of common pool resource management. In general, "getting the institutions right" is a "difficult, time-consuming, conflict-invoking process" that "requires reliable information about time and place variables as well as broad repertoire of culturally acceptable rules".
