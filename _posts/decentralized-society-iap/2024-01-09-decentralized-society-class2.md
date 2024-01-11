@@ -9,11 +9,7 @@ class_num: 2
 tag: ["governance", "plurality", "iap"]
 ---
 
-<!-- There's a handful of readings this class. Here I will share some notes on two influential ones (Ostrom and Hayek). -->
-
-<!-- ## Ostrom's "Reflections on the Commons" -->
-
-Setup:
+Some opening claims from Ostrom:
 
 > "Neither the state nor the market is uniformly successful in enabling individuals to sustain long-term, productive use of natural resource systems.
 
@@ -68,4 +64,20 @@ But local solutions don't always work. Why? Some possibilities:
 - **Internal factors** to a given group such at their ability to commnicate, develop trust, share a sense of a common future; blocking by powerful individuals.
 - **External factors** such as outside authorities who block local solution-making; rapid change that there is no time to adapt to.
 
-<!-- ## Notes on Hayek -->
+## Other Readings
+
+We also read and discussed:
+
+- Hayek's "The Use of Knowledge in Society", and
+- A useful summary of some of Jane Jacobs' work that is [here](https://www.astralcodexten.com/p/your-book-review-cities-and-the-wealth)
+
+## Notes from Class Discussion
+
+- Interesting discussion of the role of (local?) tacit knowledge of "how to do things" that is alluded to in Hayek, but otherwise maybe not discussed too much. I.e. controlling for inputs and the productive technology available, what is the productivity residual, and how much of it is explained by individuals e.g. "having experience" or "knowing how best to do things" etc. To what extent is this kind of knowledge fundamentally non-transferrable?
+  - This is something that in principle could be (maybe has been) investigated empirically? I think maybe some of the local aggregation literature points to things like this? Should look at it more.
+  - Cultural / institutional analogues of this?
+- Some comments about how Hayek's assumptions about what is possible with planning and information aggregation look different from our current vantage with modern information & surveillance technologies.
+- Interesting discussion on why Jacobs prefers the "city" (or city-region) scale in particular vs. something larger/smaller or vs. something less geographically-constrained (the "network state").
+  - Something like: the smallest diversified / sustainable economic unit?
+  - Extent of efficiency/complementarity losses from geographic localization?
+- Exchange rates vs. tariffs for import / export policy.
