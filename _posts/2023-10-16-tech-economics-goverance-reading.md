@@ -20,12 +20,14 @@ _First posted_: October 16, 2023.
 
 Some things that are currently in flight:
 
+- [Ryan](https://ryansepassi.com/) and I are both in [this](https://www.ccc.mit.edu/eventopportunities/iap-2024-decentralized-society-cooperation-and-plurality/) IAP class at MIT on "Decentralized Society, Cooperation, and Plurality", which fits quite squarely with these themes. My notes on various readings from the course are [here](https://jeffreyfossett.com/2024/01/05/decentralized-society-IAP.html).
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)) (w/ [Ryan](https://ryansepassi.com/))
-- _The Public and Its Problems_ by Dewey (w/ [Ryan](https://ryansepassi.com/) and [Jesse](https://jessecallahanbryant.com/))).
 - We have a planned discussion on the recent Epic v. Google decision at the end of January 2024 (w/[Ryan](https://ryansepassi.com/) and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
+- _The Public and Its Problems_ by Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/)), and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
 
 Some other things that are on my radar on these themes:
 
+- More Jane Jacobs -- _Cities and the Wealth of Nations_, _Death and Life_ and so on.
 - [_Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity_](https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530) by Acemoglu and Johnson.
 - [_The Descent of Icarus_](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth.
 - [_Political Theory of the Digital Age_](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
