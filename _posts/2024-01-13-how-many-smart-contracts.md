@@ -46,6 +46,8 @@ Here is the total count by year:
 
 So this suggests that something like 28,201,474 contracts were deployed on Ethereum between the start of 2021 and the end of 2023. Per the chart, the volume of contract creations events seems to be fairly volatile, with distinct phases of high and low volume. I am not sure exactly what accounts for these phases, as they don't exactly seem to line up with general strength in the Ethereum market. 
 
+*Thank you to [Kassandra](https://github.com/kassandraoftroy) for working through this with me*
+
 ## Notes
 
 For reference, here is [a similar query](https://dune.com/queries/3349747/5613990/) that works on Dune.
