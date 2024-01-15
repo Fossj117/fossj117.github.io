@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Don Ihde & Technology Relations"
+title: "Notes on Don Ihde's 'Phenomenology of Technics'"
 date: 2024-01-15
 latex: true
 mathjax: true

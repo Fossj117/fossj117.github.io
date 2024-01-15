@@ -47,6 +47,7 @@ Some other things that are on my radar on these themes:
 - Work from [bridging systems](https://bridging.systems/)
 - [_The Narrow Corridor_](https://www.penguinrandomhouse.com/books/555400/the-narrow-corridor-by-daron-acemoglu-and-james-a-robinson/#:~:text=About%20The%20Narrow%20Corridor&text=From%20the%20authors%20of%20the,to%20thrive%20despite%20new%20threats.) Acemoglu and Robinson.
 - Other things from Vitalik like [this](https://vitalik.eth.limo/general/2019/12/07/quadratic.html) and lots of other stuff on his blog and elsewhere. ([for example](https://vitalik.eth.limo/general/2022/12/30/institutions.html), [and also](https://vitalik.eth.limo/general/2021/09/26/limits.html), [and also](https://vitalik.eth.limo/general/2019/04/03/collusion.html); his [writing](https://vitalik.eth.limo/general/2017/12/17/voting.html) on [governance](https://vitalik.eth.limo/general/2018/03/28/plutocracy.html))
+- I want to read more from Don Ihde, including [Technology and the Lifeworld](https://iupress.org/9780253205605/technology-and-the-lifeworld/)
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
