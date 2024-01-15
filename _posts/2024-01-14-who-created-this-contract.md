@@ -167,3 +167,5 @@ Finally, for some additional sanity checking, let's pull a random sample of crea
 |[0x0e683cf6b10b18eae4576a26897f419b1011899b](https://opensea.io/assets/ethereum/0x0e683cf6b10b18eae4576a26897f419b1011899b) |[0xd2b4705434d298d26c157d7be14dbff480923df4](https://opensea.io/0xd2b4705434d298d26c157d7be14dbff480923df4) |
 
 Manually inspecting, this seems to work decently well; however, there is one case where things do not line up with OpenSea: [this collection](https://opensea.io/collection/ethernity-master). I am not sure why this case behaves differently. In my next phase of analysis, I will explore comparing with OpenSea more systematically using the [OpenSea API](https://docs.opensea.io/reference/api-overview) to better understand the magnitude of misalignment. The OpenSea API in general could be another way to identify the creator of an NFT project, and so is worth better understanding for this purpose as well (e.g. what is the process that OpenSea is using to link projects and creators?). 
+
+*Thank you to [Kassandra](https://github.com/kassandraoftroy) for working through much of this with me!*
