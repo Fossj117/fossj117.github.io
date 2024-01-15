@@ -199,10 +199,10 @@ table td {
     line-height: 18px;
     padding: 5px 5px;
 }
-table, table th, table td {
-    border-left-style: inset;
-    border-right-style: none;
-}
+// table, table th, table td {
+//     border-left-style: inset;
+//     border-right-style: inset;
+// }
 table thead, table tr.even {
     background-color: #f7f7f7;
 }
