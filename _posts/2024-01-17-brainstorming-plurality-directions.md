@@ -8,25 +8,29 @@ comments: true
 tag: ["plurality","web3", "sts", "research"]
 ---
 
-I am interested in getting more involved in the [Plurality](https://www.plurality.institute/) research space. In this post, I am going to brainstorm and outline a few hypotheses I have currently about how I might contribute and what I find interesting. 
+I am interested in getting more involved in the [Plurality](https://www.plurality.institute/) research space. In this post, I am going to brainstorm and outline a few hypotheses I have currently about how I might contribute and what I find interesting. (These are just hypotheses so they could be wrong!)
 
 **Direction 1: empirical quantitative research**. Especially connected to experiments in the crypto space e.g. around public funding (QV/QF?), governance (DAOs) etc. Why is this a useful direction? 
-* There is already strong leadership on two fronts: 
-    * Technical, engineer-type folks (from the crypto side) -- how do you implement these things etc. What is technically possible? 
-    * Theoretical thinking about these problems -- e.g. economists, conceptual thinkers; people like Glen Weyl, Vitalik and others. Market design, systems. 
-* There seems to be comparatively less quantitative empirical research about these topics. Some brainstorms on empirical questions: 
+* What I see a lot of so far: 
+    * Technical, engineer-type perspectives -- how do you implement these things etc. What is technically possible? 
+    * Theory thinking -- e.g. economists, conceptual thinkers; people like Glen Weyl, Vitalik and others. Market design, systems perspectives. 
+* What I see comparatively less of: quantitative empirical research about these topics (though there is some!) -- especially around "policy", "causal inference" type questions related to governance, PGF. Especially relative to what is possible. Some brainstorms on empirical questions: 
     * What is the impact of different sorts of DAO governance models? What are some of the challenges? I know [Kishore](https://kishorevasan.github.io/) is interested in some questions here (I don't want to scoop any of his research ideas, but this is an interesting direction!). 
-    * What are the effects of shifting to QV or QF models? I think some claims here e.g. in *Radical Markets*, 
-    * Do current public funding efforts fund the right things? 
-        * What is the effect of these funding efforts? I think [Open Source Observer](https://www.opensource.observer/) is interested in some of this.
-* Despite this, there is a preponderance of data available at least in principle.
+    * What are the effects of shifting to QV or QF models? I think some claims here e.g. in *Radical Markets* & QF research paper. 
+    * Do current public funding efforts fund the "right" things? 
+        * What is the effect of these funding efforts? I think [Open Source Observer](https://www.opensource.observer/) and [Kariba](https://www.karibalabs.co/) are interested in this.
+    * Studies of other sorts of studies of "plural technology" implementations -- e.g. pol.is.
+    * (There's a lot more that can go here)
+* Other connections / relevant projects: [CAT Lab](https://citizensandtech.org/about-cat-lab/), GitCoin, RPGF. 
+* Also, there is a preponderance of data available at least in principle.
     * Most important information is recorded on-chain. 
     * Data aggregators that maintain relevant ETL: [Flipside](https://flipsidecrypto.xyz/), [Dune](https://dune.com/). 
     * [The Graph](https://thegraph.com/) and subgraph tools. 
     * Archive nodes.
     * [DAO Voting Data](https://github.com/kishorevasan/voting_games) is possible. 
+    * [Open Source Observer](https://www.opensource.observer/) also mentioned above looks interesting and related. 
 * There also seem to be lots of (natural) experiments, policy changes etc. that could be sites of study. 
-* In short, it seems like there is both a gap and potential here which I could contribute to as someone with training in quantitative social science research. 
+* In short, it seems like there could be an opportunity & potential here which I could contribute to as someone with background in quantitative social science research. 
 
 **Direction 2: plural data science; plural knowledge creation**: This direction is more challenging to articulated, but is discussed a bit [here](https://jeffreyfossett.com/2023/10/25/brainstorm-on-plurality-and-quant-social-science.html) and in my comments on the plurality book [here](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html#section-3).
 * A good reference is the [*Data Feminism*](https://data-feminism.mitpress.mit.edu/) book, as well as lots of STS work, including from Sheila Jasanoff (see e.g. [my notes on coproduction](https://jeffreyfossett.com/2021/09/21/notes-on-coproduction.html)), [digital forms of public reason](https://jeffreyfossett.com/2020/02/20/sts-public-reason.html) and also [Ezrahi](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X). 
