@@ -5,7 +5,7 @@ date: 2024-01-16
 latex: true
 mathjax: true
 comments: true
-tag: ["web3"]
+tag: ["plurality","web3", "sts", "research"]
 ---
 
 I am interested in getting more involved in the [Plurality](https://www.plurality.institute/) research space. In this post, I am going to brainstorm and outline a few hypotheses I have currently about how I might contribute and what I find interesting. 
