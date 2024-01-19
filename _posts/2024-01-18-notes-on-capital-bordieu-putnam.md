@@ -10,7 +10,7 @@ tag: ["sts", "notes"]
 
 ## Preamble 
 
-These are some notes from Sheila Jasanoff's course in STS on Bourdieu's [Forms of Capital](https://home.iitk.ac.in/~amman/soc748/bourdieu_forms_of_capital.pdf) and Putnam's [Bowling Alone](https://www.journalofdemocracy.org/articles/bowling-alone-americas-declining-social-capital/). 
+These are some old notes I wrote on Bourdieu's [Forms of Capital](https://home.iitk.ac.in/~amman/soc748/bourdieu_forms_of_capital.pdf) and Putnam's [Bowling Alone](https://www.journalofdemocracy.org/articles/bowling-alone-americas-declining-social-capital/) while taking [Sheila Jasanoff's course in STS](https://environment.harvard.edu/classes/iga-513-science-power-and-politics). 
 
 ## Notes on Capital in Bordieu and Putnam
 
