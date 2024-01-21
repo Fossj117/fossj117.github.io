@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenSauce 2023: Collaborative Machine Art Making"
+title: "OpenSauce 2023: Collaborative Art-Making Machine"
 date: 2024-01-20
 latex: true
 mathjax: true
