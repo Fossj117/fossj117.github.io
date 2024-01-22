@@ -14,17 +14,17 @@ Let $X$ be the "stakes" of the game.
 
 I start the game by deploying a version of the game's smart contract and putting in $X$ ETH and revealing the first $K$ bits of my (256-bit) private key. 
 
-You can challenge me by also putting up $X$ eth, and revealing the first $K' > K$ bits of your private key. 
+You can challenge me by also putting up $X$ ETH, and revealing the first $K' > K$ bits of your private key. 
 
 Then, it is my turn again. I have three options. I can: 
 
-1. **Raise**: deposit another $X$ ETH and reveal $K' > K$ bits. 
+1. **Raise**: deposit another $X$ ETH and reveal $K'' > K'$ bits. 
 2. **Fold**: give up and concede all the ETH in the contract to you. 
 3. **Call your bluff**: if I do this, I post an additional $X$ ETH and you have to post the rest of your private key (starting with the $K'$ bits currently posted) and a new wallet address. 
     * If you were bluffing, I get all the ETH in the contract. 
     * If you were telling the truth, you get all the ETH in the contract (sent to the new wallet you posted). 
 
-If I choose to "raise", the game goes back to you and you have the same choices. The game continues until someone folds or calls a bluff. 
+If I choose to "raise", the game goes back to you and you have the same choices. The game continues until someone folds or calls a bluff. If someone fails to respond within some amount of time, they automatically concede the game. 
 
 Some possible variants: 
 * Maybe you can only if you have at least $10X$ ETH in your wallet (to make sure there are "stakes" to revealing your key). 
