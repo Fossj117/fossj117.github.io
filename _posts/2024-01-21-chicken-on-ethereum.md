@@ -27,8 +27,9 @@ Then, it is my turn again. I have three options. I can:
 If I choose to "raise", the game goes back to you and you have the same choices. The game continues until someone folds or calls a bluff. If someone fails to respond within some amount of time, they automatically concede the game. 
 
 Some possible variants: 
-* Maybe you can only if you have at least $10X$ ETH in your wallet (to make sure there are "stakes" to revealing your key). 
+* Maybe you can only if you have at least $10X$ ETH in your wallet (to make sure there are "stakes" to revealing your key). This would definitely influence the game payoffs / desirability of bluffing. 
 * I'm not sure if you should be able to post a whole new set of bits each round, or just a marginal bit. I think probably the former is more fun to allow for gamesmanship -- e.g. if I posted a set of $K$ bits last turn and now I post a new longer set of bits that are not compatible with the set I already posted, you know I must have been lying (or I am lying now!). 
+* Maybe the "stakes" to continue should escalate each turn (e.g. on the first round you have to post $X$ ETH, on the second you have to post $2X$ and so on). 
 
 I'm not 100% sure about implementing this game on Ethereum, but I think it might be possible. Per some discussion about a similar idea with [Kassandra](https://github.com/kassandraoftroy) a while back, I think there is also a potential issue with front-running transactions in the mempool in the bluff call situation. For example, if I have to post my full private key to prove that I was not bluffing, then someone else could see that transaction come into the mempool, and then front-run my transaction pretending to be me and claim the ETH in the contract to a new wallet address of their choosing. I am not sure if there might be a fancy [zero-knowledge](https://en.wikipedia.org/wiki/Zero-knowledge_proof) type workaround for this issue. I.e. if you call my bluff, is there a way for me to prove that I am not lying about the bits I have posted so far without having to reveal my whole key for verification? 
 
