@@ -187,3 +187,46 @@ I think for me a richer perspective here would focus on the role of plurality in
 <!-- * "The simplest and most naïve way to think about science is what might be called “objectivist”, “rationalist” or, as we will dub it, “monist atomism”3. The physical world has an objective state and obeys an ultimately quite simple set of laws, waiting to be discovered"
 * "They are also the foundation of the Abundance Technocracy (AT) and Entrepreneurial Sovereignty (ES) worldviews we discussed in the last chapter, though each emphasizes a different aspect. AT focuses on the unity of reason and science inherent in monism and seeks to similarly rationalize social life, harnessing technology. ES focuses on the fragmentation intrinsic to atomism and seeks to model “natural laws” for the interaction of these atoms (like natural selection and market processes). In this sense, while ES and AT seem opposite, they are opposites within an aligned scientific worldview."
 * "Critical to all these developments are ideas such as “complexity”, “emergence”, “networks”, and “collective intelligence” that challenge the elegance of monist atomism." -->
+
+Skipping forward a bit...
+
+## [Collaborative Technology and Democracy](https://github.com/pluralitybook/plurality/blob/main/contents/english/05-00-collaborative-technology-and-democracy.md)
+
+Summarizing in my words, the first set of key ideas in this section are about (1) how we can do more if we work together, and (2) how collaborating across social difference (or "collaborating across diversity") is particularly productive. The question is how to use technology in ways that support this type of collaboration. 
+
+The next section is about justifying the focus on "collaborating across diversity". Lots of overlap with Danielle Allen's work e.g. "Toward A Connected Society" ([my notes](https://jeffreyfossett.com/2024/01/09/decentralized-society-class3-allen.html)). Interestingly, the argument in Plurality book is more based in principles / high-level arguments rather than empirical work (as in the Allen piece). E.g. from the plurality book: 
+
+> First, on the defensive/protective side, diversity is a consistent and omnipresent feature of life. If collaboration across it fails, it often translates into violent and destructive conflict. Second, on the positive/productive side, beauty, growth and progress all primarily result from collaboration across diversity.
+
+The next point in this section is that collaborating across diversity is difficult. It is also comes with *the risk of eroding diversity*: 
+
+> A critical concern, then, in Plurality is not just harnessing collaboration across diversity but also regenerating diversity, ensuring that in the process of harnessing diversity it is also replenished by the creation of new forms of social difference.
+
+Interesting that this point is surfaced. It seems to connect to Tang's "conservative" anarchism perspective discussed above.  
+
+Next piece discussed in this chapter is about "breadth" and "depth" tradeoffs in collaboration. A key point: 
+
+> The goal of Plurality is to mitigate this trade-off and allow greater collaboration for any given level of diversity, or greater diversity for any depth of collaboration
+
+Interesting discussion of breadth and depth tradeoff ideas in democratic systems: 
+
+> One example illustrating this trade-off is common in political science: the debate over the value of deliberation compared to voting in democratic polities. High quality deliberation is traditionally thought to only be feasible in small groups and thus require processes of selection of a small group to represent a larger population such as representative government elections or sortition (choosing participants at random), but is believed to lead to richer collaboration, more complete airing of participant perspectives and therefore better eventual collective choices. On the other hand, voting can involve much larger and more diverse populations at much lower cost, but comes at the cost of each participant providing thin signals of their perspectives in the form (usually) of assent for one among a predetermined list of options.
+
+Reminds me of some of our recent discussions from the [decentralized society](https://jeffreyfossett.com/2024/01/05/decentralized-society-IAP.html) class. 
+
+Final piece of the discussion is about what it *means* to improve collaboration or the breadth/depth tradeoff around it. This gets into a welcome critique of the narrowness of attempts to define global welfare measures or singular measures of social progress. Glad to see this here, and also would be interested in seeing it hooked into more of the thinking about social scientific knowledge creation elsewhere in the book (per above). What is the basis of their critique: 
+
+* This type of singular optimization is naive & papers over the plurality of ways of thinking about what is desirable about the world. Singular optimization in tension with broader goals of plurality. 
+* Risks of "playing god", claiming "objective" "view from nowhere". 
+
+Obvious connections here to STS in a way that is welcome to me. For example, see my discussion of Scott's critique of audit society I was taking notes on recently [over here](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html); but of course also many other thinkers in STS on these points, as I discuss there. 
+
+Interestingly, they also here emphasize the "opposite danger" rooted in a "ground-level view" without a "broader guiding mission". I'm not sure I fully understand the articulation here. I would have expected the emphasis to be more around the risks of a fully fractured information environment or the death of truth online or in our current politics. The points they do make here seem to be rooted more in choice about the values present in technological development rather than epistemology (what I thought they were talking about)? 
+
+In any case, I do agree with the recommendation towards a "pragmatic, plural path", which is exactly where I landed in my discussion of the Scott piece. 
+
+The chapter closes with some more discussion of the risks of homogenization that arise from cross-group and cross-disciplinary engagement/collaboration. The counter vision: 
+
+> Bridging political divides may lead to excess homogenization, but it can also lead to the birth of new political cleavages
+
+I think that there could also be a connection back to Deweyan publics here and some of the ideas in the Allen piece. Should make some more notes on this. 
