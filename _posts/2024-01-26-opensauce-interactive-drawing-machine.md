@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenSauce 2023: Collaborative Art-Making Machine"
-date: 2024-01-20
+date: 2024-01-26
 latex: true
 mathjax: true
 comments: true
@@ -55,24 +55,22 @@ I think what I find interesting about this project from a conceptual perspective
 
 This kind of artist/audience interaction is certainly possible in a range of creative media[^2]; however, it seems particularly available for exploration in the generative art context, where new designs can readily be created/rendered/shared /materialized. Several recent generative art projects have explored this direction; salient examples include [QQL](https://qql.art/about) from Tyler Hobbs and Dandelion Wist, and [Fluint](https://medium.com/@eangolden/introducing-fluint-make-ink-and-water-art-with-your-friends-over-zoom-and-everyone-gets-63721d47fc35) from Ean Golden and team[^3].
 
-These are both interesting projects that I recommend checking out. In each, the artist's role is repositioned as the designer of a socio-technological system -- a set of building blocks that include large elements of randomness (computationally-mediated in the case of QQL; physically-mediated in the case of Flunit) -- which the audience engages with dynamically to make something new. There's an interesting interview with Hobbs discussing QQL [here](https://www.rightclicksave.com/article/tyler-hobbs-on-qql-and-the-future-of-generative-art) that touches on some related themes. In the discussion, Hobbs makes a good counterpoint to my "uni-directional" story above. In his words:  
+These are both interesting projects that I recommend checking out. In each, the artist's role is repositioned as the designer of a socio-technological system -- a set of building blocks that include large elements of randomness (computationally-mediated in the case of QQL; physically-mediated in the case of Flunit) -- which the audience engages with dynamically to make something new. There's an interesting interview with Hobbs discussing QQL [here](https://www.rightclicksave.com/article/tyler-hobbs-on-qql-and-the-future-of-generative-art) that touches on some related themes. In the discussion, Hobbs makes a good counterpoint to my "uni-directional" story above. In his words:
 
-> Creation has always been a multi-party story, and a lot of artists are familiar with the concept that the work is finished by the viewer. 
+> Creation has always been a multi-party story, and a lot of artists are familiar with the concept that the work is finished by the viewer.
 
-And also: 
+And also:
 
-> The creator is never simply placing something into the viewer’s mind, they’re offering a suggestion and a starting point which the viewer completes. Projects like QQL make that much more explicit. 
+> The creator is never simply placing something into the viewer’s mind, they’re offering a suggestion and a starting point which the viewer completes. Projects like QQL make that much more explicit.
 
-While this is a good couterpoint, the ultimate idea is still similar, in that these projects offer the viewer a much more explicit role in the creative process. 
+While this is a good couterpoint, the ultimate idea is still similar, in that these projects offer the viewer a much more explicit role in the creative process.
 
-This "stepping back" of the artist also resonates with the broader movement towards "long form" generative art (e.g. [ArtBlocks](https://www.artblocks.io/)), where the artist gives up the right to explicit "curation" of which outputs to share from a generative algorithm. 
+This "stepping back" of the artist also resonates with the broader movement towards "long form" generative art (e.g. [ArtBlocks](https://www.artblocks.io/)), where the artist gives up the right to explicit "curation" of which outputs to share from a generative algorithm.
 
-Getting even more conceptual, I think there are strong parallels with anarchist thought here, and a broader set of themes I am interested in around modularity and ownership in technological design -- see e.g. the discussion of "bottom-up design" [here](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html). Broadly, the idea is that designers and artists have an important choice about *how strongly to impose their views* about what a  creative artifact *is* or *ought to be used for*. And further that -- at least in some settings -- there are some strong arguments (both practical and descriptive) for preferring a more humble, bottom-up, interactive, design mode that does not impose the creator's views so strongly. 
+Getting even more conceptual, I think there are strong parallels with anarchist thought here, and a broader set of themes I am interested in around modularity and ownership in technological design -- see e.g. the discussion of "bottom-up design" [here](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html). Broadly, the idea is that designers and artists have an important choice about _how strongly to impose their views_ about what a creative artifact _is_ or _ought to be used for_. And further that -- at least in some settings -- there are some strong arguments (both practical and descriptive) for preferring a more humble, bottom-up, interactive, design mode that does not impose the creator's views so strongly.
 
-## Footnotes 
+## Footnotes
 
 [^1]: Our booth was right next to [our buddy Russ, who makes cool 3d-printed pottery](https://russfogle.com/). Check him out! Some of Evan's colleagues were also at the event showing off [BattleBot Chomp's](https://battlebots.fandom.com/wiki/Chomp) impressive walking mechanism.
-
-[^2]: One personal example that comes to mind for me is [this](https://www.zone3westernave.com/sketchbook/) "Community Sketchbook" project near me in Allston, MA, which variously invites community members to participate in the design of the mural. Another random example that comes to mind is a project like Abramović's [The Artist is Present](https://www.moma.org/calendar/exhibitions/964), which has something of this flavor. 
-
+[^2]: One personal example that comes to mind for me is [this](https://www.zone3westernave.com/sketchbook/) "Community Sketchbook" project near me in Allston, MA, which variously invites community members to participate in the design of the mural. Another random example that comes to mind is a project like Abramović's [The Artist is Present](https://www.moma.org/calendar/exhibitions/964), which has something of this flavor.
 [^3]: Our unreleased "[Artproofs](https://jeffreyfossett.com/ArtproofsRadial/)" project is also in this spirit. Maybe we will finish it someday!
