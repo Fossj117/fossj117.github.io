@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simple watercolor sketch"
+title: "Simple Watercolor Sketch"
 date: 2024-02-04
 latex: true
 mathjax: true
