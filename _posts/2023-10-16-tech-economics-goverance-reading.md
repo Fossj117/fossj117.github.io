@@ -17,7 +17,10 @@ _First posted_: October 16, 2023.
 - [_Code 2.0_](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some [prior](https://jeffreyfossett.com/2021/04/12/lessig-code-resonances.html) [posts](https://jeffreyfossett.com/2021/04/14/more-lessig-code-reflections.html) from an earlier reading on this site)
 - [Moloch Ventures whitepaper](https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf)
 - [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism) by James Scott. ([My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html))
-- [Ryan](https://ryansepassi.com/) and we in [this](https://www.ccc.mit.edu/eventopportunities/iap-2024-decentralized-society-cooperation-and-plurality/) interesting IAP class at MIT on "Decentralized Society, Cooperation, and Plurality", which fits quite squarely with these themes. My notes on various readings from the course are [here](https://jeffreyfossett.com/2024/01/05/decentralized-society-IAP.html).
+- [Ryan](https://ryansepassi.com/) and we in [this](https://www.ccc.mit.edu/eventopportunities/iap-2024-decentralized-society-cooperation-and-plurality/) interesting IAP class at MIT on "Decentralized Society, Cooperation, and Plurality", which fits quite squarely with these themes. My notes on various readings from the course are [here](https://jeffreyfossett.com/2024/01/05/decentralized-society-IAP.html). Some key readings/themes I will take away and hope to think more on:
+    - [Decentralized Society](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763) paper from Ohlhaver, Weyl, & Buterin. 
+    - [Toward a Connected Society](https://www.degruyter.com/document/doi/10.1515/9781400881260-006/html) from Allen. 
+    - On protocols and the Fediverse; on voting systems 
 
 Some things that are currently in flight:
 
