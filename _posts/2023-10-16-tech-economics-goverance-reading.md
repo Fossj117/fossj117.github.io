@@ -17,16 +17,16 @@ _First posted_: October 16, 2023.
 - [_Code 2.0_](https://en.wikipedia.org/wiki/Code:_Version_2.0) by Lessig (Note I have some [prior](https://jeffreyfossett.com/2021/04/12/lessig-code-resonances.html) [posts](https://jeffreyfossett.com/2021/04/14/more-lessig-code-reflections.html) from an earlier reading on this site)
 - [Moloch Ventures whitepaper](https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf)
 - [_Two Cheers for Anarchism_](https://press.princeton.edu/books/paperback/9780691161037/two-cheers-for-anarchism) by James Scott. ([My Notes](https://jeffreyfossett.com/2023/12/20/notes-on-scott.html))
-- [Ryan](https://ryansepassi.com/) and we in [this](https://www.ccc.mit.edu/eventopportunities/iap-2024-decentralized-society-cooperation-and-plurality/) interesting IAP class at MIT on "Decentralized Society, Cooperation, and Plurality", which fits quite squarely with these themes. My notes on various readings from the course are [here](https://jeffreyfossett.com/2024/01/05/decentralized-society-IAP.html). Some key readings/themes I will take away and hope to think more on:
+- [Ryan](https://ryansepassi.com/) and I were in [this](https://www.ccc.mit.edu/eventopportunities/iap-2024-decentralized-society-cooperation-and-plurality/) IAP class at MIT on "Decentralized Society, Cooperation, and Plurality", which fit in well with these themes. My notes on various readings from the course are [here](https://jeffreyfossett.com/2024/01/05/decentralized-society-IAP.html). Some key readings I will hope to think on more:
     - [Decentralized Society](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763) paper from Ohlhaver, Weyl, & Buterin. 
     - [Toward a Connected Society](https://www.degruyter.com/document/doi/10.1515/9781400881260-006/html) from Allen. 
     - On protocols and the Fediverse; on voting systems 
+- We discussed the recent [Epic v. Google decision](https://www.theverge.com/23945184/epic-v-google-fortnite-play-store-antitrust-trial-updates) and related issues (w/[Ryan](https://ryansepassi.com/) and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
 
 Some things that are currently in flight:
 
-- We have a planned discussion on the recent Epic v. Google decision the first week of January 2024 (w/[Ryan](https://ryansepassi.com/) and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
-- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)) (w/ [Ryan](https://ryansepassi.com/))
-- _The Public and Its Problems_ by Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/)), and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
+- [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
+- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)) (w/ [Ryan](https://ryansepassi.com/)). 
 
 Some other things that are on my radar on these themes:
 
