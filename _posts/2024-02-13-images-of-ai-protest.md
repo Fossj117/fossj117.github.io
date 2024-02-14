@@ -54,6 +54,52 @@ Photo: Vuk Valcic/SOPA Images/LightRocket via Getty Images ([source](https://dea
 
 Photo: MISHA GUREVICH ([source](https://spectrum.ieee.org/meta-ai))
 
+## Members of Safe Street Rebel place a cone on a self-driving Cruise car in San Francisco
+
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-02-13-images-of-ai-protest/cone_driverless_car.webp" width="75%">
+</center>
+</p>
+
+> Two people dressed in dark colors and wearing masks dart into a busy street on a hill in San Francisco. One of them hauls a big orange traffic cone. They sprint toward a driverless car and quickly set the cone on the hood.
+
+> The vehicle's side lights burst on and start flashing orange. And then, it sits there immobile.
+
+> "All right, looks good," one of them says after making sure no one is inside. "Let's get out of here." They hop on e-bikes and pedal off.
+
+> All it takes to render the technology-packed self-driving car inoperable is a traffic cone. If all goes according to plan, it will stay there, frozen, until someone comes and removes it.
+
+Photo: Josh Edelson/AFP via Getty Images ([source](https://www.npr.org/2023/08/26/1195695051/driverless-cars-san-francisco-waymo-cruise))
+
+## Robocars _cannot_ judge the road conditions
+
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-02-13-images-of-ai-protest/ban_robocars.webp" width="75%">
+</center>
+</p>
+
+> Opponents of an expansion of self-driving cars protested on a sidewalk where the California Public Utilities Commission was holding a hearing on the issue on Monday
+
+Photo: Jim Wilson/The New York Times
+
+## Put People Above Robots
+
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-02-13-images-of-ai-protest/teamsters.webp" width="75%">
+</center>
+</p>
+
+> Teamsters Stand Up for Safety, Call for an End to Driverless Car Havoc on San Francisco Streets.
+
+> “These companies talk about the public being safer with their cars on the road, but the reality is they’ve made living and working in San Francisco even harder,” said John Bouchard, Principal Officer of Teamsters Local 350. “There’s more congestion, traffic is worse, public safety is worse, and they’re making it difficult for firefighters and police to respond to emergencies.”
+
+> “We cannot have fake brains and fake intelligence on our streets,” said Supervisor Shamann Walton of District 10. “These Cruise vehicles are dangerous on our streets. We cannot continue to have tragedies at the hands of machines. We’re going to fight Cruise and all autonomous vehicle companies until we have responsible human beings behind the wheel so our residents are safe in San Francisco.”
+
+[Source](https://teamster.org/2023/10/teamsters-and-allies-protest-unsafe-robotaxis-at-cruise-headquarters/)
+
 ## Technical Sites of Protest
 
 - [Nightshade and data poisoning](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/) - [paper](https://arxiv.org/pdf/2310.13828.pdf)
