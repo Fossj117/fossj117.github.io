@@ -100,6 +100,20 @@ Photo: Jim Wilson/The New York Times
 
 [Source](https://teamster.org/2023/10/teamsters-and-allies-protest-unsafe-robotaxis-at-cruise-headquarters/)
 
+## Makeup to protest police use of facial recognition technology
+
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-02-13-images-of-ai-protest/2020-03-02-dazzleclub.webp" width="75%">
+</center>
+</p>
+
+> It’s a rainy evening in East London and a group of people with their faces daubed in bizarre make-up is making their way silently through the neighborhood’s busy streets. Nobody speaks although many commuters and tourists stare. This is The Dazzle Club.
+
+> Set up by four artists, the group dons camouflage make-up and leads a silent public walk once a month in protest of live facial recognition police cameras in London. The make-up is called CV Dazzle and, when applied correctly, it tricks the cameras into being unable to detect a face.
+
+Photo: The Dazzle Club/Cocoa Laney - [Source](https://theworld.org/stories/2020-03-02/londons-dazzle-club-uses-makeup-protest-police-use-facial-recognition-technology)
+
 ## Technical Sites of Protest
 
 - [Nightshade and data poisoning](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/) - [paper](https://arxiv.org/pdf/2310.13828.pdf)
