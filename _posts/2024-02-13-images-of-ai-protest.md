@@ -16,7 +16,7 @@ tag: []
 </center>
 </p>
 
-"Waymo Vehicle surrounded and then graffiti’d, windows were broken, and firework lit on fire inside the vehicle which ultimately caught the entire vehicle on fire."
+> Waymo Vehicle surrounded and then graffiti’d, windows were broken, and firework lit on fire inside the vehicle which ultimately caught the entire vehicle on fire.
 
 Photo by: Séraphine Hossenlopp ([source](https://twitter.com/SFFDPIO/status/1756581720399520077/photo/1))
 
@@ -38,7 +38,9 @@ Photo: Mario Tama / Getty Images ([source](https://www.hollywoodreporter.com/bus
 </center>
 </p>
 
-"The pen is mightier than the algorithm"
+> The pen is mightier than the algorithm
+
+> The WGGB’s main concerns are decreased job opportunities, suppression of pay, copyright infringement, use of writers’ work without permission and lack of adequate government regulation.
 
 Photo: Vuk Valcic/SOPA Images/LightRocket via Getty Images ([source](https://deadline.com/2023/07/artificial-intelligence-uk-writers-union-wggb-survey-jobs-1235433982/))
 
@@ -50,7 +52,9 @@ Photo: Vuk Valcic/SOPA Images/LightRocket via Getty Images ([source](https://dea
 </center>
 </p>
 
-Photo: MISHA GUREVICH ([source](https://spectrum.ieee.org/meta-ai))
+> Protesters Decry Meta’s “Irreversible Proliferation” of AI. 
+
+Photo: Misha Gurevich ([source](https://spectrum.ieee.org/meta-ai))
 
 ## Members of Safe Street Rebel place a cone on a self-driving Cruise car in San Francisco
 
@@ -124,7 +128,7 @@ Photo: The Dazzle Club/Cocoa Laney - [Source](https://theworld.org/stories/2020-
 
 [Cap_able](https://www.capable.design/pages/chi-siamo) is "a fashion deisign studio that develops products at the intersection of ethics and technology". 
 
-[Source](https://www.dezeen.com/2023/02/07/cap_able-facial-recognition-blocking-clothing/).
+[Source](https://www.dezeen.com/2023/02/07/cap_able-facial-recognition-blocking-clothing/)
 
 ## Nightshade 
 
