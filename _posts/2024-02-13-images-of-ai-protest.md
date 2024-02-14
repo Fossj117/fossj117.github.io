@@ -114,6 +114,20 @@ Photo: Jim Wilson/The New York Times
 
 Photo: The Dazzle Club/Cocoa Laney - [Source](https://theworld.org/stories/2020-03-02/londons-dazzle-club-uses-makeup-protest-police-use-facial-recognition-technology)
 
+## Cap_able blocks facial recognition software with knitted clothing
+
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-02-13-images-of-ai-protest/capable.webp" width="75%">
+</center>
+</p>
+
+> Cap_able designed the clothing with patterns – known as adversarial patches – to deceive facial recognition software in real-time.
+
+[Cap_able](https://www.capable.design/pages/chi-siamo) is "a fashion deisign studio that develops products at the intersection of ethics and technology". 
+
+[Source](https://www.dezeen.com/2023/02/07/cap_able-facial-recognition-blocking-clothing/).
+
 ## Technical Sites of Protest
 
 - [Nightshade and data poisoning](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/) - [paper](https://arxiv.org/pdf/2310.13828.pdf)
