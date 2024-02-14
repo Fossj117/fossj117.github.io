@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Sites of AI Protest"
+title: "Documenting Sites of AI Protest"
 date: 2024-02-13
 latex: true
 mathjax: true
 comments: true
 tag: []
 ---
-
-Documenting sites of AI protest.
 
 ## Driverless Car Burns
 
