@@ -128,8 +128,16 @@ Photo: The Dazzle Club/Cocoa Laney - [Source](https://theworld.org/stories/2020-
 
 [Source](https://www.dezeen.com/2023/02/07/cap_able-facial-recognition-blocking-clothing/).
 
-## Technical Sites of Protest
+## Nightshade 
 
-- [Nightshade and data poisoning](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/) - [paper](https://arxiv.org/pdf/2310.13828.pdf)
-- [Fashion against facial recognition](https://www.dezeen.com/2023/02/07/cap_able-facial-recognition-blocking-clothing/)
-  - [Cap_able](https://www.capable.design/)
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-02-13-images-of-ai-protest/nightshade.webp" width="75%">
+</center>
+</p>
+
+> "You can think of Nightshade as adding a small poison pill inside an artwork in such a way that it's literally trying to confuse the training model on what is actually in the image," Zhao says.
+
+> "So it will, for example, take an image of a dog, alter it in subtle ways, so that it still looks like a dog to you and I — except to the AI, it now looks like a cat," Zhao says.
+
+[Source](https://www.npr.org/2023/11/03/1210208164/new-tools-help-artists-fight-ai-by-directly-disrupting-the-systems) - [paper](https://arxiv.org/pdf/2310.13828.pdf)
