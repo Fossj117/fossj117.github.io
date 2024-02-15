@@ -30,6 +30,7 @@ Some things that are currently in flight:
 
 Some other things that are on my radar on these themes:
 
+- Various from Kropotokin, such as [_Mutual Aid: A Factor of Evolution_](https://www.amazon.com/Mutual-Aid-Evolution-Peter-Kropotkin/dp/0875580246)
 - More Jane Jacobs -- _Cities and the Wealth of Nations_, _Death and Life_ and so on.
 - [_Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity_](https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530) by Acemoglu and Johnson.
 - [_The Descent of Icarus_](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth.
