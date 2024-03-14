@@ -10,7 +10,9 @@ tag: ["sts", "econ"]
 
 _First posted_: October 16, 2023.
 
-[Ryan](https://ryansepassi.com/) and I (and sometimes including [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Jesse](https://jessecallahanbryant.com/) and others) have been meeting regularly to read and discuss around a set of themes connected to digital technology governance, politics, and economics with a bent towards cooperative/democratic/public interest/pluralistic/progressive themes. In this post, I will keep tabs on some of our reading; I'll also keep a list of other things I find interesting on these themes. Some reading we have worked through (to various extents) so far:
+[Ryan](https://ryansepassi.com/) and I (and sometimes including [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Jesse](https://jessecallahanbryant.com/) and others) have been meeting regularly to read and discuss around a set of themes connected to digital technology governance, politics, and economics with a bent towards cooperative/democratic/pluralistic themes. In this post, I will keep tabs on some of our reading; I'll also keep a list of other things I find interesting on these themes.
+
+Some reading we have worked through (to various extents) so far:
 
 - [_Radical Markets_](https://press.princeton.edu/books/hardcover/9780691177502/radical-markets) by Weyl & Posner; especially chapters on Harberger taxes and quadratic voting.
 - [_Governing the Commons_](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5) by Ostrom.
@@ -38,6 +40,7 @@ Some other things that are on my radar on these themes:
 - [_The Descent of Icarus_](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth.
 - [_Political Theory of the Digital Age_](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
 - Various from Danielle Allen including [_Justice by Means of Democracy_](https://press.uchicago.edu/ucp/books/book/chicago/J/bo192735333.html).
+- [_Governable Spaces_](https://www.ucpress.edu/book/9780520393943/governable-spaces) by Nathan Schneider
 - [_The Politics of Bitcoin: Software as Right-Wing Extremism_](https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804) by Golumbia
 - Paul Gowder's [book](https://networked-leviathan.com/) and [Elettra's response](https://lpeproject.org/blog/how-not-to-regulate-digital-platforms/?utm_source=mailpoet&utm_medium=email&utm_campaign=lpe-blog-update)
 - Various recent work from [Elettra](https://www.elettrabietti.com/publications) (e.g. [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4275143))
