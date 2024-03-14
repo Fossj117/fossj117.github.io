@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Economics & Governance Reading Group"
-date: 2024-02-07
+date: 2024-03-12
 latex: true
 mathjax: true
 comments: true
@@ -25,13 +25,15 @@ _First posted_: October 16, 2023.
 
 Some things that are currently in flight:
 
-- [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
+- [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html) and several others); meeting is March 28, 2024.
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)) (w/ [Ryan](https://ryansepassi.com/)).
+  - The new plan is for this to be organized [via Plurality Institute](https://www.plurality.institute/); more details to come.
 
 Some other things that are on my radar on these themes:
 
 - Various from Kropotokin, such as [_Mutual Aid: A Factor of Evolution_](https://www.amazon.com/Mutual-Aid-Evolution-Peter-Kropotkin/dp/0875580246) and [_The Conquest of Bread_](https://en.wikipedia.org/wiki/The_Conquest_of_Bread).
 - More Jane Jacobs -- _Cities and the Wealth of Nations_, _Death and Life_ and so on.
+  - [Wes](https://www.ccc.mit.edu/person/wes-chow/) suggested [this](https://link.springer.com/book/10.1007/978-981-99-5362-2) new book on Jacobs work titled "A City Cannot be a Work of Art", which is interesting to me.
 - [_Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity_](https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530) by Acemoglu and Johnson.
 - [_The Descent of Icarus_](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth.
 - [_Political Theory of the Digital Age_](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
