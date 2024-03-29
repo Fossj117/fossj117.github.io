@@ -24,10 +24,10 @@ Some reading we have worked through (to various extents) so far:
   - [Toward a Connected Society](https://www.degruyter.com/document/doi/10.1515/9781400881260-006/html) from Allen.
   - On protocols and the Fediverse; on voting systems
 - We discussed the recent [Epic v. Google decision](https://www.theverge.com/23945184/epic-v-google-fortnite-play-store-antitrust-trial-updates) and related issues (w/[Ryan](https://ryansepassi.com/) and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
+- [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html) and [Zach](https://www.zachary-wojtowicz.com/))
 
 Some things that are currently in flight:
 
-- [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html) and several others); meeting is March 28, 2024.
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)) (w/ [Ryan](https://ryansepassi.com/)).
   - The new plan is for this to be organized [via Plurality Institute](https://www.plurality.institute/); more details to come.
 
@@ -65,6 +65,7 @@ Some other things that are on my radar on these themes:
   - [Constitutional Moments](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003075028-32/constitutional-moments-governing-science-technology-sheila-jasanoff)
 - [Understanding Knowledge as a Commons: From Theory to Practice](https://direct.mit.edu/books/edited-volume/3807/Understanding-Knowledge-as-a-CommonsFrom-Theory-to)
 - Various from David Graeber including [The Dawn of Everything](https://us.macmillan.com/books/9780374157357/thedawnofeverything)
+- Marc Aidinoff's work seems interesting -- e.g. [this](https://static1.squarespace.com/static/64406ef17b9d4a67dfd826dc/t/6440a334a902220fa49ab588/1681957689981/Aidinoff.Centrists.pdf) piece on the "Jeffersonian Politics of a Decentralized Internet".
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
