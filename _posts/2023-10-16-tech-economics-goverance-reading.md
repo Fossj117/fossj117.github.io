@@ -25,11 +25,12 @@ Some reading we have worked through (to various extents) so far:
   - On protocols and the Fediverse; on voting systems
 - We discussed the recent [Epic v. Google decision](https://www.theverge.com/23945184/epic-v-google-fortnite-play-store-antitrust-trial-updates) and related issues (w/[Ryan](https://ryansepassi.com/) and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
 - [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html) and [Zach](https://www.zachary-wojtowicz.com/))
+  - My notes [here](https://jeffreyfossett.com/2024/03/09/public-and-its-problems.html).
 
 Some things that are currently in flight:
 
-- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)) (w/ [Ryan](https://ryansepassi.com/)).
-  - The new plan is for this to be organized [via Plurality Institute](https://www.plurality.institute/); more details to come.
+- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)).
+  - This is now organized via [Plurality Institute](https://www.plurality.institute/); if you'd like to join, sign up [here](https://forms.gle/2RcsGBmu2Dn915X39)!
 
 Some other things that are on my radar on these themes:
 
