@@ -371,7 +371,7 @@ The data I feed as $X1$ and $X2$ are simply 1000 simulated draws from the true p
 
 So we see that we still recover a reasonable estimate for $\alpha$, as well as for the other price parameters. Notably, the credible intervals for $\alpha$ are now somewhat wider. This makes sense given the added uncertainty we've introduced in the model. 
 
-## What's next? 
+## What's next?
 
 So far, this is still pretty straightforward. However, it shows that we can estimate a price comparison rate given the following: 
 
@@ -379,4 +379,8 @@ So far, this is still pretty straightforward. However, it shows that we can esti
 2. Some iid draws from the true price distributions (and parametric assumptions on these distributions)
 3. Assuming that consumers who price compare will always pay the lower price (while non-comparers will not). 
 
-What I am eventually interested in understanding is how price comparison rates vary across related markets which might have different characteristics, and under the setup that I may not observe true price draws from all markets (and so will need to do some partial pooling). The hope is to be able relate market characteristics to rates of price comparison, so that I can descriptively understand when consumers do or do not seem to be comparing prices. 
+What I am eventually interested in understanding is how price comparison rates vary across related markets which might have different characteristics, and under the setup that I may not observe true price draws from all markets (and so will need to do some partial pooling). The hope is to be able relate market characteristics to rates of price comparison, so that I can descriptively understand when consumers do or do not seem to be comparing prices. In the next section I will sketch this idea. 
+
+## Many markets generalization (sketch)
+
+Suppose that we now observe paid price data (i.e. $Q$) across $J$ markets over $T$ periods. So now, let $Q_ijt$ be an observed paid price for consumer $i$ in market $j$ in period $t$. We are now interested in estimates of $\alpha_{jt}$, the rate of price comparison in market $j$ during period $t$. The issue is that we will not necessarily observe *true* price data from *all* market-period cells (since data collection is costly). To address this, I will assume that the market-cell-level price distribution parameters are related in a hierarchical modeling setup, which allows me to infer something about the price distribution parameters of even unobserved market-period cells, and estimate $\alpha$ for these cases while accounting for this added uncertainty. If I then collect other information about the markets, I can examine how the $\alpha_{jt}$ estimates vary across market characteristics. 
