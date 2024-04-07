@@ -10,7 +10,7 @@ tag: ["econ"]
 
 ## The Arrow replacement effect
 
-I have been thinking about Arrow (1962). This is an impressive piece of writing in that it introduces at least two key ideas that would become important in the subsequent literature on the economics of innovation. The first key idea that Arrow (1962) outlines is that “ideas” (or knowledge) and their production have some key properties that ensure that competitive markets will not achieve an optimal allocation of resources to idea production (in particular there will be underproduction of ideas). I will think more about this point later.
+Arrow (1962) introduces at least two key ideas that would become important in the subsequent literature on the economics of innovation. The first idea is that “ideas” (or knowledge) and their production have some key properties that ensure that competitive markets will not achieve an optimal allocation of resources to idea production (in particular there will be underproduction of ideas).
 
 The second key idea that Arrow (1962) establishes is the so-called “Arrow replacement effect”. The Arrow replacement idea is important because it is framed as one of the classical answers to the question of how market structure affects innovation. In particular, the Arrow idea seems to be identified as one “pole” of the competition / innovation debate — namely, as a key mechanism explaining why product market competition encourages innovation (as Shapiro 2012 summarizes). Per the Shapiro (2012) framing, Schumpeter (1942) classically forms the other “pole” of this debate — i.e. the opposing view that actually (the prospect of) market power and monopoly profits is what spurs innovation (or that larger firms are otherwise a better home for innovation).
 
@@ -18,7 +18,7 @@ So what is the Arrow replacement effect? The basic idea of the replacement effec
 
 ### The Formal Treatment
 
-This is all reasonably intuitive, but a formal treatment is nice to see. A clean version of the model is outlined in the Tirole (1988) IO textbook (which also, apparently, coined the “replacement” effect term), and so I walk through this version. The setup of the model is a static setting in which we abstract away form any strategic interactions; the model aims to consider how the incentives for production of a cost-reducing innovation vary with the initial market structure (and also compare to the social value). In particular, let the innovation reduce the constant marginal cost of production of some good from $c$ to $c'$ and suppose market demand is $D(p)$. What is the value of the innovation to the social planner, monopolist or competitive firm?
+A clean version of the Arrow model is outlined in the Tirole (1988) IO textbook (which also, apparently, coined the “replacement” effect term), so I will walk through this version. The setup of the model is a static setting in which we abstract away form any strategic interactions; the model aims to consider how the incentives for production of a cost-reducing innovation vary with the initial market structure (and also compare to the social value). In particular, let the innovation reduce the constant marginal cost of production of some good from $c$ to $c'$ and suppose market demand is $D(p)$. What is the value of the innovation to the social planner, monopolist or competitive firm?
 
 **Social planner**. The planner will set price equal to marginal cost before and after the innovation. So the net social surplus of the innovation is equal to:
 
