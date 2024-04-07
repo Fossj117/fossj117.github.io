@@ -69,6 +69,7 @@ Some other things that are on my radar on these themes:
 - Marc Aidinoff's work seems interesting -- e.g. [this](https://static1.squarespace.com/static/64406ef17b9d4a67dfd826dc/t/6440a334a902220fa49ab588/1681957689981/Aidinoff.Centrists.pdf) piece on the "Jeffersonian Politics of a Decentralized Internet".
 - [Democratizing Data: Discovering Data Use and Value for Research and Policy](https://hdsr.mitpress.mit.edu/specialissue4)
 - [Data Feminism](https://data-feminism.mitpress.mit.edu/) and [Counting Feminicide](https://mitpress.mit.edu/9780262048873/counting-feminicide/). 
+- [Digital Democracy, Analogue Politics: How the Internet Era is Transforming Politics in Kenya](https://www.bloomsbury.com/us/digital-democracy-analogue-politics-9781786994318/) by Nanjala Nyabola.
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
