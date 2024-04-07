@@ -59,7 +59,7 @@ Some other things that are on my radar on these themes:
 - Other things from Vitalik like [this](https://vitalik.eth.limo/general/2019/12/07/quadratic.html) and lots of other stuff on his blog and elsewhere. ([for example](https://vitalik.eth.limo/general/2022/12/30/institutions.html), [and also](https://vitalik.eth.limo/general/2021/09/26/limits.html), [and also](https://vitalik.eth.limo/general/2019/04/03/collusion.html); his [writing](https://vitalik.eth.limo/general/2017/12/17/voting.html) on [governance](https://vitalik.eth.limo/general/2018/03/28/plutocracy.html))
 - I want to read more from Don Ihde, including [Technology and the Lifeworld](https://iupress.org/9780253205605/technology-and-the-lifeworld/)
 - [Zach](https://www.zachary-wojtowicz.com/) suggested I read Arendt starting with [the Human Condition](https://en.wikipedia.org/wiki/The_Human_Condition).
-- _The Dispossessed_ by Ursula K Le Guin.
+- _The Dispossessed_ by Ursula K Le Guin; Le Guin's translation of the [Tao Te Ching](https://theanarchistlibrary.org/library/lao-tzu-tao-te-ching) (latter recommended by Audrey Tang); in general interested in understanding Daoist anarchism. 
 - More Jasanoff:
   - [Technologies of Humility](https://sciencepolicy.colorado.edu/students/envs_5100/jasanoff2003.pdf)
   - [Traveling Imaginaries of Innovation](https://drive.google.com/drive/u/0/folders/11cj7DUxkS_9K9MmYaLlVxAuXiySkJz_h)
@@ -67,6 +67,8 @@ Some other things that are on my radar on these themes:
 - [Understanding Knowledge as a Commons: From Theory to Practice](https://direct.mit.edu/books/edited-volume/3807/Understanding-Knowledge-as-a-CommonsFrom-Theory-to)
 - Various from David Graeber including [The Dawn of Everything](https://us.macmillan.com/books/9780374157357/thedawnofeverything)
 - Marc Aidinoff's work seems interesting -- e.g. [this](https://static1.squarespace.com/static/64406ef17b9d4a67dfd826dc/t/6440a334a902220fa49ab588/1681957689981/Aidinoff.Centrists.pdf) piece on the "Jeffersonian Politics of a Decentralized Internet".
+- [Democratizing Data: Discovering Data Use and Value for Research and Policy](https://hdsr.mitpress.mit.edu/specialissue4)
+- [Data Feminism](https://data-feminism.mitpress.mit.edu/) and [Counting Feminicide](https://mitpress.mit.edu/9780262048873/counting-feminicide/). 
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
