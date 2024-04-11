@@ -70,6 +70,9 @@ Some other things that are on my radar on these themes:
 - [Democratizing Data: Discovering Data Use and Value for Research and Policy](https://hdsr.mitpress.mit.edu/specialissue4)
 - [Data Feminism](https://data-feminism.mitpress.mit.edu/) and [Counting Feminicide](https://mitpress.mit.edu/9780262048873/counting-feminicide/). 
 - [Digital Democracy, Analogue Politics: How the Internet Era is Transforming Politics in Kenya](https://www.bloomsbury.com/us/digital-democracy-analogue-politics-9781786994318/) by Nanjala Nyabola.
+- [Complexity and the Art of Public Policy](https://press.princeton.edu/books/paperback/9780691169132/complexity-and-the-art-of-public-policy)
+- [Blockchain + Antitrust](https://www.e-elgar.com/shop/usd/blockchain-antitrust-9781800885523.html)
+- [The Information Age: Economy, Society and Culture](https://en.wikipedia.org/wiki/The_Information_Age:_Economy,_Society_and_Culture), Manuel Castells.
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
