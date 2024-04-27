@@ -115,7 +115,7 @@ $$i > \frac{\beta + \epsilon_0' - \epsilon_1'}{2\beta} \iff i > \frac{\beta + (\
 
 Let $A$ be the event that this inequality is satisfied. Then we have: 
 
-$$E[u_i] = E[\min(u_i(c_1),0) | A]P(A) + E[\min(u_i(c_0),0) | \sim A](1-P(A))$$
+$$E[u_i] = E[\max(u_i(c_1),0) | A]P(A) + E[\max(u_i(c_0),0) | \sim A](1-P(A))$$
 
 It might be possible to simplify this with some more thought (and/or tweaks to the setup). But for now, let's try just running a simulation to see what's going on. 
 
