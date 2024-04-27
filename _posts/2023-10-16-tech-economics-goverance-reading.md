@@ -73,6 +73,9 @@ Some other things that are on my radar on these themes:
 - [Complexity and the Art of Public Policy](https://press.princeton.edu/books/paperback/9780691169132/complexity-and-the-art-of-public-policy)
 - [Blockchain + Antitrust](https://www.e-elgar.com/shop/usd/blockchain-antitrust-9781800885523.html)
 - [The Information Age: Economy, Society and Culture](https://en.wikipedia.org/wiki/The_Information_Age:_Economy,_Society_and_Culture), Manuel Castells.
+- [Platform Regulation Syllabus](https://docs.google.com/document/d/1yBvPMk0gXNLZWkMXnZnJb7oD3AO3DwxdAHghqifihec/edit) from Daphne Keller.
+- [The Politics of Platform Regulation](https://global.oup.com/academic/product/the-politics-of-platform-regulation-9780197692851?cc=us&lang=en&) - Robert Gorwa
+- [A Web of Our Own Making](https://www.amazon.com/Web-Our-Own-Making-Formation/dp/1009324772) by Anton Barba-Kay
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
