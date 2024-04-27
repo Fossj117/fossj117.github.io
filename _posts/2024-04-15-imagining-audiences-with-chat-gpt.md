@@ -117,6 +117,12 @@ It might be interesting to try extending the practice to align more explicitly w
 
 So I don't know -- this is something I'll be experimenting with more. If you have thoughts or give it a try, let me know. 
 
+## Update
+
+After posting this, I came across this post and pre-print paper from Amit Goldberg: https://x.com/Amit_Goldenb/status/1782076346929475602 
+
+The paper explicitly explores the use of LLMs compared to humans in cognitive reframing of negative scenarios. Check it out! 
+
 ## Footnotes
 
 [^1]: Even in cases where there are comments or other forms of direct feedback, these are at best a signal from some limited (and likely selected) segment of readers.
