@@ -8,7 +8,7 @@ comments: true
 tag: ["plurality", "notes"]
 ---
 
-With Eugene and Plurality Institute, I am co-organizing a reading group, which will start by discussing the [Plurality Book](https://www.plurality.net/chapters/) by Weyl and Tang. In this post, I will keep some notes on my latest reading of the book, specifically with an eye toward the book club. My previous notes are [here]({% post_url 2023-12-27-notes-on-plurality-book %})
+With [Eugene](https://twitter.com/bbeats1) and [Plurality Institute](https://www.plurality.institute/), I am co-organizing a reading group, which will start by discussing the [Plurality Book](https://www.plurality.net/chapters/) by Weyl and Tang. In this post, I will keep some notes on my latest reading of the book, specifically with an eye toward the book club. My previous notes are [here]({% post_url 2023-12-27-notes-on-plurality-book %})
 
 ## Part 0 
 
