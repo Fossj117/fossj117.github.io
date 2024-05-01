@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My bike build"
+title: "My Bike Build"
 date: 2024-04-29
 latex: true
 mathjax: true
@@ -39,6 +39,7 @@ Listing components etc. that I find potentially interesting or want to learn mor
 * [Soma Rush](https://www.somafab.com/archives/product/rush)
 * Various NJS frames. (Need to learn more -- NJS export? custom?)  
 * There are some [Mash framesets](https://shop.mashsf.com/) I like. 
+* All City Big Block. 
 * [Cinelli supercorsa pista](https://usa.cinelli-milano.com/collections/supercorsa-pista/products/supercorsa-pista-frame-set). Way expensive, but really like the classic feel.
 
 In general, want to learn more about the details of different geometries. How much variation is there? What are the tradeoffs? Similarly, want to learn more about different types of steels, different types of lugs. How perceptible are these differences, really?
