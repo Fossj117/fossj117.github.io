@@ -36,6 +36,8 @@ Listing components etc. that I find potentially interesting or want to learn mor
 
 ### Framesets
 
+Some framesets I like: 
+
 * [Soma Rush](https://www.somafab.com/archives/product/rush)
 * Various NJS frames. (Need to learn more -- NJS export? custom?)  
 * There are some [Mash framesets](https://shop.mashsf.com/) I like. 
@@ -43,6 +45,51 @@ Listing components etc. that I find potentially interesting or want to learn mor
 * [Cinelli supercorsa pista](https://usa.cinelli-milano.com/collections/supercorsa-pista/products/supercorsa-pista-frame-set). Way expensive, but really like the classic feel.
 
 In general, want to learn more about the details of different geometries. How much variation is there? What are the tradeoffs? Similarly, want to learn more about different types of steels, different types of lugs. How perceptible are these differences, really?
+
+The Kilo TT pro is made from [Reynolds 520 Chromoly](https://www.reynoldstechnology.biz/materials/steel/steel-520/) (Chrome-Moly) Steel. What is that? What is steel in the first place? From [wiki](https://en.wikipedia.org/wiki/Steel). Some hyper basics: 
+
+* Steel is an alloy of iron and carbon with improved strength and fracture resistance compared to other forms of iron.
+* Iron is always the main element in steel, but many other elements may be present or added
+
+What is Reynolds 520? From their site: 
+
+> With similar properties to our original 531 steel brand alloy. For cycling, these are mandrel butted for accurate profiles, and are available in a wide range of shapes. Weight savings from butting provide competitively priced, light framesets. The Reynolds “520” range uses the same alloy, made under license for us in Taiwan and subject to the same quality standards.
+
+[Here is a PDF](https://www.reynoldstechnology.biz/wp-content/uploads/2015/08/rtl_steel_alloys_extract.pdf) with some details about this steel. 
+
+Seems that 520 series is based on their "4130 seamless and cold-drawn/welded Cr-Mo" which is made in Taiwan and China. 525 is a welded "Cold-Drawn Chrome Molybdenum Steel". It has a "strength" of 800 MPa and stiffness of 207 GPa. I note that stiffness is similar across all the Reynolds materials in this list, while strength varies. 
+
+What is cr-mo or chromoly steel? [Here is the wiki](https://en.wikipedia.org/wiki/41xx_steel). It is a steel alloyed with chromium and molybdenum. These steels have "excellent strength to weight ratio and are considerably stronger and harder than standard 1020 steel, but are not easily welded". Chromium is also what's in stainless steel; but the percentage in CrMo is not as high.
+
+What's the deal with steel in bikes? Why do people like it? ("steel is real") [Here](https://ritcheylogic.com/blog/why-we-steel-prefer-steel-bikes) is one article. First there are some points about ride quality of steel: 
+
+> Fans of Steel talk about “spring-y,” “lively,” “elastic,” and with an immeasurable riding sensation when they explain what it feels like to ride a steel bike.
+
+Here is an interesting perspective from one steel rider: 
+
+> It always felt important to me to know where my bike came from, to understand the design decisions – to see the hand of a craftsperson on these objects that bring us so much joy. At the end of the day, bikes are a vector for relationships: our relationship with the world, with ourselves, and with other people. I want to make the choice that enables and deepens those relationships. Steel makes that easier for me, it turns out
+
+Sheldon Brown also has [an article on frame materials](https://www.sheldonbrown.com/frame-materials.html). He emphasizes the difference between *stiffness* and *strength*. According to brown, "stiffness" is about how much a material flexes for a given level of force, and is what affects ride quality. [Here](https://en.wikipedia.org/wiki/Stiffness) is the wiki for stiffness. A key claim is that stiffness is mostly the same for any type of steel: 
+
+> Anybody that tells you that a particular brand of steel (or aluminum, or titanium) is "lighter" or "stiffer" than another brand or model is blowing smoke.
+
+Aluminum and titanium are both less stiff than steel in general; but when making a bike you have the option of e.g. how thick of material to use which also affects stiffness. 
+
+In general, Brown claims that stiffness really doesn't have that much impact on ride quality. Brown says: 
+
+> Much of the commonplace B.S. that is talked about different frame materials relates to imagined differences in vertical stiffness. It will be said that one frame has a comfy ride and absorbs road shocks, while another is alleged to be harsh and make you feel every crack in the pavement. Virtually all of these "differences" are either the imaginary result of the placebo effect, or are caused by something other than the frame material choice.
+
+Geometry does matter somewhat for ride quality: 
+
+> The frame feature that does have some effect on road shock at the rump is the design of the rear triangle. This is one of the reasons that touring bikes tend to have long chainstays -- they put the rider forward of the rear wheel. Short chainstays give a harsh ride for the same reason that you bounce more in the back of a bus than in the middle...if you're right on top of the wheel, all of the jolt goes straight up
+
+Another thing I hear people talk about is different sorts of steel frame construction. On option is [lugged construction](https://en.wikipedia.org/wiki/Lugged_steel_frame_construction). Which is a "method of building bicycle frames using steel tubing mated with socket-like sleeves, called lugs". The other option is welding? 
+
+Why do people like lugs? One point is the aesthetic. But another interesting point from wiki: 
+
+> Lugged steel frame can be repaired more easily than MIG or TIG welded steel frames; a broken tube can be removed by the application of heat to un-braze (known as sweating) its joints, enabling tube replacement.
+
+Lugging is historically also the most traditional way of assembling a frame, apparently; and steel is the most traditional material. 
 
 ### Cranks
 
@@ -58,4 +105,10 @@ I am wondering how much difference I will notice with nicer BB / cranks etc. My 
 
 ## Notes on Changes 
 
+* 5/2/24 -- put on Brooks B17 leather saddle (black). 
 * 4/30/24 -- put on new wheelset & tires (Archetypes + DT Swiss hubs + GP5000 28s). Changing a few things at a time here but generally happy with it. I think the biggest thing is probably moving from 23s to 28s which definitely seems to affect ride feel on bumpier surfaces etc. 
+
+## References
+
+* https://www.amazon.com/Richards-Bicycle-Book-Richard-Ballantine/dp/034529453X
+* https://www.amazon.com/Dancing-Chain-History-Development-Derailleur/dp/1892495694 
