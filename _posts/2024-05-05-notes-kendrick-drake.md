@@ -79,6 +79,8 @@ I also enjoyed this take from Christian Divyne, joking that J Cole will wind up 
 <iframe src="https://www.tiktok.com/embed/7365007588230040875" width="325" height="575" frameborder="0" allowfullscreen></iframe>
 </center>
 
+This is all to say -- regardless of Cole's understandable expectation that the apology is "not what a lot of people want to hear" -- it's really still TBD how this will all wind up reflecting back on him culturally. We will have to see.
+
 ## Footnotes
 
 [^1]: For more interesting and informed hip-hop reflections you should check out Elspeth's newsletter, [The Drip](https://thedrip.substack.com/)!
