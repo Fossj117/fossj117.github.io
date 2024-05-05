@@ -67,10 +67,14 @@ What I also find compelling about the statement is the way Cole is really not bl
 
 Many "apologies" we see from public figures are quite the opposite of this: they involve some public figure *caving to* public pressure to recant for some past decision in hopes of staving off cancellation -- typically while taking as little personal responsibility as possible. Cole, by contrast, is proactively following his own moral compass, taking responsibility for what he sees as a mistake, and accepting consequences -- in spite of external pressure to the contrary. In this way, he's demonstrating a kind of personal honesty that is present in a lot of great art. 
 
-Anyhow, it will be interesting to see how this all plays out culturally. While some commentators have been critical (per above), another thread of response (especially on Tik Tok) has comically commented on Cole's decision to choose peace (particularly in light of the beef between Drake & Kendrick intensifying); for example: 
+Anyhow, it will be interesting to see how this all plays out culturally. While some commentators have been critical (per above), another thread of response ("J Cole right now") has comically commented on Cole's decision to choose peace as the Drake/Kendrick side of the beef has intensified; some examples: 
 
 <center>
 <iframe src="https://www.tiktok.com/embed/7365117857308495146" width="50%" height="575" frameborder="0" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Drake: “Your wi-“<br><br>Kendrick: “DIE LIGHT SKINNED PEDOPHILE!! DIE!!!”<br><br>J.Cole: <a href="https://t.co/mB8O1YUbK4">pic.twitter.com/mB8O1YUbK4</a></p>&mdash; (Not) YoutubeKids (@RealYouTubeKids) <a href="https://twitter.com/RealYouTubeKids/status/1787101156809871740?ref_src=twsrc%5Etfw">May 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">That duck is how much peace I imagine J.Cole to be at right now. <a href="https://t.co/iDHg7jeJzj">pic.twitter.com/iDHg7jeJzj</a></p>&mdash; Joshua Neal (@joshuaneall) <a href="https://twitter.com/joshuaneall/status/1786889878455882103?ref_src=twsrc%5Etfw">May 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
 I also enjoyed this take from Christian Divyne, joking that J Cole will wind up winning the beef by process of elimination if Drake and Kendrick keep escalating and destroy each other: 
