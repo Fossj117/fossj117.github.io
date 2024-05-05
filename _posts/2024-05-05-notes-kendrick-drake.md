@@ -59,18 +59,18 @@ She concludes quoting Ebro Darden:
 
 > If fans want the next 50 years of hip-hop to be great, the greatest artists need to step up.
 
-I don't claim to be any sort of expert on J Cole, Kendrick, or hip hop more generally and its culture of competition[^1]; and as an affluent white guy who is mostly an outsider to the hip hop world, I don't claim my opinion is worth much here. Who am I to say what makes or will make hip-hop (or its artists) great. 
+I don't claim to be any sort of expert on J Cole, Kendrick, or hip hop more generally and its culture of competition[^1]; and as a privileged white guy who is mostly an outsider to the hip hop world, I don't claim my opinion is worth much here. Who am I to say what makes or will make hip-hop (or its artists) great. 
 
 But with that said, Cole's statement resonates for me as a valuable example of a visible male role model publicly *being vulnerable* and discussing his struggle with the patriarchal cultural expectations placed on men to be strong, aggressive, competitive, and so on. As Cole's personal reflection highlights -- these cultural expectations are often blind to the personal emotional cost (or alientation) that they exact on men. 
 
 What I also find compelling about the statement is the way Cole is really not blaming or criticizing anyone else. He describes his *personal* experience of the world's expectation of him, but does not claim that those expectations are right or wrong. He is not trying to make some broader critique of patriarchal masculinity or hip-hop culture, criticize others for participating in it, or use it as an execuse[^2]; instead, he is just saying honestly: *I* had this experience, *I* regret the decision that I made, and *I* apologize for it. It's about his own honest reflection on his decisions, and his desire to move forward according to his own understanding of what's right and what's best for his own personal, mental & spiritual health. 
 
-Many "apologies" we see from public figures are quite the opposite of this: they involve some public figure *caving to* public pressure to recant for some past decision in hopes of staving off cancellation -- typically while taking as little personal responsibility as possible. Cole, by contrast, is proactively following his own moral compass, taking responsibility for what he sees as a mistake, and accepting consequences -- in spite of external pressure to the contrary. In this way, he's demonstrating a kind of personal honesty that is present in a lot of great art. 
+Many "apologies" we see from public figures are quite the opposite of this: they involve some public figure *caving to* public pressure to recant for some past decision in hopes of staving off cancellation -- typically while taking as little personal responsibility as possible. Cole, by contrast, is proactively following his own moral compass, taking responsibility for what he sees as a mistake, and accepting consequences -- in spite of external pressure to the contrary. In this way, he's demonstrating a kind of personal honesty & integrity that is present in a lot of great art. It's also a dimension 
 
 Anyhow, it will be interesting to see how this all plays out culturally. While some commentators have been critical (per above), another thread of response ("J Cole right now") has comically commented on Cole's decision to choose peace as the Drake/Kendrick side of the beef has intensified; some examples: 
 
 <center>
-<iframe src="https://www.tiktok.com/embed/7365117857308495146" width="50%" height="575" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.tiktok.com/embed/7365117857308495146" width="325" height="575" frameborder="0" allowfullscreen></iframe>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Drake: “Your wi-“<br><br>Kendrick: “DIE LIGHT SKINNED PEDOPHILE!! DIE!!!”<br><br>J.Cole: <a href="https://t.co/mB8O1YUbK4">pic.twitter.com/mB8O1YUbK4</a></p>&mdash; (Not) YoutubeKids (@RealYouTubeKids) <a href="https://twitter.com/RealYouTubeKids/status/1787101156809871740?ref_src=twsrc%5Etfw">May 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -84,6 +84,14 @@ I also enjoyed this take from Christian Divyne, joking that J Cole will wind up 
 </center>
 
 This is all to say -- regardless of Cole's understandable expectation that the apology is "not what a lot of people want to hear" -- it's really still TBD how this will all wind up reflecting back on him culturally. We will have to see.
+
+## Some other interesting takes
+
+Adding some other takes on the broader beef here as I see them. 
+
+<center>
+<iframe src="https://www.tiktok.com/embed/7365548001797868830" width="325" height="575" frameborder="0" allowfullscreen></iframe>
+</center>
 
 ## Footnotes
 
