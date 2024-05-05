@@ -110,7 +110,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: $small-font-size;
+    font-size: $base-font-size*0.9;
     // letter-spacing: -1px;
     font-style: italic;
 
@@ -119,6 +119,12 @@ blockquote {
     }
 }
 
+iframe {
+    margin-top: 20px;
+    /* Space above the iframe */
+    margin-bottom: 20px;
+    /* Space below the iframe */
+}
 
 
 /**
