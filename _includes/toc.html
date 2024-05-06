@@ -1,0 +1,15 @@
+<div id="toc"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var toc = $("<ul>");
+        $("article h2").each(function (index) {
+            var text = $(this).text();
+            var id = "section-" + index;
+            $(this).attr("id", id);
+            var listItem = $("<li><a href='#" + id + "'>" + text + "</a></li>");
+            toc.append(listItem);
+        });
+        $("#toc").append("<h2>Table of Contents</h2>").append(toc);
+    });
+</script>

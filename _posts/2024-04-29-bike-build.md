@@ -7,6 +7,8 @@ mathjax: true
 tag: ["bike"]
 ---
 
+{% include toc.html %}
+
 In this post, I will document my current bike build, and other related things I am learning, or changes I am considering. I'll add to this post as I make changes or research more things.
 
 ## Current Build 
