@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On the generalizability of LLM studies"
+title: "On the Generalizability of LLM Studies"
 date: 2024-05-06
 latex: true
 mathjax: true
