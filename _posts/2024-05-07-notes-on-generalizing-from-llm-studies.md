@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On generalizing to humans from empirical studies of LLMs"
+title: "On the generalizability of LLM studies"
 date: 2024-05-06
 latex: true
 mathjax: true
