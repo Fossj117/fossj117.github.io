@@ -17,7 +17,7 @@ Here is a picture of my current build:
 
 <p>
 <center>
-<img alt="1" align="center" src="/figs/2024-04-29-bike-build/bike_build_4_2024.jpg" width="85%">
+<img alt="1" align="center" src="/figs/2024-04-29-bike-build/bike_build_5_24.jpg" width="85%">
 </center>
 </p>
 
@@ -31,7 +31,7 @@ Specs:
 - Chain: Izumi Eco
 - Pedals: forget name. Sometimes switch for clipless. 
 - Retention: YNOT straps. 
-- Saddle: Brooks B17 (not pictured here)
+- Saddle: Brooks B17
 
 ## Notes on Changes 
 
@@ -150,6 +150,7 @@ Influential builders:
 * Mario Rossin - "He worked for years in the Colnago welding department and knows all the secrets of tubes and welding. He’s a wizard at measuring the athletes and making individually tailored frames" 
 * Cinelli Super Corsa Pista
 * Pinarello
+* Bianchi Pista / Super Pista. 
 
 * Campagnolo components
 
@@ -169,3 +170,4 @@ TODO: Learn more about this.
 * [Japanese Steel: Classic Bicycle Design from Japan](https://www.amazon.com/gp/product/0847861708/)
 * [Richard's Bicycle Book](https://www.amazon.com/Richards-Bicycle-Book-Richard-Ballantine/dp/034529453X)
 * [The Dancing Chain: History and Development of the Derailleur Bicycle](https://www.amazon.com/Dancing-Chain-History-Development-Derailleur/dp/1892495694)
+* [DIY Straps](https://www.youtube.com/watch?v=IKLHem1ZGRE&ab_channel=PithyBikes)
