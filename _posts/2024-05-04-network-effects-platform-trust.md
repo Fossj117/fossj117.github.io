@@ -72,7 +72,7 @@ Note that $c-b < c+b$, so we have the following situation for pure strategy equi
 
 <p>
 <center>
-<img alt="1" align="center" src="/figs/2024-05-04-network-effects-platform-trust/NE_Drawing.png" width="85%">
+<img alt="1" align="center" src="/figs/2024-05-04-network-effects-platform-trust/NE_drawing.png" width="85%">
 </center>
 </p>
 
