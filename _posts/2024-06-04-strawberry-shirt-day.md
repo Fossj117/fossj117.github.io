@@ -101,3 +101,11 @@ Overall, I am happy with how it turned out! One thing you may notice is that the
 ## Conclusion
 
 I gifted my strawberry shirt to Elspeth and I think she liked it! I hope you will join us for Strawberry Shirt Day next year. 
+
+EDIT: Elspeth's response to this post:
+
+<p>
+<center>
+<img alt="1" align="center" src="/figs/2024-06-04-strawberry-shirt-day/correction.png" width="75%">
+</center>
+</p>
