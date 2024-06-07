@@ -112,3 +112,19 @@ I think a lot of this section is pointing out toward the "Data trusts" idea in R
 Basic idea here is that digital and informational *access with integrity* should be viewed as a fundamental right. Even if diffierent groups will interpret information in diffierent ways, everyon eshould have access to "uncorrupted input data" and information.  
 
 I think this section may be missing some important points. The whole issue in these kinds of context is: who gets to decide which is the "unbiased" or "uncorrupted" information? Or how do we create a plural notion of what that means? I am surprised that they don't cite something like Community Notes or Polis here as a kind of constructivist and fundamentally plural way of deciding what constitutes shared ground of knowledge making. 
+
+## Key References for Understanding this Section 
+
+* Something on the basics of liberal rights
+* Excerpt from De Tocqueveille *Democracy in America* on free association. 
+* Maybe something from *The Public and Its Problems* by Dewey. 
+* Allen, Danielle. *Justice by Means of Democracy*. University of Chicago Press, 2023. Retrieved from https://press.uchicago.edu/ucp/books/book/chicago/J/bo192735333.html.
+* Jain, Shrey, Divya Siddarth, and E. Glen Weyl. “Plural Publics.” Edmond & Lily Safra Center for Ethics, Harvard University, March 20, 2023. Retrieved from https://gettingplurality.org/2023/03/18/plural-publics/
+* Ohlhaver, Puja and Weyl, Eric Glen and Buterin, Vitalik, Decentralized Society: Finding Web3's Soul (May 10, 2022). Available at SSRN: https://ssrn.com/abstract=4105763 or http://dx.doi.org/10.2139/ssrn.4105763
+* Nissenbaum, Helen. "Privacy as contextual integrity." Wash. L. Rev. 79 (2004): 119.
+
+
+
+
+
+
