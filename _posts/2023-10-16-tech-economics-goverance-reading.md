@@ -31,6 +31,8 @@ Some things that are currently in flight:
 
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)).
   - This is now organized via [Plurality Institute](https://www.plurality.institute/); if you'd like to join, sign up [here](https://forms.gle/2RcsGBmu2Dn915X39)!
+- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila after meeting him via [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) at EthCC.
+- [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich
 
 Some other things that are on my radar on these themes:
 
@@ -45,7 +47,6 @@ Some other things that are on my radar on these themes:
 - [_The Politics of Bitcoin: Software as Right-Wing Extremism_](https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804) by Golumbia
 - Paul Gowder's [book](https://networked-leviathan.com/) and [Elettra's response](https://lpeproject.org/blog/how-not-to-regulate-digital-platforms/?utm_source=mailpoet&utm_medium=email&utm_campaign=lpe-blog-update)
 - Various recent work from [Elettra](https://www.elettrabietti.com/publications) (e.g. [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4275143))
-- [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Davila; and other [left-wing ideas about Blockchain](https://theblockchainsocialist.com/)
 - Literature connected to the [platform cooperativism](https://platform.coop/) movement
 - Writing from the [collective intelligence project](https://cip.org/) including [this](https://arxiv.org/abs/2303.11074) paper.
 - [Metagov](https://metagov.pubpub.org/participate) projects.
@@ -58,24 +59,27 @@ Some other things that are on my radar on these themes:
 - [_The Narrow Corridor_](https://www.penguinrandomhouse.com/books/555400/the-narrow-corridor-by-daron-acemoglu-and-james-a-robinson/#:~:text=About%20The%20Narrow%20Corridor&text=From%20the%20authors%20of%20the,to%20thrive%20despite%20new%20threats.) Acemoglu and Robinson.
 - Other things from Vitalik like [this](https://vitalik.eth.limo/general/2019/12/07/quadratic.html) and lots of other stuff on his blog and elsewhere. ([for example](https://vitalik.eth.limo/general/2022/12/30/institutions.html), [and also](https://vitalik.eth.limo/general/2021/09/26/limits.html), [and also](https://vitalik.eth.limo/general/2019/04/03/collusion.html); his [writing](https://vitalik.eth.limo/general/2017/12/17/voting.html) on [governance](https://vitalik.eth.limo/general/2018/03/28/plutocracy.html))
 - I want to read more from Don Ihde, including [Technology and the Lifeworld](https://iupress.org/9780253205605/technology-and-the-lifeworld/)
-- [Zach](https://www.zachary-wojtowicz.com/) suggested I read Arendt starting with [the Human Condition](https://en.wikipedia.org/wiki/The_Human_Condition).
+- [Zach](https://www.zachary-wojtowicz.com/) suggested I read Arendt starting with [_The Human Condition_](https://en.wikipedia.org/wiki/The_Human_Condition).
 - _The Dispossessed_ by Ursula K Le Guin; Le Guin's translation of the [Tao Te Ching](https://theanarchistlibrary.org/library/lao-tzu-tao-te-ching) (latter recommended by Audrey Tang); in general interested in understanding Daoist anarchism. 
 - More Jasanoff:
   - [Technologies of Humility](https://sciencepolicy.colorado.edu/students/envs_5100/jasanoff2003.pdf)
   - [Traveling Imaginaries of Innovation](https://drive.google.com/drive/u/0/folders/11cj7DUxkS_9K9MmYaLlVxAuXiySkJz_h)
   - [Constitutional Moments](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003075028-32/constitutional-moments-governing-science-technology-sheila-jasanoff)
 - [Understanding Knowledge as a Commons: From Theory to Practice](https://direct.mit.edu/books/edited-volume/3807/Understanding-Knowledge-as-a-CommonsFrom-Theory-to)
-- Various from David Graeber including [The Dawn of Everything](https://us.macmillan.com/books/9780374157357/thedawnofeverything)
+- Various from David Graeber including [_The Dawn of Everything_](https://us.macmillan.com/books/9780374157357/thedawnofeverything)
 - Marc Aidinoff's work seems interesting -- e.g. [this](https://static1.squarespace.com/static/64406ef17b9d4a67dfd826dc/t/6440a334a902220fa49ab588/1681957689981/Aidinoff.Centrists.pdf) piece on the "Jeffersonian Politics of a Decentralized Internet".
 - [Democratizing Data: Discovering Data Use and Value for Research and Policy](https://hdsr.mitpress.mit.edu/specialissue4)
-- [Data Feminism](https://data-feminism.mitpress.mit.edu/) and [Counting Feminicide](https://mitpress.mit.edu/9780262048873/counting-feminicide/). 
+- [_Data Feminism_](https://data-feminism.mitpress.mit.edu/) and [_Counting Feminicide_](https://mitpress.mit.edu/9780262048873/counting-feminicide/). 
 - [Digital Democracy, Analogue Politics: How the Internet Era is Transforming Politics in Kenya](https://www.bloomsbury.com/us/digital-democracy-analogue-politics-9781786994318/) by Nanjala Nyabola.
 - [Complexity and the Art of Public Policy](https://press.princeton.edu/books/paperback/9780691169132/complexity-and-the-art-of-public-policy)
-- [Blockchain + Antitrust](https://www.e-elgar.com/shop/usd/blockchain-antitrust-9781800885523.html)
-- [The Information Age: Economy, Society and Culture](https://en.wikipedia.org/wiki/The_Information_Age:_Economy,_Society_and_Culture), Manuel Castells.
+- [_Blockchain + Antitrust_](https://www.e-elgar.com/shop/usd/blockchain-antitrust-9781800885523.html)
+- [_The Information Age: Economy, Society and Culture_](https://en.wikipedia.org/wiki/The_Information_Age:_Economy,_Society_and_Culture), Manuel Castells.
 - [Platform Regulation Syllabus](https://docs.google.com/document/d/1yBvPMk0gXNLZWkMXnZnJb7oD3AO3DwxdAHghqifihec/edit) from Daphne Keller.
-- [The Politics of Platform Regulation](https://global.oup.com/academic/product/the-politics-of-platform-regulation-9780197692851?cc=us&lang=en&) - Robert Gorwa
-- [A Web of Our Own Making](https://www.amazon.com/Web-Our-Own-Making-Formation/dp/1009324772) by Anton Barba-Kay
+- [_The Politics of Platform Regulation_](https://global.oup.com/academic/product/the-politics-of-platform-regulation-9780197692851?cc=us&lang=en&) - Robert Gorwa
+- [_A Web of Our Own Making_](https://www.amazon.com/Web-Our-Own-Making-Formation/dp/1009324772) by Anton Barba-Kay
+- [_From Counterculture to Cyberculture_](https://press.uchicago.edu/ucp/books/book/chicago/F/bo3773600.html); suggested by Ryan. 
+- *Security, Territory, Population* by Foucault (suggested by Kassandra). 
+- [Library](https://100r.co/site/library.htm) and reading list from [Hundred Rabbits](https://100r.co/)
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
