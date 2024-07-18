@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Tech Economics & Governance Reading Group"
-date: 2024-07-18
+date: 2024-03-12
 latex: true
 mathjax: true
 comments: true
-tag: ["sts", "econ"]
+tag: ["sts", "econ", "plurality"]
 ---
 
 _First posted_: October 16, 2023.
