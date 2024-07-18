@@ -53,12 +53,12 @@ Some other things that are on my radar on these themes:
 - Zuckerman's writing on Digital Public Infrastructure ([for example](https://knightcolumbia.org/content/the-case-for-digital-public-infrastructure))
 - More on [collective intelligence](https://compdemocracy.org/collective-intelligence/)
 - More from [Zoe Hitzig](https://www.zoehitzig.com/); especially her [philosophy](https://scholar.harvard.edu/files/hitzig/files/finalrevision.pdf) work.
-- In general, want to strengthen my foundations in political and democratic theory.
+- In general, want to strengthen my foundations in political and democratic theory. Let me know if you have thoughts on what to read. 
 - [Lessons from web 3](https://gettingplurality.org/2023/03/18/ethics-of-decentralized-social-technologies-lessons-from-the-web3-wave/) white paper.
 - Work from [bridging systems](https://bridging.systems/)
 - [_The Narrow Corridor_](https://www.penguinrandomhouse.com/books/555400/the-narrow-corridor-by-daron-acemoglu-and-james-a-robinson/#:~:text=About%20The%20Narrow%20Corridor&text=From%20the%20authors%20of%20the,to%20thrive%20despite%20new%20threats.) Acemoglu and Robinson.
 - Other things from Vitalik like [this](https://vitalik.eth.limo/general/2019/12/07/quadratic.html) and lots of other stuff on his blog and elsewhere. ([for example](https://vitalik.eth.limo/general/2022/12/30/institutions.html), [and also](https://vitalik.eth.limo/general/2021/09/26/limits.html), [and also](https://vitalik.eth.limo/general/2019/04/03/collusion.html); his [writing](https://vitalik.eth.limo/general/2017/12/17/voting.html) on [governance](https://vitalik.eth.limo/general/2018/03/28/plutocracy.html))
-- I want to read more from Don Ihde, including [Technology and the Lifeworld](https://iupress.org/9780253205605/technology-and-the-lifeworld/)
+- I want to read more from Don Ihde, including [_Technology and the Lifeworld_](https://iupress.org/9780253205605/technology-and-the-lifeworld/)
 - [Zach](https://www.zachary-wojtowicz.com/) suggested I read Arendt starting with [_The Human Condition_](https://en.wikipedia.org/wiki/The_Human_Condition).
 - _The Dispossessed_ by Ursula K Le Guin; Le Guin's translation of the [Tao Te Ching](https://theanarchistlibrary.org/library/lao-tzu-tao-te-ching) (latter recommended by Audrey Tang); in general interested in understanding Daoist anarchism. 
 - More Jasanoff:
