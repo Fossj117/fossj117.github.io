@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Economics & Governance Reading Group"
-date: 2024-03-12
+date: 2024-07-18
 latex: true
 mathjax: true
 comments: true
@@ -31,8 +31,8 @@ Some things that are currently in flight:
 
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)).
   - This is now organized via [Plurality Institute](https://www.plurality.institute/); if you'd like to join, sign up [here](https://forms.gle/2RcsGBmu2Dn915X39)!
-- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila after meeting him via [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) at EthCC.
-- [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich
+- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila after meeting him briefly at EthCC.
+- Starting [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich after seeing it referenced by [Hundred Rabbits](https://100r.co/site/mission.html)
 
 Some other things that are on my radar on these themes:
 
@@ -79,7 +79,7 @@ Some other things that are on my radar on these themes:
 - [_A Web of Our Own Making_](https://www.amazon.com/Web-Our-Own-Making-Formation/dp/1009324772) by Anton Barba-Kay
 - [_From Counterculture to Cyberculture_](https://press.uchicago.edu/ucp/books/book/chicago/F/bo3773600.html); suggested by Ryan. 
 - *Security, Territory, Population* by Foucault (suggested by Kassandra). 
-- [Library](https://100r.co/site/library.htm) and reading list from [Hundred Rabbits](https://100r.co/)
+- [Library](https://100r.co/site/library.html) and reading list from [Hundred Rabbits](https://100r.co/)
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
 
