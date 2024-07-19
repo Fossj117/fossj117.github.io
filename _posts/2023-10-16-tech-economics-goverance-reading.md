@@ -82,5 +82,3 @@ Some other things that are on my radar on these themes:
 - [Library](https://100r.co/site/library.html) and reading list from [Hundred Rabbits](https://100r.co/)
 
 I will plan to keep updating this post as we make progress. If you have suggestions or are interested in reading/discussing on these themes as well, please reach out (`fossj117 at gmail dot com`).
-
-Ryan and I are also interested in reading/thinking/building in a more applied vein on these themes, so that may be a direction going forward.
