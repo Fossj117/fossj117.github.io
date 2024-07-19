@@ -10,9 +10,9 @@ tag: ["sts", "econ", "plurality"]
 
 _First posted_: October 16, 2023.
 
-[Ryan](https://ryansepassi.com/) and I (and sometimes including [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Jesse](https://jessecallahanbryant.com/) and others) have been meeting regularly to read and discuss around a set of themes connected to digital technology governance, politics, and economics with a bent towards cooperative/democratic/pluralistic themes. In this post, I will keep tabs on some of our reading; I'll also keep a list of other things I find interesting on these themes.
+[Ryan](https://ryansepassi.com/) and I (and sometimes including [Kassandra](https://twitter.com/kassandraETH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Jesse](https://jessecallahanbryant.com/) and others) have been meeting regularly to read and discuss around a set of themes connected to digital technology governance, politics, and economics with a bent towards cooperative/democratic/pluralistic approaches. In this post, I will keep tabs on some of our reading; I'll also keep a list of other things I find interesting on these themes.
 
-Some reading we have worked through (to various extents) so far:
+Some things we have read so far: 
 
 - [_Radical Markets_](https://press.princeton.edu/books/hardcover/9780691177502/radical-markets) by Weyl & Posner; especially chapters on Harberger taxes and quadratic voting.
 - [_Governing the Commons_](https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5) by Ostrom.
@@ -27,11 +27,11 @@ Some reading we have worked through (to various extents) so far:
 - [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html) and [Zach](https://www.zachary-wojtowicz.com/))
   - My notes [here](https://jeffreyfossett.com/2024/03/09/public-and-its-problems.html).
 
-Some things that are currently in flight:
+Some things that I am currently reading: 
 
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)).
   - This is now organized via [Plurality Institute](https://www.plurality.institute/); if you'd like to join, sign up [here](https://forms.gle/2RcsGBmu2Dn915X39)!
-- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila after meeting him briefly at EthCC.
+- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila (discussing with [Ryan](https://ryansepassi.com/))
 - Starting [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich after seeing it referenced by [Hundred Rabbits](https://100r.co/site/mission.html).
 
 Some other things that are on my radar on these themes:
