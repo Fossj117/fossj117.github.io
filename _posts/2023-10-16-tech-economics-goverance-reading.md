@@ -63,7 +63,7 @@ Some other things that are on my radar on these themes:
 - _The Dispossessed_ by Ursula K Le Guin; Le Guin's translation of the [Tao Te Ching](https://theanarchistlibrary.org/library/lao-tzu-tao-te-ching) (latter recommended by Audrey Tang); in general interested in understanding Daoist anarchism. 
 - More Jasanoff:
   - [Technologies of Humility](https://sciencepolicy.colorado.edu/students/envs_5100/jasanoff2003.pdf)
-  - [Traveling Imaginaries of Innovation](https://drive.google.com/drive/u/0/folders/11cj7DUxkS_9K9MmYaLlVxAuXiySkJz_h)
+  - [Traveling Imaginaries of Innovation](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315685397-37/traveling-imaginaries-sebastian-pfotenhauer-sheila-jasanoff)
   - [Constitutional Moments](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003075028-32/constitutional-moments-governing-science-technology-sheila-jasanoff)
 - [Understanding Knowledge as a Commons: From Theory to Practice](https://direct.mit.edu/books/edited-volume/3807/Understanding-Knowledge-as-a-CommonsFrom-Theory-to)
 - Various from David Graeber including [_The Dawn of Everything_](https://us.macmillan.com/books/9780374157357/thedawnofeverything)
