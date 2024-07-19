@@ -32,7 +32,7 @@ Some things that are currently in flight:
 - [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)).
   - This is now organized via [Plurality Institute](https://www.plurality.institute/); if you'd like to join, sign up [here](https://forms.gle/2RcsGBmu2Dn915X39)!
 - I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila after meeting him briefly at EthCC.
-- Starting [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich after seeing it referenced by [Hundred Rabbits](https://100r.co/site/mission.html)
+- Starting [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich after seeing it referenced by [Hundred Rabbits](https://100r.co/site/mission.html).
 
 Some other things that are on my radar on these themes:
 
