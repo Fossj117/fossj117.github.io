@@ -10,7 +10,7 @@ tag: ["personal"]
 
 For some combinations of reasons, I have lately been having and/or remembering a lot more of my dreams. Dreams are, of course, fascinating and so I've been doing my best to cultivate my ability to remember them. When I wake up, I try to write down or audio record everything I can recall before it dissolves.
 
-One thing that I have noticed recently is how, in dreams, *ambiguity* can be durable in a way that is either intolerable or impossible in the "real" world, even in the experiential, narrative context of most dreams.
+One thing that I have been thinking about recently is how, in dreams, *ambiguity* can be durable in a way that is either intolerable or impossible in the "real" world, even in the experiential, narrative context of most dreams.
 
 For example, I had a dream recently that featured a character that was visually-undifferentiated. In the dream experience, the character played an important narrative role--they spoke, they did things, we interacted--but the way that they "looked" was unspecified. It's not that the character was visually blurry or hard to make out--but instead, like the visual characteristics of the entity were simply unselected. However, at the same time, there was dream clarity that the character was "tall"; this knowledge was not available because I could visually "see" their height, but somehow independently of this. 
 
