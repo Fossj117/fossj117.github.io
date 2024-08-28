@@ -5,7 +5,7 @@ date: 2024-08-20
 latex: true
 mathjax: true
 comments: true
-tag: ["personal"]
+tag: ["personal", "draft"]
 ---
 
 For some reason, I started remembering a lot more of my dreams recently. Dreams are, of course, fascinating and so I've been doing my best to further cultivate this ability. When I wake up, I try to write down or record everything I can recall before it dissolves.
