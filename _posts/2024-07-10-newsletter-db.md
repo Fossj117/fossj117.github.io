@@ -10,6 +10,7 @@ tag: ["personal"]
 
 I have been periodically sending out life/research/creative updates to folks on my email list. You can subscribe to the list [here](https://jeffreyfossett.com/subscribe/) or below. Here are links to past updates: 
 
+* 9/5/24 - [Jeff's Blog / Life Update](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=159df2ad57)
 * 8/14/24 - [Facebook Marketplace Stories](https://mailchi.mp/76f2b5e944c1/jeffs-bloglife-update-may-13-19039)
 * 7/10/24 - [Jeff's Blog / Life Update](https://mailchi.mp/7792031430e7/jeffs-bloglife-update-may-13-15277): Paris; Brussels; crypto.
 * 7/03/24 - [Jeff's Blog / Life Update](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=7cba86be3d): Mannheim; Santander; sewing.

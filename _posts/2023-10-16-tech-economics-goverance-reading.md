@@ -26,23 +26,24 @@ Some things we have read so far:
 - We discussed the recent [Epic v. Google decision](https://www.theverge.com/23945184/epic-v-google-fortnite-play-store-antitrust-trial-updates) and related issues (w/[Ryan](https://ryansepassi.com/) and [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html)).
 - [_The Public and Its Problems_](https://en.wikipedia.org/wiki/The_Public_and_Its_Problems) by John Dewey (w/ [Ryan](https://ryansepassi.com/), [Jesse](https://jessecallahanbryant.com/), [Jacob](https://www.rgrdlaw.com/attorneys-Jacob-G-Gelman.html) and [Zach](https://www.zachary-wojtowicz.com/))
   - My notes [here](https://jeffreyfossett.com/2024/03/09/public-and-its-problems.html).
+- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)); also various posts [here](https://jeffreyfossett.com/2024/06/06/plurality-book-part-4.html), [here](https://jeffreyfossett.com/2024/06/06/plurality-book-part-5.html) and [here](https://jeffreyfossett.com/2024/07/25/plurality-book-part-6.html).
+  - This was now organized via [Plurality Institute](https://www.plurality.institute/)!
 
 Some things that I am currently reading: 
 
-- [_Plurality: The Future of Collaborative Technology and Democracy_](https://github.com/pluralitybook/plurality) by Weyl and Tang. ([My ongoing notes](https://jeffreyfossett.com/2023/12/27/notes-on-plurality-book.html)).
-  - This is now organized via [Plurality Institute](https://www.plurality.institute/); if you'd like to join, sign up [here](https://forms.gle/2RcsGBmu2Dn915X39)!
-- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila (discussing with [Ryan](https://ryansepassi.com/))
-- Starting [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich after seeing it referenced by [Hundred Rabbits](https://100r.co/site/mission.html).
+- Danielle Allen's [_Justice by Means of Democracy_](https://press.uchicago.edu/ucp/books/book/chicago/J/bo192735333.html)
+- I am currently reading [_Blockchain Radicals_](https://www.amazon.com/Blockchain-Radicals-Building-Beyond-Capitalism/dp/1914420853) by Josh Davila (discussing with [Ryan](https://ryansepassi.com/)) 
 
 Some other things that are on my radar on these themes:
 
+- [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality) by Ivan Illich via [Hundred Rabbits](https://100r.co/site/mission.html).
 - Various from Kropotokin, such as [_Mutual Aid: A Factor of Evolution_](https://www.amazon.com/Mutual-Aid-Evolution-Peter-Kropotkin/dp/0875580246) and [_The Conquest of Bread_](https://en.wikipedia.org/wiki/The_Conquest_of_Bread).
 - More Jane Jacobs -- _Cities and the Wealth of Nations_, _Death and Life_ and so on.
   - [Wes](https://www.ccc.mit.edu/person/wes-chow/) suggested [this](https://link.springer.com/book/10.1007/978-981-99-5362-2) new book on Jacobs work titled "A City Cannot be a Work of Art", which is interesting to me.
 - [_Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity_](https://www.amazon.com/Power-Progress-Thousand-Year-Technology-Prosperity/dp/1541702530) by Acemoglu and Johnson.
 - [_The Descent of Icarus_](https://www.amazon.com/Descent-Icarus-Transformation-Contemporary-Democracy/dp/067419828X) by Ezrahi is something I want to re-read in more depth.
 - [_Political Theory of the Digital Age_](https://www.cambridge.org/core/books/political-theory-of-the-digital-age/9BD53911483266AC3FCDF8EECEE95D9E) by Risse
-- Various from Danielle Allen including [_Justice by Means of Democracy_](https://press.uchicago.edu/ucp/books/book/chicago/J/bo192735333.html).
+- Various from Danielle Allen including Democracy without Domination.
 - [_Governable Spaces_](https://www.ucpress.edu/book/9780520393943/governable-spaces) by Nathan Schneider
 - [_The Politics of Bitcoin: Software as Right-Wing Extremism_](https://www.amazon.com/Politics-Bitcoin-Right-Wing-Extremism-Forerunners/dp/1517901804) by Golumbia
 - Paul Gowder's [book](https://networked-leviathan.com/) and [Elettra's response](https://lpeproject.org/blog/how-not-to-regulate-digital-platforms/?utm_source=mailpoet&utm_medium=email&utm_campaign=lpe-blog-update)
