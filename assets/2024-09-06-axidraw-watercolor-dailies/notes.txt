@@ -1,0 +1,8 @@
+ssh fossj117@10.0.0.101
+saxi 
+
+101.6 mm = 4 inches
+152.4 mm = 6 inches
+12.7 mm = 0.5 inches margin
+
+http://10.0.0.101:9080/
