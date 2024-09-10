@@ -1,8 +1,14 @@
 import random
 import svgwrite
+import math
 
 def distance_xy(x1, y1, x2, y2):
     return ((x1 - x2)**2 + (y1 - y2)**2)**0.5
+
+def push_from_focal(x, y, focal_x, focal_y, push_factor):
+    distance = distance_xy(x, y, focal_x, focal_y)
+    angle = math.atan2(y - focal_y, x - focal_x)
+    return (x + push_factor * distance * math.cos(angle), y + push_factor * distance * math.sin(angle))
 
 class Square: 
     def __init__(self, x, y, size, fill, dwg):
@@ -176,7 +182,9 @@ def main():
             if random.random() > 3*normalized_distance_from_focal: 
                 fill = 'None'
 
-            squares.append(Square(x, y, square_size_pixels, fill, dwg))
+            xp, yp = push_from_focal(x, y, focal_x, focal_y, 0.25)
+
+            squares.append(Square(xp, yp, square_size_pixels, fill, dwg))
 
     # Draw all the squares
     for square in squares:

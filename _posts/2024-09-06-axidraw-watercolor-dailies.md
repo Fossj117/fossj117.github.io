@@ -85,7 +85,7 @@ What else? How might I make this more interesting? More colors, more feedback? M
 
 ### Day Three 
 
-Today's experiment involves some [automatic drawing](https://en.wikipedia.org/wiki/Surrealist_automatism) with watercolor pencils. The result is chaotic and not too appealing for me, but there's something conceptually interesting about the idea of combining human and machine automatism, alongside an injection of natural randomness (water). 
+Today's first experiment involves some [automatic drawing](https://en.wikipedia.org/wiki/Surrealist_automatism) with watercolor pencils. The result is chaotic and not too appealing for me, but there's something conceptually interesting about the idea of combining human and machine automatism, alongside an injection of natural randomness (water). 
 
 <div align="center">
 
@@ -98,3 +98,25 @@ Today's experiment involves some [automatic drawing](https://en.wikipedia.org/wi
 *Indulgence* (process)
 
 </div>
+
+In my second experiment of the day, I explored using watercolors again directly, here adding bits of sage green pigment. 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day3C.jpg" alt="Indulgence (process)" style="width: 50%;" />
+
+*What Was Meant By It*
+
+</div>
+
+Some bits of this get too heavy for me; but I like other bits somewhat more -- mainly the places where the regimented squares peek through in "shadow" and/or blend with the sage pigment. Here is a detail: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day3D.jpg" alt="Indulgence (process)" style="width: 50%;" />
+
+*What Was Meant By It* (Detail)
+
+</div>
+
+Maybe I wille explore some more deliberate placement of the water on the canvas. 
