@@ -120,3 +120,25 @@ Some bits of this get too heavy for me; but I like other bits somewhat more -- m
 </div>
 
 Maybe I wille explore some more deliberate placement of the water on the canvas. 
+
+### Day Four
+
+Today i returned to direct watercolor. I generated the plotter design and then made some watercolor forms by hand loosely related to the negative space in the generative design. I used heavy water and left it pooled on the canvas, and then plotted into it. I used some salt granules to explore creating different textures in the watercolor. Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day4B.jpg" alt="Immanence" style="width: 50%;" />
+
+*The Arrangement of Things*
+
+</div>
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day4A.jpg" alt="Immanence" style="width: 50%;" />
+
+*The Arrangement of Things* (Detail)
+
+</div>
+
+In the algorithm, I lightened the amount of fills, and allowed for partial squares. I think less fill was good in this scale to not overwhelm the watercolor. I continue to be most interested in the boundary areas in these designs -- e.g. the squares plotted into pooled water leaving hazy outlines. I also like the color variation here, expressing the blue-greenish undertones of the black ink and also their dilution and mixture with the water and watercolor pigments. I want maybe to explore more layering, whether of color or the plotted work. 
