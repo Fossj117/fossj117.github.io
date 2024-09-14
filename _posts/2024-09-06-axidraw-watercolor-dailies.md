@@ -8,16 +8,7 @@ comments: true
 tag: ["art"]
 ---
 
-## Motivation
-
-Lately, I have been thinking about the value of discipline and focus in creative work. For me, there can be an impulse to jump around when I'm in a "creative" headspace -- I want to work on what's exciting and engaging in the moment, which often involves trying or learning something new. 
-
-While this approach can be motivating and enjoyable, it also has limitations. There are lots of interesting and rewarding projects that can only be completed with sustained focus and commmitment; focus allows for more completely exploring and refining an idea. Further, many projects involve some moments of frustration or annoyance at some point or another. It can be difficult to work through these moments of resistance under the excitement-oriented approach. 
-
-Finally, there's an energetic value to discipline and that I want to explore. Discipline and consistency have a grounded, stable, secure feeling that contrasts with the untethered, fluid, uncertain energy of novelty and excitement. 
-
-With that in mind, I am doing some experiments in creative consistency. Today is Sunday. Each day this week, I am going to make one generative drawing in a series. There will be seven drawings in the series, and they will all be made using the same (or a similar) process. The process I want to explore involves combining generative art and the axidraw with water-soluble fountain pen ink and watercolors. 
-
+I am doing some experiments in creative consistency. Today is Sunday. Each day this week, I am going to make one generative drawing in a series. There will be seven drawings in the series, and they will all be made using the same (or a similar) process. The process I want to explore involves combining generative art and the axidraw with water-soluble fountain pen ink and watercolors. 
 
 ## Day One
 
@@ -143,3 +134,29 @@ More watercolor today.
 </div>
 
 I like some of the layering and blending in this one. I am interested in exploring a process with more layering. 
+
+## Day Six
+
+Watercolor greens and blues, a bit of salt, and pulling back on volume.
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day6.jpg" alt="Orgastic Future" style="width: 50%;" />
+
+*Orgastic Future* 
+
+</div>
+
+## Day Seven
+
+I was walking the other day with Elspeth and we went past this curb we call the "curb of requirement", which is variously populated with all sorts of crafty or collectible odds and ends. On that day there was a wide range of sheet music laid out, so I picked up a book of Prokofiev piano solos, with the idea of integrating it into this work. I like allowing the world's spontanaeity to partially direct my creative explorations, and point me in directions I might not otherwise explore. 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day7.jpg" alt="Prokofiev" style="width: 50%;" />
+
+*Prokofiev* 
+
+</div>
+
+I also explored a bit more layering and color variation in this sketch which I think is good. For me, I think the direction to take this process probably involves more texture, layering, and depth, and perhaps a slightly larger piece that would allow for more complexity. I have been wondering too about exploring other colors of fountain pen ink (or even black inks with different color undertones) for different layers. 
