@@ -67,12 +67,57 @@ class Square:
                 )
 
     def drawNoFillAt(self,x_pix,y_pix):
-        self.dwg.add(
+        
+        # Sometimes draw a square with no fill; other times draw sides separately and sometimes exclude them
+
+        if random.random() > 0.5:
+
+            self.dwg.add(
                 self.dwg.rect(
                     (x_pix, y_pix), 
                     (self.size, self.size), 
                     fill='none', stroke='black')
-        )
+            )
+        
+        else:
+
+            # draw each side and render each with some probability 
+
+            if random.random() > 0.25:
+                self.dwg.add(
+                    self.dwg.line(
+                        (x_pix, y_pix),
+                        (x_pix + self.size, y_pix),
+                        stroke='black'
+                    )
+                )
+            
+            if random.random() > 0.25:
+                self.dwg.add(
+                    self.dwg.line(
+                        (x_pix + self.size, y_pix),
+                        (x_pix + self.size, y_pix + self.size),
+                        stroke='black'
+                    )
+                )
+            
+            if random.random() > 0.25:
+                self.dwg.add(
+                    self.dwg.line(
+                        (x_pix + self.size, y_pix + self.size),
+                        (x_pix, y_pix + self.size),
+                        stroke='black'
+                    )
+                )
+            
+            if random.random() > 0.25:
+                self.dwg.add(
+                    self.dwg.line(
+                        (x_pix, y_pix + self.size),
+                        (x_pix, y_pix),
+                        stroke='black'
+                    )
+                )
 
     def draw(self):
         # Draw at the location defined by the x and y coordinates
@@ -143,6 +188,10 @@ def main():
     focal = Focal(num_x_pixels, num_y_pixels)
     focal_location = focal.create()
 
+    focal2 = Focal(num_x_pixels, num_y_pixels)
+    focal2_location = focal2.create()
+
+
     dwg = svgwrite.Drawing('output.svg', size=(X_size_pixels, Y_size_pixels))
 
     # Create a list of squares
@@ -162,11 +211,17 @@ def main():
             max_distance_from_focal = focal.max_distance_from_focal(x, y)
             normalized_distance_from_focal = distance_from_focal / max_distance_from_focal
 
+            # Focal distances
+            focal2_x, focal2_y = focal2_location
+            distance_from_focal2 = distance_xy(x, y, focal2_x, focal2_y)
+            max_distance_from_focal2 = focal2.max_distance_from_focal(x, y)
+            normalized_distance_from_focal2 = distance_from_focal2 / max_distance_from_focal2
+
             # Choose render style based on distance from fracture
             # Can be "Fill", "No Fill" or "None" with probability based on distance from fracture
 
             fill = 'None'
-            if random.random() < normalized_distance_from_fracture*.5:
+            if random.random() < normalized_distance_from_fracture*.45:
                 
                 if random.random() < normalized_distance_from_fracture*.5:
                     fill = 'Light_Fill'
@@ -182,7 +237,15 @@ def main():
             if random.random() > 3*normalized_distance_from_focal: 
                 fill = 'None'
 
-            xp, yp = push_from_focal(x, y, focal_x, focal_y, 0.25)
+            if random.random() > 3*normalized_distance_from_focal2: 
+                fill = 'None'
+
+            # slowly increasing chance of none as you go down the page
+            if random.random() > 0.95 * y / num_y_pixels: 
+                fill = 'None' 
+
+#            xp, yp = push_from_focal(x, y, focal_x, focal_y, 0.25)
+            xp, yp = x, y
 
             squares.append(Square(xp, yp, square_size_pixels, fill, dwg))
 
