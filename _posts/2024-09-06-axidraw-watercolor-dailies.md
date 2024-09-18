@@ -161,11 +161,37 @@ I was walking the other day with Elspeth and we went past this curb we call the 
 
 I also explored a bit more layering and color variation in this sketch which I think is good. For me, I think the direction to take this process probably involves more texture, layering, and depth, and perhaps a slightly larger piece that would allow for more complexity. I have been wondering too about exploring other colors of fountain pen ink (or even black inks with different color undertones) for different layers. 
 
-## Conclusion and Video
+## Conclusion
 
 I decided that to end this experiment, I want to make a little Instagram / Tik Tok video reflecting on my experiments here. Here is the video:
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@_j117_/video/7416001906943741226" data-video-id="7416001906943741226" style="max-width: 1000px;min-width: 325px;" > <section> <a target="_blank" title="@_j117_" href="https://www.tiktok.com/@_j117_?refer=embed">@_j117_</a> <a title="penplotter" target="_blank" href="https://www.tiktok.com/tag/penplotter?refer=embed">#penplotter</a> <a title="penplotterart" target="_blank" href="https://www.tiktok.com/tag/penplotterart?refer=embed">#penplotterart</a> <a title="generativeart" target="_blank" href="https://www.tiktok.com/tag/generativeart?refer=embed">#generativeart</a> <a title="creativecoding" target="_blank" href="https://www.tiktok.com/tag/creativecoding?refer=embed">#creativecoding</a> <a title="watercolor" target="_blank" href="https://www.tiktok.com/tag/watercolor?refer=embed">#watercolor</a> <a target="_blank" title="♬ original sound - JF" href="https://www.tiktok.com/music/original-sound-7416001888878971691?refer=embed">♬ original sound - JF</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{% raw %}<div>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@_j117_/video/7416001906943741226" data-video-id="7416001906943741226" style="max-width: 1000px;min-width: 325px;" > 
+<section> 
+<a target="_blank" title="@_j117_" href="https://www.tiktok.com/@_j117_?refer=embed">@_j117_</a> 
+<a title="penplotter" target="_blank" href="https://www.tiktok.com/tag/penplotter?refer=embed">#penplotter</a> 
+<a title="penplotterart" target="_blank" href="https://www.tiktok.com/tag/penplotterart?refer=embed">#penplotterart</a> 
+<a title="generativeart" target="_blank" href="https://www.tiktok.com/tag/generativeart?refer=embed">#generativeart</a> 
+<a title="creativecoding" target="_blank" href="https://www.tiktok.com/tag/creativecoding?refer=embed">#creativecoding</a> 
+<a title="watercolor" target="_blank" href="https://www.tiktok.com/tag/watercolor?refer=embed">#watercolor</a> 
+<a target="_blank" title="♬ original sound - JF" href="https://www.tiktok.com/music/original-sound-7416001888878971691?refer=embed">♬ original sound - JF</a> 
+</section> 
+</blockquote> 
+<script src="https://www.tiktok.com/embed.js"></script>
+</div>{% endraw %}
+<br>
+Someone commented on the video using the term "cyborg art" which I relate to. It makes me want to re-read *A Cyborg Manifesto* and other Haraway which is perpetually in the background of my thinking. I was also reminded of this poem that I co-created with an LLM a while back about making art with machines: 
+
+<blockquote>
+Who is creator - machine or me?  
+Neurons, circuits, shared electricity.  
+It beeps, I whir; we click into place  
+I share its metal arm, we trace  
+The lines together, dance of creation -  
+Is this art or automation?  
+Cyborg muse or an empty mind,  
+Is it art if it's not all mine?  
+</blockquote>
 
 <!-- > VIDEO 
 
