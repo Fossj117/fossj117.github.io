@@ -119,6 +119,13 @@ blockquote {
     }
 }
 
+blockquote.tiktok-embed {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
 iframe {
     margin-top: 20px;
     /* Space above the iframe */

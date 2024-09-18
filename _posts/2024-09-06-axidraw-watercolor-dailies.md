@@ -160,3 +160,95 @@ I was walking the other day with Elspeth and we went past this curb we call the 
 </div>
 
 I also explored a bit more layering and color variation in this sketch which I think is good. For me, I think the direction to take this process probably involves more texture, layering, and depth, and perhaps a slightly larger piece that would allow for more complexity. I have been wondering too about exploring other colors of fountain pen ink (or even black inks with different color undertones) for different layers. 
+
+## Conclusion and Video
+
+I decided that to end this experiment, I want to make a little Instagram / Tik Tok video reflecting on my experiments here. Here is the video:
+
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@_j117_/video/7416001906943741226" data-video-id="7416001906943741226" style="max-width: 1000px;min-width: 325px;" > <section> <a target="_blank" title="@_j117_" href="https://www.tiktok.com/@_j117_?refer=embed">@_j117_</a> <a title="penplotter" target="_blank" href="https://www.tiktok.com/tag/penplotter?refer=embed">#penplotter</a> <a title="penplotterart" target="_blank" href="https://www.tiktok.com/tag/penplotterart?refer=embed">#penplotterart</a> <a title="generativeart" target="_blank" href="https://www.tiktok.com/tag/generativeart?refer=embed">#generativeart</a> <a title="creativecoding" target="_blank" href="https://www.tiktok.com/tag/creativecoding?refer=embed">#creativecoding</a> <a title="watercolor" target="_blank" href="https://www.tiktok.com/tag/watercolor?refer=embed">#watercolor</a> <a target="_blank" title="♬ original sound - JF" href="https://www.tiktok.com/music/original-sound-7416001888878971691?refer=embed">♬ original sound - JF</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+<!-- > VIDEO 
+
+Transcript. 
+
+This week I have been doing these daily sketches exploring a new creative process (for me) that involves using my computer-controlled drawing machine in combination with water and water color paints, as well as a fountain pen with water soluble ink. 
+
+I tried a few variants of the process over the course of the week, but the version that seems to yield the most interesting results so far involves doing some watercolor on paper first and then using the drawing machine on top of that, while the paper is still wet. 
+
+That version of the process allows for a lot of interaction between the watercolor and the machine drawing. ==> because I am using the fountain pen with water soluble ink, the computer drawing can bleed and mix in various ways when the paper is damp. It seems that the fountain pen can also pick up the water and watercolor pigment in different amounts, which can create interesting variation in color and value. 
+
+In general, there is a lot of unpredictability and uncertainty in this process, which is part of what makes it interesting, given that it's of course possible to use a drawing machine in a highly controlled and predictable way. 
+
+In this case, the result that we actually get on the paper emerges from a mix of the procedural algorithmic design, the pathing algorithm for the plotter, and then all these natural variables connected with the watercolor, like exactly how damp the paper is in a particular place and how quickly it's drying, depending on how sunny it is outside. 
+
+As I explore this process more, I'm interested in trying to add more layering and depth, possibly using multiple iterations of this tradeoff between the watercolor and the pen plotting. 
+
+Overall, I am conceptually interested in pen plotted work that in different ways pushes beyond thinking of the plotter as just like a big printer for precisely rendering some computational design in real life. 
+
+Like an important part of what makes a pen plotter different from working with digital design purely on a computer screen is that it *is* this physical process, and you can have these creative dimensions that emerge from the physicality of the medium -- whether that's color bleeding or blending, or working with paint.
+
+Thematically, I also think that that's really interesting in terms of exploring this broader idea about how our even quite rigorously-designed technological systems can be brittle or can behave in unexpected ways when they come into contact with the complexity of the real world. 
+
+There's a handful of cool pen plotter artists on social media exploring this kind of direction in different ways, and I'll tag some in the description. 
+
+Anyways, I'd be curious to hear in the comments or messages from folks who have thoughts on this process and how we could iterate on and improve it. For me, I want to potentially explore some slightly larger and more complicated pieces in this theme, and/or try do some more layering -- possibly alternating between the hand painting and the machine drawing -- to hopefully add some more depth and contrast. 
+
+Thanks for watching. 
+
+
+
+
+Thematically, I also think that this type of work 
+
+
+
+
+
+
+
+In general I think developing this idea by introducing more color and layering 
+
+
+
+
+even within the computer-drawn pieces. 
+
+<!-- I like the visual look when you get these like very faded  -->
+
+<!-- In general, there is a lot of unpredictability and uncertainty in this process, which is part of what makes it interesting, given that it's of course possible to use a drawing machine in a highly controlled and predictable way. 
+
+In this case, the result that we actually get on the paper emerges from a mix of the procedural algorithmic design, the pathing algorithm for the plotter, and then all these natural variables connected with the watercolor, like exactly how damp the paper is in a particular place and how quickly it's drying, depending on how sunny it is outside. 
+
+--
+
+Visually I think that the results are varied for me.
+
+Something that happens with this process that I think is cool is that the fountain pen in various measures 
+
+
+--
+
+In general, I am conceptually interested in pen plotted work that in different ways pushes beyond thinking of the plotter as just like a big printer for precisely rendering some computational design in real life. 
+
+For me, the most conceptually interesting work involves engaging the idea that there is a real physical process happening here. 
+
+That engages the like physical materiality of the process. 
+
+There's various versions of this. 
+
+* This kind of process. 
+* 
+
+-- 
+
+I also want to say at the conclusion that I am not the first or only person to explore this kind of process. If you find this interesting you should check out idrawmonkeys and licia he who both do interestin gthings involving pen plotters and water or watercolor in different ways. 
+
+-- 
+
+In general I think that this direction is interesting to me for a few reasons. First, I have always loved watercolors, and the element of unpredictability they have. 
+
+NEXT: I want to combine this process with my MCMC drawing algorithm. 
+
+- do a wash on the whole page
+- do MCMC with little dots. Maybe a version where the amount of time that the pen stays down is a function of how dark the pixel is?
+ -->
