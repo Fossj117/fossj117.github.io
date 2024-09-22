@@ -40,3 +40,11 @@ Some new elements:
 * In one of these, I did another layer on top using a white pencil. 
 
 Lots of interesting developments here. Generally I like how the process goes with little ink in the pen, and I like more layering and interaction. For now, I am converging for now on a palette involving the black ink with blue/green undertones, as well as blue and some orange. 
+
+Some closer photos of variants I like: 
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day8close.jpg" alt="Image 2">
+
+On the left above here is ~no ink into pure watercolor. This next one is layering with ink and white pencil on top: 
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day8layers.jpg" alt="Image 3">
