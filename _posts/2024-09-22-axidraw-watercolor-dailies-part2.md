@@ -72,7 +72,21 @@ I also made a Tik Tok video today reflecting some more on my recent iterations o
 </center>
 <br>
 
-Something obvious that I am noticing about this process of doing daily creative work is that it implicitly encourages me to reflect and be more mindful of the work I am doing, which is good. After each iteration, it's natural to think about what I like or don't like about it, and what I could try differently next time. This is a benefit in addition to the feeling of groundedness and commitment that comes with regular practice. 
+Something that I am thinking about today is how this process of doing daily creative work implicitly encourages me to reflect and be more mindful of the work I am doing, which is good. After each iteration, it's natural to think about what I like or don't like about it, and what I could try differently next time. This is a benefit in addition to the feeling of groundedness and commitment that comes with regular practice. 
+
+## Day 3 (Tuesday)
+
+In today's experiment, I used some new watercolor paper that I picked up yesterday, and consequently changed the aspect ratio of the piece. I did a first layer of diluted ink with, but left it somewhat less damp than some prior tests. I also filled the fountain pen more completely with water. In the first plotter layer this had some interesting effects, as it actually lightened some areas it passed over. I then did a layer with the white pencil. After that, I thought the piece might be done, but was conflicted. I also wanted the depth that comes with more layering, and was concerned that maybe it was just fear of ruining something nice that was holding me back from going in again. I decided to be brave and go ahead with it, and added some more ink and did another layer with the plotter. It came out okay. I am not sure I like doing anything on top of the white pencil, it seems to just mush it around without much interest. I think in the future I will leave pencil layers for the end mainly. In general, I think that more layering is still the way as far as continuing to develop this process. In addition to the results, I enjoy the process of the layering, trading back and forth between me and the machine; active and reactive -- co-charting the course. Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day10.jpg" alt="She said the days were getting shorter" style="width: 70%;" />
+
+*She said the days were getting shorter*
+
+</div>
+
+
 
 <!-- ## Scripts 
 
