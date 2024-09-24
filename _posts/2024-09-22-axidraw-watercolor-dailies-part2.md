@@ -86,6 +86,9 @@ In today's experiment, I used some new watercolor paper that I picked up yesterd
 
 </div>
 
+In the end, I think that I like this one quite a bit. I finally figured out a nice setup to get a fairly clean edge and also have good alignment with the plotter. I do think more layering will be nice. But I like not going over the top in terms of the contrast, and blending out the edges of the inked portions more.
+
+Today I am also thinking about how basically all satisfaction in work/creation comes from care and attention. There are no shortcuts. Creative work will be satisfying and meaningful in direct proportion with the amount of care and attention I put into it. 
 
 
 <!-- ## Scripts 
