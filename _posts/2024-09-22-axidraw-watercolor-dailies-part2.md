@@ -90,6 +90,27 @@ In the end, I think that I like this one quite a bit. I finally figured out a ni
 
 Today I am also thinking about how basically all satisfaction in work/creation comes from care and attention. There are no shortcuts. Creative work will be satisfying and meaningful in direct proportion with the amount of care and attention I put into it. 
 
+## Day 4 (Wednesday)
+
+Today feels like a day that's already a bit caught up in other things. I think that today I will try doing a bit of an underpainting in my watercolor piece of the puzzle. Feeling today the beauty and self-acceptance implicit in doing things that are "useless" to the world. Even (especially) when there are so many "useful" things to do. 
+
+I was talking yesterday with Elspeth about this series of work, and she was saying how it's a very process-oriented series. I am thinking today about what that means. One the one hand there's a conceptual dimension to it that I've explored in some of the previous writing and videos I've made as I work on this. There are conceptually interesting things about working in this way, whatever the visual results. 
+
+But I think there's also think there is also an aspect that I find interesting and personally meaningful in terms of how the process invites interactive presence and attention vis a vis the visual results that are emerging. The different variables available here -- how much water, how much ink/pigment, how dry etc. -- can have big impacts on the visual outcomes that are emerging in the piece. As I move to using more layers, I find the back and forth between my interventions and the automated interventions of the machine to be quite interesting. I try to create the environment for the machine's next intervention to be something fruitful, to take the piece in visually-effective dimension, based on my understanding and attention to the piece so far, and the past experiments with this process. I add some ink or some water. But then the machine comes again and does some things that may or may not conform with my hopes and expectations. Perhaps the machine picks up a bit more ink than I expected in some phase of the plotting, and the marks become much darker. Perhaps a part of the paper dries quicker than expected and so winds up empty or faint. There's a lot of uncertainty. And once the intervention is made, it is made, and I have to work with what is next. Of course there are ways to try to erase, or hide things I don't like, but more fruitfully I think the feeling is one of reaction and adaptability: this went in a different direction than I expected, and here we are; what might it need next? How can I create the environment for the next intervention to be successful, given where we are? 
+
+I was thinking about how this is a lot like how I imagine parenting to be; or at least how I think I would approach it. You try to create an environment for your child to succeed, which necessarily involves some assumptions about what "success" means. But then your child intervenes with the way they are, which is both shaped by your decisions and things outside of you. Ideally, as a parent, you mindfully observe and react to these unanticipated interventions, working in collaboration to re-cultivate the environment and co-create some shared version of success. 
+
+Anyway, here is the result for today: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day11A.jpg" alt="Parenting" style="width: 70%;" />
+
+*Parenting*
+
+</div>
+
+
 
 <!-- ## Scripts 
 
