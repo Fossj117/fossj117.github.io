@@ -110,6 +110,37 @@ Anyway, here is the result for today:
 
 </div>
 
+## Day 5 (Thursday)
+
+Today I make some new experiments. I am feeling anxious this morning, and so perhaps some boldness is just what I need. With that, two changes I explore: 
+
+1. I will test out the new ink I got -- a super deep purple from Sailor. I tested it a bit offline yesterday and it flows a bit more than the black ink I have been using (from Lamy), so that should be interesting. I want to try 
+2. I made some changes to the algorithm. In particular, I added some "rotation" to the square grid, which I expect creates a fair bit more movement in the composition and feel of the piece. I am curious how it will filter through the process. 
+
+In terms of paint, my intention is to create a bit more contrast than my previous iterations. I do like creating some coverage across the whole composition area; but also I want to explore a bit more contrast and less uniformity in the composition. There can be imbalance.
+
+Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day12.jpg" alt="...but not everything" style="width: 70%;" />
+
+*...but not everything*
+
+</div>
+
+I don't love this result all that much, which is not suprising given all the new things that I was trying today. I do feel that I learned some new things. More detailed critical reactions: 
+
+1. I don't love the color palette that emerges from combining the blue/black ink and the purple ink, at least not by itself. It's giving dark dixie cup. I will have to think about if there is a warmer color I can add perhaps to balance out this effect. Maybe a earthy burnt orange. Or maybe I should keep the two colors separate. 
+2. In general, this still feels dark and muddy to me. I will need to think about how to approach mitigating this. Some warmer elements are helpful. 
+3. In this variation of the process, I think that I am losing some of the charm of the original approach, that emerged from having ink in the pen which created beleding. I do still have some variation in tone and value, but the bleeding is less here. I guess this probably both about removing ink from the pen and about leaving the page somewhat less damp and saturated in ink for the pen to pick up. I think in my next iteration I do want to recover some of this, since I think that the interaction of the machine drawing and the ink/water is one of the more interesting features here. 
+4. I don't know if I love the rotation in the squares. I think it takes away from the contrast in the previous iterations between the rigid structure of the axis-aligned grid and the organic watercolor. Maybe there are ways I can retain more of that, but add bits more variation here and there in terms of alignment or rotation. 
+
+Some more positive / constructive observations:
+
+1. New masking tape from Blick worked well, and I finally got a clean edge all around which is great. 
+2. I continue to enjoy the white pencil layering. I tried adding in a black watercolor pencil layer too which could be interesting to explore more. Watercolor pencils could be used in intermediate layers probably, and then blended/diluted with water on top. 
+3. Something interesting I noticed in the process today is that in some of the early layers, the fountain pen left no visible marks on the page, but made grooves in the watercolor paper. When I later went back and added new layers of ink wash, the ink pooled in the grooves and revealed the shapes. I am wondering if that might point towards a whole different process to explore in the future. For future reference, the effect was with a fountain pen with only water (not flowing super well) and the 400 series Strathmore watercolor paper. 
 
 
 <!-- ## Scripts 
