@@ -6,3 +6,10 @@ saxi
 12.7 mm = 0.5 inches margin
 
 http://10.0.0.101:9080/
+
+Larger size: 
+
+139.7 = 5.5 
+215.9 = 8.5
+25.4 mm = 1 inches margin
+20 mm

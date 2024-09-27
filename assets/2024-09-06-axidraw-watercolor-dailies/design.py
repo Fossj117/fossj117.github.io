@@ -11,7 +11,7 @@ def push_from_focal(x, y, focal_x, focal_y, push_factor):
     return (x + push_factor * distance * math.cos(angle), y + push_factor * distance * math.sin(angle))
 
 class Square: 
-    def __init__(self, x, y, size, fill, dwg):
+    def __init__(self, x, y, size, fill, dwg, rotate="rotate(0 0 0)"):
         '''
         X and Y are the coordinates of the square in the grid
 
@@ -20,14 +20,10 @@ class Square:
         self.x = x
         self.y = y
         self.size = size
+        self.stroke = random.choice(['black', 'grey', 'red', 'yellow', 'green'])
 
         self.fill = fill
-        #self.fill_weights = fill_weights
-        #self.fill_categories = ['Light_Fill', 'Heavy_Fill', 'No_Fill', 'None']
-
-        # Assert that fillweights must be same length as fillCategories
-        #assert len(self.fill_weights) == len(self.fill_categories)
-
+        self.rotate = rotate # transform="rotate(45 100 50)"
         self.dwg = dwg
 
     def chooseFill(self):
@@ -36,92 +32,91 @@ class Square:
         else: 
             return 'None'
 
-    def drawFilledAt(self,x_pix,y_pix, num_lines): 
-        self.dwg.add(
-                self.dwg.rect(
-                    (x_pix, y_pix), 
-                    (self.size, self.size), 
-                    fill='none', stroke='black')
-                )
-        # create lines at regular intervals to fill the shape
-       # num_lines = random.choice([2,3,4,5,6])
-        orientation = random.choice(['horizontal', 'vertical'])
-
-        if orientation == 'horizontal':
-            for i in range(num_lines):
-                self.dwg.add(
-                    self.dwg.line(
-                        (x_pix + i * self.size/num_lines, y_pix),
-                        (x_pix + i * self.size/num_lines, y_pix + self.size),
-                        stroke='black'
-                    )
-                )
-        else:
-            for i in range(num_lines):
-                self.dwg.add(
-                    self.dwg.line(
-                        (x_pix, y_pix + i * self.size/num_lines),
-                        (x_pix + self.size, y_pix + i * self.size/num_lines),
-                        stroke='black'
-                    )
-                )
-
-    def drawNoFillAt(self,x_pix,y_pix):
+    def drawFilledAt(self, x_pix, y_pix, num_lines): 
         
-        # Sometimes draw a square with no fill; other times draw sides separately and sometimes exclude them
-
-        if random.random() > 0.5:
-
+        if random.random() > 0.2:  # 80% chance to add the square boundary
             self.dwg.add(
                 self.dwg.rect(
                     (x_pix, y_pix), 
                     (self.size, self.size), 
-                    fill='none', stroke='black')
+                    fill='none', stroke=self.stroke, transform=self.rotate)
             )
-        
+        orientation = random.choice(['horizontal', 'vertical', 'concentric'])
+
+        if orientation == 'horizontal':
+            for i in range(num_lines):
+                if random.random() > 0.1:  # 80% chance to draw the line
+                    self.dwg.add(
+                        self.dwg.line(
+                            (x_pix + i * self.size/num_lines, y_pix),
+                            (x_pix + i * self.size/num_lines, y_pix + self.size),
+                            stroke=self.stroke, transform=self.rotate
+                        )
+                    )
+        elif orientation == 'vertical':
+            for i in range(num_lines):
+                if random.random() > 0.1:  # 80% chance to draw the line
+                    self.dwg.add(
+                        self.dwg.line(
+                            (x_pix, y_pix + i * self.size/num_lines),
+                            (x_pix + self.size, y_pix + i * self.size/num_lines),
+                            stroke=self.stroke, transform=self.rotate
+                        )
+                    )
+        elif orientation == 'concentric':
+            for i in range(num_lines):
+                inset = i * self.size / (2 * num_lines)
+                if random.random() > 0.1:  # 80% chance to draw the square
+                    self.dwg.add(
+                        self.dwg.rect(
+                            (x_pix + inset, y_pix + inset), 
+                            (self.size - 2 * inset, self.size - 2 * inset), 
+                            fill='none', stroke=self.stroke, transform=self.rotate)
+                    )
+
+    def drawNoFillAt(self, x_pix, y_pix):
+        if random.random() > 0.5:
+            self.dwg.add(
+                self.dwg.rect(
+                    (x_pix, y_pix), 
+                    (self.size, self.size), 
+                    fill='none', stroke=self.stroke, transform=self.rotate)
+            )
         else:
-
-            # draw each side and render each with some probability 
-
             if random.random() > 0.25:
                 self.dwg.add(
                     self.dwg.line(
                         (x_pix, y_pix),
                         (x_pix + self.size, y_pix),
-                        stroke='black'
+                        stroke=self.stroke, transform=self.rotate
                     )
                 )
-            
             if random.random() > 0.25:
                 self.dwg.add(
                     self.dwg.line(
                         (x_pix + self.size, y_pix),
                         (x_pix + self.size, y_pix + self.size),
-                        stroke='black'
+                        stroke=self.stroke, transform=self.rotate
                     )
                 )
-            
             if random.random() > 0.25:
                 self.dwg.add(
                     self.dwg.line(
                         (x_pix + self.size, y_pix + self.size),
                         (x_pix, y_pix + self.size),
-                        stroke='black'
+                        stroke=self.stroke, transform=self.rotate
                     )
                 )
-            
             if random.random() > 0.25:
                 self.dwg.add(
                     self.dwg.line(
                         (x_pix, y_pix + self.size),
                         (x_pix, y_pix),
-                        stroke='black'
+                        stroke=self.stroke, transform=self.rotate
                     )
                 )
 
     def draw(self):
-        # Draw at the location defined by the x and y coordinates
-        # So it's at location x*size, y*size
         x_pix = self.x * self.size 
         y_pix = self.y * self.size
 
@@ -174,10 +169,15 @@ class Focal:
         return (x, y)
 
 def main(): 
+    # smaller size
+    # X_size_pixels = 300
+    # Y_size_pixels = 500
+    # square_size_pixels = 10
 
-    X_size_pixels = 300
-    Y_size_pixels = 500
-    square_size_pixels = 10
+    # larger size - 5.5 by 8.5 inch; 0.5 inch margin = -1
+    X_size_pixels = 550
+    Y_size_pixels = 550
+    square_size_pixels = 12
 
     num_x_pixels = X_size_pixels // square_size_pixels
     num_y_pixels = Y_size_pixels // square_size_pixels
@@ -191,8 +191,11 @@ def main():
     focal2 = Focal(num_x_pixels, num_y_pixels)
     focal2_location = focal2.create()
 
-
     dwg = svgwrite.Drawing('output.svg', size=(X_size_pixels, Y_size_pixels))
+
+    # Define size factors
+    min_size_factor = 0.5
+    max_size_factor = 2
 
     # Create a list of squares
     squares = []
@@ -221,40 +224,83 @@ def main():
             # Can be "Fill", "No Fill" or "None" with probability based on distance from fracture
 
             fill = 'None'
-            if random.random() < normalized_distance_from_fracture*.45:
-                
-                if random.random() < normalized_distance_from_fracture*.5:
+            if random.random() < normalized_distance_from_fracture * 0.3:
+                if random.random() < normalized_distance_from_fracture * 0.5:
                     fill = 'Light_Fill'
                 else: 
                     fill = 'Heavy_Fill'
-
-            elif random.random() > normalized_distance_from_fracture*1.1:
+            elif random.random() > normalized_distance_from_fracture * 1.1:
                 fill = 'No_Fill'
 
-            if distance_from_fracture < 3 and random.random() > 0.1: 
+            if distance_from_fracture < 5 and random.random() > 0.1: 
                 fill = 'None'
 
-            if random.random() > 3*normalized_distance_from_focal: 
+            if random.random() > 2 * normalized_distance_from_focal: 
                 fill = 'None'
 
-            if random.random() > 3*normalized_distance_from_focal2: 
+            if random.random() > 2 * normalized_distance_from_focal2: 
                 fill = 'None'
 
             # slowly increasing chance of none as you go down the page
-            if random.random() > 0.95 * y / num_y_pixels: 
+            if random.random() > 0.98 * y / num_y_pixels: 
                 fill = 'None' 
 
-#            xp, yp = push_from_focal(x, y, focal_x, focal_y, 0.25)
-            xp, yp = x, y
+            # Rotate the squares around the focal point; the closer they are are the more they are rotated
 
-            squares.append(Square(xp, yp, square_size_pixels, fill, dwg))
+            # Calculate rotation angle based on distance from focal point
+            max_rotation = 180 * random.uniform(0.9, 1.1)  # Maximum rotation angle in degrees
+            rotation_factor = 1 - normalized_distance_from_focal  # Closer squares rotate more
+            base_rotation_angle = max_rotation * rotation_factor
+            
+            # Add some randomness to the rotation angle
+            random_factor = random.uniform(0.85, 1.15)  # Random factor between 0.9 and 1.1
+            rotation_angle = base_rotation_angle * random_factor
 
-    # Draw all the squares
+            # Ensure rotation angle stays within reasonable bounds
+            rotation_angle = max(min(rotation_angle, max_rotation), -max_rotation)
+            # rotation_angle = 0
+
+            # Calculate the center of the square for rotation
+            center_x = x * square_size_pixels + square_size_pixels / 2
+            center_y = y * square_size_pixels + square_size_pixels / 2
+
+            # Create the rotation transform string
+            rotate = f"rotate({rotation_angle} {center_x} {center_y})"
+
+            # Remove size variation
+            varied_square_size = square_size_pixels
+
+            # Remove the line that references undefined variables
+            # size_factor = min_size_factor + (max_size_factor - min_size_factor) * combined_size_factor
+
+            squares.append(Square(x, y, varied_square_size, fill, dwg, rotate=rotate))
+
+    # Draw all the squares within bounds
     for square in squares:
-        square.draw()
-    
-    dwg.save()
+        x_pix = square.x * square.size
+        y_pix = square.y * square.size
 
+        if 0 <= x_pix < X_size_pixels and 0 <= y_pix < Y_size_pixels:
+            square.draw()
+
+    # Create dots at the four corners of the drawing
+    pts = [
+        (0, 0), 
+        (X_size_pixels, 0), 
+        (0, Y_size_pixels), 
+        (X_size_pixels, Y_size_pixels)
+    ]
+
+    for pt in pts: 
+        dwg.add(
+            dwg.circle(
+                center=pt,
+                r=5,  # radius of the circle
+                stroke='purple'
+            )
+        )
+
+    dwg.save()
 
 if __name__ == '__main__':
     main()

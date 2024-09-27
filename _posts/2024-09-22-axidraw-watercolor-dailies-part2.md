@@ -142,6 +142,25 @@ Some more positive / constructive observations:
 2. I continue to enjoy the white pencil layering. I tried adding in a black watercolor pencil layer too which could be interesting to explore more. Watercolor pencils could be used in intermediate layers probably, and then blended/diluted with water on top. 
 3. Something interesting I noticed in the process today is that in some of the early layers, the fountain pen left no visible marks on the page, but made grooves in the watercolor paper. When I later went back and added new layers of ink wash, the ink pooled in the grooves and revealed the shapes. I am wondering if that might point towards a whole different process to explore in the future. For future reference, the effect was with a fountain pen with only water (not flowing super well) and the 400 series Strathmore watercolor paper. 
 
+## Day 6 (Friday)
+
+Today, I've made some more tweaks to the algorithmic side. I guess that I am retaining some of the rotation, and also introducing more variation in the fills and sizes. We will see how this feels. In terms of color, I am going to return to ink in the pen, trying now with the new Sailor purple which I already have loaded. Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day13.jpg" alt="...but not everything" style="width: 70%;" />
+
+*inspection*
+
+</div>
+
+In this variation, I put down a wash of the purple sailor ink first and plotted into it with ink while damp. I then added in subsequent layers with mixes of watercolor/ink and mostly the empty (water-filled) fountain pen. I finished with the white pencil as I've been doing. 
+
+Overall, I think this one is okay. I think the palette still doesn't really speak to me here, though it was a good experiment. Maybe more blues will be helpful, and just a touch of the warmer tones. I am happy here in terms of getting more blending of the plotted layers with the watercolor and ink, from plotting ink into wet. However, there's not as much contrast overall in the ink wash as in some previous tests. I am going to mull this over more today to see what direction to explore next. 
+
+I also tried documenting today with a video time lapse kind of thing. You can watch it [here](https://www.tiktok.com/@_j117_/video/7419338777866374446) if you like. 
+
+## Day 7
 
 <!-- ## Scripts 
 
