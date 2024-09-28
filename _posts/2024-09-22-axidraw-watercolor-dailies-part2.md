@@ -176,7 +176,21 @@ Here is the result:
 
 The interesting experiment/learning from today was that this was all done with the fountain pen without any real ink in the cartridge. This can create some nice effects just as it is (as I've explored previously); however, today I also explored dipping the pen for some layers either in ink, or diluted ink, or ink mixed with watercolor pigment. The pen picked up more ink than I anticipated when dipped even minimally. It also does pick up the watercolor pigment when that is mixed in. 
 
-In general, I think that this approach will be a great way to explore introducing more variation in value and color going in the plotted layers going forward, as I can create different mixtures on the palette directly and then dip the pen. It may be interesting to do some simpler studies on this this aspect of the process to understand it better. 
+In general, I think that this approach will be a great way to explore introducing more variation in value and color going in the plotted layers going forward, as I can create different mixtures on the palette directly and then dip the pen. 
+
+Here are some simpler studies on variations of this process to understand it better. 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/dipstudy.jpg" alt="participant observer" style="width: 70%;" />
+
+*Foutain pen dipping study*
+
+</div>
+
+This helped me build some intuition for variations in dipping and how they intersect with dampness of the paper. In general, there's a lot of different effects possible here. One thing I noticed is that the watercolor pigment didn't seem  to pick up / flow as well as I thought. I may want to buy some fountain pen inks in more colors for mixing.
+
+
 
 <!-- ## Scripts 
 
