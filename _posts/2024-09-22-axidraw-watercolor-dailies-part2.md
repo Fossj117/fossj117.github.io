@@ -150,7 +150,7 @@ Today, I've made some more tweaks to the algorithmic side. I guess that I am ret
 
 <img src="/figs/2024-09-06-axidraw-watercolor-dailies/day13.jpg" alt="...but not everything" style="width: 70%;" />
 
-*inspection*
+*Inspection*
 
 </div>
 
@@ -160,7 +160,23 @@ Overall, I think this one is okay. I think the palette still doesn't really spea
 
 I also tried documenting today with a video time lapse kind of thing. You can watch it [here](https://www.tiktok.com/@_j117_/video/7419338777866374446) if you like. 
 
-## Day 7
+## Day 7 (Saturday)
+
+Well I made it to day 7. Honestly feeling a bit uninspired today maybe. Maybe I ought to have slept a bit more or something. But in any case, here I am.
+
+Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day14.jpg" alt="participant observer" style="width: 70%;" />
+
+*Participant observer*
+
+</div>
+
+The interesting experiment/learning from today was that this was all done with the fountain pen without any real ink in the cartridge. This can create some nice effects just as it is (as I've explored previously); however, today I also explored dipping the pen for some layers either in ink, or diluted ink, or ink mixed with watercolor pigment. The pen picked up more ink than I anticipated when dipped even minimally. It also does pick up the watercolor pigment when that is mixed in. 
+
+In general, I think that this approach will be a great way to explore introducing more variation in value and color going in the plotted layers going forward, as I can create different mixtures on the palette directly and then dip the pen. It may be interesting to do some simpler studies on this this aspect of the process to understand it better. 
 
 <!-- ## Scripts 
 
