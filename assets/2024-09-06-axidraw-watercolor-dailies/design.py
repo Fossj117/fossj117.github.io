@@ -20,8 +20,7 @@ class Square:
         self.x = x
         self.y = y
         self.size = size
-        self.stroke = random.choice(['black', 'grey', 'red', 'yellow', 'green'])
-
+        self.stroke = self.choose_stroke_color(x, y)
         self.fill = fill
         self.rotate = rotate # transform="rotate(45 100 50)"
         self.dwg = dwg
@@ -32,15 +31,58 @@ class Square:
         else: 
             return 'None'
 
+    def choose_stroke_color(self, x, y):
+        # Example of a stochastic function based on location with added randomness
+        colors = ['black', 'grey', 'red', 'yellow', 'pink', 'blue', 'green','orange', 'brown']
+        base_index = (math.sin(x * 0.1) + math.cos(y * 0.1)) * len(colors) / 2
+        random_factor = random.uniform(-1, 1)  # Random factor between -1 and 1
+        index = int((base_index + random_factor) % len(colors))
+        return colors[index]
+
+    def draw_partial_square(self, x_pix, y_pix, sides):
+        """
+        Draws a square with only the specified sides.
+        sides: a list containing any combination of 'top', 'bottom', 'left', 'right'
+        """
+        if 'top' in sides:
+            self.dwg.add(
+                self.dwg.line(
+                    (x_pix, y_pix),
+                    (x_pix + self.size, y_pix),
+                    stroke=self.stroke, transform=self.rotate
+                )
+            )
+        if 'bottom' in sides:
+            self.dwg.add(
+                self.dwg.line(
+                    (x_pix, y_pix + self.size),
+                    (x_pix + self.size, y_pix + self.size),
+                    stroke=self.stroke, transform=self.rotate
+                )
+            )
+        if 'left' in sides:
+            self.dwg.add(
+                self.dwg.line(
+                    (x_pix, y_pix),
+                    (x_pix, y_pix + self.size),
+                    stroke=self.stroke, transform=self.rotate
+                )
+            )
+        if 'right' in sides:
+            self.dwg.add(
+                self.dwg.line(
+                    (x_pix + self.size, y_pix),
+                    (x_pix + self.size, y_pix + self.size),
+                    stroke=self.stroke, transform=self.rotate
+                )
+            )
+
     def drawFilledAt(self, x_pix, y_pix, num_lines): 
         
         if random.random() > 0.2:  # 80% chance to add the square boundary
-            self.dwg.add(
-                self.dwg.rect(
-                    (x_pix, y_pix), 
-                    (self.size, self.size), 
-                    fill='none', stroke=self.stroke, transform=self.rotate)
-            )
+            sides = random.sample(['top', 'bottom', 'left', 'right'], k=random.randint(1, 4))
+            self.draw_partial_square(x_pix, y_pix, sides)
+
         orientation = random.choice(['horizontal', 'vertical', 'concentric'])
 
         if orientation == 'horizontal':
@@ -48,8 +90,8 @@ class Square:
                 if random.random() > 0.1:  # 80% chance to draw the line
                     self.dwg.add(
                         self.dwg.line(
-                            (x_pix + i * self.size/num_lines, y_pix),
-                            (x_pix + i * self.size/num_lines, y_pix + self.size),
+                            (x_pix + i * self.size / num_lines, y_pix),
+                            (x_pix + i * self.size / num_lines, y_pix + self.size),
                             stroke=self.stroke, transform=self.rotate
                         )
                     )
@@ -58,8 +100,8 @@ class Square:
                 if random.random() > 0.1:  # 80% chance to draw the line
                     self.dwg.add(
                         self.dwg.line(
-                            (x_pix, y_pix + i * self.size/num_lines),
-                            (x_pix + self.size, y_pix + i * self.size/num_lines),
+                            (x_pix, y_pix + i * self.size / num_lines),
+                            (x_pix + self.size, y_pix + i * self.size / num_lines),
                             stroke=self.stroke, transform=self.rotate
                         )
                     )
@@ -76,12 +118,8 @@ class Square:
 
     def drawNoFillAt(self, x_pix, y_pix):
         if random.random() > 0.5:
-            self.dwg.add(
-                self.dwg.rect(
-                    (x_pix, y_pix), 
-                    (self.size, self.size), 
-                    fill='none', stroke=self.stroke, transform=self.rotate)
-            )
+            sides = random.sample(['top', 'bottom', 'left', 'right'], k=random.randint(1, 4))
+            self.draw_partial_square(x_pix, y_pix, sides)
         else:
             if random.random() > 0.25:
                 self.dwg.add(
