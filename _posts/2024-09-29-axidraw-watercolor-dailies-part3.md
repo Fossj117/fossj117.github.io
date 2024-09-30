@@ -40,3 +40,17 @@ Later in the day, I did some more experiments with dipping in alcohol. I think t
 </div>
 
 The latter image here involved tracing shapes with alcohol in a water wash and then placing wet pigment into the wet inside, using the alcohol as a barrier. I think there's a lot more to try with this. 
+
+## Day 2 (Monday)
+
+Today's result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day16.jpg" alt="there will be time" style="width: 70%;" />
+
+*there will be time*
+
+</div>
+
+Never too sure about these when they come off the board. I worry that these are getting overworked, or are too muddy. Or is that part of the interest of them, all the mixing on the page? Maybe I will try approaching from a different direction tomorrow. 
