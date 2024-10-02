@@ -83,3 +83,26 @@ I also found myself wanting a tool for richer mark-making in white, since my whi
 </div>
 
 In general, I think I didn't feel fully present with the piece today for various reasons and I think that that is part of my dissatisfaction. Satisfcation for me seems to come mainly in line with the extent of my attention, care, and groundedness in doing something. I do think this filters into the work output too, but that's mostly secondary. 
+
+## Day 4 (Wednesday)
+
+Today's experiment involves some new, extremely overpriced Arches watercolor paper. The new paper is 300 lb paper, which is significantly heavier than the 140 lb paper I have been working with so far. I wanted to try the heavier paper since I have been dealing with a fair amount of bending and buckling with the paper I have been using. 
+
+Since the new paper also comes in a larger size (9x12"), I am also going to be bold and try something in a somewhat larger size. In terms of color, I will stick to my fountain pen inks -- mainly the  orange and the blue-black. 
+
+Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day18.jpg" style="width: 70%;" />
+
+</div>
+
+Today's experiment went in a different direction than what I initially expected. I am not sure how much I like the result visually, but I do feel that I learned some new things. 
+
+* I liked the burnt orange on its own that I began with, but not particularly the way it combined with the blue-black ink. In retrospect this makes sense, but I had to try it to see. 
+* I learned more about working with the watercolor pencils for mark-making. I tried wetting the tips of the pencils with a bit of water before and during plotting, which creates a more saturated and interesting mark. 
+* I think it might have been interesting to go in with a darker inked fountain pen before going directly with the dark ink wash or watercolor pencil. In general, I want to return to working with ink in the fountain pen at least sometimes. 
+* I did like working with the larger and heavier paper, but there is some calibration required in terms of finding the right amount of water and brush for the larger space and more absorbent paper. 
+
+In general, I do think that the uncertainty in this process is part of what makes it interesting. I can begin with some intention, but then things can go in a different direction than I expected, and I have to adapt to that and see where the piece wants to go. There is a real flexibility and willingness to be bold and take risks required. 
