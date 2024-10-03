@@ -106,3 +106,21 @@ Today's experiment went in a different direction than what I initially expected.
 * I did like working with the larger and heavier paper, but there is some calibration required in terms of finding the right amount of water and brush for the larger space and more absorbent paper. 
 
 In general, I do think that the uncertainty in this process is part of what makes it interesting. I can begin with some intention, but then things can go in a different direction than I expected, and I have to adapt to that and see where the piece wants to go. There is a real flexibility and willingness to be bold and take risks required. 
+
+## Day 5 (Thursday)
+
+Today, I think, we return to basics. The ink that started all of this. The goal is to be fully present with the process of it all, how each intervention makes me feel. Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day19.jpg" style="width: 70%;" />
+
+</div>
+
+The new paper and scale really is different. There is more texture to the paper, which reveals itself on ink-heavy bleeds. But also it is very easy to blend out edges on this paper, particularly with the nicer brush that I am using. I think this is good, but also I worry that I am losing out on contrast. I am not quite sure. I did feel present with the work, though not always sure the direction to move next. This is a feeling that is allowed. 
+
+Some reflections: 
+
+* With the larger scale, maybe we need something a bit more compositionally rich or varied. I can go darker in areas, but not blend it out everywhere. I think maybe that's the temptation, which yields something more uniform in value. 
+* I noticed a significant difference between the white watercolor pencil and the other white pencil I've been workig with; the color is a bit yellower with the former, and also texturally rougher.
+* In general, I think that the pencil layers are much more textured and visually-emphatic on this paper compared to the previous paper. I am not sure if I like it. I am not sure if plotting into wetter paper might help soften things a bit. But looking back at some of the previous pieces, I like when the white pencil feels a bit softer and more impressionistic. 
