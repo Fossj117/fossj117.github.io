@@ -124,3 +124,21 @@ Some reflections:
 * With the larger scale, maybe we need something a bit more compositionally rich or varied. I can go darker in areas, but not blend it out everywhere. I think maybe that's the temptation, which yields something more uniform in value. 
 * I noticed a significant difference between the white watercolor pencil and the other white pencil I've been workig with; the color is a bit yellower with the former, and also texturally rougher.
 * In general, I think that the pencil layers are much more textured and visually-emphatic on this paper compared to the previous paper. I am not sure if I like it. I am not sure if plotting into wetter paper might help soften things a bit. But looking back at some of the previous pieces, I like when the white pencil feels a bit softer and more impressionistic. 
+
+## Day 6 (Friday)
+
+I am feeling a bit uncertain and perhaps uninspired in terms of today's intentions. Again the goal is just to be present with the work, I think, and allow it to emerge. 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day20.jpg" style="width: 70%;" />
+
+</div>
+
+Had some issues today with the plotter and had to improvise, but was still able to complete a piece. Notes: 
+
+* I prefer the lighter areas in the wash that I left yesterday; I should keep that in mind for future iterations. Maybe along with some warmer colors.  
+* Experimented with blending out the pencil marks in various ways, both yesterday and today. Can create some depth and variation by choosing to do that or not in different parts of the composition. I also paid a lot more attention to how sharp the pencil was in different moments, and intervened where appropriate. This has a big impact on the kinds of marks that get made, and the amount of texture. 
+* I added a very little bit of purple ink via some pen marking, but not much in wash except to tint some of the pencil marks. I like introducing different colors in this way. 
+
+In general, I think I am nearing the end of this area of work, and approaching readiness to try some different things. Tomorrow is the last of this one-week cycle, so I will reflect more on what might be next. 
