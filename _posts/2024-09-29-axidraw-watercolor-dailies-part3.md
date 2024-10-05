@@ -142,3 +142,36 @@ Had some issues today with the plotter and had to improvise, but was still able 
 * I added a very little bit of purple ink via some pen marking, but not much in wash except to tint some of the pencil marks. I like introducing different colors in this way. 
 
 In general, I think I am nearing the end of this area of work, and approaching readiness to try some different things. Tomorrow is the last of this one-week cycle, so I will reflect more on what might be next. 
+
+## Day 7 (Saturday)
+
+It's the final day of this cycle. I am happy to have stuck with this daily experiment through three cycles now, and to have retained focus on what feels like a single idea or thread of ideas. I think today will be the last day working with this particular process (at least for now). I will continue my daily work, but orient in a new direction starting tomorrow. 
+
+To finish things off, I think that I will keep it simple today. My intentions: 
+
+* More with my blue-black ink.
+* Keeping more open, unfilled, white space. 
+* Blending
+* Flow 
+* Contrast
+* Layering
+
+As always, I also have the intention to be fully present with the work as it emerges, and be flexible in following the direction that it takes me. 
+
+As I was preparing the drawing file today, I thought that if I want to keep some more open space in this drawing, it might be helpful to add some reference marks which can be plotted in a light pencil before I begin painting, to show where the ink lines will be present or absent. I added them as ellipses in inkscape like so: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/markings_ex.png" style="width: 70%;" />
+
+</div>
+
+My thought is that this can help guide where I apply ink wash or not. We will see how it goes. Here is the result: 
+
+<div align="center">
+
+<img src="/figs/2024-09-06-axidraw-watercolor-dailies/day21.jpg" style="width: 70%;" />
+
+</div>
+
+This is the end of the series for now. I'll next explore some different directions in my next phase. 
