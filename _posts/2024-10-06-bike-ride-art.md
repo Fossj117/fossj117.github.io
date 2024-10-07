@@ -57,6 +57,24 @@ This is already nicer in terms of colors - more blue-green colors, from the comb
 
 This is even a bit brigther. This is a good start for the project. In my next iteration, I will explore some different ways of processing and displaying the color data. 
 
+## Day 2 (Monday)
+
+Today I will think about diffferent ways of extracting colors from each frame. In general, I don't want to do averaging because I want the final drawing to only include colors that were actually in the base image. So as a simple alternative, let's start by extracting a *random* pixel color from (the top third) of each frame. Here is the result: 
+
+![Random colors top](/assets/2024-10-05-bike-ride-art/random_colors_top_third.svg)
+
+Of course, this can look differently each time we run it. Here is a second run: 
+
+![Random colors top](/assets/2024-10-05-bike-ride-art/random_colors_top_third_v2.svg)
+
+There's some more interesting variation in color in these random draws as we'd expect, since we're not taking averages. However, I am not sure the random results are nicer to look at than the averaged results, as the latter feel somewhat more cohesive. However, it feels conceptually important to have real colors from the video represented. 
+
+That said, not all colors in a particular frame are equally interesting to me. For example, as you can see in the video, the leaves are starting to change colors, but this is not strongly represented in the sets of random colors extracted. Is there an elegant way that I can weight my pixel selection so that it is more likely to select more "interesting" colors in some sense? 
+
+For example, could I weight the likelihood of choosing a particular pixel by its distance from the average color in a particular frame? I am not quite sure if this is what I want, since the average/typical pixel color in a frame does give a good sense of what's happening in the ride, and I want to retain that sense (e.g. we are in an area with a lot of greenery, or a dark area etc.).
+
+Another option could be to look at how unusual it is for a particular pixel to be a particular color over the course of the whole video, and try to weight by this. I am basically thinking of some version of "inverse document frequency" from [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf). This would essentially try to emphasize the colors that are unique in a particular frame relative to the overall video. I think this is more the right direction. A simple approach to something like this might be to compute the average color for each pixel over the whole video, and then in each frame weight my pixel draw by the distance from this overall average. I will think about this a bit more tomorrow. 
+
 <!-- /Users/jfossett/Documents/Research/fossj117.github.io -->
 
 <!-- What are my intentions? 
