@@ -75,7 +75,7 @@ For example, could I weight the likelihood of choosing a particular pixel by its
 
 Another option could be to look at how unusual it is for a particular pixel to be a particular color over the course of the whole video, and try to weight by this. I am basically thinking of some version of "inverse document frequency" from [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf). This would essentially try to emphasize the colors that are unique in a particular frame relative to the overall video. I think this is more the right direction. A simple approach to something like this might be to compute the average color for each pixel over the whole video, and then in each frame weight my pixel draw by the distance from this overall average. I will think about this a bit more tomorrow. 
 
-## Day 3 (Monday)
+## Day 3 (Tuesday)
 
 Today I find myself wanting to do something physical. There is lots more to explore around color extraction; however, I think that, instead, I want to try drawing something today. 
 
