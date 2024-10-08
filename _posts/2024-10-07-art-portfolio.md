@@ -8,7 +8,7 @@ comments: true
 tag: ["art"]
 ---
 
-I have been thinking that I would like to pull together some of my creative technology art projects into a portfolio. Eventually, I will make this into something nicer and more-consistently presented. But for now, I just want to capture references to the different pieces I would like to include. 
+This page indexes some of my art & creative technology projects. Eventually, I will make this into a nicer and more-consistently presented portfolio. But for now, it's just a set of links :)
 
 #### Projects
 
