@@ -35,3 +35,9 @@ This page indexes some of my art & creative technology projects. Eventually, I w
 - *Zone 3 Art Scrim* in Allston, MA (with Evan) - [Link](https://jeffreyfossett.com/2024/05/22/public-art-allston.html)
 
 - *Collaborative Art-making at Open Sauce* (with Evan) - [Link](https://jeffreyfossett.com/2024/01/26/opensauce-interactive-drawing-machine.html)
+
+#### Sketches 
+
+- *Genuary 2024* - [Link](https://jeffreyfossett.com/2023/12/28/genuary-2024.html)
+- *Destroy a Square* - [Link](https://jeffreyfossett.com/2023/12/14/p5-destroy-a-square.html)
+- *Artproofs* (with Evan and Ari) - [Link](https://jeffreyfossett.com/ArtproofsRadial/)
