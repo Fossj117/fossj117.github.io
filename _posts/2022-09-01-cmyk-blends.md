@@ -10,7 +10,7 @@ tag: ["art"]
 
 *This is joint work with Evan via 90percent.art*
 
-This work explores color mixing and moving by procedurally blending cyan, magenta and yellow inks using generative design and pen plotting. A few images: 
+This work explores color mixing and movement, procedurally blending cyan, magenta and yellow inks. A few images: 
 
 <div align="center">
 
