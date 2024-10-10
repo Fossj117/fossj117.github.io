@@ -103,7 +103,13 @@ For documentary purposes, I am going to plot this on 11x14 bristol vellum from s
 
 I have never really tried accurately matching colors with this technique and it's clear that this is not particularly close, though the values are a bit closer. I will need to think about how to refine this more. Separately, I am concerned that saxi is doing some weird things when driving the plotter, so I will need to check more closely if that is causing issues. Anyways, that's all for today. 
 
+## Day 4 (Wednesday)
 
+I didn't follow my usual routine today for whatever reason. I got caught up in some other thinking this morning. So it's evening now and I haven't worked on anything. 
+
+My tiny contribution for today is writing some new code (with chatgpt) to arrange CMY colors in a circular shape. I think it's likely that I will do something like this in the end. Here's what a version looks like for now: 
+
+![Avg colors top](/assets/2024-10-05-bike-ride-art/output_wedges.svg)
 
 <!-- /Users/jfossett/Documents/Research/fossj117.github.io -->
 
