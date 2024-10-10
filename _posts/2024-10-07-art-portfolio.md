@@ -22,7 +22,7 @@ This page indexes some of my art & creative technology projects. Eventually, I w
 
 - *Drawing with MCMC* (with Evan) - [Link](https://jeffreyfossett.com/2021/01/09/drawing-with-mcmc.html). Need to flesh out this concept and execution. 
 
-- *CMYK Blends* (with Evan) - On instagram. 
+- *CMYK Blends* (with Evan) - [Link](https://jeffreyfossett.com/2022/09/01/cmyk-blends.html). 
 
 #### Prospective Projects 
 
