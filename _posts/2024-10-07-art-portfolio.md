@@ -14,7 +14,7 @@ This page indexes some of my art & creative technology projects. Eventually, I w
 
 - *Tree Portraits* (with Evan) - [Link](https://jeffreyfossett.com/2023/03/06/tree-portraits.html)
 
-- *Hybridity* - [Link1](https://jeffreyfossett.com/2023/03/06/tree-portraits.html),  [Link2](https://jeffreyfossett.com/2024/09/22/axidraw-watercolor-dailies-part2.html), [Link3](https://jeffreyfossett.com/2024/09/29/axidraw-watercolor-dailies-part3.html). I need to extract some final piece from this exploration and pull out the conceptual thread I am most interested in. 
+- *Hybridity* - [Link1](https://jeffreyfossett.com/2024/09/06/axidraw-watercolor-dailies.html),  [Link2](https://jeffreyfossett.com/2024/09/22/axidraw-watercolor-dailies-part2.html), [Link3](https://jeffreyfossett.com/2024/09/29/axidraw-watercolor-dailies-part3.html). I need to extract some final piece from this exploration and pull out the conceptual thread I am most interested in. 
 
 - *Loose Ends* - [Link](https://jeffreyfossett.com/2023/10/19/loose-ends.html)
 
