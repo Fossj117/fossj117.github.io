@@ -26,7 +26,7 @@ This page indexes some of my art & creative technology projects. Eventually, I w
 
 #### Prospective Projects 
 
-- *Colors of the Q* - [Link](https://jeffreyfossett.com/2024/10/06/bike-ride-art.html); in prep for [the Q Review](https://www.instagram.com/quinobequinreview/)
+- *Colors of the Q* - [Link](https://jeffreyfossett.com/2024/10/06/river-colors.html); in prep for [the Q Review](https://www.instagram.com/quinobequinreview/)
 
 #### Exhibitions
 
