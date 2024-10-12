@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Art Portfolio"
+title: "Art Links"
 date: 2024-10-07
 latex: true
 mathjax: true
@@ -8,7 +8,7 @@ comments: true
 tag: ["art"]
 ---
 
-This page indexes some of my art & creative technology projects. Eventually, I will make this into a nicer and more-consistently presented portfolio. But for now, it's just a set of links :)
+This page indexes some of my art & creative technology projects. Eventually, perhaps I will make a nicer and more-consistently presented portfolio. But for now, here's this set of links :)
 
 #### Projects
 
