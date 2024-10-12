@@ -5,7 +5,7 @@ date: 2024-10-06
 latex: true
 mathjax: true
 comments: true
-tag: ["art"]
+tag: ["art", "draft"]
 ---
 
 ## Introduction
