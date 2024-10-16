@@ -3,11 +3,10 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   20px;
+// $base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'spectral', serif; // 'cormorant', 'literata', 'spectral', 'merriweather'
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.85;
 $base-line-height: 1.5;
 
