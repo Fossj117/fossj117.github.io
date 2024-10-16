@@ -21,13 +21,11 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    62%;
+$content-width:    750px;
+$content-width-small: 90%;
 
 $on-palm:          600px;
-$on-laptop:        62%;
-
-
-
+$on-laptop:        800px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
