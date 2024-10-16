@@ -36,11 +36,15 @@ Plenty of the intellectual world places a high value on internal consistency. Is
 
 But so, returning to Haraway, part of the idea is to recalibrate the *emotional* experience of "hybridity" and "contradiction". The point is not just to tolerate or even accept these states as *inevitable-but-undersirable* (and ideally *transitory*) states of a complex world that often resists reason and reconciliation. 
 
-Instead, Haraway invites us to go even further; how might it feel to *embrace* and *celebrate* these states of apparent contradiction, hybridity, and *both-ness* as worthy and permanent states of being? How might it feel to stand happily in hybridity, with full acceptance and sense of arrival and integrity? 
+Instead, Haraway invites us to go even further; how might it feel to *embrace* and *celebrate* these states of apparent contradiction, hybridity, and *both-ness*[^1] as worthy and permanent states of being? How might it feel to stand happily in hybridity, with full acceptance and sense of arrival and integrity? 
 
 Of course, sometimes integration and reconciliation can also be worthy goals. Sometimes, sensibilities that seem in conflict are, in fact, *not in conflict at all* if looked at from the right angle. But the point is that integration need be a precondition for arrival and celebration.
 
 Anyway, thanks for reading and, as always, let me know if you have thoughts on any of this. 
+
+### Footnotes
+
+[^1]: h/t [patcon](https://nodescription.net/) for offering this term in a conversation about some of these themes. 
 
 <!-- Someone commented on the Tik Tok video I made about my [pen plotter / watercolor process](https://jeffreyfossett.com/2024/09/06/axidraw-watercolor-dailies.html) using the term "cyborg art", which I relate to. This inspired me to go back and re-read Haraway's [*A Cyborg Manifesto*](https://warwick.ac.uk/fac/arts/english/currentstudents/undergraduate/modules/fictionnownarrativemediaandtheoryinthe21stcentury/manifestly_haraway_----_a_cyborg_manifesto_science_technology_and_socialist-feminism_in_the_....pdf) which I think about a lot. 
 
