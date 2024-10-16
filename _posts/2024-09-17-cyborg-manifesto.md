@@ -93,7 +93,7 @@ For various reasons, Haraway thinks that this is a useful metaphor to understand
 
 Hi Friends,  -->
 
-The themes of the moment for me are *hybridity* and *(in)coherence*. 
+<!-- The themes of the moment for me are *hybridity* and *(in)coherence*. 
 
 In *A Cyborg Manifesto*, Donna Haraway takes the idea of the “cyborg” as a motivating metaphor.
 
@@ -188,4 +188,4 @@ More notes:
 
 
 
-I was speaking with Patcon the other day, and this helped me recognize the connection here with anarchist thought. Not just a tolerance, but an embrace of the messiness and improvisation of political 
+I was speaking with Patcon the other day, and this helped me recognize the connection here with anarchist thought. Not just a tolerance, but an embrace of the messiness and improvisation of political  -->
