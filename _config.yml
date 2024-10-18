@@ -1,11 +1,11 @@
 # Site settings
 title: "Jeff Fossett"
 email: "fossj117@gmail.com"
-description: "Economics, technology, policy"
+description: "Trying things out"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jeffreyfossett.com" # the base hostname & protocol for your site
 twitter_username: "jfoss117"
-github_username:  "fossj117"
+github_username: "fossj117"
 
 # Build settings
 markdown: kramdown

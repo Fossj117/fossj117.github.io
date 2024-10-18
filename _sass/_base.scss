@@ -23,6 +23,11 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+body.dark-mode {
+    color: $text-color-dark !important;
+    background-color: $background-color-dark !important;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -101,7 +106,18 @@ a {
     }
 }
 
+body.dark-mode a {
+    color: $brand-color-dark !important;
 
+    &:visited {
+        color: darken($brand-color-dark, 15%) !important;
+    }
+
+    &:hover {
+        color: $text-color-dark !important;
+        text-decoration: underline;
+    }
+}
 
 /**
  * Blockquotes
@@ -109,7 +125,7 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    padding-left: calc($spacing-unit / 2);
     font-size: $base-font-size*0.9;
     // letter-spacing: -1px;
     font-style: italic;
@@ -177,8 +193,8 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width-small} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width-small} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: calc($spacing-unit / 2);
+        padding-left: calc($spacing-unit / 2);
     }
 }
 
@@ -234,5 +250,22 @@ table thead, table tr.even {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 15px; // Add padding for a button-like appearance
+    background-color: $brand-color; // Set a background color
+    border: none; // Remove default border
+    border-radius: 50%; // Round the corners
+    color: $text-color; // Set text color
+    cursor: pointer; // Change cursor to pointer
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Add a subtle shadow
+
+    &:hover {
+        background-color: lighten($brand-color, 10%); // Lighten on hover
     }
 }

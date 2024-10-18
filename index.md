@@ -9,9 +9,11 @@ layout: empty
 <br>
 Hi, I'm Jeff. I'm a learner and maker of things.
 
-Curently, I am a PhD student at Harvard and a researcher at Plurality Institute.
-    
-Check out my [posts](https://jeffreyfossett.com/posts/) for some things I am doing or thinking about. You can also [subscribe](https://jeffreyfossett.com/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
+Curently, I am a PhD student at Harvard and research lead at Plurality Institute. 
+
+Outside of research, I enjoy reading, writing, making art, sewing, and riding my bike.
+
+Check out my [posts](https://jeffreyfossett.com/posts/) for more things I am doing or thinking about. You can also [subscribe](https://jeffreyfossett.com/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
 A recent CV is
     <a href="/files/Jeffrey_Fossett_CV_2023.pdf">here</a>.
