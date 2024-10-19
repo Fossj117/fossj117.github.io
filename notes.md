@@ -24,10 +24,8 @@ function displayNote(number) {
 
 {% assign sorted_notes = site.notes | sort: "num" %}
 
-{% for note in sorted_notes %}<a href="javascript:void(0);" onclick="displayNote('{{ note.name | replace: '.md', '' }}')">{{ note.num }}</a>{% unless forloop.last %} - {% endunless %}{% endfor %}  
+{% for note in sorted_notes %}<a href="javascript:void(0);" onclick="displayNote('{{ note.num }}')">{{ note.num }}</a>{% unless forloop.last %} - {% endunless %}{% endfor %}  
 
 <div id="note-container">
   <!-- Random note content will be displayed here on page load -->
 </div>
-
-
