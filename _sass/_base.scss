@@ -125,7 +125,7 @@ body.dark-mode a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: calc($spacing-unit / 2);
+    padding-left: $spacing-unit / 2;
     font-size: $base-font-size*0.9;
     // letter-spacing: -1px;
     font-style: italic;
