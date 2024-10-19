@@ -44,6 +44,7 @@ body.dark-mode .site-header {
 .site-nav {
     float: right;
     line-height: 56px;
+    z-index: 1000;
 
     .menu-icon {
         display: none;
