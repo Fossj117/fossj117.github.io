@@ -24,7 +24,7 @@ function displayNote(number) {
 
 {% assign sorted_notes = site.notes | sort: "num" %}
 
-{% for note in sorted_notes %}<a href="javascript:void(0);" onclick="displayNote('{{ note.name | replace: '.md', '' }}')">{{ note.name | replace: '.md', '' }}</a>{% unless forloop.last %} - {% endunless %}
+{% for note in sorted_notes %}<a href="javascript:void(0);" onclick="displayNote('{{ note.name | replace: '.md', '' }}')">{{ note.num }}</a>{% unless forloop.last %} - {% endunless %}
 {% endfor %}  
 
 <div id="note-container">
