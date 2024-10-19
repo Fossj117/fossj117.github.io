@@ -18,3 +18,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name.html
