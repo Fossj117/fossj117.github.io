@@ -10,7 +10,7 @@ layout: empty
 <iframe src="/assets/header_sketch.html" width="350" height="200" style="border:none;"></iframe>
 <!-- </center> -->
 
-Hi, I'm Jeff. I'm a learner and maker of things.
+Hi, I'm Jeff. I like learning and making things.
 
 Curently, I am a PhD student at Harvard and research lead at Plurality Institute. 
 
