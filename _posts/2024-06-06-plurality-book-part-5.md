@@ -5,7 +5,7 @@ date: 2024-06-06
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality", "notes"]
+tag: ["plurality", "notes", "excluded"]
 ---
 
 With [Plurality Institute](plurality.institute), I am hosting a reading and discussion group that will discussion Parts 4 and 5 of [the Plurality book](https://www.plurality.net/). In this note I will summarize some personal reactions to Part 5 of the book which is titled "Democracy". 
