@@ -69,6 +69,7 @@ body.dark-mode .site-header {
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        z-index: 1000;
 
         .menu-icon {
             display: block;
@@ -78,6 +79,7 @@ body.dark-mode .site-header {
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+            z-index: 1000;
 
             > svg {
                 width: 18px;
