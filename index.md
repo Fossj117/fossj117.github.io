@@ -2,11 +2,14 @@
 layout: empty
 ---
 
-<center> 
+<!-- <center> 
 <img src="/files/jeff_artsy_face_circle.png"  width="150" height="150" class="rotate-slowly">
-</center> 
+</center>  -->
 
-<br>
+<!-- <center> -->
+<iframe src="/assets/header_sketch.html" width="350" height="200" style="border:none;"></iframe>
+<!-- </center> -->
+
 Hi, I'm Jeff. I'm a learner and maker of things.
 
 Curently, I am a PhD student at Harvard and research lead at Plurality Institute. 

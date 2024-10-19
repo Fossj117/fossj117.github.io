@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js Sketch</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- <script>
+        function setup() {
+            let canvas = createCanvas(windowWidth, 200);
+            canvas.parent(document.body);
+        }
+
+        function draw() {
+            clear(); // This makes the background transparent
+            ellipse(width / 2, height / 2, 50, 50);
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, 200);
+        }
+    </script> -->
+    <script>
+        let squares = [];
+        let squareSize = 37;
+        let padding = 3;
+        let rectSizing = 10;
+        let colors;
+        let flippingSquares = [];
+
+        function setup() {
+            colors = [
+                color('#2a7ae2'), // brand color
+                color('#4a8ae2'), // brand-color-light
+                color('#6aaae2'), // brand-color-lighter
+                color('#8ac2e2'), 
+                color('#aad2e2'), 
+                color('#c1dbe6'),
+                color('#4069B1'),
+                color('#C9D1E0'),
+                // color('#64738F'),
+                // color('#e27a2a'), // orange
+                // color('#e28a4a'), // orange-light
+                // color('#e29a6a'), // orange-lighter
+                // color('#e2aa8a'), 
+                // color('#e2baa1'), 
+                // color('#e6cbb1'),
+                // color('#9caf88'), // sage green
+                // color('#8a9f78'), // sage green darker
+                // color('#7a8f68'), // sage green even darker
+                // color('#6a7f58'), // sage green darke
+            ];
+
+            let canvas = createCanvas(windowWidth, 200);
+            canvas.parent(document.body);
+            noStroke();
+            rectMode(CENTER);
+            initializeSquares();
+        }
+
+        function draw() {
+            clear(); // This makes the background transparent
+            for (let square of squares) {
+                fill(square.color);
+                rect(square.x, square.y, square.w, squareSize, rectSizing);
+            }
+            updateFlippingSquares();
+            
+            // Randomly trigger a square to flip by itself
+            if (random() < 0.001) { // Adjust the probability as needed
+                let randomSquare = random(squares);
+                let newColor;
+                do {
+                    newColor = random(colors);
+                } while (newColor === randomSquare.color);
+                flippingSquares.push({ square: randomSquare, newColor, progress: 0 });
+            }
+        }
+
+        function initializeSquares() {
+            for (let x = squareSize / 2; x <= width - squareSize / 2; x += squareSize + padding) {
+                for (let y = squareSize / 2; y <= height - squareSize / 2; y += squareSize + padding) {
+                    if (random() > 0.5) { // Randomly decide whether to draw a square
+                        let col = random(colors);
+                        squares.push({ x, y, color: col, w: squareSize });
+                    }
+                }
+            }
+        }
+
+        function mousePressed() {
+            for (let square of squares) {
+                if (mouseX > square.x - square.w / 2 && mouseX < square.x + square.w / 2 &&
+                    mouseY > square.y - squareSize / 2 && mouseY < square.y + squareSize / 2) {
+                    let newColor;
+                    do {
+                        newColor = random(colors);
+                    } while (newColor === square.color);
+                    flippingSquares.push({ square, newColor, progress: 0 });
+                }
+            }
+        }
+
+        function updateFlippingSquares() {
+            for (let i = flippingSquares.length - 1; i >= 0; i--) {
+                let flip = flippingSquares[i];
+                let square = flip.square;
+                flip.progress += 0.03; // Slower speed of animation
+
+                if (flip.progress < 1) {
+                    // Use sine easing for smooth transition
+                    let easedProgress = sin(flip.progress * PI);
+                    square.w = squareSize * (1 - easedProgress);
+
+                    // Change color at the midpoint of the animation
+                    if (easedProgress > 0.99 && !flip.colorChanged) {
+                        square.color = flip.newColor;
+                        flip.colorChanged = true;
+                    }
+                } else {
+                    square.w = squareSize;
+                    flippingSquares.splice(i, 1);
+                }
+            }
+            if (flippingSquares.length > 0) {
+                redraw();
+            }
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, 200);
+            squares = [];
+            initializeSquares();
+            redraw();
+        }
+    </script>
+</body>
+</html>
