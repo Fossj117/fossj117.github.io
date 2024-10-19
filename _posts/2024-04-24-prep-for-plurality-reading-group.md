@@ -5,8 +5,10 @@ date: 2024-04-23
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality", "notes"]
+tag: ["plurality", "notes", "excluded"]
 ---
+
+{% include toc.html %}
 
 With [Eugene](https://twitter.com/bbeats1) and [Plurality Institute](https://www.plurality.institute/), I am co-organizing a reading group, which will start by discussing the [Plurality Book](https://www.plurality.net/chapters/) by Weyl and Tang. In this post, I will keep some notes on my latest reading of the book, specifically with an eye toward the book club. My previous notes are [here]({% post_url 2023-12-27-notes-on-plurality-book %})
 
@@ -192,7 +194,7 @@ It seems that more causal research here could / should be possible; it would be 
 
 > It will doubtless take decades of study to understand the precise causal connections between Taiwan's unique and dramatic digital democratic practices and the range of success it has found in confronting today's most vexing challenges. Yet given this appeal, in the interim, it seems critical to articulate as so many have done for Scandinavia and Singapore, the generalizable philosophy behind the strategies of the world's most admired digital democracy. It is to that task that the rest of this book is devoted.
 
-## Part 3- Plurality 
+## Part 3 - Plurality 
 
 ### What is Plurality? 
 
@@ -386,7 +388,66 @@ Integration with web3 world? Here is what they say about it:
 
 They also connect with fediverse ecosystem. Beth Noveck cite! 
 
+## Part 4 - Freedom 
+
+* Discussion of "rights as a foundation for democracy". Why are rights important? Danielle Allen" government cannot respond to 'the will of the people' if their will cannot be safely and freely expressed. 
+* Presence of rights confer democratic legitimacy
+* Rights are upheld / promoted by institutions at different scales, not just by governments. 
+* Rights are sometimes goals / aspirations, rather than fixed realities. 
+* Analogy between operating systems and systems of rights -- foundations for things to happen on top of them. Two key aspects of this parallel: 
+    * Dynamism -- systems of rights have to evolve to meet new challenges. 
+    * Rights and relationships 
+* Contrast between plurality, libertarianism, technocracy: 
+    * Plurality: dynamic, networked, adaptive
+    * Libertarianism: grounded in a rigid and immutible set of rights to individual private property etc. 
+    * Technocracy: rooted in notion of "objective", "social welfare"; technocrats view rights as obstacles or encumbrances in pursuit of a desirable social good. 
+* Key dimensions: 
+    * Identity / personhood
+    * Association 
+    * Commercial trust
+    * Property / contract 
+    * Access 
+* Idea is to construct shraed digital protocols to reflect these different dimensions. For the most part, open / non-proprietary (& not controlled by nation states) versions of these protocols do not exist currently. 
+
+### Identity 
+
+* Identity systems are the most fundamental. Other notions like voting etc. are built on top of these. 
+* Elements of identity systems: 
+    * Creation 
+    * Access
+    * Linkage
+    * Graph
+    * Recovery 
+    * Federation
+* Existing physical government-issue ID systems (birth certificates, certificates of enrollment in public programs like SSN, licenses, national ID cards, passports). 
+    * In "an increasingly precarious position" 
+
+#### Break: pg 156
+
+### 4-2 Association and Plural Publics 
+
+The starting point of this chapter is the idea that collective action / association is central to democracy (per De Tocqueville). 
+
+> Only by facilitating and protecting the capacity to form novel asscoiations with meaningful agency can we hope for freedom, self-government, and diversity.
+
+What is the impact of the internet on free association? 
+
+* The key point about computers and the internet is that they allow for the emergence of communities of "common interest" rather than just communities of common location. 
+* But also internet creates new challenges to free association -- need to be able to protect association context from external surveillance. Also, need to be able to establish shared context with more distant people -- who am I talking to? 
+
+Goal is to establish direction for "plural publics". 
+
+Fact 1: importance of "common knowledge" for collective action. 
+
+## Part 5 - Freedom 
+
 ## Discussion Questions 
+
+### Sec 4
+
+* Why do these protocols need to be outside the control of nation states? Aren't a lot of fundamental rights ensured by nation states? 
+
+### Sec 0-3
 
 * What is the current state of public opinion in relation to digital technology? 
 * What is the "right" pace of digital technology adoption in the public sector? 
@@ -397,7 +458,7 @@ They also connect with fediverse ecosystem. Beth Noveck cite!
 * Discussion on "tech solutionism" 
 * Discussion on civic tech space in the US? Why have these initiatives been so successful in Taiwan? Is such a movement possible here? If so, how? If not, why not? 
     * How much of the success in Taiwan has to do with the civic hacking community being particularly vibrant etc. vs. the culture from the government side being particularly open / humble / willing to integrate new ideas? 
-* What do we make of 3-1's concept of "plural social science"? What direction is this pointing? Is it towards network science? Something different? I don't feel like the ideas here are super well developed? What is the real methodological preference that is being suggested here? 
+* What do we make of 3-1's concept of "plural social science"? What direction is this pointing? Is it towards network science? Something different? I don't feel like the ideas here are super well developed. What is the real methodological preference that is being suggested here? 
 
 
 ## Plurality References
@@ -407,8 +468,9 @@ They also connect with fediverse ecosystem. Beth Noveck cite!
 * Henry George
 * Norbert Wiener
 * [The Dream Machine](https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119)
-* Licklider, "Comptuers and Government", op. cit. ↩
+* Licklider, "Comptuers and Government"
 * OSS work -- Working in Public (Nadia Eghbal (now Asparouhova))
+* *Justice by Means of Democracy* (Danielle Allen)
 
 
 

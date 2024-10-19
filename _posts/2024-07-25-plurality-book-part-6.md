@@ -5,7 +5,7 @@ date: 2024-07-25
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality", "notes"]
+tag: ["plurality", "notes", "excluded"]
 ---
 
 With [Plurality Institute](plurality.institute), I am hosting a reading and discussion group on [the Plurality book](https://www.plurality.net/). In this note I will summarize some personal reactions to Part 6 of the book which is titled "Impact". 

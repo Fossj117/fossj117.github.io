@@ -6,7 +6,7 @@ latex: true
 mathjax: true
 comments: true
 toc: true
-tag: ["plurality", "notes"]
+tag: ["plurality", "notes", "excluded"]
 ---
 
 In this post, I will keep some very rough notes about the [Plurality book](https://github.com/pluralitybook/plurality/tree/main/contents/english) led by Weyl and Tang. These notes are mostly for personal use, but I like the idea of documenting them publicly for various reasons. Maybe I will make a separate blog section for reading notes at some point.
@@ -27,7 +27,7 @@ In this post, I will keep some very rough notes about the [Plurality book](https
   });
 </script>
 
-## [Preface](https://github.com/pluralitybook/plurality/blob/main/contents/english/01-preface.md)
+## [1-Preface](https://github.com/pluralitybook/plurality/blob/main/contents/english/01-preface.md)
 
 Reference to [The Declaration for the Future of the Internet](https://www.whitehouse.gov/wp-content/uploads/2022/04/Declaration-for-the-Future-for-the-Internet_Launch-Event-Signing-Version_FINAL.pdf)
 
@@ -49,6 +49,8 @@ What is Plurality?
   - Understanding technology [as a mode of governance](https://jeffreyfossett.com/2023/10/18/my-lens-on-technology.html), as something [that has politics](https://www.jstor.org/stable/20024652), that can support or undermine broader social values like democracy. Clearly consonant with lots of STS ideas.
 
 ## [Introduction](https://github.com/pluralitybook/plurality/blob/main/contents/english/02-introduction.md)
+
+Updated version is [2-0: Information Technology and Democracy: a Widening Gulf](https://github.com/pluralitybook/plurality/blob/main/contents/english/2-0-information-technology-and-democracy-a-widening-gulf.md). 
 
 Key idea is that there is currently a tension between (digital) technology and democracy. But this need not be the case.
 
@@ -190,7 +192,9 @@ I think for me a richer perspective here would focus on the role of plurality in
 
 Skipping forward a bit...
 
-## [Collaborative Technology and Democracy](https://github.com/pluralitybook/plurality/blob/main/contents/english/05-00-collaborative-technology-and-democracy.md)
+## [5-0 Collaborative Technology and Democracy](https://github.com/pluralitybook/plurality/blob/main/contents/english/05-00-collaborative-technology-and-democracy.md)
+
+### First Read
 
 Summarizing in my words, the first set of key ideas in this section are about (1) how we can do more if we work together, and (2) how collaborating across social difference (or "collaborating across diversity") is particularly productive. The question is how to use technology in ways that support this type of collaboration. 
 
@@ -230,3 +234,98 @@ The chapter closes with some more discussion of the risks of homogenization that
 > Bridging political divides may lead to excess homogenization, but it can also lead to the birth of new political cleavages
 
 I think that there could also be a connection back to Deweyan publics here and some of the ideas in the Allen piece. Should make some more notes on this. 
+
+### Second Read ([this](https://github.com/pluralitybook/plurality/blob/main/contents/english/5-0-collaborative-technology-and-democracy.md) version)
+
+Discussion of [supermodularity](https://cip.org/supermodular) -- idea that whole is greater than sum of the parts. Interesting to connect that to the idea of comparative advantage. Obviously a lot of other paradigms that link up here -- e.g. "Complexity" world seems very related. Here is the connection: 
+
+> Comparative advantage is understood as an 'economic law' stating in effect that there are guaranteed gains from diversity that can be realized through the market mechanism.
+
+Goal of this part of the book: 
+
+> Thus, what we will describe in this part of the book is, most precisely, how technology can empower supermodularity across social difference or, more colloquially, "collaboration across diversity".
+
+Collaboration across diversity as a key goal. Why does it matter? 
+
+* Oded Galor work: societies' ability to prodcutively and cooperatively harness the potential of social diversity is key driver of economic growth. Should read: 
+  * Oded Galor, The Journey of Humanity: A New History of Wealth and Inequality with Implications for our Future (New York: Penguin Random House, 2022). 
+  * Quamrul Ashraf and Oded Galor, "The 'Out of Africa' Hypothesis, Human Genetic Diversity, and Comparative Economic Development", American Economic Review 103, no.1 (2013): 1-46
+
+Collaboration across diversity or difference is difficult. Different types of difference are more or less difficcult to bridge. Especially ahrd to bridge are related to systems of identification and meaning-making ("culture"). 
+
+Interesting point here related to conversations I've had with [Jesse](https://jessecallahanbryant.com/): 
+
+> Beyond the difficulty of overcoming difference, it also holds an important peril. Bridging differences for collaboration often erodes them, harnessing their potential but also reducing that potential in the future. While this may be desirable for protection against conflict, it is an important cost to the productive capacity of diversity in the future. The classic illustration is the way that globalization has both brought gains from trade, such as diversifying cuisine, while at the same time arguably homogenizing culture and thus possibly reducing the opportunity for such gains in the future. A critical concern, then, in ⿻ is not just harnessing collaboration across diversity but also regenerating diversity, ensuring that in the process of harnessing diversity it is also replenished by the creation of new forms of social difference.
+
+How do you facilitate collaboration across diversity without flattening it, homogenizing it? Is this possible? I think there are real resonances here with anarchist perspectives implicit in Tang's worldview. Not just a tolerance for the messiness of difference and perspectival conflict, but an embrace of this as a fundamental value. A fundamental source of productive capacity. This is also, in a sense, embedded in the idea of gains from trade or supermodularity outlined above. 
+
+The thesis on why collaboration need not lead to homogenization is discussed later in the chapter. Here is the idea: 
+
+> Yet homogenization is not an inevitable outgrowth of bridging, even when one effect is to recombine existing culture and thus lessen their average divides. The reason is that bridging plays a positive, productive role, not just a defensive one. Yes, interdisciplinary bridging of scientific fields may loosen the internal standards of a field and thus the distinctive perspective it brings to bear. But it may also give rise to new, equally distinctive fields.
+
+And further: 
+
+> Similar phenomena emerge throughout history. Bridging political divides may lead to excess homogenization, but it can also lead to the birth of new political cleavages. Families often bear children, who diverge from their parents and bring new perspectives. Most artistic and culinary novelty is born of "bricolage" or "fusion" of existing styles.15 The syntheses that emerge when thesis and antithesis meet are not always compromises, but instead may be new perspectives that realign a debate.16
+
+There are depth-breadth tradeoffs in collaboration. 
+* Depth -- the "degree" of supermodularity for a fixed set of participants. How much greater is what they create than the sum of what they can create separately? (According to the standards of the participants). 
+* Breadth -- how many individuals can participate? 
+
+Idea of low vs high bandwidth communication. This diagram is a key one, thinking of this as [production possibility frontier](https://en.wikipedia.org/wiki/Production%E2%80%93possibility_frontier): 
+
+<center>
+<img alt="4" align="center" src="https://raw.githubusercontent.com/pluralitybook/plurality/main/figs/PPF.png" width="85%">
+</center>
+
+The idea of plural technologies is to shift out this frontier. This is a very economic frame kind of intuition about the effect of technology. Shifting "out" the PPF means that for any given level of collaborative *depth*, a higher level of breadth becomes possible. Additionally, in the picture above, there is a suggestion that 
+
+While this intuition makes sense, a somewhat strange implication of this visualization (as drawn) is how it suggests scope for extension along the axes -- i.e. at low breadth, there is considerable scope as drawn for deepening collaboration, and likewise on the other axis (which suggests extending collaboration across more than the entire world of humans?). The quantitative labeling of the x-axis is also an interesting choice.
+
+This example from political science is a good one for illustrating the tradeoff: 
+
+> One example illustrating this trade-off is common in political science: the debate over the value of deliberation compared to voting in democratic polities. High quality deliberation is traditionally thought to only be feasible in small groups and thus require processes of selection of a small group to represent a larger population such as representative government elections or sortition (choosing participants at random), but is believed to lead to richer collaboration, more complete airing of participant perspectives and therefore better eventual collective choices. On the other hand, voting can involve much larger and more diverse populations at much lower cost, but comes at the cost of each participant providing thin signals of their perspectives in the form (usually) of assent for one among a predetermined list of options.
+
+What does it mean to improve? Dual risks: 
+
+1. Of "gods eye view". The "optimal" way to organize things. Many pitfalls -- playing "god", appealing to a disembodied perspective that does not really exist. The "right" direction for technological development. 
+2. Build technologies "without a broader guiding mission" --> current predicament. (Not really without a mission, but without driving non-capitalistic values). 
+
+Instead, a pragmatic "middle" path. The summary: 
+
+> build tools that pursue the goals of a range of social groups, from intimate families and friends to large nations, always with an eye to limitations of each perspective and on the parallel developments we have to connect to and learn from emanating from other parallel directions of development.
+
+And further: 
+
+> We can do this guided by a common principle of cooperation across difference that is too broad to be formulated as a consistent objective function, yet elegant enough to unify a wide range of technologies: **we develop tools that allow greater cooperation and consensus at the same time as they make space for greater diversity**. 
+
+## [5-1 Post Symbolic Communication](https://github.com/pluralitybook/plurality/blob/main/contents/english/5-1-post-symbolic-communication.md)
+
+> Post-symbolic communication, a term coined by Jaron Lanier , ventures beyond the realm of language and symbols to explore the potential for direct and immersive shared experience by harnessing all senses, including proprioception
+
+Various examples: combat, sports, romantic intimacy, religious experience, yoga. 
+
+> Each of these contexts illustrates how shared experiences, beyond the scope of verbal communication, can create deep bonds and understanding between participants through intensive, shared sensorial inputs
+
+Can also have post-symbolic communication within oneself -- meditation, prayer, psychedelics. 
+
+## [5-1 Immersive Shared Reality](https://github.com/pluralitybook/plurality/blob/main/contents/english/5-2-immersive-shared-reality.md)
+
+[1000 Cut Journey](https://www.gamesforchange.org/games/1000-cut-journey/). Summary from the site for the game: 
+
+> Achieving racial justice requires that we understand racism. Not only an understanding that emerges from intellectual exercise or even in the consumption or production of science – but rather a visceral understanding that connects to spirit and body as much as reason.
+
+> 1,000 Cut Journey is an Immersive Virtual Reality experience in which participants embody a Black male, Michael Sterling, experiencing racism as a child through disciplinary action in the classroom, as an adolescent encountering the police, and as a young adult experiencing workplace discrimination.
+
+This organization looks cool: https://www.gamesforchange.org/
+
+From book: 
+
+> Immersive shared reality technologies unlocks a new chapter in human interaction, leveraging cutting-edge virtual reality (VR), augmented reality (AR) and mixed reality (MR) systems. Unlike the deeply personal and sensorially rich exchanges of post-symbolic communication, shared immersive reality presents a broader canvas for human interaction, enabling people to engage in shared, multisensory experiences.
+
+> ISR refers to technology that creates a shared virtual environment where users can interact in real-time. 
+
+Interesting examples from art world: 
+
+> Immersive artistic experiences: Alongside the rise of remote shared experience, a new genre of in-person immersive art has developed and become and increasingly prevalent form at the intersection of live entertainment and museums. Participants jointly explore mysteries, escape from puzzles, live in the world of an artist who saw the world through differently abled eyes, or surround themselves in worlds of novel tactile and visual sensations that transport them to new shared understandings of the possible
+
+It seems like one of the key points here is that there seems to be scope for a lot more expansion in this vein of technology. 

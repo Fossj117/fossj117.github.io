@@ -7,7 +7,7 @@ permalink: /posts/
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-		{% if post.tag contains 'genuary2024' or post.tag contains 'iap' or post.tag contains 'draft' %}
+		{% if post.tag contains 'genuary2024' or post.tag contains 'iap' or post.tag contains 'draft' or post.tag contains 'excluded'%}
 		{% else %}
 	      <!-- <li>
 	        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
