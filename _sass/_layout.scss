@@ -105,6 +105,25 @@ body.dark-mode .site-header {
     }
 }
 
+body.dark-mode .site-nav {
+    .page-link {
+        color: $text-color-dark; // Change text color for dark mode
+    }
+
+    @include media-query($on-palm) {
+        background-color: $background-color-dark; // Change background color for dark mode
+        border: 1px solid $grey-color-dark; // Change border color for dark mode
+
+        .menu-icon {
+            > svg {
+                path {
+                    fill: $grey-color-light; // Change icon color for dark mode
+                }
+            }
+        }
+    }
+}
+
 
 
 /**
