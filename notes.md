@@ -20,7 +20,7 @@ function displayNote(number) {
 }
 </script>
 
-*Just little notes and quotes that I want to hold on to...*
+*Some bits and bobs that I want to hold on to...*
 
 {% assign sorted_notes = site.notes | sort: "num" %}
 
