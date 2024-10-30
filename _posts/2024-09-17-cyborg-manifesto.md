@@ -32,13 +32,15 @@ I know that others experience this far more profoundly than I do, as someone who
 
 But this is also a kind of discomfort that I can relate to in parts of my life, as I struggle on the boundaries of different academic/intellectual/creative/personal perspectives which often feel mutually inconsistent, or at least difficult to reconcile. 
 
-Plenty of the intellectual world places a high value on internal consistency. Isn't that *what it means* to be a "good", thoughtful, intellectual thinker? To be someone who works out all the inconsistencies, makes sense of things, and acts accordingly? I think of the [Socratic interlocutors](https://en.wikipedia.org/wiki/Socratic_dialogue) with their [unexamined beliefs](https://en.wikipedia.org/wiki/The_unexamined_life_is_not_worth_living), *made better* by careful inducements to reason more deeply and carefully. I think of Descartes and his will to [doubt all things](https://en.wikipedia.org/wiki/Cartesian_doubt) that can possibly be doubted. Philosophy education teaches that (intellectual) inconsistency is a state to be avoided and resolved in the process of learning and self-improvement.
+Plenty of the intellectual world places a high value on internal consistency. Isn't that *what it means* to be a "good", thoughtful, intellectual thinker? To be someone who works out all the inconsistencies, makes sense of things, and acts accordingly? I think of the [Socratic interlocutors](https://en.wikipedia.org/wiki/Socratic_dialogue) with their [unexamined beliefs](https://en.wikipedia.org/wiki/The_unexamined_life_is_not_worth_living), *made better* by careful inducements to reason more deeply and carefully. I think of Descartes and his will to [doubt all things](https://en.wikipedia.org/wiki/Cartesian_doubt) that can possibly be doubted. Philosophy education teaches that (intellectual) inconsistency is a state to be avoided and resolved in the process of learning and self-improvement. 
+
+Much of academic disciplinarity, still, shares the sensibility that there is one true way of seeing (and it is ours).
 
 But so, returning to Haraway, part of the idea is to recalibrate the *emotional* experience of "hybridity" and "contradiction". The point is not just to tolerate or even accept these states as *inevitable-but-undersirable* (and ideally *transitory*) states of a complex world that often resists reason and reconciliation. 
 
 Instead, Haraway invites us to go even further; how might it feel to *embrace* and *celebrate* these states of apparent contradiction, hybridity, and *both-ness*[^1] as worthy and permanent states of being? How might it feel to stand happily in hybridity, with full acceptance and sense of arrival and integrity? 
 
-Of course, sometimes integration and reconciliation can also be worthy goals. Sometimes, sensibilities that seem in conflict are, in fact, *not in conflict at all* if looked at from the right angle. But the point is that integration need be a precondition for arrival and celebration.
+Of course, sometimes integration and reconciliation can also be worthy goals. Sometimes, sensibilities that seem in conflict are, in fact, *not in conflict at all* if looked at from the right angle. But the point is that integration need not be a precondition for arrival and celebration.
 
 Anyway, thanks for reading and, as always, let me know if you have thoughts on any of this. 
 
