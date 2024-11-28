@@ -78,12 +78,104 @@ To decide that something *is complex* is to make a fact about the world (i.e. th
 
 In the case of the spectrum auction (and market design more broadly), the rendering of complexity also implies a particular configuration of economic experts in relation to policymakers. Their expertise is no longer transferrable; transition from economist as advisor to economist as engineer etc. 
 
-<!-- OK, I think that that is the working hypothesis of my argument. Now back to Callon. Callon discusses Guesnerie's definition of a market. A market is: 
+## Milgrom (2017) - Discovering Prices: Auction Design in Markets with Complex Constraints
 
-> a coordination device in which a) the agents pursue their own interests and to this end perform economic calculations which can be seen as an operation of optimization and/or maximization; b) the agents generally have divergent interests, which lead them to engage in c) transactions which resolve the conflict by defining a price. 
+*November 11, 2024*
 
-Callon generally likes this framing. He elaborates: 
+I have been slow engaging here, but the deadline is incoming. So today, I am going to spend some focal time. I am going to start by re-reading through the book from Milgrom which discusses the auction: *Discovering Prices: Auction Design in Markets with Complex Constraints* . 
 
-> the market implies a peculiar anthropology, one which assumes a calculative agent or more precisely what we might call "calculative agencies". 
+Centered around the idea of "market design". 
 
-What is a calculative agency?  -->
+Interestingly, a big part of the narrative of this book is about addressing *traditional economic theory*. 
+
+> ... some economists schooled in traditional economic theory were skeptical of the field of market design altogether. Why, many asked, would markets need designing? Why can unregulated market participants not take care of themselves? According to a view that is still espoused by many economists, if resources are allocated in an inefficient way, and if parties can negotiate freely among themsleves without aritificially imposed constraints, then the parties will be sufficiently motivated to alleviate and eventually eliminate any important inefficiency without any outside assistance. According to that view, no organized market is needed to promote efficient trade
+
+In other words, a big part of the book is about explaining *why* market design - this particular flavor of centralized expert intervention - is necessary in situations like this. 
+
+Why do conventional economists believe this? 
+
+* Coase theorem 
+* Invisible hand / first welfare theorem. 
+
+In short, there is a belief in the calculative efficiency of the free market. Standard economist stuff, valuing efficiency. Separation of efficiency and distribution. Not that you shouldn't care about efficiency, but that it is separable from equity. 
+
+Milgrom re-hashes the kind of standard set of "exceptions" to this "free market" / first welfare theorem perspective. He calls these "real-world complications" that "upset" the conclusion of the first welfare theorem. 
+
+Standard ones that are "discussed at length in all elementary microeconomics textbooks": 
+
+* "Externalities" 
+* "Market power" / imperfect competition. 
+
+But two more assumptions that receive "much less discussion in textbooks": 
+
+* The assumption that consumers and firms do not care which units they may receeive or supply of each product and consequently that the only relevant constraints on market transactions are that the quantity demanded must be equal to the quantity supplied. 
+    * In short, assumption that products are homogenous. 
+    * Why do they assume this? 
+        * If two items are different in an important way --> can be considered different products. 
+    * But this can only be carried so far ==> if everything matters, then every supplier is a monopolist. 
+    * "In reality, some details of time and place and even physical characteristics are always overlooked in defining a product category. As a consequence, some heterogeneity always remains"
+        * Even when talking about commodities ==> this is exactly what STS performativity people are talking about. 
+
+> In some applications, very fine differences among products within a category are critically important for serving demand. 
+
+**Resource constraints**: "for example, the statement that the supply of electricity is sufficient to meet demand"
+
+> I will call a resource constraint "simple" if, when people attempt to violate it, the only consequence is that some demand is left unserved. 
+
+> Traditional economic analyses, which extoll the ability of price adjustments to correct imbalances of demand and supply, implicitly assume that all constraints are simple. 
+
+> However, for some resource constraints, attempted violations can have less benign consequences. 
+
+> When even temporary imbalances of supply and demand are intolerable, a system of prices alone is just not good enouogh: some other means of coordination is needed to ensure no imbalance. 
+
+**Key point**: key sources of complexity. 
+
+> In this monograph, I recognize two kinds of complexity that often interact to make centralization of markets desirable and good market design valuable. 
+
+> First, when the plans of many individuals need to satisfy constraints to avoid incurring the very high costs associated with such events as train crashes and brownouts, the constraint is not simple. 
+
+> Second, when heterogeneity wihtin a product category implies that acceptable market performance may require producing and assigning the right units of products to invidvidual users. 
+
+Here is a good quote: 
+
+> Issues of **complexity** are rarely addressed in economic discourse, and that blindness explains much of the resistance to the ideas of market design. **Without complexity, what contribution could a market designer possibly make?**
+
+Thesis: 
+
+> The novel perspective in this book is that complexity can, by itself, provide an important reason why some markets benefit from careful organization. 
+
+So in short, Milgrom wants to put *complexity* on the same playing field as issues like *externalities* and *market power* as justfiying regulatory intervention. And not just any regulatory intervention, but specifically this centralized form of market design intervention, which requires deep involvement from expert market designers. 
+
+Why? 
+
+* Unorganized markets can take a very long time to correct any misallocation, particularly when the transactions are complex and require a multilateral reorganization within a heterogeneous product category such as land. 
+* Second, opprotunitites to create value can be irretrieavably lost when some parties are excluded from the initial deal. 
+* Third, the details of how a market is organized and operates can affect the efficiecy of exchange. 
+* Fourth, the details of property rights can affect the ease of assembling and repackaging holdings. 
+
+How is complexity stabilized: 
+
+* [This image](https://www.pnas.org/doi/10.1073/pnas.1701997114)
+* Also there is a connection to "complexity theory" in computer science; render the problem something that is hard for computers. 
+* Statements about the large "number" of constraints: 
+    > There are about 2.7 million logical constraints that restrict the assignments of TV channels to stations. 
+
+> Allocating spectrum resources subject to the alrge number of constraints exemplifies the challenge in bringing a price-based market solution to complex problems of resource allocation. 
+
+> Neoclassical economic theory ignores the possiblity that some optimization problems may be too hard for agents, or even for the fastest computer, but we have seen that radio-sepctrum allocations involve just such a problem. 
+
+Making complexity tractable for market participants: 
+
+> The inherent complexity of this resource allocation poses another challenge for market design, namely, that excessive complexity of market rules can discourage people from participating. Even with clear and helpful property rights that Congress established, owners o TV stations are likely to find any market design in this context to have elements that are confusing. When a broadcaster must determine the amount it should bid in an auction to sell its stations, few (if any) are likely to understand precisely how the auctioneer will decide which offers to accept. The government's value of any one station depends on all the other stations' offers, but not only on that. It also depends on a complex, opaque computation that is very hard even for ast computers and that station owners might be unable to verify, let alone understand, even after the market has closed. Given such an imperfect understanding, how much should a station owner demand for its station in any negotiation. 
+
+> A station's inability to make this computation is important, because in a competitive market for TV spectrum, the value of any single station to the owner who is willing to sell should be just a bit lower than the selling price, and the value to the owner who is unwilling to sell should be just a bit higher. 
+
+> If the government hopes that most broadcasters will participate and not demand very high prices, so that there is a chance to clear a lot of specturm, then it needs to encourage station owners by making it easy for them to participate confidently in the auction. 
+
+**Why is this a problem for the government?** 
+
+> The single most compelling advantage to having a government agency conduct the incentive auction is that there are **so many legal issues and political decisions involved in the process**. 
+
+More on complexity: 
+
+> As suggested by the title, a major part of this book is about the scope of price-guided decisions. Can prices work effectively as part of a larger system when there are other complex constraints that make prices alone inadequate or when the relatively loose blaance between supply and demand is not sufficient. 
