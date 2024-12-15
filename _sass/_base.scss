@@ -26,6 +26,12 @@ body {
 body.dark-mode {
     color: $text-color-dark !important;
     background-color: $background-color-dark !important;
+
+    pre, code {
+        background-color: $code-block-background-dark; // Dark mode background
+        color: $text-color-dark; // Dark mode text color
+        border: 0;
+    }
 }
 
 /**
