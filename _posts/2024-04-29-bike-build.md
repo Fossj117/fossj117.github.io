@@ -25,7 +25,7 @@ Specs:
 - Frameset: Kilo TT Pro
 - Wheelset: H+Son Archetype w/DT Swiss hubs
 - Tires: Continental Grand Prix 5000 (700 x 28)
-- Bars / stem: stock stem & drops. Brooks tape.
+- Bars / stem: Currently Nitto risers w/ Oury grips. Previously drops w/ Brooks tape (in pic).
 - Crankset: Sugino RD2 w/48t chainring
 - Rear cog: EAI 17t
 - Chain: Izumi Eco
@@ -35,8 +35,9 @@ Specs:
 
 ## Notes on Changes 
 
-* 5/2/24 -- put on Brooks B17 leather saddle (black). Feels better than stock saddle straight away, though should improve over time. 
-* 4/30/24 -- put on new wheelset & tires (Archetypes + DT Swiss hubs + GP5000 28s). Changing a few things at a time here but generally happy with it. I think the biggest thing is probably moving from 23s to 28s which definitely seems to affect ride feel on bumpier surfaces etc. 
+* 10/10/24 -- Picked up some Nitto risers that I got on FB market. They're fun and definitely feel different. They remind me of the riding the BMX bike that I had in middle school (the last time I had any sort of riser handlebar). 
+* 5/2/24 -- Put on Brooks B17 leather saddle (black). Feels better than stock saddle straight away, though should improve over time. 
+* 4/30/24 -- Put on new wheelset & tires (Archetypes + DT Swiss hubs + GP5000 28s). Changing a few things at a time here but generally happy with it. I think the biggest thing is probably moving from 23s to 28s which definitely seems to affect ride feel on bumpier surfaces etc. 
 
 ## Component Considerations
 
