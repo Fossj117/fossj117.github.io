@@ -23,7 +23,7 @@ After some research, my best guess is that this frame is [from 1992](https://www
 </div>
 
 
-Though it was in good shape to start out with, I wanted to make some changes both for some combination of reasons -- some practical, some aesthetic, some just for fun. I've been working on [my fixed gear](https://jeffreyfossett.com/2024/04/29/bike-build.html), and so the Bridgestone presented a chance to learn about a new set of things -- rear casettes, derailleurs & shifting systems; threaded headsets & quill stems; cantilever brakes. Here is where the build is currently: 
+Though it was in good shape to start out with, I wanted to make some changes for some combination of reasons -- some practical, some aesthetic, some just for fun. I've been working on [my fixed gear](https://jeffreyfossett.com/2024/04/29/bike-build.html), and so the Bridgestone presented a chance to learn about a new set of things -- rear casettes, derailleurs & shifting systems; threaded headsets & quill stems; cantilever brakes. Here is where the build is currently: 
 
 <div style="display: flex; justify-content: center;">
   <img src="/figs/2025-04-24-bridgestone-mb6/mb6.jpg" alt="Bridgestone MB-6 side view"  style="width: 45%; max-width: 45%" >
