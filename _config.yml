@@ -23,3 +23,7 @@ collections:
   notes:
     output: true
     permalink: /notes/:name.html
+  ride_reports:
+    output: true
+    permalink: /rides/:name.html
+    sort_by: num
