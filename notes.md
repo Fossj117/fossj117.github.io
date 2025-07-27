@@ -23,6 +23,7 @@ function displayNote(number) {
     .then(response => response.text())
     .then(content => {
       document.getElementById('note-container').innerHTML = content;
+      boldNoteNumber(number);
     });
 }
 
@@ -55,16 +56,66 @@ function filterNotes(searchTerm) {
     });
     // Reset all separators to their original state
     resetSeparators();
+    // Display a random note
+    var noteCount = {{ site.notes | size }};
+    var randomNote = Math.floor(Math.random() * noteCount) + 1;
+    displayNote(randomNote);
     return;
   }
   
+  // Hide all notes initially
+  allNotes.forEach(note => {
+    note.element.style.display = 'none';
+  });
+  
+  // Track pending searches and matches
+  let pendingSearches = allNotes.length;
+  let hasMatches = false;
+  let matchingNotes = [];
+  
   // Search through each note's content
   allNotes.forEach(note => {
-    searchNoteContent(note.num, searchLower, note.element);
+    searchNoteContent(note.num, searchLower, note.element, (matches) => {
+      pendingSearches--;
+      if (matches) {
+        hasMatches = true;
+        matchingNotes.push(note.num);
+      }
+      
+      // When all searches are complete
+      if (pendingSearches === 0) {
+        if (!hasMatches) {
+          // No matches found, clear content
+          document.getElementById('note-container').innerHTML = '';
+        } else {
+          // Display a random matching note and bold its number
+          var randomIndex = Math.floor(Math.random() * matchingNotes.length);
+          var randomMatchingNote = matchingNotes[randomIndex];
+          displayNote(randomMatchingNote);
+          boldNoteNumber(randomMatchingNote);
+        }
+      }
+    });
   });
   
   // After filtering, hide trailing separators
   hideTrailingSeparators();
+}
+
+function boldNoteNumber(noteNum) {
+  // Remove bold and underline from all note links
+  document.querySelectorAll('.note-link').forEach(link => {
+    link.style.fontWeight = 'normal';
+    link.style.textDecoration = 'none';
+  });
+  
+  // Bold and underline the displayed note number
+  document.querySelectorAll('.note-link').forEach(link => {
+    if (link.getAttribute('data-num') === noteNum.toString()) {
+      link.style.fontWeight = 'bold';
+      link.style.textDecoration = 'underline';
+    }
+  });
 }
 
 function resetSeparators() {
@@ -95,11 +146,12 @@ function hideTrailingSeparators() {
   });
 }
 
-function searchNoteContent(noteNum, searchTerm, itemElement) {
+function searchNoteContent(noteNum, searchTerm, itemElement, callback) {
   // Check if we've already cached this note's content
   if (noteContentCache[noteNum]) {
     const matches = noteContentCache[noteNum].toLowerCase().includes(searchTerm);
     itemElement.style.display = matches ? 'inline' : 'none';
+    if (callback) callback(matches);
     return;
   }
   
@@ -113,11 +165,13 @@ function searchNoteContent(noteNum, searchTerm, itemElement) {
       // Check if content matches search term
       const matches = content.toLowerCase().includes(searchTerm);
       itemElement.style.display = matches ? 'inline' : 'none';
+      if (callback) callback(matches);
     })
     .catch(error => {
       console.error('Error fetching note content:', error);
       // If we can't fetch the content, hide the item to be safe
       itemElement.style.display = 'none';
+      if (callback) callback(false);
     });
 }
 </script>
