@@ -91,8 +91,7 @@ function filterPosts() {
 		  <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"  style="display: inline;">{{ post.title }}</a>
 		  <span class="post-tag">
 			{% for tag in post.tag %}
-				<span style="cursor: pointer;" onclick="filterByTag('{{ tag }}')">{{- tag -}}</span>
-		  		{% unless forloop.last %},{% endunless %}
+				<span style="cursor: pointer;" onclick="filterByTag('{{ tag }}')">{{ tag }}</span>{% unless forloop.last %},{% endunless %}
 		  	{% endfor %}
 		</span>
 		  </li>
