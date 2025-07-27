@@ -53,7 +53,7 @@ body.dark-mode .site-header {
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        font-size: 25px;
+        font-size: 24px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -301,4 +301,37 @@ body.dark-mode .site-footer {
 .poem {
     color: $grey-color;
     // font-size: $small-font-size;
+}
+
+/**
+ * Ride Reports
+ */
+.ride-report-content {
+    margin-bottom: $spacing-unit;
+    
+    .ride-metadata {
+        margin-bottom: $spacing-unit/2;
+        font-size: $small-font-size * 0.8;
+        color: $grey-color;
+        
+        .ride-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: $spacing-unit/3;
+            
+            span {
+                color: $grey-color;
+            }
+        }
+    }
+}
+
+body.dark-mode .ride-report-content {
+    .ride-metadata {
+        color: $grey-color;
+        
+        .ride-info span {
+            color: $grey-color;
+        }
+    }
 }
