@@ -5,7 +5,7 @@ date: 2024-08-19
 latex: true
 mathjax: true
 comments: true
-tag: ["art"]
+tag: ["art", "sewing"]
 ---
 
 *This is a cross-post with [my newsletter](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=32b2da696e). You can subscribe [here](https://jeffreyfossett.com/subscribe/) if you're interested in getting some thoughts in your inbox occassionally.*

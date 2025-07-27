@@ -5,7 +5,7 @@ date: 2025-04-25
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality"]
+tag: ["plurality", "conflict"]
 ---
 
 Today I am reflecting on John Lederach's *The Little Book of Conflict Transformation* as it relates to [the Bridging Bot project](https://techandsocialcohesion.substack.com/p/from-battleground-to-common-ground). In this post I will try to explain some of the key ideas to myself, and what I think we can learn from them for the purposes of this project. 

@@ -5,7 +5,7 @@ date: 2025-05-10
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality"]
+tag: ["plurality", "conflict"]
 ---
 
 Today I am reading Morton Deutsch's *The Resolution of Conflict: Constructive and Destructive Processes* and will take some notes on its relationship to the [Bridging Bot](https://www.youtube.com/watch?v=QgfXdJ-7pF4&t=1s&ab_channel=PluralityInstitute) project.

@@ -5,7 +5,7 @@ date: 2025-05-15
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality"]
+tag: ["plurality", "conflict"]
 ---
 
 There is a handful of research around about in-person mediation and mediators which emerges out of a literature in psychology. From what I can tell, the area has largely stalled in the last ten years or so, and also tends to lack a lot of formal empirical about tactics and effectiveness; both of these points are bemoaned by some reviewers of the literature in around 2012. Still, there seem to be some useful things to learn from here, at least in terms of hypothesis generation. For now, I will just organize some of the key references I have come across. A few key people seem to be: 

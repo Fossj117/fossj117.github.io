@@ -5,7 +5,7 @@ date: 2024-02-13
 latex: true
 mathjax: true
 comments: true
-tag: []
+tag: ["llm", "art"]
 ---
 
 ## Driverless Car Burns
