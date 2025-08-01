@@ -12,7 +12,7 @@ layout: empty
 
 Hi, I'm Jeff. I like learning and making things.
 
-Curently, I am a PhD student at Harvard and research lead at Plurality Institute. 
+Curently, I am a PhD student at Harvard and research lead at Plurality Institute. My research focuses on how we make collective decisions with and about digital technology, and blends methodological perspectives from quantitative economics and science & technology studies (STS). 
 
 Outside of research, I enjoy reading, writing, making art, sewing, and riding my bike.
 
