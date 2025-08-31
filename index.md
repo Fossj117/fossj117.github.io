@@ -12,7 +12,9 @@ layout: empty
 
 Hi, I'm Jeff. I like learning and making things.
 
-Curently, I am a PhD student at Harvard and research lead at Plurality Institute. My research focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from economics and science & technology studies (STS). 
+Curently, I am a PhD student at Harvard, Research Lead at [Plurality Institute](https://www.plurality.institute/), and an incoming Research Fellow at the [JHU Tech & Society Initiative](https://carey.jhu.edu/tech-society-initiative). 
+
+My research focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics and science & technology studies (STS). 
 
 Outside of research, I enjoy reading, writing, making art, sewing, and riding my bike.
 
