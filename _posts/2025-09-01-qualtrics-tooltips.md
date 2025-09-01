@@ -29,7 +29,7 @@ The basic functionality I would like is the following.
 
 I took this to ChatGPT to propose an implementation. Here is what it proposed: 
 
-```javascript
+{% highlight javascript %}
 // ---- CENTRALIZED GLOSSARY ----
 // Edit this object to add/remove terms or change definitions.
 // Keys are the terms to match; values are the tooltip text.
@@ -170,7 +170,7 @@ if (window.Qualtrics && Qualtrics.SurveyEngine) {
     attributes: true,
     attributeFilter: ['class','style']
   });
-```
+{% endhighlight %}
 
 For reference, this all gets added in "Look and Feel" > "General" > "Header" and wrapped in a `<script>` tag after converting to source view.
 
@@ -180,7 +180,7 @@ We also added an option to manually exclude a segment of text from the tagging l
 
 Here is the corresponding `CSS`: 
 
-```css
+{% highlight css %}
 /* ===== Brandable variables ===== */
 :root {
   --accent: #002D72;   /* primary dark blue */
@@ -279,13 +279,13 @@ Here is the corresponding `CSS`:
 .QuestionBody {
   overflow: visible !important;
 }
-```
+{% endhighlight %}
 
 This is mostly styling fluff. The main logic is near the bottom, where we define some selectors that set conditions where the tooltips should appear. 
 
 After some issues with the tooltips running off the side of the screen, we added one more script to the header to fix up the display logic: 
 
-```javascript
+{% highlight javascript %}
 // Margin from the viewport edges to keep the bubble off-screen borders
 const TIP_MARGIN = 16;
 
@@ -339,7 +339,7 @@ document.addEventListener('focusin', (e) => {
 window.addEventListener('resize', () => {
   document.querySelectorAll('.glossary-tooltip').forEach(adjustTooltipPosition);
 });
-```
+{% endhighlight %}
 
 In the end, here is what the tooltips look like:
 
