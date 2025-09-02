@@ -29,6 +29,11 @@ The basic functionality I would like is the following.
 
 I took this to ChatGPT to propose an implementation. Here is what it proposed: 
 
+<html>
+<p><details>
+
+<summary><strong>Expand for Javscript Logic</strong></summary>
+
 {% highlight javascript %}
 // ---- CENTRALIZED GLOSSARY ----
 // Edit this object to add/remove terms or change definitions.
@@ -171,6 +176,10 @@ if (window.Qualtrics && Qualtrics.SurveyEngine) {
     attributeFilter: ['class','style']
   });
 {% endhighlight %}
+</details>
+</p>
+</html>
+
 
 For reference, this all gets added in "Look and Feel" > "General" > "Header" and wrapped in a `<script>` tag after converting to source view.
 
@@ -180,16 +189,12 @@ We also added an option to manually exclude a segment of text from the tagging l
 
 Here is the corresponding `CSS`: 
 
-{% highlight css %}
-/* ===== Brandable variables ===== */
-:root {
-  --accent: #002D72;   /* primary dark blue */
-  --accent-2: #68ACE5; /* secondary light blue */
-  --tip-bg: var(--accent);   /* tooltip background = dark blue */
-  --tip-fg: #ffffff;         /* tooltip text = white */
-  --tip-shadow: rgba(0,0,0,.2);
-}
+<html>
+<p><details>
 
+<summary><strong>Expand for the CSS logic</strong></summary>
+
+{% highlight css %}
 /* The trigger (the term itself) */
 .glossary-tooltip {
   position: relative;
@@ -216,9 +221,9 @@ Here is the corresponding `CSS`:
   line-height: 1.35;
   white-space: normal;
 
-  width: fit-content;
-  min-inline-size: 22ch;
-  max-inline-size: min(40ch, 96vw - 32px);
+  width: max-content;            /* size to content but allow wrapping */
+  min-inline-size: 20ch;         /* reasonable minimum */
+  max-inline-size: none;         /* JS will set maxWidth per container */
 
   box-shadow: 0 4px 12px var(--tip-shadow);
   z-index: 9999 !important;
@@ -280,14 +285,31 @@ Here is the corresponding `CSS`:
   overflow: visible !important;
 }
 {% endhighlight %}
+</details>
+</p>
+</html>
 
 This is mostly styling fluff. The main logic is near the bottom, where we define some selectors that set conditions where the tooltips should appear. 
 
 After some issues with the tooltips running off the side of the screen, we added one more script to the header to fix up the display logic: 
 
+<html>
+<p><details>
+
+<summary><strong>Expand for the Javascript logic</strong></summary>
+
 {% highlight javascript %}
-// Margin from the viewport edges to keep the bubble off-screen borders
-const TIP_MARGIN = 16;
+// Margin from container edges to keep the bubble inside visible question area
+const TIP_MARGIN = 32;
+
+// Find the nearest Qualtrics question container to constrain within
+function getQuestionContainer(element){
+  return (
+    element.closest('.QuestionBody, .QuestionText, .InnerInner, .Inner, .QuestionOuter, #Questions') ||
+    document.querySelector('#Questions') ||
+    document.body
+  );
+}
 
 function adjustTooltipPosition(wrapper){
   const tip = wrapper.querySelector('.glossary-tip');
@@ -303,25 +325,50 @@ function adjustTooltipPosition(wrapper){
   // Reset any previous alignment
   wrapper.classList.remove('align-end','align-center');
 
+  // Reset inline offsets from any prior runs
+  tip.style.marginLeft = '0px';
+  tip.style.left = '0';
+  tip.style.right = '';
+  tip.style.transform = 'none';
+
   // Measure
+  const container = getQuestionContainer(wrapper);
+  const cRect = container.getBoundingClientRect();
+
+  // Ensure the tooltip cannot exceed container width
+  const maxAllowed = Math.max(160, cRect.width - (TIP_MARGIN * 2));
+  const prevMaxW = tip.style.maxWidth;
+  const prevMinW = tip.style.minWidth;
+  tip.style.maxWidth = maxAllowed + 'px';
+  tip.style.minWidth = 'auto';
+
   const rect = tip.getBoundingClientRect();
-  const vw   = window.innerWidth;
 
   // Compute overflows
-  const overflowLeft  = rect.left < TIP_MARGIN;
-  const overflowRight = rect.right > (vw - TIP_MARGIN);
+  const leftLimit  = cRect.left + TIP_MARGIN;
+  const rightLimit = cRect.right - TIP_MARGIN;
 
-  if (overflowRight && !overflowLeft) {
-    wrapper.classList.add('align-end');      // anchor right edge to the term
-  } else if (overflowRight && overflowLeft) {
-    wrapper.classList.add('align-center');   // center under the term
+  let shiftX = 0;
+  if (rect.left < leftLimit) {
+    shiftX += (leftLimit - rect.left);
   }
-  // else: default left aligned is fine
+  if (rect.right > rightLimit) {
+    shiftX -= (rect.right - rightLimit);
+  }
+
+  // Apply horizontal shift relative to the default left:0 anchor
+  if (shiftX !== 0) {
+    tip.style.marginLeft = Math.round(shiftX) + 'px';
+  }
 
   // Restore styles
   tip.style.display = prevDisp;
   tip.style.visibility = prevVis;
   tip.style.opacity = prevOp;
+  // Keep computed maxWidth/minWidth but restore author inline styles if any
+  // (We assume our maxWidth is desired; if not, comment out the next two lines)
+  // tip.style.maxWidth = prevMaxW;
+  // tip.style.minWidth = prevMinW;
 }
 
 // Reposition when a tooltip is about to show
@@ -340,6 +387,9 @@ window.addEventListener('resize', () => {
   document.querySelectorAll('.glossary-tooltip').forEach(adjustTooltipPosition);
 });
 {% endhighlight %}
+</details>
+</p>
+</html>
 
 In the end, here is what the tooltips look like:
 
