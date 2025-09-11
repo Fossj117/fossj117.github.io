@@ -10,7 +10,7 @@ tag: ["personal"]
 
 I have been periodically sending out life/research/creative updates to folks on my email list. You can subscribe to the list [here](https://jeffreyfossett.com/subscribe/) or below. Here are links to past updates: 
 
-
+* 9/11/25 - [Jeff's Season Update](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=1db681ad45): seasonality; flexing and not.
 * 7/24/25 - [Jeff's Blog / Life Update](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=45b3652103): RCTs; bike rides; denim quilting projects. 
 * 12/9/24 - [Jeff's Blog / Life Update](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=e9ee9e8718): watercolor & pen plotter dailies; houseplant frog; bits and happenings.
 * 9/5/24 - [Jeff's Blog / Life Update](https://us22.campaign-archive.com/?u=8f1642304d50d1f9684f84baf&id=159df2ad57)
