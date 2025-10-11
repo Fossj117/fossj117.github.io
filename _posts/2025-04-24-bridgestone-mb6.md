@@ -8,6 +8,35 @@ comments: true
 tag: ["bike"]
 ---
 
+## October 2025
+
+<div>
+  <img src="/figs/2025-04-24-bridgestone-mb6/newtires.jpg" alt="new tires" style="display: block; margin-left: auto; margin-right: auto; max-width: 75%;">
+</div>
+
+* I put on some new tires, with tan sidewalls from Ultradynamico. I think these are hipster-y and probably not worth the cost, but I wanted to try the tan sidewall look, and they are a bit lighter tread and slightly thinner than what I had on which is nice for my purposes. 
+* I cleaned up the wires with zip ties a bit better which is nice. I bought a new rack from a guy on FB a while ago but haven't installed it yet. I need to get a new mount for the headlight if I'm going to use the rack. 
+* I haven't pulled the trigger on new brakes yet. 
+
+## August 2025
+
+I am thinking about making some more upgrades to the build, mainly related to upgrading the brakes. At the moment, I still have the original Dia Compe cantilever brakes that shipped stock with the MB-6 I believe. It's cool to have the originals on there, but I am curious to try something a bit newer, albeit with the same spirit. 
+
+A couple of options: 
+
+* [Rene Herse cantilever brakes](https://www.renehersecycles.com/shop/components/brakes/rene-herse-cantilever-brakes/?srsltid=AfmBOorNvrB_NzZwH1jAI3ooXWX3Hq6-qnB1GkjOhnmnuY5LfIlhRAbR). Expensive.
+* [Paul cantilevers](https://www.rivbike.com/products/paul-cantilever-brakes?variant=695715069965). R likes these. I'd probably go Polish and maybe neo-retro to keep the vibe matching. Expensive. Some people do touring on the back, neo-retro on the front to manage heel clearance. If go with these, gotta get the [moon unit](https://www.paulcomp.com/shop/components/brake-accessories/cable-hangers/moon-unit/) too and the cable hanger for vibes. Pricey. 
+* [Grand Cru Zeste](https://velo-orange.com/collections/brakes/products/grand-cru-long-arm-cantilever-brakes) have a cool vibe. In-between price. 
+* [Tektro oryx](https://velo-orange.com/products/tektro-cr720-cantilever-brakes?srsltid=AfmBOopWQ9NhbG4-nZqlQbf879uSUM9myK3CGD3OkX_f9Pe1lyFBSSsr)
+
+Honestly, I am not sure if the fancier options are worth it in terms of performance, but they are nice aesthetically, which is part of the point. 
+
+## Spring 2025
+
+I took the wheel-building class at Broadway Bicycle and built up a 26" front wheel with a Dynamo hub for the Bridgestone and got some nice lights to go with. I was never too interested in Dynamo hubs, but wanted to try it out. After riding for a while, it is useful for sure, and will probably be moreso once we get into winter and I am more likely to be riding in the dark. I don't love the wiring hanging around on the build, but maybe there is a better way to do cable management with that. 
+
+## April 2025
+
 A few weeks ago, I picked up a Bridgestone MB-6 on Facebook marketplace. It had been rescued from the back of someone's garage (I think) and restored by Joe at [Mead street cycles](https://www.instagram.com/mead.st.cycles/) and was in good shape. I liked the colorway and was looking for a new bike in this genre for commuting and grocery-getting, and so I decided to make the purchase. 
 
 Here is a pic of how it was set up when I got it: 
@@ -56,3 +85,5 @@ For future reference, here's the full set of original specs from the Bridgestone
 <div>
   <img src="/figs/2025-04-24-bridgestone-mb6/mb6-specs.png" alt="mb6specs" style="display: block; margin-left: auto; margin-right: auto; max-width: 75%;">
 </div>
+
+This bike has led to a surprising amount of conversations with strangers. 
