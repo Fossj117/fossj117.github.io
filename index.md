@@ -14,15 +14,13 @@ Hi, I'm Jeff. I like learning and making things.
 
 Curently, I am a PhD student at Harvard, Research Lead at [Plurality Institute](https://www.plurality.institute/), and a Research Fellow at the [JHU Tech & Society Initiative](https://carey.jhu.edu/tech-society-initiative). 
 
-My research focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS). 
-
-During my PhD, I have been affiliated with the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the [GETTING-Plurality Research Network](https://ash.harvard.edu/programs/allen-lab-technology/), and the [Program on Science, Technology, and Society](https://sts.hks.harvard.edu/). 
+My research focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS). <!-- During my PhD, I have been affiliated with the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the [GETTING-Plurality Research Network](https://ash.harvard.edu/programs/allen-lab-technology/), and the [Program on Science, Technology, and Society](https://sts.hks.harvard.edu/).  -->
 
 Outside of research, I enjoy reading, writing, making art, sewing, and [riding my bike](https://jeffreyfossett.com/rides.html).
 
 Check out my [posts](https://jeffreyfossett.com/posts/) or [notes](https://jeffreyfossett.com/notes.html) for more things I am doing or thinking about. You can also [subscribe](https://jeffreyfossett.com/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
-A recent CV is <a href="/files/Jeffrey_Fossett_CV_2023.pdf">here</a>.
+A recent CV is <a href="/files/Jeffrey_Fossett_CV_2025_general.pdf">here</a>.
 
 Some links to find me elsewhere: 
 * [Curius](https://curius.app/jeff-fossett)
