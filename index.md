@@ -12,9 +12,11 @@ layout: empty
 
 Hi, I'm Jeff. I like learning and making things.
 
-Curently, I am a PhD student at Harvard, Research Lead at [Plurality Institute](https://www.plurality.institute/), and a Research Fellow at the [JHU Tech & Society Initiative](https://carey.jhu.edu/tech-society-initiative). 
+Curently, I am a PhD student at Harvard, Research Lead at [Plurality Institute](https://www.plurality.institute/), and a Research Fellow at the [JHU Tech & Society Initiative](https://carey.jhu.edu/tech-society-initiative).
 
-My research focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS). <!-- During my PhD, I have been affiliated with the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the [GETTING-Plurality Research Network](https://ash.harvard.edu/programs/allen-lab-technology/), and the [Program on Science, Technology, and Society](https://sts.hks.harvard.edu/).  -->
+My research focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS). A summary of current academic projects is [here](https://jeffreyfossett.com/academic/).
+
+<!-- During my PhD, I have been affiliated with the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the [GETTING-Plurality Research Network](https://ash.harvard.edu/programs/allen-lab-technology/), and the [Program on Science, Technology, and Society](https://sts.hks.harvard.edu/).  -->
 
 Outside of research, I enjoy reading, writing, making art, sewing, and [riding my bike](https://jeffreyfossett.com/rides.html).
 
