@@ -13,7 +13,9 @@ This project is a collaboration with Ian Baker, Rose Bloomin, Peter Darche, Amin
 <p><details>
 <summary><em>Abstract</em></summary>
 
-This study develops and experimentally tests an AI-based mediation tool designed to facilitate constructive online dialogue across political divides. Powered by a large language model (LLM), the tool automates mediation interventions grounded in communication and conflict resolution principles such as paraphrasing, identifying agreement, and encouraging perspective-taking. In a randomized controlled trial, the system successfully generated context-sensitive interventions in contentious conversations; however, effects on participants' attitudes towards people they disagree with were limited. The findings highlight both the promise and the challenges of using LLMs to promote healthier online discourse at scale. 
+<!-- This study develops and experimentally tests an AI-based mediation tool designed to facilitate constructive online dialogue across political divides. Powered by a large language model (LLM), the tool automates mediation interventions grounded in communication and conflict resolution principles such as paraphrasing, identifying agreement, and encouraging perspective-taking. In a randomized controlled trial, the system successfully generated context-sensitive interventions in contentious conversations; however, effects on participants' attitudes towards people they disagree with were limited. The findings highlight both the promise and the challenges of using LLMs to promote healthier online discourse at scale.  -->
+
+Forthcoming.
 
 </details>
 </p>
@@ -22,7 +24,7 @@ This study develops and experimentally tests an AI-based mediation tool designed
 <summary><em>Media</em></summary>
 
 <ul>
-<li><a href="https://techandsocialcohesion.substack.com/p/from-battleground-to-common-ground">From battleground to common ground: Bridging Bot shows how AI designed to mediate could nudge toxic online spaces towards healthier discourse</a> – Technology &amp; Social Cohesion.</li>
+<li><a href="https://techandsocialcohesion.substack.com/p/from-battleground-to-common-ground">From battleground to common ground: Bridging Bot shows how AI designed to mediate could nudge toxic online spaces towards healthier discourse</a> – Council onTechnology &amp; Social Cohesion.</li>
 <li><a href="https://www.plurality.institute/blog-posts/exploring-opportunities-for-large-language-models-in-public-discourse">Exploring Opportunities for Large Language Models in Public Discourse</a> – Plurality Institute.</li>
 <li><a href="https://www.youtube.com/watch?v=QgfXdJ-7pF4&amp;ab_channel=PluralityInstitute">Presentation</a> at ``LLMs in Public Discourse” conference.</li>
 </ul>
