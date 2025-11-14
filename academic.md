@@ -4,12 +4,24 @@ title: Academic
 permalink: /academic/
 ---
 
-My academic research focuses on how we make collective decisions with and about emerging digital technologies. I am especially interested in the role of economic expertise in these decisions. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS).
-
-### <strong>*Large Language Models for Bridging and Mediation in Online Conversations*</strong>
-This project is a collaboration with Ian Baker, Rose Bloomin, Peter Darche, Amina Green, Lisa Schirch, and Michael Luca. A preliminary draft is available upon request. 
-
 <html>
+<style>
+.paper-block {
+  padding: 1.75rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+}
+.paper-block:last-of-type {
+  border-bottom: none;
+}
+</style>
+
+<section class="paper-block preamble">
+<p>My academic research focuses on how we make collective decisions with and about emerging digital technologies. I am especially interested in the role of economic expertise in these decisions. Methodologically, I blend perspectives from statistics, economics, and science &amp; technology studies (STS).</p>
+</section>
+
+<section class="paper-block">
+<h3><strong><em>Large Language Models for Bridging and Mediation in Online Conversations</em></strong></h3>
+<p>This project is a collaboration with Ian Baker, Rose Bloomin, Peter Darche, Amina Green, Lisa Schirch, and Michael Luca. A preliminary draft is available upon request.</p>
 <p><details>
 <summary><em>Abstract</em></summary>
 
@@ -19,24 +31,24 @@ Forthcoming.
 
 </details>
 </p>
-
 <p><details>
 <summary><em>Media</em></summary>
 
 <ul>
-<li><a href="https://techandsocialcohesion.substack.com/p/from-battleground-to-common-ground">From battleground to common ground: Bridging Bot shows how AI designed to mediate could nudge toxic online spaces towards healthier discourse</a> – Council onTechnology &amp; Social Cohesion.</li>
+<li><a href="https://techandsocialcohesion.substack.com/p/from-battleground-to-common-ground">From battleground to common ground: Bridging Bot shows how AI designed to mediate could nudge toxic online spaces towards healthier discourse</a> – Council on Technology &amp; Social Cohesion.</li>
 <li><a href="https://www.plurality.institute/blog-posts/exploring-opportunities-for-large-language-models-in-public-discourse">Exploring Opportunities for Large Language Models in Public Discourse</a> – Plurality Institute.</li>
 <li><a href="https://www.youtube.com/watch?v=QgfXdJ-7pF4&amp;ab_channel=PluralityInstitute">Presentation</a> at ``LLMs in Public Discourse” conference.</li>
 </ul>
 
 </details>
 </p>
-</html>
+</section>
 
-### <strong>*Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft*</strong>
-This project is a collaboration with Michael Luca and Yejia (Richard) Xu. A current draft is available [on NBER](https://www.nber.org/papers/w34441).
 
-<html>
+<section class="paper-block">
+<h3><strong><em>Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft</em></strong></h3>
+<p>This project is a collaboration with Michael Luca and Yejia (Richard) Xu. A current draft is available <a href="https://www.nber.org/papers/w34441">on NBER</a>.</p>
+
 <p><details>
 <summary><em>Abstract</em></summary>
 
@@ -44,13 +56,22 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 
 </details>
 </p>
-</html>
 
-### <strong>*Perfomativity, Complexity & Framing in the FCC Incentive Auction*</strong>
+<p><details>
+<summary><em>Media</em></summary>
 
-This project is a work in progress. It was presented at Harvard's [STS Circle](https://www.wcfia.harvard.edu/event/science-technology-and-society-seminar-sts-circle-02-24-25) and [GRiSTS](https://sts.hks.harvard.edu/events/workshops/grists-2024/) in 2024.  
+<ul>
+<li><a href="https://open.spotify.com/episode/4QKixrwtHtH5X8Sm3qUKwi?si=a685f46b94d84a62&nd=1&dlsi=6cf404da376c4683">50-year mortgages, falling real wages, and doing your rideshare due diligence</a> – The Indicator from Planet Money (NPR).</li>
+</ul>
 
-<html>
+</details>
+</p>
+</section>
+
+<section class="paper-block">
+<h3><strong><em>Perfomativity, Complexity & Framing in the FCC Incentive Auction</em></strong></h3>
+<p>This project is a work in progress. It was presented at Harvard's <a href="https://www.wcfia.harvard.edu/event/science-technology-and-society-seminar-sts-circle-02-24-25">STS Circle</a> and <a href="https://sts.hks.harvard.edu/events/workshops/grists-2024/">GRiSTS</a> in 2024. An extended abstract is available <a href="/files/Fossett_GRiSTS_Summary.pdf">here</a>.</p>
+
 <p><details>
 <summary><em>Abstract</em></summary>
 
@@ -58,4 +79,20 @@ This project is a work in progress. It was presented at Harvard's [STS Circle](h
 
 </details>
 </p>
+</section>
+
+<section class="paper-block">
+<h3><strong><em>Resale Royalties in Digital Art Markets</em></strong></h3>
+
+This project is currently resting. 
+
+
+<p><details>
+<summary><em>Abstract</em></summary>
+
+<p> Resale royalty policies (<em>droit de suite</em> or ``right to follow”) entitle artists to a percentage of secondary market sales of their artwork. These policies have been implemented in many offline art markets (including the UK, EU, and parts of the US) and have been subject to much theoretical debate in economics, law, and policy. At the same time, these policies have recently become popular in digital art markets based on the blockchain, where they are enforced by marketplace platforms rather than governments. Despite their popularity, there is limited high-quality empirical evidence about the consequences of resale royalty policies, partially due to data limitations in offline art markets, such as the inability to observe private sales which represent over half of transactions. In this project I use data from blockchain-based non-fungible token (NFT) art markets to study the effect of resale royalty policies; in particular, I examine the effect of these policies on prices and quantities in the secondary market for NFT assets. To identify causal effects, I take advantage of a recent series of marketplace platform policy changes - driven by competition for buyers - which have substantially reduced effective royalty enforcement in the Ethereum NFT space. </p>
+
+</details>
+</p>
+</section>
 </html>
