@@ -69,6 +69,20 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 </section>
 
 <section class="paper-block">
+<h3><strong><em>Anticipating AI: How Worker Beliefs Shape Workforce Adaptation</em></strong></h3>
+<p>This project is a collaboration with Michael Luca, Mingyang Sun, and Vijay Viswanathan. The project is currently in the data collection phase.</p>
+
+<p><details>
+<summary><em>Abstract</em></summary>
+
+As generative artificial intelligence (AI) tools such as large language models (LLMs) grow increasingly capable, workers face uncertainty about if and how these technologies will reshape their jobs. While economists have documented that a wide range of occupations may be exposed to AI, much less is known about how workers themselves perceive these changes, and how their beliefs shape their present-day economic behaviors. Beliefs about the future matter: workers’ expectations about AI’s development, governance, and adoption may drive decisions about retraining, education, or career shifts, regardless of whether these expectations diverge from expert forecasts. In this paper, we design and conduct a survey and randomized experiment to study the role of worker beliefs in shaping labor market responses to generative AI, with a focus on two professional fields: law and management consulting. We first examine the content and distribution of workers’ beliefs about AI’s future impact on their own and adjacent professions, and then test whether these beliefs are correlated with adaptive behaviors such as learning about AI tools, investing in training, or considering new careers. Finally, we leverage experimental variation to examine how worker beliefs, decisions, and policy preferences are affected by exposure to diverging arguments from economic experts about the likely impacts of AI in the labor market.
+
+</details>
+</p>
+</section>
+
+
+<section class="paper-block">
 <h3><strong><em>Perfomativity, Complexity & Framing in the FCC Incentive Auction</em></strong></h3>
 <p>This project is a work in progress. It was presented at Harvard's <a href="https://www.wcfia.harvard.edu/event/science-technology-and-society-seminar-sts-circle-02-24-25">STS Circle</a> and <a href="https://sts.hks.harvard.edu/events/workshops/grists-2024/">GRiSTS</a> in 2024. An extended abstract is available <a href="/files/Fossett_GRiSTS_Summary.pdf">here</a>.</p>
 
@@ -84,7 +98,7 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 <section class="paper-block">
 <h3><strong><em>Resale Royalties in Digital Art Markets</em></strong></h3>
 
-This project is currently resting. 
+This project is in progress. First phase data collection and analysis are complete.
 
 
 <p><details>
