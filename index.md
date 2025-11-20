@@ -18,7 +18,7 @@ My [research](/academic/) focuses on how we make collective decisions *with* and
 
 <!-- During my PhD, I have been affiliated with the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the [GETTING-Plurality Research Network](https://ash.harvard.edu/programs/allen-lab-technology/), and the [Program on Science, Technology, and Society](https://sts.hks.harvard.edu/).  -->
 
-Outside of research, I enjoy reading, writing, making art, sewing, and [riding my bike](/rides/).
+Outside of research, I enjoy reading, writing, making art, sewing, and [riding my bike](/rides.html).
 
 Check out my [posts](/posts/) or [notes](/notes/) for more things I am doing or thinking about. You can also [subscribe](/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
