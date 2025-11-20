@@ -20,7 +20,7 @@ My [research](/academic/) focuses on how we make collective decisions *with* and
 
 Outside of research, I enjoy reading, writing, making art, sewing, and [riding my bike](/rides.html).
 
-Check out my [posts](/posts/) or [notes](/notes/) for more things I am doing or thinking about. You can also [subscribe](/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
+Check out my [posts](/posts/) or [notes](/notes.html) for more things I am doing or thinking about. You can also [subscribe](/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
 A recent CV is <a href="/files/Jeffrey_Fossett_CV_2025_updated.pdf">here</a>.
 
