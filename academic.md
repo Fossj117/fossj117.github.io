@@ -61,6 +61,8 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 <summary><em>Media</em></summary>
 
 <ul>
+<li><a href="https://www.washingtonpost.com/technology/2025/12/01/uber-lyft-price-saving/">I tested 80 Uber and Lyft rides and found a powerful way to save
+</a></li> (Washington Post).
 <li><a href="https://open.spotify.com/episode/4QKixrwtHtH5X8Sm3qUKwi?si=a685f46b94d84a62&nd=1&dlsi=6cf404da376c4683">50-year mortgages, falling real wages, and doing your rideshare due diligence</a> – The Indicator from Planet Money (NPR).</li>
 <li><a href="https://www.businessinsider.com/study-comparing-uber-lyft-prices-worth-it-few-check-apps-2025-11">Comparing prices between Uber and Lyft could save you money, but few people do it, a new study says. </a> (Business Insider).</li>
 </ul>
