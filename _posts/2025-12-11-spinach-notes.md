@@ -69,3 +69,25 @@ Some more words:
 **Succession planting**: As described by [this](https://www.gardenary.com/blog/extend-your-growing-season-and-maximize-your-harvests-with-successive-sowing) link: 
 
 > Succession planting, or successive sowing as it's also called by many gardeners, basically means to plant continuous rounds of seeds in the kitchen garden. I like to think of it as “never stop sowing”. 
+
+## December 15
+
+Still slightly damp on top, but I think it's time for another watering. I don't want to risk things drying out. 
+
+I am trying bottom-watering again, and did a full watering can in the bottom container (+ a bit of a second). Going to give it about 20 minutes. I may also spray the top again to be safe. The bottom-watering seemed to work better at getting things thoroughly moist throughout; I could see it on the top this time, so I think it's just about the amount of water needed. This amount seemed to work well. 
+
+I am thinking about getting a moisture meter so I can test more confidently. The internet also suggests that testing weight is another approach (wet soil is heavier), which is an interesting idea.
+
+Some people online seem to recommend using a humidity dome for seedlings. This creates a "mini greenhouse" for seedlings, trapping moisture and keeping the soil from drying out. They are good for just the very beginning (germination), then need to be removed so that light can get to the leaves. 
+
+Words: 
+
+**Germination**: the development of a plant from a seed or spore after a period of dormancy. Seems to be mostly used to describe the step of going from full seed to a seedling / first sprout. 
+
+**Seedling**: a young plant, especially one raised from seed and not from a cutting.
+
+**Imbition**: a special type of diffusion that takes place when liquid is absorbed by solids-colloids causing an increase in volume. This is the name of the process by which seeds take up water; they swell in size until they break the seed coat. The seed "imbibes" water. 
+
+**Radicle**: the first part of a seedling to emerge from the seed, during the process of germination. Appearance of the radicle is sometimes considered the end of germination?
+
+As an aside, it's funny how many plant terms (sowing, seedling, germinate etc.) are deeply set metaphors in general speech; easy to forget they have plant meanings.  
