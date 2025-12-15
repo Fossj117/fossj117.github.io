@@ -40,7 +40,7 @@ A few accumulated bits of gardening lingo in my own words:
 
 ## December 13
 
-I sewed my first set of seeds. Here is a picture:
+I sowed my first set of seeds. Here is a picture:
 
 <center>
 <div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
