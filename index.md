@@ -31,6 +31,8 @@ Some links to find me elsewhere:
 * [Bluesky](https://bsky.app/profile/jfoss117.bsky.social)
 * [Github](https://github.com/Fossj117)
 
+A list of disclosures is [here](/disclosures/). 
+
 <!-- <p>Here are some professional things:</p> -->
 <!-- <ul>
     <li>Currently, I am a <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1068421"> doctoral student</a>
