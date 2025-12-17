@@ -91,3 +91,41 @@ Words:
 **Radicle**: the first part of a seedling to emerge from the seed, during the process of germination. Appearance of the radicle is sometimes considered the end of germination?
 
 As an aside, it's funny how many plant terms (sowing, seedling, germinate etc.) are deeply set metaphors in general speech; easy to forget they have plant meanings.  
+
+## December 16
+
+Quick check in this morning. Soil surface feels damp so no watering today. Still would like a better way to check moisture levels deeper in soil without disturbing seeds. 
+
+Some more terms and things: 
+
+**Capillary action**: the process of a liquid flowing in a narrow space without the assistance of external forces like gravity. [Here](https://www.usgs.gov/water-science-school/science/capillary-action-and-water) is a link.
+
+Why does capillary action happen? It seems to depend on the forces of "cohesion" (Water sticks to itself; it's a polar molecule), and "adhesion" (whater sticks to other things). Here is what the source says: 
+
+> Adhesion of water to the walls of a vessel will cause an upward force on the liquid at the edges and result in a meniscus which turns upward. The surface tension acts to hold the surface intact. Capillary action occurs when the adhesion to the walls is stronger than the cohesive forces between the liquid molecules. The height to which capillary action will take water in a uniform circular tube (picture to right) is limited by surface tension and, of course, gravity.
+
+The image shows basically that there is more capillary action "climbing" when the tube is narrower, because the ratio of adhesion to cohesion is greater? 
+
+[Here](https://www.usgs.gov/water-science-school/science/adhesion-and-cohesion-water) is more about adhesion and cohesion. 
+
+Cohesion is related to surface tension of water. I don't fully understand though, and how these things give rise to capillary action.
+
+[Here](https://www.youtube.com/watch?v=5waNTa2b-yg) is a guy talking about capillary action in different types of soils. It's not the most clear, but he generally suggests that the amount of capillary action depends on the size of the "pores" and the volume of "pore space" in the soil. His suggestion is generally that small pores is associated with more capillary migration, but that's not the only factor (e.g. clay has small pores, but they swell shut, limiting migration of water). He shows that there is more migration in a "silt textured" soil than in a sand or clay, because it "has a nice combination of large and small pores". 
+
+There's [a lot more to learn about soil and soil pores](https://en.wikipedia.org/wiki/Pore_space_in_soil). Related to the porosity of a material -- or what percentage of the volume of a thing is void space. 
+
+In the context of soil, silt is a specific size of granular material, between a sand (larger granules) and a clay (smaller granules). 
+
+The internet notes also that there is a relation between the amount of capillary action and the rate of drainage (and the amount of aeration for roots?) in different types of soils. Roots need oxygen for respiration. 
+
+**[Loam](https://en.wikipedia.org/wiki/Loam)** is another good word. Mostly a mix of sand, silt and a small amount of clay. According to wiki: 
+
+> Loam is considered ideal for gardening and agricultural uses because it retains nutrients well and retains water while still allowing excess water to drain away
+
+## December 17
+
+The soil still feels damp to the touch, so not going to water. I guess that from what I know from yesterday, seed starting mix is meant to be good at water retention with less drainage. 
+
+Checking for dampness on the soil reminds me of debating whether brownies (or whatever) are done baking in the oven. Similar kind of ambiguity, and incidentally some of the same tricks -- just stick a toothpick in there and see if it comes out clean. In one case you want clean (clean=brownies done), in other you don't (clean=needs water). In my case, they kind of look similar too -- damp brown mixture in a rectangular brownie-sized container. 
+
+In any case, I always have trouble with the brownie decision; the only way to get good at it is through lots of experience. In the plant case, the feedback arc seems quite long. How do you know if you made the right decision about how damp the soil was?
