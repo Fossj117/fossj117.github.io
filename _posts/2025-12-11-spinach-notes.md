@@ -129,3 +129,7 @@ The soil still feels damp to the touch, so not going to water. I guess that from
 Checking for dampness on the soil reminds me of debating whether brownies (or whatever) are done baking in the oven. Similar kind of ambiguity, and incidentally some of the same tricks -- just stick a toothpick in there and see if it comes out clean. In one case you want clean (clean=brownies done), in other you don't (clean=needs water). In my case, they kind of look similar too -- damp brown mixture in a rectangular brownie-sized container. 
 
 In any case, I always have trouble with the brownie decision; the only way to get good at it is through lots of experience. In the plant case, the feedback arc seems quite long. How do you know if you made the right decision about how damp the soil was?
+
+## December 18
+
+Watered this morning. A full watering can from the bottom; maybe too much. The water soaks up through very quickly and is visible on the top with that amount. I only let it sit for 10 minutes or so, then drained. 
