@@ -132,4 +132,14 @@ In any case, I always have trouble with the brownie decision; the only way to ge
 
 ## December 18
 
-Watered this morning. A full watering can from the bottom; maybe too much. The water soaks up through very quickly and is visible on the top with that amount. I only let it sit for 10 minutes or so, then drained. 
+Watered this morning. A full watering can from the bottom; maybe too much. The water soaks up through very quickly and is visible on the top with that amount. I only let it sit for 10 minutes or so, then drained. I don't want to over-water
+
+## December 19
+
+Yesterday, I noticed the first tiny bit of green emerging from the soil! No watering today. Here is a pic of the first baby seedling emerging. Now standing up a bit more than yesterday even. 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/first_emerge.jpg" alt="Spinach seed packet front" style="width: 65%; max-width: 45%;">
+</div>
+</center>
