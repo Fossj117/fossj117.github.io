@@ -140,6 +140,46 @@ Yesterday, I noticed the first tiny bit of green emerging from the soil! No wate
 
 <center>
 <div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
-  <img src="/figs/2025-12-11-spinach-notes/first_emerge.jpg" alt="Spinach seed packet front" style="width: 65%; max-width: 45%;">
+  <img src="/figs/2025-12-11-spinach-notes/first_emerge.jpg" alt="First emerge" style="width: 65%; max-width: 45%;">
 </div>
 </center>
+
+## December 20
+
+Watering today. 2/3rds of water can from below. It seems to soak through the soil very quickly, the top immediately becomes wet. I just leave it for 5-10 min then let it drain. The seedlings seem to be happy and continue emerging so I will continue this way. I see four seedlings poking out, with the early one especially standing tall. 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/dec20.jpg" alt="Standing tall" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+I am curious when photosynthesis becomes possible. Does this seedling know how to do it yet? Some relevant words: 
+
+**Dicot**: a flowering plant with an embryo that bears two cotyledons (seed leaves).
+
+**Cotyledon**: an embryonic leaf in seed-bearing plants, one or more of which are the first leaves to appear from a germinating seed.
+
+On the seed that's progressed the furthest, I can maybe see the separation of the two cotyledons. 
+
+I'm also interested in how they all have this curved shape as they are emerging. I guess this is just how it goes: 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="https://cdn.britannica.com/89/95389-050-720343DB/Stages-germination-bean-seed.jpg" alt="Diagram" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+I am seeing mostly fourth from the left, the little curved bit poking out the top of the soil. Honestly I didn't realize that the seed coat actually gets lifted out of the soil like this. I guess this is called [epigeal germination](https://en.wikipedia.org/wiki/Epigeal_germination), in contrast with hypogeal germination. Here is an image:
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="https://www.edinburghgardenschool.com/wp-content/uploads/2020/09/epigeal-hypogeal-germination-1536x1447.jpg" alt="Diagram" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+**Epigeal germination**: a botanical term indicating that the germination of a plant takes place above the ground. 
+
+Spinach does seem to be an example of this type of germination. 
+
+
