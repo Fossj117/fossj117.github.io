@@ -182,4 +182,20 @@ I am seeing mostly fourth from the left, the little curved bit poking out the to
 
 Spinach does seem to be an example of this type of germination. 
 
+## December 21
+
+My few emergent seedlings continue to grow. They've now started to spread out their cotyledons, their dicot-ness showing. 
+
+The most ambitious first seedling has its seed casing stuck on one of its cotyledons. If it doesn't fall in the next few days, maybe I will try to intervene and give it a hand. 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/dicots.jpg" alt="Diagram" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+I am a bit worried that we don't see more seedlings emerging outside of these ambitious four. To each in its own time I suppose. The package said 5-10 days to emerge, so we still have a few more days in the expected window. We will see. In any case, it's interesting that these few are so much quicker at the moment. I am curious if it's genetics, or randomness, or something environmental. Impossible to know I guess. 
+
+I've been thinking about this seedling adventure as like a little slow-motion movie that I get to check in on each day. What's going to happen next? Will more seedlings emerge? What will the emergent seedlings do next? What will be the next phase of their growth? Will they grow leaves? The drama. No spoilers. 
+
 
