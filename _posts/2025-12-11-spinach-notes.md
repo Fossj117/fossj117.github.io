@@ -198,4 +198,6 @@ I am a bit worried that we don't see more seedlings emerging outside of these am
 
 I've been thinking about this seedling adventure as like a little slow-motion movie that I get to check in on each day. What's going to happen next? Will more seedlings emerge? What will the emergent seedlings do next? What will be the next phase of their growth? Will they grow leaves? The drama. No spoilers. 
 
+## December 22
 
+Still just my four noble sprouts. Growing taller and leaves separating. No evidence of others, but I keep the faith. Water today. 
