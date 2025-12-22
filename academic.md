@@ -16,7 +16,11 @@ permalink: /academic/
 </style>
 
 <section class="paper-block preamble">
-<p>My academic research focuses on how we make collective decisions with and about emerging digital technologies. I am especially interested in the role of economic expertise in these decisions. Methodologically, I blend perspectives from statistics, economics, and science &amp; technology studies (STS).</p>
+<h2>Research</h2>
+
+<p>My research focuses on how we make collective decisions with and about emerging digital technologies. I am especially interested in the role of economic expertise in these decisions. Methodologically, I blend perspectives from statistics, economics, and science &amp; technology studies (STS). My PhD thesis is titled <em>Navigating Digital Worlds: Empirical Studies of Choice and Behavior in Sociotechnical Systems</em>.</p>
+
+<p> My work has been covered in the media, including by the Washington Post, NPR, Wired, and more. I have published work with the Berkman Klein Center, Plurality Institute, Harvard Business Review, and NBER. I have received grants and fellowships from organizations including Google.org, Plurality Institute, and Cosmos Institute.</p>
 </section>
 
 <section class="paper-block">
@@ -89,7 +93,7 @@ As generative artificial intelligence (AI) tools such as large language models (
 
 
 <section class="paper-block">
-<h3><strong><em>Perfomativity, Complexity & Framing in the FCC Incentive Auction</em></strong></h3>
+<h3><strong><em>Perfomativity, Complexity & Framing in the FCC Spectrum Incentive Auction</em></strong></h3>
 <p>This project is a work in progress. It was presented at Harvard's <a href="https://www.wcfia.harvard.edu/event/science-technology-and-society-seminar-sts-circle-02-24-25">STS Circle</a> and <a href="https://sts.hks.harvard.edu/events/workshops/grists-2024/">GRiSTS</a> in 2024. An extended abstract is available <a href="/files/Fossett_GRiSTS_Summary.pdf">here</a>.</p>
 
 <p><details>
@@ -114,5 +118,26 @@ This project is in progress. First phase data collection and analysis are comple
 
 </details>
 </p>
+</section>
+
+<section class="paper-block">
+<h3><strong><em>FCC Filings Overwhelmingly Support Net Neutrality Once Spam is Removed</em></strong></h3>
+
+<p> In this personal <a href="https://jeffreyfossett.com/2017/05/13/fcc-filings.html">blog post</a>, I analyzed public comments on the FCC's 2017 net neurality proceedings, exploring quantitative evidence of repetitive ``spam" comments. The post reached the front page of Reddit /r/all/, was viewed over 100,000 times, and was covered by a range of media outlets (see below).</p>
+
+<p><details>
+<summary><em>Media</em></summary>
+
+<ul>
+<li><a href="https://www.wired.com/story/fccs-broken-comments-system-could-help-doom-net-neutrality/">FCC’s Broken Comments System Could Help Doom Net Neutrality</a> (Wired).</li>
+<li><a href="https://arstechnica.com/tech-policy/2017/05/most-fcc-commenters-favor-net-neutrality-but-you-wouldnt-know-it-from-ajit-pai/">Flooded with thoughtful net neutrality comments, FCC highlights “mean tweets”
+</a> (Ars Technica).</li>
+<li><a href="https://fortune.com/2017/05/15/net-netrality-comments-fcc-spam/">Turns Out Almost All Non-Spam Net Neutrality Comments Support Rules</a> (Fortune).</li>
+<li><a href="https://gizmodo.com/it-sure-looks-like-the-fcc-s-anti-net-neutrality-bot-pr-1795228391">It Sure Looks Like the FCC’s Anti-Net Neutrality Bot Problem Got Worse</a> (Gizmodo).</li>
+</ul>
+
+</details>
+</p>
+
 </section>
 </html>
