@@ -201,3 +201,35 @@ I've been thinking about this seedling adventure as like a little slow-motion mo
 ## December 22
 
 Still just my four noble sprouts. Growing taller and leaves separating. No evidence of others, but I keep the faith. Water today. 
+
+## December 23
+
+Watered today again which may not have been necessary. We have two new seedling joiners, so the count is now six. All on one side of the container, which makes me wonder if there is some inconsistency with the moisture. 
+
+## December 24
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/up_to_six.jpg" alt="Diagram" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+## December 25
+
+Merry x-mas to my seedlings. Still just the six. The early four seem to be stretching longer, extending stems and leaves. All are angling toward the window. I am wondering if they have enough access to light, or if a grow light would help them. 
+
+A [random online source](https://yardandgarden.extension.iastate.edu/faq/how-do-i-know-if-i-am-providing-right-amount-light-my-seedlings#:~:text=To%20determine%20if%20your%20seedlings%20are%20getting,Move%20the%20fixture%20closer%20to%20the%20seedlings) says: 
+
+> Seedlings that are not receiving enough light will stretch and lean towards the light source. 
+
+While the seedlings are right by a window that gets decent light (especially indirect light), some more reading suggests that maybe they need even more. Some people [on reddit](https://www.reddit.com/r/vegetablegardening/comments/12lgo7q/clueless_noob_that_would_be_me_cant_grow_spinach/) suggest that spinach prefers 6-10 hours of light. [This](https://www.gardeningknowhow.com/edible/vegetables/spinach/spinach-shade-tolerance.htm) reference seems to be the source: 
+
+> If you flip a spinach seed packet over and examine the growth requirements, you'll find spinach does best when planted in full to partial sun. Full sun refers to six or more hours of direct sunlight per day, while partial sun generally means four to six hours.
+
+So maybe the indirect light that these seedlings are getting is not enough.
+
+This also links to a nice [extended reference](https://www.gardeningknowhow.com/edible/vegetables/spinach/growing-spinach-in-containers.htm) on growing spinach in containers. 
+
+This round of seedlings are my brave first explorers; a chance to see what works or not, and iterate from there. I guess we will see.
+
+I am watering today. I also tried raising one of the sides of the container slightly to try to level things better for even water distribution.
