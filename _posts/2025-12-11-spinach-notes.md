@@ -233,3 +233,13 @@ This also links to a nice [extended reference](https://www.gardeningknowhow.com/
 This round of seedlings are my brave first explorers; a chance to see what works or not, and iterate from there. I guess we will see.
 
 I am watering today. I also tried raising one of the sides of the container slightly to try to level things better for even water distribution.
+
+## December 27
+
+I watered today and also got a grow light! Hopefully this will help the seedlings feel good enough to grow some leaves. I also picked up a moisture meter that I want to do some testing with. Mainly I'd like to try to understand if there is big difference in moisture across different parts of the container a while after watering. Maybe that can help diagnose the germination issues. 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/growth_light.jpg" alt="grow light" style="width: 65%; max-width: 45%;">
+</div>
+</center>
