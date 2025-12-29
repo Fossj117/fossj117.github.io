@@ -243,3 +243,15 @@ I watered today and also got a grow light! Hopefully this will help the seedling
   <img src="/figs/2025-12-11-spinach-notes/growth_light.jpg" alt="grow light" style="width: 65%; max-width: 45%;">
 </div>
 </center>
+
+## December 29
+
+Watering today. Hard to tell if the new light is helping but I think it is. The emergent seedlings seem to be standing up straighter, not needing to bend so much toward the light. They all show the very early hints of new leaves growing which is the goal. 
+
+Maybe I will try to do some more careful analysis of the water retention later today once things have drained. 
+
+I did sadly lose one of my seedlings I think, so we are down to five. This was my own fault; I was trying to help it separate from its seed coat, and accidentally pulled off the tip. Lesson learned. 
+
+Words: 
+
+**"True" leaves**: the first leaves that the seedling grows outside of the cotyledon "seed" leaves that come pre-packaged. Some discussion [here](https://frostygarden.com/2024/03/28/a-deeper-dive-into-what-first-true-leaves-actually-means/). True leaves "have the appearance and function that all future leaves will have, and they may look dramatically different than the cotyledons" [source](https://northerngardener.org/true-leaves/). 
