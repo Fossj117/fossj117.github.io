@@ -255,3 +255,13 @@ I did sadly lose one of my seedlings I think, so we are down to five. This was m
 Words: 
 
 **"True" leaves**: the first leaves that the seedling grows outside of the cotyledon "seed" leaves that come pre-packaged. Some discussion [here](https://frostygarden.com/2024/03/28/a-deeper-dive-into-what-first-true-leaves-actually-means/). True leaves "have the appearance and function that all future leaves will have, and they may look dramatically different than the cotyledons" [source](https://northerngardener.org/true-leaves/). 
+
+## December 30
+
+A couple of true leaves are coming in! Hard to say for sure, but I think the grow light has had a positive effect. I have been turning it on when I wake up and letting it run until the early evening or so. It would be good to get a timer plug for it. 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/trueleaves.jpg" alt="grow light" style="width: 65%; max-width: 45%;">
+</div>
+</center>
