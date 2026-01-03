@@ -265,3 +265,7 @@ A couple of true leaves are coming in! Hard to say for sure, but I think the gro
   <img src="/figs/2025-12-11-spinach-notes/trueleaves.jpg" alt="grow light" style="width: 65%; max-width: 45%;">
 </div>
 </center>
+
+## January 2
+
+I watered today. Leaves are coming in more seriously. They are starting to look like real baby spinach leaves in structure and shape. It will be interesting to watch them get larger. I am curious to understand more about the process by which true leaves grow on spinach plants. How and when do the plants decide to grow new leaves (vs invest in other types of growth)? How many leaves at a time? I am also curious in this dimension of what makes a leaf "taste good" to humans. 
