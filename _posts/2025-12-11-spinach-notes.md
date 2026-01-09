@@ -269,3 +269,58 @@ A couple of true leaves are coming in! Hard to say for sure, but I think the gro
 ## January 2
 
 I watered today. Leaves are coming in more seriously. They are starting to look like real baby spinach leaves in structure and shape. It will be interesting to watch them get larger. I am curious to understand more about the process by which true leaves grow on spinach plants. How and when do the plants decide to grow new leaves (vs invest in other types of growth)? How many leaves at a time? I am also curious in this dimension of what makes a leaf "taste good" to humans. 
+
+## January 4
+
+Water today. Things are still looking decent, leaves are growing in more. I am curious what happens next. Will more leaves grow in? How? 
+
+I am interested to learn more about the anatomy of a leaf as these "true" leaves grow in. Here is one diagram from [the internet](https://www.thoughtco.com/plant-leaves-and-leaf-anatomy-373618): 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="https://www.thoughtco.com/thmb/z3GNn-66mVRvRhb-DNYMq4D5McU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/parts_of_a_leaf-56abaed23df78cf772b5625a.jpg" alt="leaf diagram" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+Here are some words and definitions from that source:
+
+* **Blade**: broad part of a leaf.
+* **Apex**: leaf tip.
+* **Margin**: leaf edge boundary area. Margins can be smooth, jagged (toothed), lobed, or parted.
+* **Veins**: vascular tissue bundles that support the leaf and transport nutrients.
+* **Midrib**: central main vein arising from secondary veins.
+* **Base**: area of the leaf that connects the blade to the petiole.
+* **Petiole**: thin stalk that attaches the leaf to a stem.
+* **Stipules**: leaf-like structures at the leaf base.
+
+The same source also has this image of a leaf cross-section: 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="https://www.thoughtco.com/thmb/WR5LnStL5Q2KnRQ4ksO7Eef9JeU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/leaf_crossection-57bf24a83df78cc16e1f29fd.jpg" alt="leaf cross-section" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+There's different interesting things to learn about here, but I am particularly interested in the leaf vascular system today, made up of the **xylem** and **phloem**. What do these things do? 
+
+According to [wiki](https://en.wikipedia.org/wiki/Xylem), "the basic function of the xylem is to transport water upward from the roots to parts of the plants such as stems and leaves, but it also transports nutrients". There is a lot to learn about how the xylem actually works, but maybe lets leave that for next time. 
+
+The other part of the vascular bundle is the [phloem](https://en.wikipedia.org/wiki/Phloem). The phloem "is the living tissue in vascular plants that transports the soluble organic compounds made during photosynthesis and known as photosynthates, in particular the sugar sucrose, to the rest of the plant."
+
+## January 7
+
+Watered today. There is a very late bloomer! Also, second wave leaves are starting to emerge on my existing seedlings. 
+
+## January 9
+
+I have been somewhat delinquent on my updates here. Here is a pic of where things stand.
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/secondleaves.jpg" alt="leaf cross-section" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+The early wave is starting to grow its second sets of leaves. I wonder if that means that the leaves will not get much larger than they are currently, since the plants are now investing in the next round of leaves. Or perhaps they are just diversifying. You can also see the late-bloomer there in the back, which has been pushing up quickly, shedding its seed shell. 
+
+Relatedly, I am wondering about when the leaves should be harvested. The internet suggests harvesting when leaves are 3-6 inches they are ready, which would still be a ways away. The longest leaves currently are around an inch, so I guess they will get larger. 
