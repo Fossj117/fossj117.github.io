@@ -324,3 +324,11 @@ I have been somewhat delinquent on my updates here. Here is a pic of where thing
 The early wave is starting to grow its second sets of leaves. I wonder if that means that the leaves will not get much larger than they are currently, since the plants are now investing in the next round of leaves. Or perhaps they are just diversifying. You can also see the late-bloomer there in the back, which has been pushing up quickly, shedding its seed shell. 
 
 Relatedly, I am wondering about when the leaves should be harvested. The internet suggests harvesting when leaves are 3-6 inches they are ready, which would still be a ways away. The longest leaves currently are around an inch, so I guess they will get larger. 
+
+## January 11
+
+Watered today. 
+
+There has been some white mold or fungus growing on the surface of the soil, which the internet suggests might be a signal that things have been too damp. I am still not exactly sure how to calibrate here, since I thought that consistent moisture is good for the spinach seedlings and germination. In any case, I was getting some odor from the container, so I decided to scrape off the top layer of soil and discard it to get rid of the fungus. 
+
+Another update is that there is another late bloomer. So that brings the total germination count to eight. I wonder what explains why some of these emerged so much later than the main crop. The early wave of seedlings is still doing well, building out its second wave of true leaves. 
