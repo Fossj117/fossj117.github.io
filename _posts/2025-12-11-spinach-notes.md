@@ -332,3 +332,19 @@ Watered today.
 There has been some white mold or fungus growing on the surface of the soil, which the internet suggests might be a signal that things have been too damp. I am still not exactly sure how to calibrate here, since I thought that consistent moisture is good for the spinach seedlings and germination. In any case, I was getting some odor from the container, so I decided to scrape off the top layer of soil and discard it to get rid of the fungus. 
 
 Another update is that there is another late bloomer. So that brings the total germination count to eight. I wonder what explains why some of these emerged so much later than the main crop. The early wave of seedlings is still doing well, building out its second wave of true leaves. 
+
+## January 14
+
+Watered today. Some of the surface fungus is returning, but plants look healthy and good overall. Some third wave leaves are starting on the main crop. 
+
+## January 17
+
+Watered today. I did another scrape off of surface mold / fungus. In doing so, I found another seedling which had started to emerge but seemingly got stuck before making it fully out. It now has some exposure to the light, so maybe it will be able to make something happen now. 
+
+The regular crop might be ready for harvesting its first leaves, nearly. I should read a bit about how to harvest. I think you can just harvest the outer mature leaves and allow it to continue to grow from the "inner cone". 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/latest.jpg" alt="leaf cross-section" style="width: 65%; max-width: 45%;">
+</div>
+</center>
