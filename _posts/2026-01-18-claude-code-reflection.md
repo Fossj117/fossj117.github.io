@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Claude Code Reflection"
+date: 2026-01-18
+latex: true
+mathjax: true
+comments: true
+tag: ["research", "llm", "economics"]
+---
+
+I spent a bit of time today implementing a custom tool with Claude Code. It's a personalized interface that curates soccer matches that I might be interested in watching based on my personal interests in preferences (e.g. clubs, players, types of matches that I'm interested in). It runs once a day, looks up all of the matches (along with relevant background info), and then cross-references them against my personal interests and rates and summarizes them for me (and also shows when/how to stream them). I built the tool because I found myself sometimes missing matches that I would have liked to see because soccer is distributed across different leagues and tournaments and whatnot. The tool is live [here](https://jeffreyfossett.com/soccer-match-digest/) if you are interested in checking out (though it's mostly relevant for *me*). 
+
+The broader thing that I think is interesting about this is not really the tool per se, but the idea that -- with the rise of these highly-effective AI coding tools like Claude Code -- certain sorts of software are newly feasible or "worth it" from a cost-benefit perspective. Continuing with the current example, this soccer curation tool was always *possible* (and maybe not that hard) to build. I could have built it myself. But it would have taken a lot more time. The "cost" would have been a lot higher. And since the "benefits" are modest, I probably wouldn't have done it. It just wasn't worth it. But now, with Claude Code and other such tools, the cost is extremely low. This app took me maybe an hour of chatting with Claude and doing some minor setup with APIs.
+
+In some sense, it's obvious that AI makes implementing software "cheaper" and easier (while perhaps introducing other issues that I set aside for now). But when we think about the consequences of this, I think it's easy to think of the universe of software tasks as fixed -- i.e. there is some exogenous set of software we want to build, and now that set is cheaper to accomplish. But the point I am trying to highlight here is that, when we make it much cheaper to implement software, that **changes the set of software that is worth building**. It's not just that the existing things become easier, it's that a whole new set of things become potentially "worth it" to do. In the case of software, this might be simple, custom or one-off tools like my soccer match curator. I've also been applying this logic in a lot of research settings. For example, I recently built (with Cursor + OpenAI) a custom one-off tool for doing manual data validation for a recent project. Again, this was not something that was impossible to do previously, but it wasn't "worth it" for a one-off task like this. But with AI coding, the cost-benefit has changed. 
+
+This perspective on the consequences of AI coding is consonant with how digitization economists [think about digitization more broadly](https://www.aeaweb.org/articles?id=10.1257/jel.20171452) as the lowering of many sorts of costs (e.g. lowering the costs of search, replication, distribution, verification). The perspective is fundamentally economic to me, because the point is that there can be big consequences from a new piece of technology, even if it doesn't make fundamentally new sorts of things possible -- dramatically lowering the cost of existing activities is often enough. And the consequences thereof often arise not just from making existing tasks cheaper, but from the *new* set of tasks that are now "worth" doing. 
+
+This post partly inspired by [an interaction with John on Twitter/X](https://x.com/JFoss117/status/2010699350075150430?s=20). 
