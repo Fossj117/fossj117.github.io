@@ -8,7 +8,13 @@ comments: true
 tag: ["research", "llm", "economics"]
 ---
 
-I spent a bit of time today implementing a custom tool with Claude Code. It's a personalized interface that curates soccer matches that I might be interested in watching based on my personal interests in preferences (e.g. clubs, players, types of matches that I'm interested in). It runs once a day, looks up all of the matches (along with relevant background info), and then cross-references them against my personal interests and rates and summarizes them for me (and also shows when/how to stream them). I built the tool because I found myself sometimes missing matches that I would have liked to see because soccer is distributed across different leagues and tournaments and whatnot. The tool is live [here](https://jeffreyfossett.com/soccer-match-digest/) if you are interested in checking out (though it's mostly relevant for *me*). 
+I spent a bit of time today implementing a custom tool with Claude Code. The tool is a personalized interface that curates soccer matches that I might be interested in watching based on my personal interests and preferences (e.g. clubs, players, types of matches that I'm interested in). It runs once a day automatically, looks up all of the matches (along with relevant background info), and then cross-references them against my personal interests and rates and summarizes them for me (and also shows when/how to stream them). 
+
+I built it tool because I found myself sometimes missing matches that I would have liked to see because soccer is distributed across different leagues and tournaments and whatnot. The tool is live [here](https://jeffreyfossett.com/soccer-match-digest/) if you are interested in checking out (though it's mostly relevant for *me*). Here is what it looks like:  
+
+<center>
+  <img src="/figs/2026-01-18-claude-code-reflection/tool_screenshot.jpg" alt="Screenshot of the soccer match digest tool interface" style="max-width: 800px; width: 100%; height: auto;">
+</center>
 
 The broader thing that I think is interesting about this is not really the tool per se, but the idea that -- with the rise of these highly-effective AI coding tools like Claude Code -- certain sorts of software are newly feasible or "worth it" from a cost-benefit perspective. Continuing with the current example, this soccer curation tool was always *possible* (and maybe not that hard) to build. I could have built it myself. But it would have taken a lot more time. The "cost" would have been a lot higher. And since the "benefits" are modest, I probably wouldn't have done it. It just wasn't worth it. But now, with Claude Code and other such tools, the cost is extremely low. This app took me maybe an hour of chatting with Claude and doing some minor setup with APIs.
 
