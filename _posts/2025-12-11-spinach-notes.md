@@ -376,14 +376,13 @@ But regardless of the taste, it does feel rewarding and meaningful to eat someth
 
 The latter video emphasizes the precision and efficiency of industrial spinach harvesting thanks to "the use of advanced technology" which has "ushered in a new era of modern sustainable and highly productive agrigulture", while reducing "the need for manual labor".  
 
-As always, it's both amazing and bizarre that we live in a world where our lives are so often supported by these giant and easy-to-ignore techno-commercial systems. [Alienation](https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation) strikes again: it's so easy to be disconnected from the footprint of our these systems that we are often-inadvertent participants in. It's easy to forget that, yes, the handful of spinach in my morning smoothie *is* a "fruit of the earth", that was grown in and harvested from soil somewhere in the world. 
+As always, it's both amazing and bizarre that we live in a world where our lives are so often supported by these giant and easy-to-ignore techno-commercial systems. [Alienation](https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation) strikes again: it's so easy to be disconnected from the footprint of these systems that we are often-inadvertent participants in. It's easy to forget that, yes, the handful of spinach in my morning smoothie *is* a "fruit of the earth", that was *grown in* and *harvested from* soil somewhere in the world. 
 
 I was inspired to investigate where the baby spinach I usually eat comes from. I usually buy [this product](https://oliviasorganics.org/products/baby-spinach/) from  Olivia's Organics, which is seemingly headquartered in Chelsea, MA not too far from me. It says that this spinach is grown by American farmers, though I am not sure where exactly. Olivia's [says](https://oliviasorganics.org/our-commitment/our-organic-pledge/) that they grow "Organic Produce that Follows Mother Nature’s Lead":
 
 > Our organic produce is grown with sustainable farming practices that foster cycling of resources, promote ecological balance, and conserve biodiversity. Olivia’s Organics pledges to embrace the following organic and earth-friendly farming methods
 
-I am curious what these phrases mean in practice (e.g. "promote ecological balance"). Maybe I will try to learn more about where my food comes from. As with the practice of [mending](https://jeffreyfossett.com/2024/08/19/some-thoughts-on-repair.html) and making clothes, I appreciate how growing even a little bit of my own food makes me think more about the origin and creation of the objects in my life. 
-
+I am curious what these phrases mean in practice (e.g. "promote ecological balance" or "conserve biodiversity"). Maybe I will try to learn more about where my food comes from. As with the practice of [mending](https://jeffreyfossett.com/2024/08/19/some-thoughts-on-repair.html) and making clothes, I appreciate how growing even a little bit of my own food makes me think more about the origin and creation of the objects in my life.
 
 
 
