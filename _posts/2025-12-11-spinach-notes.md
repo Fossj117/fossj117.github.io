@@ -348,3 +348,45 @@ The regular crop might be ready for harvesting its first leaves, nearly. I shoul
   <img src="/figs/2025-12-11-spinach-notes/latest.jpg" alt="leaf cross-section" style="width: 65%; max-width: 45%;">
 </div>
 </center>
+
+## January 21
+
+Watered today. On Monday I also did my first tiny harvest (with D)! Here are the first leaves before our taste test: 
+
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/first_harvest.jpg" alt="first leaves" style="width: 65%; max-width: 45%;">
+</div>
+</center>
+
+Apparently, spinach is "[cut and come again](https://www.canr.msu.edu/news/cut_and_come_again_vegetables)", so we just snipped off a few outer leaves from the largest plant, leaving the inner cone to keep growing. 
+
+D suggested we say [a blessing](https://www.chabad.org/library/article_cdo/aid/278546/jewish/Borei-Pri-Haadamah-The-Blessing-on-Vegetables.htm) before the first taste, which felt apt to mark the moment. I think blessings are a nice ritual reminder to pause and be mindful and appreciative of what we are doing. These leaves have a history.  
+
+There was honestly not too much to say about the flavor in my opinion, but the leaves were certainly edible. D says that she could definitely "tell that it was spinach" which is a fair summary. 
+
+But regardless of the taste, it does feel rewarding and meaningful to eat something that I grew and tended from seed. It's amazing to think about how every fruit and vegetable we eat is grown like this by someone or something somewhere, most likely in some big industrial process on the other side of the world. [According to wikipedia](https://en.wikipedia.org/wiki/Spinach#Production), 93% of world's spinach is grown in China. I found and watched [this](https://youtu.be/kAp-vz7VcWg?si=QOuon2ZmKjOa42C4) video about industrial spinach growth and processing and [this](https://www.youtube.com/watch?v=dl_htaeR3zk) video about spinach farming. Here's what some industrial spinach harvesters looks like, apparently: 
+
+<center>
+<div style="display: flex; justify-content: center; gap: 1.5rem; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/industrial_spinach.jpg" alt="industrial spinach" style="width: 45%; max-width: 45%;">
+  <img src="/figs/2025-12-11-spinach-notes/industrial_spinach2.jpg" alt="leaf cross-section" style="width: 45%; max-width: 45%;">
+</div>
+</center>
+
+The latter video emphasizes the precision and efficiency of industrial spinach harvesting thanks to "the use of advanced technology" which has "ushered in a new era of modern sustainable and highly productive agrigulture", while reducing "the need for manual labor".  
+
+As always, it's both amazing and bizarre that we live in a world where our lives are so often supported by these giant and easy-to-ignore techno-commercial systems. [Alienation](https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation) strikes again: it's so easy to be disconnected from the footprint of our these systems that we are often-inadvertent participants in. It's easy to forget that, yes, the handful of spinach in my morning smoothie *is* a "fruit of the earth", that was grown in and harvested from soil somewhere in the world. 
+
+I was inspired to investigate where the baby spinach I usually eat comes from. I usually buy [this product](https://oliviasorganics.org/products/baby-spinach/) from  Olivia's Organics, which is seemingly headquartered in Chelsea, MA not too far from me. It says that this spinach is grown by American farmers, though I am not sure where exactly. Olivia's [says](https://oliviasorganics.org/our-commitment/our-organic-pledge/) that they grow "Organic Produce that Follows Mother Nature’s Lead":
+
+> Our organic produce is grown with sustainable farming practices that foster cycling of resources, promote ecological balance, and conserve biodiversity. Olivia’s Organics pledges to embrace the following organic and earth-friendly farming methods
+
+I am curious what these phrases mean in practice (e.g. "promote ecological balance"). Maybe I will try to learn more about where my food comes from. As with the practice of [mending](https://jeffreyfossett.com/2024/08/19/some-thoughts-on-repair.html) and making clothes, I appreciate how growing even a little bit of my own food makes me think more about the origin and creation of the objects in my life. 
+
+
+
+
+
+
+
