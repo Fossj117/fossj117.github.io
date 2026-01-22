@@ -10,15 +10,51 @@ let noteContentCache = {};
 
 // Function to display a random note on page load
 window.onload = function() {
-  var noteCount = {{ site.notes | size }};
-  var randomNote = Math.floor(Math.random() * noteCount) + 1;
-  displayNote(randomNote);
+  // Check if there's a note specified in the URL hash
+  var noteFromHash = getNoteFromHash();
+  
+  if (noteFromHash) {
+    displayNote(noteFromHash, false); // Don't update hash since we're loading from it
+  } else {
+    var noteCount = {{ site.notes | size }};
+    var randomNote = Math.floor(Math.random() * noteCount) + 1;
+    displayNote(randomNote, true);
+  }
   
   // Initialize search functionality
   initializeSearch();
+  
+  // Listen for browser back/forward navigation
+  window.addEventListener('hashchange', function() {
+    var noteFromHash = getNoteFromHash();
+    if (noteFromHash) {
+      displayNote(noteFromHash, false);
+    }
+  });
 };
 
-function displayNote(number) {
+// Extract note number from URL hash
+function getNoteFromHash() {
+  var hash = window.location.hash;
+  if (hash && hash.length > 1) {
+    var noteNum = hash.substring(1); // Remove the '#'
+    // Validate that it's a valid note number
+    if (noteNum && !isNaN(noteNum)) {
+      return noteNum;
+    }
+  }
+  return null;
+}
+
+function displayNote(number, updateHash) {
+  // Default to updating hash if not specified
+  if (updateHash === undefined) updateHash = true;
+  
+  // Update URL hash for shareable links
+  if (updateHash) {
+    history.pushState(null, null, '#' + number);
+  }
+  
   fetch('https://jeffreyfossett.com/notes/' + number + '.html')
     .then(response => response.text())
     .then(content => {
