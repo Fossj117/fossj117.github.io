@@ -23,7 +23,7 @@ Outside of research, I enjoy reading, writing, making art, sewing, and [riding m
 
 Check out my [posts](/posts/) or [notes](/notes.html) for more things I am doing or thinking about. You can also [subscribe](/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
-A recent CV is <a href="/files/Jeffrey_Fossett_CV_2025_updated.pdf">here</a>.
+A recent CV is <a href="/files/Jeffrey_Fossett_CV_2025_updated.pdf">here</a>. Here are some current [themes](/themes/) and [values](/values/) I find interesting. 
 
 Some links to find me elsewhere: 
 * [Curius](https://curius.app/jeff-fossett)
