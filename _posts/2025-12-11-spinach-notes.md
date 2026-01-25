@@ -384,8 +384,17 @@ I was inspired to investigate where the baby spinach I usually eat comes from. I
 
 I am curious what these phrases mean in practice (e.g. "promote ecological balance" or "conserve biodiversity"). Maybe I will try to learn more about where my food comes from. As with the practice of [mending](https://jeffreyfossett.com/2024/08/19/some-thoughts-on-repair.html) and making clothes, I appreciate how growing even a little bit of my own food makes me think more about the origin and creation of the objects in my life.
 
+## January 24
 
+Watering this morning. I noticed that some of the cotyledon leaves are yellowing somewhat. From a little reading it seems that this is normal as the plants mature and rely more on true leaves. 
 
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="/figs/2025-12-11-spinach-notes/yellowing.jpg" alt="yellowing" style="width: 65%; max-width: 45%;">
+</div>
+</center>
 
+I decided to harvest off the cotyledons to add to my morning smoothie (which also includes my store-bought spinach):
 
+{% include image.html src="/figs/2025-12-11-spinach-notes/cotyledons_smoothie.jpg" alt="cotyledons in smoothie" %}
 
