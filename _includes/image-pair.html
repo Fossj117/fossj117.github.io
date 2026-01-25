@@ -1,0 +1,7 @@
+<!-- Side-by-side images -->
+<center>
+<div style="display: flex; justify-content: center; gap: {{ include.gap | default: '1.5rem' }}; margin: 0 auto 1.5rem;">
+  <img src="{{ include.src1 }}" alt="{{ include.alt1 | default: 'image 1' }}" style="width: 45%; max-width: 45%;">
+  <img src="{{ include.src2 }}" alt="{{ include.alt2 | default: 'image 2' }}" style="width: 45%; max-width: 45%;">
+</div>
+</center>

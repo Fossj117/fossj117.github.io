@@ -1,0 +1,6 @@
+<!-- Single centered image -->
+<center>
+<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
+  <img src="{{ include.src }}" alt="{{ include.alt | default: 'image' }}" style="width: {{ include.width | default: '65%' }}; max-width: {{ include.maxwidth | default: '45%' }};">
+</div>
+</center>
