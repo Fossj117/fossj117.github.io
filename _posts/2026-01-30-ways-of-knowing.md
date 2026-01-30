@@ -5,10 +5,10 @@ date: 2026-01-30
 latex: true
 mathjax: true
 comments: true
-tag: ["sts"]
+tag: ["sts", "technology", "plurality"]
 ---
 
-I am participating in a digital workshop series titled "How do we know what we know?", with subtitle "Integration, Translation, and “Right Relationship” Across Ways of Knowing in Civic & Tech Systems". It's an interesting set of themes for sure. In this post I will keep track of some notes and ideas as they come up for me in the series. 
+I am participating in a digital workshop series titled *How do we know what we know?*, with subtitle *Integration, Translation, and “Right Relationship” Across Ways of Knowing in Civic & Tech Systems*"*. It's an interesting set of themes for sure. In this post I will keep track of some notes and ideas as they come up for me in the series. 
 
 ## Bridging between ways of knowing 
 
