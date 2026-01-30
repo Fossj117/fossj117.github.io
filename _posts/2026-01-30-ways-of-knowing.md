@@ -8,13 +8,13 @@ comments: true
 tag: ["sts", "technology", "plurality"]
 ---
 
-I am participating in a digital workshop series titled *How do we know what we know?*, with subtitle *Integration, Translation, and “Right Relationship” Across Ways of Knowing in Civic & Tech Systems*"*. It's an interesting set of themes for sure. In this post I will keep track of some notes and ideas as they come up for me in the series. 
+I am participating in a digital workshop series titled *How Do We Know What We Know? Integration, Translation, and “Right Relationship” Across Ways of Knowing in Civic & Tech Systems*. It's an interesting set of themes for sure. In this post I will keep track of some notes and ideas as they come up for me in the series. 
 
 ## Bridging between ways of knowing 
 
 Session one was about the [Rights of Nature](https://en.wikipedia.org/wiki/Rights_of_nature) movement; it featured a presentation and some discussion. 
 
-Early on in the session, the organizers offered this reflection prompt: 
+Early on in the session, the organizers offered this prompt for reflection and discussion: 
 
 > Have you ever had to translate or bridge between different ways of knowing, cultures, or institutions? What felt challenging, or meaningful, about that experience?
 
@@ -26,7 +26,9 @@ What came to mind for me on this prompt was my efforts during the PhD at bridgin
 
 ### Notes on the Rights of Nature
 
-I also captured a few more general notes and reflections on the "Rights of Nature" movement in general. Overall, it is not a perspective that I know a ton about in its applied forms, so it was interesting to hear more about. It seems to have an interesting and perhaps unsual theory of change as legal/policy interventions go -- i.e. while it does have some practical dimension (e.g. offering new legal surfaces for advocates to bring suits), a big part of the goal seems to be more subjective / cultural. The idea is to reposition how people *think about* and *relate to* natural objects. The main transition is especially to help people think about natural objects as *subjects* rather than *objects*. The law is one site where we construct and culturally-enshrine subjectivity and agency, so I get the logic of pursuing change on the legal/policy front. There was also mention of how these approaches question the "foundations of democracy", which also bake in assumptions about who or what is democratic stakeholder and on what terms. 
+I also captured a few more general notes and reflections on the "Rights of Nature" movement in general. Overall, it is not a perspective that I know a ton about in its applied forms, so it was interesting to hear more about. It seems to have an interesting and perhaps unsual theory of change as legal/policy interventions go. While it does have some practical dimension (e.g. offering new legal surfaces for advocates to bring suits), a big part of the goal seems to be more subjective / cultural. The idea is to reposition how people *think about* and *relate to* natural objects. The main goal is especially to help people think about natural objects as *subjects* rather than *objects*. The law is one site where we construct and culturally-enshrine subjectivity and agency, so I get the logic of pursuing change on the legal/policy front. 
+
+<!-- There was also mention of how these approaches question the "foundations of democracy", which also bake in assumptions about who or what is democratic stakeholder and on what terms.  -->
 
 More conceptually, I find these themes interesting. They have strong [STS](https://en.wikipedia.org/wiki/Science_and_technology_studies) resonances, especially in the Latour / Callon / [Actor-Network Theory](https://en.wikipedia.org/wiki/Actor%E2%80%93network_theory) (ANT) vein of literature, which particularly emphasizes this kind of "symmetric" monist treatment of human- and non-human actors. I thought of [this](https://www.youtube.com/watch?v=wTvbK10ABPI&si=VyIQj4NVTCzYbGds) video of Latour discussing his "Parliament of Things" experiment, which is tightly connected to the Rights of Nature idea. I also thought of [this](https://journals.sagepub.com/doi/10.1111/j.1467-954X.1984.tb00113.x) influential paper from Callon which is a great read. 
 
