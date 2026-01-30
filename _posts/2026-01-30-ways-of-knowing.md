@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Workshop series: how do we know what we know?"
+title: "How Do We Know What We Know? (Workshop Series)"
 date: 2026-01-30
 latex: true
 mathjax: true
