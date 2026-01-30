@@ -398,3 +398,6 @@ I decided to harvest off the cotyledons to add to my morning smoothie (which als
 
 {% include image.html src="/figs/2025-12-11-spinach-notes/cotyledons_smoothie.jpg" alt="cotyledons in smoothie" %}
 
+## January 26
+
+Watered.
