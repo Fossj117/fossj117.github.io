@@ -401,3 +401,13 @@ I decided to harvest off the cotyledons to add to my morning smoothie (which als
 ## January 26
 
 Watered.
+
+## January 29
+
+Watered. 
+
+## February 1
+
+Watered today. Here is the status of the plants: 
+
+{% include image.html src="/figs/2025-12-11-spinach-notes/latest_spinach.jpg" alt="latest spinach" %}
