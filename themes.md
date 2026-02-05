@@ -7,7 +7,7 @@ permalink: /themes/
 A living list of themes that I am currently interested in: 
 
 * *Plants and Gardening*. Growing and learning about plants. [[1]]({% post_url 2025-12-11-spinach-notes %})
-* *Riding Bikes*. Learning about and repairing bikes. [[1]]({{ "/rides/" | relative_url }}) [[2]]({% post_url 2024-04-29-bike-build %}) [[3]]({% post_url 2025-04-24-bridgestone-mb6 %}) [[4]]({% post_url 2024-05-11-next-bike %})
+* *Riding Bikes*. Learning about and repairing bikes. [[1]]({{ "/rides.html" | absolute_url }}) [[2]]({% post_url 2024-04-29-bike-build %}) [[3]]({% post_url 2025-04-24-bridgestone-mb6 %}) [[4]]({% post_url 2024-05-11-next-bike %})
 * *Maintenance and Repair*. Theory and practice. Right to repair. Technology and repair(ability). [[1]]({% post_url 2024-08-19-some-thoughts-on-repair %}) [[2]](https://jeffreyfossett.com/notes.html#46) [[3]](https://jeffreyfossett.com/notes.html#41)
 * *Sewing*. Especially patchwork and mending. [[1]]({% post_url 2024-06-04-strawberry-shirt-day %})
 * *Technology "governance"*. How do we make decisions with and about technology? [[1]]({% post_url 2023-10-16-tech-economics-goverance-reading %})
