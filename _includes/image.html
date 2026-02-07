@@ -1,6 +1,7 @@
-<!-- Single centered image -->
-<center>
-<div style="display: flex; justify-content: center; margin: 0 auto 1.5rem;">
-  <img src="{{ include.src }}" alt="{{ include.alt | default: 'image' }}" style="width: {{ include.width | default: '65%' }}; max-width: {{ include.maxwidth | default: '45%' }};">
+<!-- Single centered image (responsive via CSS variables) -->
+<div
+  class="post-image-wrap"
+  style="--img-width: {{ include.width | default: '65%' }}; --img-max-width: {{ include.maxwidth | default: '100%' }};"
+>
+  <img class="post-image" src="{{ include.src }}" alt="{{ include.alt | default: 'image' }}">
 </div>
-</center>
