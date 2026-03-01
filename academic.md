@@ -72,6 +72,8 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 <li><a href="https://www.businessinsider.com/study-comparing-uber-lyft-prices-worth-it-few-check-apps-2025-11">Comparing prices between Uber and Lyft could save you money, but few people do it, a new study says. </a> (Business Insider).</li>
 <li><a href="https://thehill.com/homenews/nexstar_media_wire/5635802-which-is-cheaper-uber-or-lyft-what-researchers-found-after-2200-rides/">Which is cheaper, Uber or Lyft? What researchers found after 2,200 rides</a> (The Hill).</li>
 <li><a href="https://carey.jhu.edu/articles/taken-ride-uber-lyft-users-overpay-when-dont-price-check">Taken for a ride: Uber and Lyft users overpay when they don’t price check</a> (Johns Hopkins Carey Business School).</li>
+<li><a href="https://hub.jhu.edu/2026/01/02/uber-lyft-study-carey-business-school/">Study shows Uber and Lyft users overpay when they don't price check</a> (Johns Hopkins Hub).
+<li><a href="https://www.nber.org/digest/202602/do-rideshare-users-comparison-shop?page=1&perPage=50">Do Rideshare Users Comparison Shop?</a> (NBER Digest)
 </ul>
 
 </details>
