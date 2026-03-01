@@ -65,15 +65,14 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 <summary><em>Media</em></summary>
 
 <ul>
-<li><a href="https://www.washingtonpost.com/technology/2025/12/01/uber-lyft-price-saving/">I tested 80 Uber and Lyft rides and found a powerful way to save
-</a></li> (Washington Post).
+<li><a href="https://www.washingtonpost.com/technology/2025/12/01/uber-lyft-price-saving/">I tested 80 Uber and Lyft rides and found a powerful way to save</a> (Washington Post).</li>
 <li><a href="https://open.spotify.com/episode/4QKixrwtHtH5X8Sm3qUKwi?si=a685f46b94d84a62&nd=1&dlsi=6cf404da376c4683">50-year mortgages, falling real wages, and doing your rideshare due diligence</a> – The Indicator from Planet Money (NPR).</li>
 <li><a href="https://www.huffpost.com/entry/uber-lyft-study-price-comparison_l_6936f607e4b0a1c98be2fa8f">So Many People Skip This 1 Step When Booking An Uber — And It’s Making Them Lose So Much Money</a> (HuffPost). </li>
 <li><a href="https://www.businessinsider.com/study-comparing-uber-lyft-prices-worth-it-few-check-apps-2025-11">Comparing prices between Uber and Lyft could save you money, but few people do it, a new study says. </a> (Business Insider).</li>
 <li><a href="https://thehill.com/homenews/nexstar_media_wire/5635802-which-is-cheaper-uber-or-lyft-what-researchers-found-after-2200-rides/">Which is cheaper, Uber or Lyft? What researchers found after 2,200 rides</a> (The Hill).</li>
 <li><a href="https://carey.jhu.edu/articles/taken-ride-uber-lyft-users-overpay-when-dont-price-check">Taken for a ride: Uber and Lyft users overpay when they don’t price check</a> (Johns Hopkins Carey Business School).</li>
-<li><a href="https://hub.jhu.edu/2026/01/02/uber-lyft-study-carey-business-school/">Study shows Uber and Lyft users overpay when they don't price check</a> (Johns Hopkins Hub).
-<li><a href="https://www.nber.org/digest/202602/do-rideshare-users-comparison-shop?page=1&perPage=50">Do Rideshare Users Comparison Shop?</a> (NBER Digest)
+<li><a href="https://hub.jhu.edu/2026/01/02/uber-lyft-study-carey-business-school/">Study shows Uber and Lyft users overpay when they don't price check</a> (Johns Hopkins Hub).</li>
+<li><a href="https://www.nber.org/digest/202602/do-rideshare-users-comparison-shop?page=1&perPage=50">Do Rideshare Users Comparison Shop?</a> (NBER Digest).</li>
 </ul>
 
 </details>
