@@ -1,0 +1,33 @@
+# Each entry becomes a card in the repair carousel.
+# Fields: image (required), title, date, description (all optional).
+# Add new repairs by appending entries to this list.
+
+- image: /figs/repairs/B361FC3B-FD40-4AE6-B68B-D3307E6EF556.JPG
+  # title: ""
+  # date: ""
+  description: "Some recent mends on my forever-repair jeans. These were done at still life."
+
+- image: /figs/repairs/CDC71F59-C02A-4C57-AAF2-D68A1DBD20BE.JPG
+  # title: ""
+  # date: ""
+  description: "I repaired two buttons that had broken on this jacket. I decided to go with a contrasting color for fun."
+
+- image: /figs/repairs/F5E432F4-5C0E-4667-A779-7065AC636DDB.JPG
+  # title: ""
+  # date: ""
+  description: "Hand repair on the elbow of one of my Dad's old flannels. The patch fabric was leftover from a previous project."
+
+- image: /figs/repairs/IMG_3493.jpg
+  # title: ""
+  # date: ""
+  description: "Classic bike & denim repair; these are on my favorite jeans, so I tried to maintain some semblance of neatness. The patch fabric was from the same denim, leftover from when the jeans were hemmed."
+
+- image: /figs/repairs/IMG_4245.jpg
+  # title: ""
+  # date: ""
+  description: "More elbow patch repairs on my Dad's old flannel. This is the flannel that most reminds me of him."
+
+- image: /figs/repairs/IMG_5206.jpg
+  # title: ""
+  # date: ""
+  description: "I got one of those little mending loom things to try out. This turned out pretty nice and satisfying."

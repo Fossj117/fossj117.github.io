@@ -1,0 +1,192 @@
+<div markdown="0">
+<style>
+.repair-carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: inherit;
+}
+.repair-carousel__viewport {
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+body.dark-mode .repair-carousel__viewport {
+  border-color: #444;
+}
+.repair-carousel__track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.repair-carousel__card {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.repair-carousel__image-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body.dark-mode .repair-carousel__image-wrap {
+  background: #2a2930;
+}
+.repair-carousel__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.repair-carousel__info {
+  padding: 0.8rem 1rem 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+body.dark-mode .repair-carousel__info {
+  border-top-color: #444;
+}
+.repair-carousel__info h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.repair-carousel__date {
+  display: block;
+  font-size: 0.8rem;
+  color: #828282;
+  margin-bottom: 0.35rem;
+}
+.repair-carousel__info p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #444;
+}
+body.dark-mode .repair-carousel__info p {
+  color: #c0bdb8;
+}
+.repair-carousel__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0.75rem;
+}
+.repair-carousel__btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  transition: background 0.2s, border-color 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+.repair-carousel__btn:hover {
+  background: #f0f0f0;
+  border-color: #999;
+}
+body.dark-mode .repair-carousel__btn {
+  color: #e8e5e0;
+  border-color: #555;
+}
+body.dark-mode .repair-carousel__btn:hover {
+  background: #3a3940;
+  border-color: #888;
+}
+.repair-carousel__btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.repair-carousel__btn:disabled:hover {
+  background: none;
+}
+.repair-carousel__counter {
+  font-size: 0.85rem;
+  color: #828282;
+  min-width: 3rem;
+  text-align: center;
+  user-select: none;
+}
+</style>
+
+{% assign repairs = site.data.repairs %}
+{% assign total = repairs | size %}
+{% if total > 0 %}
+<div class="repair-carousel" role="region" aria-label="Repair gallery" tabindex="0">
+<div class="repair-carousel__viewport">
+<div class="repair-carousel__track">
+{% for repair in repairs %}
+<div class="repair-carousel__card">
+<div class="repair-carousel__image-wrap">
+<img src="{{ repair.image }}" alt="{{ repair.title | default: 'Repair photo' }}" loading="lazy">
+</div>
+{% if repair.title or repair.date or repair.description %}
+<div class="repair-carousel__info">
+{% if repair.title %}<h3>{{ repair.title }}</h3>{% endif %}
+{% if repair.date %}<span class="repair-carousel__date">{{ repair.date }}</span>{% endif %}
+{% if repair.description %}<p>{{ repair.description }}</p>{% endif %}
+</div>
+{% endif %}
+</div>
+{% endfor %}
+</div>
+</div>
+<div class="repair-carousel__nav">
+<button class="repair-carousel__btn repair-carousel__btn--prev" aria-label="Previous repair" disabled>&larr;</button>
+<span class="repair-carousel__counter">1 / {{ total }}</span>
+<button class="repair-carousel__btn repair-carousel__btn--next" aria-label="Next repair" {% if total <= 1 %}disabled{% endif %}>&rarr;</button>
+</div>
+</div>
+<script>
+(function() {
+  var carousel = document.querySelector('.repair-carousel');
+  if (!carousel) return;
+  var track = carousel.querySelector('.repair-carousel__track');
+  var cards = carousel.querySelectorAll('.repair-carousel__card');
+  var prevBtn = carousel.querySelector('.repair-carousel__btn--prev');
+  var nextBtn = carousel.querySelector('.repair-carousel__btn--next');
+  var counter = carousel.querySelector('.repair-carousel__counter');
+  var total = cards.length;
+  var current = 0;
+  function update() {
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    counter.textContent = (current + 1) + ' / ' + total;
+    prevBtn.disabled = (current === 0);
+    nextBtn.disabled = (current === total - 1);
+  }
+  prevBtn.addEventListener('click', function() {
+    if (current > 0) { current--; update(); }
+  });
+  nextBtn.addEventListener('click', function() {
+    if (current < total - 1) { current++; update(); }
+  });
+  carousel.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowLeft' && current > 0) { current--; update(); }
+    if (e.key === 'ArrowRight' && current < total - 1) { current++; update(); }
+  });
+  var startX = null;
+  carousel.addEventListener('touchstart', function(e) {
+    startX = e.touches[0].clientX;
+  }, { passive: true });
+  carousel.addEventListener('touchend', function(e) {
+    if (startX === null) return;
+    var diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0 && current < total - 1) { current++; update(); }
+      if (diff < 0 && current > 0) { current--; update(); }
+    }
+    startX = null;
+  }, { passive: true });
+})();
+</script>
+{% endif %}
+</div>
