@@ -73,6 +73,7 @@ We document price differences for identical trips on Uber and Lyft, based on an 
 <li><a href="https://carey.jhu.edu/articles/taken-ride-uber-lyft-users-overpay-when-dont-price-check">Taken for a ride: Uber and Lyft users overpay when they don’t price check</a> (Johns Hopkins Carey Business School).</li>
 <li><a href="https://hub.jhu.edu/2026/01/02/uber-lyft-study-carey-business-school/">Study shows Uber and Lyft users overpay when they don't price check</a> (Johns Hopkins Hub).</li>
 <li><a href="https://www.nber.org/digest/202602/do-rideshare-users-comparison-shop?page=1&perPage=50">Do Rideshare Users Comparison Shop?</a> (NBER Digest).</li>
+<li><a href="https://www.youtube.com/live/J1J4UYGa-4k?si=dkHciQ6toJy8U4IO&t=766">Presentation</a> at FTC Conference on Marketing and Public Policy.</li>
 </ul>
 
 </details>
