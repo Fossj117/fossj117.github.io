@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title></title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: #212026;
+    min-height: 100dvh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  .scene {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+  }
+
+  /* All layers are absolutely positioned, centered on the flame point */
+  .layer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Candle body - positioned at bottom */
+  .candle-body {
+    bottom: 20px;
+    width: 87px;
+    opacity: 0.85;
+  }
+
+  /* Flame and glow layers - positioned relative to wick top */
+  .flame-anchor {
+    position: absolute;
+    left: 50%;
+    bottom: 208px; /* wick top relative to candle bottom */
+    transform: translateX(-50%);
+  }
+
+  .flame {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 28px;
+    opacity: 0;
+  }
+
+  .flame.visible {
+    opacity: 1;
+  }
+
+  /* Glow blob layers - centered on flame, progressively larger */
+  .glow {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    bottom: 0;
+    display: none;
+  }
+
+  .glow-inner {
+    width: 160px;
+    padding: 40px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    filter: blur(4px) brightness(1.2) sepia(0.3) saturate(1.5);
+  }
+
+  .glow-medium {
+    width: 240px;
+    padding: 50px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    filter: blur(8px) brightness(1) sepia(0.6) saturate(2);
+  }
+
+  .glow-outer {
+    width: 340px;
+    padding: 60px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    filter: blur(14px) brightness(0.85) sepia(0.8) saturate(2.5) hue-rotate(-10deg);
+  }
+
+  .glow-big-outer {
+    width: 500px;
+    padding: 70px;
+    margin-top: -70px;
+    margin-bottom: -70px;
+    filter: blur(22px) brightness(0.6) sepia(1) saturate(3) hue-rotate(-15deg);
+  }
+
+  /* Glow opacity levels set via JS when shown */
+
+  /* Ambient background glow */
+  .ambient {
+    position: absolute;
+    left: 50%;
+    bottom: 180px;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(255, 160, 50, 0.12) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 1.5s;
+    pointer-events: none;
+  }
+
+  .lit .ambient {
+    opacity: 1;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="scene" id="scene">
+
+  <!-- Ambient background glow -->
+  <div class="ambient"></div>
+
+  <!-- Glow blobs - A set -->
+  <div class="flame-anchor">
+    <img class="glow glow-big-outer glow-a" src="candle_parts/Big Outer A.svg">
+    <img class="glow glow-big-outer glow-b" src="candle_parts/Big Outer B.svg">
+    <img class="glow glow-outer glow-a" src="candle_parts/Outer A.svg">
+    <img class="glow glow-outer glow-b" src="candle_parts/Outer B.svg">
+    <img class="glow glow-medium glow-a" src="candle_parts/Medium A.svg">
+    <img class="glow glow-medium glow-b" src="candle_parts/Medium B.svg">
+    <img class="glow glow-inner glow-a" src="candle_parts/Inner A.svg">
+    <img class="glow glow-inner glow-b" src="candle_parts/Inner B.svg">
+
+    <!-- Flame shapes -->
+    <img class="flame flame-a" src="candle_parts/Flame A.svg">
+    <img class="flame flame-b" src="candle_parts/Flame B.svg">
+  </div>
+
+  <!-- Candle body -->
+  <img class="layer candle-body" src="candle_parts/Candle body.svg">
+</div>
+
+<script>
+const scene = document.getElementById('scene');
+let isLit = false;
+let flickerInterval = null;
+
+scene.addEventListener('click', () => {
+  if (isLit) return;
+  isLit = true;
+
+  // Light the candle
+  scene.classList.add('lit');
+
+  // Show frame A first
+  document.querySelector('.flame-a').classList.add('visible');
+  showGlowSet('a');
+
+  // Start flame flicker - alternate between A and B
+  let showingA = true;
+  flickerInterval = setInterval(() => {
+    if (showingA) {
+      document.querySelector('.flame-a').classList.remove('visible');
+      document.querySelector('.flame-b').classList.add('visible');
+      hideGlowSet('a');
+      showGlowSet('b');
+    } else {
+      document.querySelector('.flame-b').classList.remove('visible');
+      document.querySelector('.flame-a').classList.add('visible');
+      hideGlowSet('b');
+      showGlowSet('a');
+    }
+    showingA = !showingA;
+  }, 800 + Math.random() * 600); // irregular timing
+});
+
+const glowOpacity = {
+  'glow-inner': '0.5',
+  'glow-medium': '0.35',
+  'glow-outer': '0.2',
+  'glow-big-outer': '0.12',
+};
+
+function showGlowSet(set) {
+  document.querySelectorAll('.glow-' + set).forEach(el => {
+    el.style.display = 'block';
+    for (const [cls, op] of Object.entries(glowOpacity)) {
+      if (el.classList.contains(cls)) el.style.opacity = op;
+    }
+  });
+}
+
+function hideGlowSet(set) {
+  document.querySelectorAll('.glow-' + set).forEach(el => {
+    el.style.display = 'none';
+    el.style.opacity = '0';
+  });
+}
+
+// Initially hide B set
+hideGlowSet('b');
+</script>
+
+</body>
+</html>
