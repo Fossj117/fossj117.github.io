@@ -65,7 +65,7 @@ img {
 .post-image-wrap {
     display: flex;
     justify-content: center;
-    margin: 0 auto 1.5rem;
+    margin: 0.75rem auto;
     text-align: center; // fallback centering
 }
 
@@ -80,7 +80,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: var(--pair-gap, 1.5rem);
-    margin: 0 auto 1.5rem;
+    margin: 0.75rem auto;
 }
 
 .post-image--pair {
