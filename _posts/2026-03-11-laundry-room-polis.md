@@ -92,7 +92,9 @@ Interestingly, I haven't seen anyone post contact info just yet (to be texted wh
 
 ## Next Steps and Takeaways
 
-I am not too sure what will happen next with this experiment. One direction I was considering is whether we tenants should join together to share some of the requests to the building management. Maybe we could get them to add a coin machine, or do more proactive upkeep on the machines. A few folks joined my building WhatsApp group where we could discuss. 
+Conclusion is WIP
+
+<!-- I am not too sure what will happen next with this experiment. One direction I was considering is whether we tenants should join together to share some of the requests to the building management. Maybe we could get them to add a coin machine, or do more proactive upkeep on the machines. A few folks joined my building WhatsApp group where we could discuss. 
 
 Something that I am particularly curious about is whether this experiment might prompt other folks in the building to be more proactive about improving this or other shared spaces. In general, I find this question of public "agency" and "responsibility" very interesting: when and why do people feel willing and able to make changes to improve the shared public spaces we inhabit together? 
 
@@ -108,7 +110,7 @@ A complementary version of these questions also seems useful for would-be organi
 
 This brings me to my final point about the role of deliberative technologies like Polis in all of this. Much of the discourse about tools like Polis has emphasized their ability to support public deliberation at huge, even country-level scales. For example, Polis has been used as part of an initiative called [vTaiwan](https://info.vtaiwan.tw/) where, according to the website, it "has been pivotal in achieving 'rough consensus' on various policy issues at the national level, addressing scalability challenges in deliberative democracy."
 
-While scale may be a useful goal, deliberative technologies like Polis also make it easier to set up and facilitate a (kind of) decentralized deliberative conversation in the first place. Polis is free, open source, publicly available, and relatively easy to use. Given this, I am curious if we might see deliberative technologies facilitate more "scaling down" as well as "scaling up" -- making it feasible to have deliberative conversations in ever smaller-scale settings like the apartment laundry room, where it might otherwise be too difficult to set something up. 
+While scale may be a useful goal, deliberative technologies like Polis also make it easier to set up and facilitate a (kind of) decentralized deliberative conversation in the first place. Polis is free, open source, publicly available, and relatively easy to use. Given this, I am curious if we might see deliberative technologies facilitate more "scaling down" as well as "scaling up" -- making it feasible to have deliberative conversations in ever smaller-scale settings like the apartment laundry room, where it might otherwise be too difficult to set something up.  -->
 
 ## Try it For Yourself?
 
