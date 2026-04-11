@@ -92,7 +92,23 @@ Interestingly, I haven't seen anyone post contact info just yet (to be texted wh
 
 ## Next Steps and Takeaways
 
-Conclusion is WIP
+I am not sure what will happen next with this experiment in laundry room governance. Perhaps we tenants should join together to share some set of requests to building management; maybe we could encourage them to add a coin machine, or be more proactive about maintaining the laundry machines. 
+
+However, running this experiment has raised a few key questions and takeways for me. 
+
+My first takeaway has to do with the value of providing "containers" for public participation. As documented above, I was happily surprised by the willingness of my fellow laundry room users to engage on the Polis conversation once it was established; there were a variety of good ideas about how to make the space work better, many of which were ultimately quite easy to implement (e.g. the whiteboard, the lost and found). However, prior to the Polis conversation, these ideas and perspectives were "latent", un-realized. To make them real, all that was required was a tiny bit of investment to create a "container" for folks to engage and share thoughts.
+
+To me, this seems like a nice way to approach organizing more broadly: how might I provide the right "containers" for people in my community to come together, discuss, identify, and hopefully solve their their shared problems?
+
+Of course, this perspective also raises deeper questions about when and why people feel a sense of agency and responsibility over the spaces and communities that they inhabit. When I am a member of a public or a user of a public space, when do I think of myself as "agentic" or "responsible" for that public's upkeep or well-being? When do I feel able to take actions to improve it? And why? And if I *do not* feel agentic or responsible, why not? Is it that I am just not thinking about it? Do I feel like I need "permission" from someone? Do I assume that it is someone else's responsibility? Does it seem like too much work?
+
+This brings me to my second takeaway about the role of deliberative technologies like Polis in all of this. Much of the discourse about tools like Polis has emphasized their ability to support public deliberation at huge, even country-level scales. For example, Polis has been used as part of an initiative called [vTaiwan](https://info.vtaiwan.tw/) where, according to the website, it "has been pivotal in achieving 'rough consensus' on various policy issues at the national level, addressing scalability challenges in deliberative democracy."
+
+While scale may be a useful goal, deliberative technologies like Polis also make it easier to set up and facilitate a (kind of) decentralized deliberative conversation in the first place. In short, Polis makes it easy to create a basic "container" for public conversation. Polis is free, open source, publicly available, and relatively easy to use. Given this, I am curious if we might see deliberative technologies facilitate more "scaling down" as well as "scaling up" -- making it feasible to have deliberative conversations in ever smaller-scale settings like the apartment laundry room, where it might otherwise be too difficult to set something up. 
+
+Approached in this way, I am curious whether deliberative technologies might help us see ourselves as participants (and agents!) in a richer, more granular, and dynamic set of public and commmunities. 
+
+<!-- Conclusion is WIP -->
 
 <!-- I am not too sure what will happen next with this experiment. One direction I was considering is whether we tenants should join together to share some of the requests to the building management. Maybe we could get them to add a coin machine, or do more proactive upkeep on the machines. A few folks joined my building WhatsApp group where we could discuss. 
 
