@@ -5,7 +5,7 @@ date: 2026-03-11
 latex: true
 mathjax: true
 comments: true
-tag: ["plurality", "governance", "draft"]
+tag: ["plurality", "governance"]
 ---
 
 *It's laundry day. You lug your hamper of clothes down the stairs to your apartment building's shared laundry room, only to find that none of the washing machines are "available". Three of the machines are fully "in use", turned on and mid-wash. But the fourth has completed its cycle and is now sitting idle, someone's damp clothes occupying the machine, blocking you from starting your own load and heading back upstairs.*
