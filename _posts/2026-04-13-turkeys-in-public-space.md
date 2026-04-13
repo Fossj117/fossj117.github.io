@@ -10,7 +10,7 @@ tag: ["nature", "technology", "art"]
 
 With Quinn, I've been working on a project called *Turkeys in Public Space* which is about documenting the turkeys that live in and around my neighborhood in Cambridge, MA. 
 
-The project involves both a handmade photo zine and [a website](https://turkeysinpublicspace.com) where people can share their own turkey photos. Here is what the site looks like: 
+The project involves both a handmade photo zine and [a website](https://www.turkeysinpublic.space/) where people can share their own turkey photos. Here is what the site looks like: 
 
 {% include image.html src="/figs/2026-04-13-turkeys-in-public-space/turkeys_website.jpg" alt="Turkeys in Public Space website homepage" %}
 
