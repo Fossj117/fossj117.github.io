@@ -14,9 +14,9 @@ tag: ["plurality", "governance"]
 
 <center>***</center>
 
-If you have lived in an apartment building with a shared laundry room, you may have experienced something like the situation described above. The shared apartment laundry room is an odd, quasi-public space, often governed by a nebulous mix of unspoken norms and perhaps rarely-enforced "rules". 
+If you have lived in an apartment building with a shared laundry room, you may have experienced something like the situation described above. The shared apartment laundry room is an odd, quasi-public space, often governed by a nebulous mix of mostly-unspoken norms and perhaps rarely-enforced "rules". 
 
-Some laundry room norms are obvious, mostly agreed to and observed by all. For example, we'd probably all agree that you should clean out the lint trap after using the dryer, or that you should clean up after yourself if you spill detergent. But other norms are more uncertain, and might reasonably admit varied perspectives. For example, people might feel differently about others touching their laundry, or whether it's okay to claim "next" on a machine. Some other questions might include: 
+Some laundry room norms are obvious, mostly agreed to by all. For example, we'd probably all agree that you should clean out the lint trap after using the dryer, or that you should clean up after yourself if you spill detergent. But other norms are more uncertain, and might reasonably admit differing perspectives. For example, people might feel differently about others touching their laundry, or whether it's okay to claim "next" on a machine. Some other questions might include: 
 
 * Is it acceptable to use bleach or fabric softener in a shared machine? If so, what are your obligations for cleaning the machine afterwards? 
 * Is it okay to use more than one machine at a time, or should you leave space for others? 
@@ -29,7 +29,7 @@ The shared laundry room can also fall victim to the usual collective action pitf
 
 ## Starting a Conversation
 
-Is there a better way? Over the past month or so, I decided to try a little experiment in laundry room governance in my apartment building's shared laundry room. My building has maybe some 30 or 40 units; the laundry room has four washers and four dryers (all coin-operated), and has recently been beset by a number of broken machine issues. Because of the recent issues, I thought folks might be interested in discussing how to make the space work better. 
+Is there a better way? Over the past month or so, I decided to try a little experiment in laundry room governance in my apartment building's shared laundry room. My building has maybe 30 or 40 apartment units and a shared laundry room with four washers and four dryers. The laundry room has recently been beset by a number of broken machine issues; because of this, I thought the other tenants might be interested in discussing how to make the space work better. 
 
 My first step was to start a shared conversation about the norms of the space. How do people think the laundry room should work? Is there consensus on the governance questions outlined above, or more disagreement? Are there things that people think could work better? 
 
@@ -37,7 +37,7 @@ To start a conversation, I used a simple "deliberative technology" called [Polis
 
 Starting a Polis conversation about my laundry room was fairly easy. The main design choices I had to make were (1) what to choose for my "seed" statements (the initial set of propositions for participants to vote on), and (2) how to invite people to participate. 
 
-To develop a list of seed statements, I relied on my personal intuitions about what topics might be interesting and relevant to the community, and collaborated with an LLM to flesh out the list. Broadly, I tried to include a mix of statements that (i) covered different aspects which might be of interest, and (ii) might vary in terms of their level of agreement, disagreement, consensus, and divisiveness. If you are curious about my full list of seed statements (perhaps to run your own laundry room conversation!), I've included them below. 
+To develop a list of seed statements, I relied on my personal best guesses about what topics might be interesting and relevant to the community, and collaborated with an LLM to flesh out the list. Broadly, I tried to include a mix of statements that (i) covered different aspects which might be of interest, and (ii) might vary in terms of their level of agreement, disagreement, consensus, and divisiveness. If you are curious about my full list of seed statements (perhaps to run your own laundry room conversation!), I've included them below. 
 
 The choice about how to invite people to the conversation was also relatively straightforward. Since it was a conversation about the laundry room, I drew up and posted a simple flyer in the laundry room with a QR code and link to join the Polis conversation. Here is a pic of the flyer after it was posted (I drew the laundry machine clip art "by hand" on my computer for a personal touch):
 
@@ -64,9 +64,9 @@ I printed things out and posted it all in the same spot as my previous flyer:
 
 {% include image.html src="/figs/2026-03-11-laundry-room-polis/results_posted.jpg" alt="Results posted" %}
 
-You can make your own interpretation of the results. One perhaps unsurprising finding was that there was broad agreement among tenants about all the statements that suggested that building management should do more to maintain or improve the laundry room space (add more machines, add a coin machine, reimburse tenants for issues etc.). People also generally agreed about standard norms like clearing the lint trap after using a dryer, or cleaning up spills. However, there was also more disagreement about some of the topics noted above -- e.g. when/whether it's okay to move someone's laundry over to the dryer, or whether it's okay to claim "next" on a machine. 
+One perhaps unsurprising result from the Polis conversation was that there was broad agreement among tenants about all the statements that suggested that building management should do more to maintain or improve the laundry room space (add more machines, add a coin machine, reimburse tenants for issues etc.). People also generally agreed about standard norms like clearing the lint trap after using a dryer, or cleaning up spills. However, there was also more disagreement about some of the topics noted above -- e.g. when/whether it's okay to move someone's laundry over to the dryer, or whether it's okay to claim "next" on a machine. 
 
-I was also very interested in the new suggestions that participants made. Some of these -- like the whiteboard and the magnetic "out of order" sign -- seemed both clever and easy to implement. So I decided to give them a go. 
+I was also very interested in the *new suggestions* that participants offered. Some of these -- like the whiteboard and the magnetic "out of order" sign -- seemed both clever and easy to implement. So I decided to give them a go. 
 
 For a total of maybe $20 at Michaels, I was able to pick up a basic whiteboard, and a few magnetic picture frames, which I filled with "Out of Order" signs. I hung everything up in the laundry room and again waited to see if folks would engage: 
 
@@ -94,19 +94,19 @@ Interestingly, I haven't seen anyone post contact info just yet (to be texted wh
 
 I am not sure what will happen next with this experiment in laundry room governance. Perhaps we tenants should join together to share some set of requests to building management; maybe we could encourage them to add a coin machine, or be more proactive about maintaining the laundry machines. 
 
-However, running this experiment has raised a few key questions and takeways for me. 
+However, running this experiment has raised a few key questions and takeaways for me. 
 
 My first takeaway has to do with the value of providing "containers" for public participation. As documented above, I was happily surprised by the willingness of my fellow laundry room users to engage on the Polis conversation once it was established; there were a variety of good ideas about how to make the space work better, many of which were ultimately quite easy to implement (e.g. the whiteboard, the lost and found). However, prior to the Polis conversation, these ideas and perspectives were "latent", un-realized. To make them real, all that was required was a tiny bit of investment to create a "container" for folks to engage and share thoughts.
 
-To me, this seems like a nice way to approach organizing more broadly: how might I provide the right "containers" for people in my community to come together, discuss, identify, and hopefully solve their their shared problems?
+To me, this seems like a nice way to approach organizing more broadly: how might I provide the right "containers" for people in my community to come together, discuss, identify, and hopefully solve their shared problems?
 
 Of course, this perspective also raises deeper questions about when and why people feel a sense of agency and responsibility over the spaces and communities that they inhabit. When I am a member of a public or a user of a public space, when do I think of myself as "agentic" or "responsible" for that public's upkeep or well-being? When do I feel able to take actions to improve it? And why? And if I *do not* feel agentic or responsible, why not? Is it that I am just not thinking about it? Do I feel like I need "permission" from someone? Do I assume that it is someone else's responsibility? Does it seem like too much work?
 
 This brings me to my second takeaway about the role of deliberative technologies like Polis in all of this. Much of the discourse about tools like Polis has emphasized their ability to support public deliberation at huge, even country-level scales. For example, Polis has been used as part of an initiative called [vTaiwan](https://info.vtaiwan.tw/) where, according to the website, it "has been pivotal in achieving 'rough consensus' on various policy issues at the national level, addressing scalability challenges in deliberative democracy."
 
-While scale may be a useful goal, deliberative technologies like Polis also make it easier to set up and facilitate a (kind of) decentralized deliberative conversation in the first place. In short, Polis makes it easy to create a basic "container" for public conversation--it's free, open source, publicly available, and relatively easy to use. Given this, I am curious if we might see deliberative technologies facilitate more "scaling down" as well as "scaling up" -- making it feasible to have deliberative conversations in ever smaller-scale settings like the apartment laundry room, where it might otherwise be too difficult to set something up. 
+While scale may be a useful goal, deliberative technologies like Polis also make it easier to set up and facilitate a (kind of) decentralized deliberative conversation in the first place. In other words, Polis makes it easy to create a basic "container" for public conversation--it's free, open source, publicly available, and relatively easy to use. Given this, I am curious if we might see deliberative technologies facilitate more "scaling down" as well as "scaling up" -- making it feasible to have deliberative conversations in ever smaller-scale settings like the apartment laundry room, where it might otherwise be too difficult to set something up. 
 
-Approached in this way, I am curious whether deliberative technologies might help us see ourselves as participants (and agents!) in a richer, more granular, and dynamic set of public and commmunities. 
+Approached in this way, deliberative technologies might help us see ourselves as participants (and agents!) in a richer, more granular, and dynamic set of publics and communities. 
 
 <!-- Conclusion is WIP -->
 
