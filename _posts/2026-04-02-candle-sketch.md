@@ -8,8 +8,27 @@ comments: true
 tag: ["art"]
 ---
 
-Light a candle for someone you care about: 
-<iframe src="/figs/2026-04-02-candle-sketch/index.html" width="100%" height="600" frameborder="0" style="border:none; border-radius: 8px;"></iframe>
+<style>
+.candle-caption { position: relative; z-index: 1; margin-bottom: 0; }
+.candle-frame {
+  display: block;
+  border: none;
+  background: transparent;
+  width: calc(100% + 80px);
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: -120px;
+  height: 600px;
+  position: relative;
+  z-index: 0;
+}
+@media screen and (max-width: 600px) {
+  .candle-frame { width: 100%; margin-left: 0; margin-right: 0; margin-top: -80px; }
+}
+</style>
+
+<p class="candle-caption">Click to light a candle (maybe <a href="#" onclick="document.body.classList.add('dark-mode'); localStorage.setItem('theme', 'dark'); return false;">turn off the lights</a> first?)</p>
+<iframe src="/figs/2026-04-02-candle-sketch/index.html" class="candle-frame" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 
 <html>
 <p><details>
