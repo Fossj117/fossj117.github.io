@@ -37,6 +37,22 @@ body.dark-mode {
         color: $text-color-dark; // Dark mode text color
         border: 0;
     }
+
+    table {
+        border-color: lighten($background-color-dark, 38%);
+    }
+
+    table th, table td {
+        border-color: lighten($background-color-dark, 38%);
+    }
+
+    table thead, table tr.even {
+        background-color: lighten($background-color-dark, 7%); // Darker than body, still distinguishable
+    }
+
+    table th {
+        color: $text-color-dark; // Light contrasting header text
+    }
 }
 
 /**
@@ -87,7 +103,7 @@ img {
     width: var(--pair-img-width, 45%);
     max-width: var(--pair-img-width, 45%);
     height: auto;
-    object-fit: unset;
+    object-fit: cover;
 }
 
 @include media-query($on-palm) {
@@ -273,19 +289,21 @@ pre {
 
 table {
     margin: 1em auto;
-    border-width: 1px;
-    border-color: #DDDDDD;
-    border-style: outset;
+    border-width: 2px;
+    border-color: #BBBBBB;
+    border-style: solid;
     border-collapse: collapse;
 }
 table th {
     border-width: 2px;
+    border-color: #BBBBBB;
     padding: 5px;
-    border-style: inset;
+    border-style: solid;
 }
 table td {
-    border-width: 1px;
-    border-style: inset;
+    border-width: 2px;
+    border-color: #BBBBBB;
+    border-style: solid;
     line-height: 18px;
     padding: 5px 5px;
 }
