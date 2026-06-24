@@ -5,14 +5,10 @@ date: 2026-06-16
 latex: true
 mathjax: true
 comments: true
-tag: ["llm", "technology", "draft"]
+tag: ["llm", "technology"]
 ---
 
-# Contents
-{:.no_toc}
-
-* TOC
-{:toc}
+*This post was prepared for a guest lecture in DESINV218 at UC Berkeley. Slides for the presentation are [here]({% link /files/ai_use_framework_slides.pdf %}).*
 
 # Introduction
 
