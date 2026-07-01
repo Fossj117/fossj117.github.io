@@ -1,55 +1,48 @@
-<!-- Side-by-side images (stacks on mobile via CSS) -->
-<div
-  class="post-image-pair"
-  data-equalize-height="true"
-  style="--pair-gap: {{ include.gap | default: '1.5rem' }}; --pair-img-width: {{ include.width | default: '45%' }};"
->
-  <img class="post-image post-image--pair" src="{{ include.src1 }}" alt="{{ include.alt1 | default: 'image 1' }}">
-  <img class="post-image post-image--pair" src="{{ include.src2 }}" alt="{{ include.alt2 | default: 'image 2' }}">
+<!-- Side-by-side images: proportional equal-height row that fills the available width; stacks on mobile -->
+<div class="post-image-pair" data-max-height="{{ include.height | default: '300' }}" style="--pair-gap: {{ include.gap | default: '1rem' }};">
+<div class="post-image-pair__cell">
+<img class="post-image post-image--pair" src="{{ include.src1 }}" alt="{{ include.alt1 | default: 'image 1' }}" loading="lazy">
 </div>
-
+<div class="post-image-pair__cell">
+<img class="post-image post-image--pair" src="{{ include.src2 }}" alt="{{ include.alt2 | default: 'image 2' }}" loading="lazy">
+</div>
+</div>
 <script>
-  // Equalize pair heights to the shorter image on desktop
-  (function () {
-    if (window.__postImagePairEqualize) return;
-    window.__postImagePairEqualize = true;
+(function () {
+  if (window.__imagePairInit) return;
+  window.__imagePairInit = true;
 
-    var onPalmQuery = window.matchMedia("(max-width: 600px)");
-
-    function equalizePair(pair) {
-      if (onPalmQuery.matches) {
-        pair.querySelectorAll("img").forEach(function (img) {
-          img.style.height = "";
-        });
-        return;
-      }
-
-      var imgs = pair.querySelectorAll("img");
-      if (imgs.length !== 2) return;
-
-      // Reset to natural height before measuring
-      imgs.forEach(function (img) {
-        img.style.height = "";
-      });
-
-      var h1 = imgs[0].clientHeight;
-      var h2 = imgs[1].clientHeight;
-      var target = Math.min(h1, h2);
-
-      if (target > 0) {
-        imgs.forEach(function (img) {
-          img.style.height = target + "px";
-        });
-      }
+  function setupPair(pair) {
+    var cells = pair.querySelectorAll(".post-image-pair__cell");
+    var imgs = pair.querySelectorAll("img.post-image--pair");
+    if (cells.length < 2 || imgs.length < 2) return false;
+    var sum = 0, ratios = [];
+    for (var i = 0; i < imgs.length; i++) {
+      if (!imgs[i].naturalWidth) return false; // not measurable yet
+      var r = imgs[i].naturalWidth / imgs[i].naturalHeight;
+      ratios[i] = r;
+      sum += r;
     }
+    for (var j = 0; j < cells.length; j++) cells[j].style.flexGrow = ratios[j];
+    var maxH = parseFloat(pair.getAttribute("data-max-height")) || 300;
+    var gap = parseFloat(getComputedStyle(pair).columnGap) || 16;
+    // Cap the row so its equal height never exceeds maxH; below that it fills the width.
+    pair.style.maxWidth = Math.round(maxH * sum + gap) + "px";
+    return true;
+  }
 
-    function equalizeAll() {
-      document
-        .querySelectorAll('.post-image-pair[data-equalize-height="true"]')
-        .forEach(equalizePair);
+  function setupAll() {
+    var pairs = document.querySelectorAll(".post-image-pair");
+    for (var i = 0; i < pairs.length; i++) {
+      if (!pairs[i].__paired && setupPair(pairs[i])) pairs[i].__paired = true;
     }
+  }
 
-    window.addEventListener("resize", equalizeAll);
-    window.addEventListener("load", equalizeAll);
-  })();
+  if (document.readyState !== "loading") setupAll();
+  else document.addEventListener("DOMContentLoaded", setupAll);
+  window.addEventListener("load", setupAll);
+  document.addEventListener("load", function (e) {
+    if (e.target && e.target.classList && e.target.classList.contains("post-image--pair")) setupAll();
+  }, true);
+})();
 </script>

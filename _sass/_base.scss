@@ -93,17 +93,29 @@ img {
 
 .post-image-pair {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
-    gap: var(--pair-gap, 1.5rem);
+    align-items: flex-end;
+    gap: var(--pair-gap, 1rem);
+    width: 100%;
     margin: 0.75rem auto;
 }
 
+.post-image-pair__cell {
+    flex-grow: 1; // overridden per-image (aspect ratio) via JS
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.post-image-pair__cell p {
+    margin: 0;
+}
+
 .post-image--pair {
-    width: var(--pair-img-width, 45%);
-    max-width: var(--pair-img-width, 45%);
+    display: block;
+    width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 @include media-query($on-palm) {
@@ -115,13 +127,19 @@ img {
     .post-image-pair {
         flex-direction: column;
         align-items: center;
+        max-width: 100% !important;
+    }
+
+    .post-image-pair__cell {
+        flex: none !important;
+        width: 100%;
+        max-width: 100%;
     }
 
     .post-image--pair {
         width: 100%;
-        max-width: 100%;
         height: auto;
-        object-fit: unset;
+        max-height: 75vh;
     }
 }
 
