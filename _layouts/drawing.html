@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Drawing Practice: Day {{ page.day }}</h1>
+    <p class="post-meta-in-post">
+      {{ page.date | date: "%b %-d, %Y" }} • part of <a href="/2026/07/25/learning-to-draw.html">a drawing practice series</a>
+    </p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  {% assign drawing_days = site.drawing | sort: "day" %}
+  {% for d in drawing_days %}
+    {% if d.url == page.url %}
+      {% unless forloop.first %}
+        {% assign prev_index = forloop.index0 | minus: 1 %}
+        {% assign prev_day = drawing_days[prev_index] %}
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next_index = forloop.index0 | plus: 1 %}
+        {% assign next_day = drawing_days[next_index] %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  <p class="post-meta-in-post">
+    {% if prev_day %}<a href="{{ prev_day.url | prepend: site.baseurl }}">&larr; Day {{ prev_day.day }}</a>{% endif %}
+    {% if prev_day and next_day %} &middot; {% endif %}
+    {% if next_day %}<a href="{{ next_day.url | prepend: site.baseurl }}">Day {{ next_day.day }} &rarr;</a>{% endif %}
+  </p>
+
+  {% include mathjax.html %}
+
+</div>

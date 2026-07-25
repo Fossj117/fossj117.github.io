@@ -27,3 +27,7 @@ collections:
     output: true
     permalink: /rides/:name.html
     sort_by: num
+  drawing:
+    output: true
+    permalink: /drawing/:name.html
+    sort_by: day
