@@ -2,7 +2,7 @@
 layout: drawing
 title: "Drawing Practice: Day 5"
 day: 5
-date: 2026-08-25
+date: 2026-07-26
 ---
 
 Today is about "putting it all together", and breaking down complex forms into pieces. 
