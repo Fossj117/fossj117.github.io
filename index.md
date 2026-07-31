@@ -12,7 +12,7 @@ layout: empty
 
 Hi, I'm Jeff. I like learning and making things.
 
-Curently, I am Research Lead at [Plurality Institute](https://www.plurality.institute/), and a Research Fellow at the [JHU Tech & Society Initiative](https://carey.jhu.edu/tech-society-initiative). I recently completed my PhD at Harvard University. 
+Curently, I am Research Lead at [Plurality Institute](https://www.plurality.institute/), and an incoming Postdoctoral Scholar at the [Block Center for Technology and Society](https://www.cmu.edu/block-center) at Carnegie Mellon University. I recently completed my PhD at Harvard University. 
 
 My [research](/academic/) focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS). 
 
