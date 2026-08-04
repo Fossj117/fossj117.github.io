@@ -1,5 +1,5 @@
 <!-- Side-by-side images: proportional equal-height row that fills the available width; stacks on mobile -->
-<div class="post-image-pair" data-max-height="{{ include.height | default: '300' }}" style="--pair-gap: {{ include.gap | default: '1rem' }};">
+<div class="post-image-pair" data-max-height="{{ include.height | default: '300' }}" style="--pair-gap: {{ include.gap | default: '1rem' }}; --pair-width: {{ include.width | default: '100%' }};">
 <div class="post-image-pair__cell">
 <img class="post-image post-image--pair" src="{{ include.src1 }}" alt="{{ include.alt1 | default: 'image 1' }}" loading="lazy">
 </div>

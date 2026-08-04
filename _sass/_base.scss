@@ -97,7 +97,7 @@ img {
     justify-content: center;
     align-items: flex-end;
     gap: var(--pair-gap, 1rem);
-    width: 100%;
+    width: var(--pair-width, 100%);
     margin: 0.75rem auto;
 }
 
@@ -127,6 +127,7 @@ img {
     .post-image-pair {
         flex-direction: column;
         align-items: center;
+        width: 100%;
         max-width: 100% !important;
     }
 
