@@ -18,9 +18,21 @@ permalink: /academic/
 <section class="paper-block preamble">
 <h2>Research</h2>
 
-<p>My research focuses on how we make collective decisions with and about emerging digital technologies. I am especially interested in the role of economic expertise in these decisions. Methodologically, I blend perspectives from statistics, economics, and science &amp; technology studies (STS). My PhD thesis is titled <em>Navigating Digital Worlds: Empirical Studies of Choice and Behavior in Sociotechnical Systems</em>.</p>
+<p>My research focuses on how we make collective decisions with and about emerging digital technologies. I am especially interested in the role of economic expertise in these decisions. Methodologically, I blend perspectives from statistics, economics, and science &amp; technology studies (STS). My PhD thesis was titled <em>Navigating Digital Worlds: Empirical Studies of Choice and Behavior in Sociotechnical Systems</em>.</p>
 
 <p> My work has been covered in the media, including by the Washington Post, NPR, Wired, and more. I have published work with the Berkman Klein Center, Plurality Institute, Harvard Business Review, and NBER. I have received grants and fellowships from organizations including Google.org, Plurality Institute, and Cosmos Institute.</p>
+</section>
+
+<section class="paper-block">
+<h3><strong><em>Scaling Down: Notes From the Laundry Room</em></strong></h3>
+<p>This solo-authored essay is forthcoming in the <a href="https://journals.sagepub.com/topic/collections-sms/sms-1_10th_anniversary_collection?publicationCode=sms"><em>Social Media + Society</em> 10th Anniversary Collection</a>. It is based on <a href="https://jeffreyfossett.com/2026/03/11/laundry-room-polis.html">this blog post</a>.</p>
+<p><details>
+<summary><em>Abstract</em></summary>
+
+This essay tells the story of a personal experiment in deploying a “deliberative technology” called Polis to start a conversation about the norms of my apartment building’s shared laundry room—-a small, quasi-public space ordinarily governed mostly by unspoken rules. The Polis conversation drew meaningful engagement from neighbors, who both voted on shared norms for the space and suggested concrete (and ultimately effective) ways to improve it. Reflecting on this example, I argue that beyond their familiar promise of “scaling up” deliberation, tools like Polis can also facilitate “scaling down,” making it feasible to convene conversations and build a sense of shared interest even in small-scale, everyday settings like the apartment laundry room.
+
+</details>
+</p>
 </section>
 
 <section class="paper-block">
