@@ -1,6 +1,6 @@
 ---
 layout: drawing
-title: "Drawing Practice: Day 15"
+title: "Drawing Practice: Day 16"
 day: 16
 date: 2026-08-06
 ---
