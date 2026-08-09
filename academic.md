@@ -25,7 +25,7 @@ permalink: /academic/
 
 <section class="paper-block">
 <h3><strong><em>Scaling Down: Notes From the Laundry Room</em></strong></h3>
-<p>This solo-authored essay is forthcoming in the <a href="https://journals.sagepub.com/topic/collections-sms/sms-1_10th_anniversary_collection?publicationCode=sms"><em>Social Media + Society</em> 10th Anniversary Collection</a>. It is based on <a href="https://jeffreyfossett.com/2026/03/11/laundry-room-polis.html">this blog post</a>.</p>
+<p>This solo-authored essay is <a href="https://journals.sagepub.com/doi/epub/10.1177/20563051261470944">published</a> in the <em>Social Media + Society</em>. It is based on <a href="https://jeffreyfossett.com/2026/03/11/laundry-room-polis.html">this blog post</a>.</p>
 <p><details>
 <summary><em>Abstract</em></summary>
 
