@@ -12,27 +12,25 @@ layout: empty
 
 Hi, I'm Jeff. I like learning and making things.
 
-Curently, I am Research Lead at [Plurality Institute](https://www.plurality.institute/), and an incoming Postdoctoral Scholar at the [Block Center for Technology and Society](https://www.cmu.edu/block-center) at Carnegie Mellon University. I recently completed my PhD at Harvard University. 
+Currently, I am a Postdoctoral Scholar at the [Block Center for Technology and Society](https://www.cmu.edu/block-center) at Carnegie Mellon University, and Research Lead at [Plurality Institute](https://www.plurality.institute/). I recently completed my PhD at Harvard University. 
 
 My [research](/academic/) focuses on how we make collective decisions *with* and *about* emerging digital technologies. Methodologically, I blend perspectives from statistics, economics, and science & technology studies (STS). 
 
 <!-- I hold an AM and PhD from Harvard University.  -->
 <!-- During my PhD, I have been affiliated with the [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), the [GETTING-Plurality Research Network](https://ash.harvard.edu/programs/allen-lab-technology/), and the [Program on Science, Technology, and Society](https://sts.hks.harvard.edu/).  -->
 
-Outside of research, I enjoy reading, writing, making art, sewing, and [riding my bike](/rides.html).
+Outside of research, I enjoy writing, making art, reading, sewing, and [riding my bike](/rides.html).
 
 Check out my [posts](/posts/) or [notes](/notes.html) for more things I am doing or thinking about. You can also [subscribe](/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
 A recent CV is <a href="/files/Jeffrey_Fossett_CV_2025_updated.pdf">here</a>. A portfolio of art and creative work is <a href="https://jeffreyfossett.com/2024/10/07/art-portfolio.html"> here </a>. 
 
-Here are some current [themes](/themes/) and [values](/values/) I find interesting. 
-
 Some links to find me elsewhere: 
-* [Curius](https://curius.app/jeff-fossett)
-* [Insta](https://www.instagram.com/jfoss117/)[gram](https://www.instagram.com/90percent.art/)
-* [Twitter](https://twitter.com/jfoss117)
-* [Bluesky](https://bsky.app/profile/jfoss117.bsky.social)
+* [Instagram](https://www.instagram.com/jfoss117/)
+* [X/Twitter](https://twitter.com/jfoss117)
 * [Github](https://github.com/Fossj117)
+* [Bluesky](https://bsky.app/profile/jfoss117.bsky.social)
+* [Curius](https://curius.app/jeff-fossett)
 
 A list of disclosures is [here](/disclosures/). 
 
