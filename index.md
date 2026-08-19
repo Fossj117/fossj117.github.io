@@ -23,7 +23,7 @@ Outside of research, I enjoy writing, making art, reading, sewing, and [riding m
 
 Check out my [posts](/posts/) or [notes](/notes.html) for more things I am doing or thinking about. You can also [subscribe](/subscribe/) if you'd like some [emails](https://jeffreyfossett.com/2024/07/10/newsletter-db.html) from me on occassion.
 
-A recent CV is <a href="/files/Jeffrey_Fossett_CV_2025_updated.pdf">here</a>. A portfolio of art and creative work is <a href="https://jeffreyfossett.com/2024/10/07/art-portfolio.html"> here </a>. 
+A recent CV is <a href="/files/Jeffrey_Fossett_CV_2026.pdf">here</a>. A portfolio of art and creative work is <a href="https://jeffreyfossett.com/2024/10/07/art-portfolio.html"> here </a>. 
 
 Some links to find me elsewhere: 
 * [Instagram](https://www.instagram.com/jfoss117/)
