@@ -26,7 +26,7 @@ The FOAGM folks also have a nice [tour guide document](https://foagm.org/wp-cont
 
 * The document notes that the space was once called "alewife meadows", suggesting that " at one time the small alewife herring found its way from the Atlantic ocean to spawn in the water here"; I didn't even know that the name Alewife (now also a T station) is a [fish](https://en.wikipedia.org/wiki/Alewife_(fish)).
 * Arlington purchased the meadow area in 1871 and flooded it as a water supply area, but then drained it when it was no longer needed for this in 1902. 
-* There's a nice walking tour documented here that I will have to try; I'd like to know of the names 
+* There's a nice walking tour documented here that I will have to try.
 
 There is an active [iNaturalist page](https://www.inaturalist.org/projects/arlington-s-great-meadows) for AGM that I'll explore more. 
 
