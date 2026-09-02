@@ -8,7 +8,7 @@ comments: true
 tag: ["plants"]
 ---
 
-I made a note a while ago about the theme of *plants and boundaries*. The note was first inspired by this image from around Cambridge: 
+I made [a note](https://jeffreyfossett.com/notes.html#63) a while ago about the theme of *plants and boundaries*. The note was first inspired by this image from around Cambridge: 
 
 {% include image.html src="/figs/2026-08-03-plants-and-boundaries/paulownia_no_trespassing.jpg" alt="A young paulownia with huge heart-shaped leaves growing against a brick wall, partially covering a 'Private Property / No Trespassing' sign" width="90%" %}
 
