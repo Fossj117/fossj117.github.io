@@ -24,7 +24,7 @@ I see my creative practice as entwined with my academic research. I am Research 
 
 {% include image-pair.html src1="/figs/2026-04-13-turkeys-in-public-space/turkeys_zine.jpg" alt1="First edition of the Turkeys in Public Space zine" src2="/figs/2026-04-13-turkeys-in-public-space/turkeys_website.jpg" alt2="Turkeys in Public Space website homepage" %}
 
-Zine cover print illustration by friend [Marika McCoola](https://www.marikamccoola.com/). 
+Zine cover print illustration by friend Marika
 
 ## Blue Lines + Future Coral (2022)
 
