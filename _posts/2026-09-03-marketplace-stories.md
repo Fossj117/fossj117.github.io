@@ -23,7 +23,7 @@ Marketplace posts often come with little stories attached — idiosyncratic mini
 * "This was a gift and only used 2 or 3 times"
 * "Upgrading to a newer version but this still works great!"
 
-There's an element of honesty in these micro stories: they are little windows into some aspect of a seller's personality or recent life events: the seller is forgetful, or careless, or busy, or a dabbler; they're sentimental (or not), or making some life changes, or investing in their hobby; they have recently lost a parent. And so on.
+There's a charming honesty in these micro stories: they are little windows into some aspect of a seller's personality or recent life events: the seller is forgetful, or careless, or busy, or a dabbler; they're sentimental (or not), or making some life changes, or investing in their hobby; they have recently lost a parent. And so on.
 
 Sometimes, the story behind a marketplace post is so irrepressible that it pushes through a seller's best efforts at impersonal commercial language. The briefly-used engagement ring is an recurring find of this sort:
 
