@@ -1,6 +1,9 @@
-_site
+_site*
+.jekyll-cache*
 .sass-cache
 .DS_Store
 Gemfile*
 _drafts/
 post_ideas*
+*api_key*
+.Rproj.user

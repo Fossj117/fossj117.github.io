@@ -11,6 +11,12 @@ github_username: "fossj117"
 markdown: kramdown
 highlighter: rouge
 
+# Write build output to a .nosync folder so iCloud Drive doesn't sync it
+# (iCloud skips any file/folder ending in .nosync; only affects local builds,
+# GitHub Pages builds remotely and ignores this)
+destination: _site.nosync
+cache_dir: .jekyll-cache.nosync
+
 kramdown:
   parse_block_html: true
   auto_ids: true
