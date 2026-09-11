@@ -231,15 +231,24 @@
     const sweepT = info.bulge > 0 ? 1 : 0;     // terminator top->bottom
     const sweepL = info.side > 0 ? 1 : 0;      // shadowed limb top->bottom
     const top = `0,${fmt(-R)}`, bot = `0,${fmt(R)}`;
+    // Half-ellipse arc (centred on the origin) between the poles (0,-R) and (0,R), emitted
+    // as two quarter arcs. A single half arc has endpoints exactly one diameter apart, which
+    // makes the ellipse centre extremely sensitive to coordinate rounding once the moon is
+    // rotated and its coordinates baked into page space.
+    const halfArc = (erx, fromTop, sweep) => {
+      const mx = (fromTop === !!sweep) ? erx : -erx;   // side the arc passes through
+      const radii = `${fmt(erx)},${fmt(R)}`;
+      return `A ${radii} 0 0 ${sweep} ${fmt(mx)},0 A ${radii} 0 0 ${sweep} ${fromTop ? bot : top}`;
+    };
     const circle = `<circle cx="0" cy="0" r="${fmt(R)}"/>`;
     if (info.isNew) return circle;
     if (info.isFull) return o.outline ? circle : '';
     if (o.outline) {
-      const term = straight ? `M ${top} L ${bot}` : `M ${top} A ${fmt(rx)},${fmt(R)} 0 0 ${sweepT} ${bot}`;
+      const term = straight ? `M ${top} L ${bot}` : `M ${top} ${halfArc(rx, true, sweepT)}`;
       return circle + `<path d="${term}"/>`;
     }
-    const back = straight ? `L ${top}` : `A ${fmt(rx)},${fmt(R)} 0 0 ${1 - sweepT} ${top}`;
-    return `<path d="M ${top} A ${fmt(R)},${fmt(R)} 0 0 ${sweepL} ${bot} ${back} Z"/>`;
+    const back = straight ? `L ${top}` : halfArc(rx, false, 1 - sweepT);
+    return `<path d="M ${top} ${halfArc(R, true, sweepL)} ${back} Z"/>`;
   }
 
   // Parallel lines at `angleDeg`, clipped to the shadow region. Returns path segments.
@@ -413,6 +422,36 @@
   }
 
   // ---- SVG assembly ------------------------------------------------------------
+  // Bake a translate+rotate into a moon's local markup so the output has no transform
+  // attributes. Some plotter tools (e.g. the saxi 0.17 web UI) silently drop them.
+  // Only handles the shapes we generate: <circle cx cy r> and paths made of M/L/A/Z.
+  function bakeTransform(markup, tx, ty, rotDeg) {
+    const th = (rotDeg || 0) * Math.PI / 180, cs = Math.cos(th), sn = Math.sin(th);
+    const pt = (x, y) => `${fmt(tx + x * cs - y * sn)},${fmt(ty + x * sn + y * cs)}`;
+    const pair = tok => { const [x, y] = tok.split(',').map(Number); return pt(x, y); };
+    const bakePath = d => {
+      const t = d.trim().split(/\s+/), out = [];
+      for (let i = 0; i < t.length; i++) {
+        const c = t[i];
+        if (c === 'M' || c === 'L') out.push(c, pair(t[++i]));
+        else if (c === 'A') {
+          // rx,ry xrot large sweep x,y  -> rotation adds to the ellipse's axis angle
+          const radii = t[++i], xrot = Number(t[++i]), large = t[++i], sweep = t[++i], end = pair(t[++i]);
+          out.push('A', radii, fmt(xrot + (rotDeg || 0)), large, sweep, end);
+        }
+        else if (c === 'Z') out.push('Z');
+        else throw new Error('bakeTransform: unexpected path token ' + c);
+      }
+      return out.join(' ');
+    };
+    return markup
+      .replace(/<circle cx="([^"]*)" cy="([^"]*)" r="([^"]*)"\/>/g, (m, x, y, r) => {
+        const [px, py] = pt(Number(x), Number(y)).split(',');
+        return `<circle cx="${px}" cy="${py}" r="${r}"/>`;
+      })
+      .replace(/<path d="([^"]*)"\/>/g, (m, d) => `<path d="${bakePath(d)}"/>`);
+  }
+
   function buildSVG(s, preview) {
     const R = s.diameter / 2;
     const { pos } = layout(s);
@@ -421,9 +460,8 @@
       const info = phaseInfo(i / s.n, s);
       const om = outlineMarkup(info, R, s);
       const fm = fillMarkup(info, R, s, s.seed * 1000 + i);
-      const tf = `translate(${fmt(q.x)},${fmt(q.y)})` + (q.rot ? ` rotate(${fmt(q.rot)})` : '');
-      if (om) outlines.push(`    <g id="moon${i + 1}-outline" transform="${tf}">${om}</g>`);
-      if (fm) fills.push(`    <g id="moon${i + 1}-fill" transform="${tf}">${fm}</g>`);
+      if (om) outlines.push(`    <g id="moon${i + 1}-outline">${bakeTransform(om, q.x, q.y, q.rot)}</g>`);
+      if (fm) fills.push(`    <g id="moon${i + 1}-fill">${bakeTransform(fm, q.x, q.y, q.rot)}</g>`);
     });
     const style = `fill="none" stroke="#000" stroke-width="${fmt(s.strokeW)}" stroke-linecap="round" stroke-linejoin="round"`;
     const size = preview ? '' : ` width="${fmt(s.pageW)}mm" height="${fmt(s.pageH)}mm"`;
