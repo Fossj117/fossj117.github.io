@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moon Phase SVG Generator</title>
+<style>
+  :root { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; color: #222; }
+  * { box-sizing: border-box; }
+  body { margin: 0; display: grid; grid-template-columns: 340px minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); height: 100vh; }
+  aside { overflow-y: auto; padding: 14px; border-right: 1px solid #ddd; background: #f7f7f7; }
+  main { display: flex; flex-direction: column; background: #dcdcdc; min-width: 0; min-height: 0; }
+  #preview { flex: 1; min-height: 0; min-width: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  #preview svg { display: block; background: #fff; box-shadow: 0 2px 14px rgba(0,0,0,.3); }
+  #status { padding: 8px 14px; background: #eee; border-top: 1px solid #ccc; font-family: ui-monospace, Menlo, monospace; font-size: 12px; white-space: pre-wrap; }
+  .warn { color: #b00020; }
+  h1 { font-size: 15px; margin: 0 0 10px; }
+  fieldset { border: 1px solid #ccc; border-radius: 6px; margin: 0 0 10px; padding: 6px 10px 8px; background: #fff; }
+  legend { font-weight: 600; padding: 0 4px; }
+  label.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 5px 0; }
+  input[type=number], input[type=text], select { width: 120px; padding: 3px 5px; font: inherit; }
+  input[type=text].wide { width: 100%; }
+  .hint { color: #666; font-size: 11px; margin: -2px 0 4px; }
+  button { font: inherit; padding: 4px 10px; cursor: pointer; }
+  button.small { padding: 1px 7px; font-size: 11px; }
+  .actions { display: flex; gap: 8px; margin-top: 6px; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<aside>
+  <h1>Moon Phase SVG Generator</h1>
+
+  <fieldset>
+    <legend>Phases</legend>
+    <label class="row">Number of phases (2–30, even) <input type="number" id="n" min="2" max="30" step="2" value="8"></label>
+    <div class="hint">Evenly spaced through one cycle, starting at new moon. Even counts only, so the full moon is always included.</div>
+    <label class="row">Hemisphere
+      <select id="hemi"><option value="north">Northern (waxing lit on right)</option><option value="south">Southern (waxing lit on left)</option></select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Layout</legend>
+    <label class="row">Layout
+      <select id="layout"><option value="linear">Linear</option><option value="circle">Circle</option><option value="box">Box (grid)</option></select>
+    </label>
+    <label class="row">Moon diameter (mm) <input type="number" id="diameter" min="1" step="0.5" value="20"></label>
+    <label class="row">Gap between moons (mm) <input type="number" id="gap" min="0" step="0.5" value="5"></label>
+
+    <div id="linearOpts">
+      <label class="row">Direction
+        <select id="linOrient"><option value="horizontal">Horizontal</option><option value="vertical">Vertical</option></select>
+      </label>
+    </div>
+
+    <div id="circleOpts" class="hidden">
+      <label class="row">Ring radius (mm) <span><input type="checkbox" id="ringAuto" checked> auto <input type="number" id="ringRadius" min="0" step="0.5" value="40" style="width:70px"></span></label>
+      <label class="row">Start angle (°) <input type="number" id="startAngle" step="1" value="-90"></label>
+      <div class="hint">-90 = new moon at top, 0 = right, 90 = bottom.</div>
+      <label class="row">Direction
+        <select id="ringDir"><option value="cw">Clockwise</option><option value="ccw">Counter-clockwise</option></select>
+      </label>
+      <label class="row">Rotate moons to face center <input type="checkbox" id="faceCenter"></label>
+    </div>
+
+    <div id="boxOpts" class="hidden">
+      <label class="row">Rows <input type="number" id="rows" min="1" max="30" value="2"></label>
+      <label class="row">Columns <input type="number" id="cols" min="1" max="30" value="4"></label>
+      <div class="actions"><button class="small" id="autoGrid">Auto rows/cols for N</button></div>
+      <div class="hint">Filled left to right, top to bottom.</div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Drawing</legend>
+    <label class="row">Outline (full circle on every phase) <input type="checkbox" id="outline" checked></label>
+    <div class="hint">Off: only the shadowed part of the rim is drawn, joined to the terminator as one closed stroke.</div>
+    <label class="row">Shadow fill
+      <select id="fillMode"><option value="none">None</option><option value="hatch" selected>Hatch lines</option><option value="stipple">Stipple</option></select>
+    </label>
+
+    <div id="hatchOpts">
+      <label class="row">Lines per moon <input type="number" id="fillLines" min="1" max="1000" value="15"></label>
+      <label class="row">Hatch angle (°) <input type="number" id="hatchAngle" step="15" value="0"></label>
+      <div class="hint">0 = horizontal, 90 = vertical, 45 = diagonal.</div>
+      <label class="row">Cross-hatch (second pass at +90°) <input type="checkbox" id="crossHatch"></label>
+    </div>
+
+    <div id="stippleOpts" class="hidden">
+      <label class="row">Dot spacing (mm) <input type="number" id="dotSpacing" min="0.2" step="0.1" value="1"></label>
+      <div class="hint">Minimum distance between dots (Poisson-disk sampling).</div>
+      <label class="row">Dot radius (mm) <input type="number" id="dotRadius" min="0" step="0.05" value="0.1"></label>
+      <div class="hint">Each dot is a tiny circle; 0 gives a single pen tap.</div>
+      <label class="row">Random seed <span><input type="number" id="seed" min="0" step="1" value="1" style="width:70px"> <button class="small" id="reseed">Shuffle</button></span></label>
+    </div>
+
+    <div id="clearOpts">
+      <label class="row">Fill clearance (mm) <span><input type="checkbox" id="clearAuto" checked> auto <input type="number" id="clearance" min="0" step="0.05" value="0.15" style="width:70px"></span></label>
+      <div class="hint">Inset of hatch lines and dots from the outline and terminator, so thick pens do not poke past the edges. Auto = half the stroke width, which ends the ink exactly under the outline stroke.</div>
+    </div>
+    <div class="hint" id="fillHint"></div>
+    <label class="row">Stroke width (mm) <input type="number" id="strokeW" min="0.05" step="0.05" value="0.3"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Page</legend>
+    <label class="row">Preset
+      <select id="preset">
+        <option value="A4">A4</option><option value="A3">A3</option><option value="A5">A5</option>
+        <option value="Letter">US Letter</option><option value="Tabloid">Tabloid (11×17")</option><option value="Eleven14">11×14"</option><option value="custom">Custom</option>
+      </select>
+    </label>
+    <label class="row">Width (mm) <input type="number" id="pageW" min="10" step="1" value="297"></label>
+    <label class="row">Height (mm) <input type="number" id="pageH" min="10" step="1" value="210"></label>
+    <label class="row">Margin (mm) <input type="number" id="margin" min="0" step="1" value="15"></label>
+    <div class="actions">
+      <button class="small" id="rotatePage">Rotate page</button>
+      <button class="small" id="fitBtn">Fit moon size to page</button>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Save</legend>
+    <input type="text" id="filename" class="wide">
+    <div class="actions">
+      <button id="saveBtn">Save SVG</button>
+      <button id="copyBtn">Copy SVG</button>
+      <button id="resetBtn" class="small" title="Reset all settings to defaults">Reset</button>
+    </div>
+  </fieldset>
+</aside>
+
+<main>
+  <div id="preview"></div>
+  <div id="status"></div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const PRESETS = { A4: [210, 297], A3: [297, 420], A5: [148, 210], Letter: [215.9, 279.4], Tabloid: [279.4, 431.8], Eleven14: [279.4, 355.6] };
+  const STORE_KEY = 'moonphases.settings.v2';
+  const COUNTER_KEY = 'moonphases.saveCounter';
+
+  const fieldIds = ['n', 'hemi', 'layout', 'diameter', 'gap', 'linOrient', 'ringAuto', 'ringRadius', 'startAngle',
+    'ringDir', 'faceCenter', 'rows', 'cols', 'outline', 'fillMode', 'fillLines', 'hatchAngle', 'crossHatch',
+    'dotSpacing', 'dotRadius', 'seed', 'clearAuto', 'clearance', 'strokeW', 'preset', 'pageW', 'pageH', 'margin'];
+
+  const fmt = v => String(Math.round(v * 1000) / 1000);
+  const num = (id, lo, hi, dflt) => {
+    let v = parseFloat($(id).value);
+    if (!isFinite(v)) v = dflt;
+    return Math.min(hi, Math.max(lo, v));
+  };
+  const int = (id, lo, hi, dflt) => Math.round(num(id, lo, hi, dflt));
+  const evenInt = id => Math.min(30, Math.max(2, 2 * Math.round(num(id, 2, 30, 8) / 2)));
+
+  let filenameDirty = false;
+  let saveCounter = parseInt(localStorage.getItem(COUNTER_KEY) || '1', 10) || 1;
+
+  function readState() {
+    const s = {
+      n: evenInt('n'),
+      south: $('hemi').value === 'south',
+      layout: $('layout').value,
+      diameter: num('diameter', 0.5, 10000, 20),
+      gap: num('gap', 0, 10000, 5),
+      orientation: $('linOrient').value,
+      ringAuto: $('ringAuto').checked,
+      ringRadius: num('ringRadius', 0, 10000, 40),
+      startAngle: num('startAngle', -100000, 100000, -90),
+      clockwise: $('ringDir').value === 'cw',
+      faceCenter: $('faceCenter').checked,
+      rows: int('rows', 1, 30, 2),
+      cols: int('cols', 1, 30, 4),
+      outline: $('outline').checked,
+      fillMode: $('fillMode').value,
+      fillLines: int('fillLines', 1, 1000, 15),
+      hatchAngle: num('hatchAngle', -100000, 100000, 0),
+      crossHatch: $('crossHatch').checked,
+      dotSpacing: num('dotSpacing', 0.2, 1000, 1),
+      dotRadius: num('dotRadius', 0, 100, 0.1),
+      seed: int('seed', 0, 1e9, 1),
+      clearAuto: $('clearAuto').checked,
+      clearance: num('clearance', 0, 100, 0.15),
+      strokeW: num('strokeW', 0.01, 100, 0.3),
+      pageW: num('pageW', 1, 100000, 297),
+      pageH: num('pageH', 1, 100000, 210),
+      margin: num('margin', 0, 100000, 15),
+    };
+    s.inset = s.clearAuto ? s.strokeW / 2 : s.clearance;   // fill clearance from the shadow boundary
+    return s;
+  }
+
+  // ---- Geometry of a single moon, centred at (0,0), radius R --------------------
+  // p in [0,1): 0 = new, 0.25 = first quarter, 0.5 = full, 0.75 = last quarter.
+  // The terminator is half an ellipse: vertical semi-axis R, horizontal semi-axis R*|cos(2*pi*p)|.
+  function phaseInfo(p, o) {
+    const EPS = 1e-6;
+    const c = Math.cos(2 * Math.PI * p);
+    let side = p < 0.5 ? -1 : 1;          // which side of the disc is in shadow (-1 = left, +1 = right)
+    if (o.south) side = -side;
+    return {
+      isNew: p < EPS || p > 1 - EPS,
+      isFull: Math.abs(p - 0.5) < EPS,
+      c, side,
+      bulge: -side * c,                   // sign: direction the terminator bulges (+ = right); |bulge|*R = ellipse x semi-axis
+    };
+  }
+
+  // The shadow region shrunk inward by `ins` (fill clearance): a smaller disc, plus the terminator
+  // ellipse offset toward the shadow side. The offset ellipse is approximated by moving its signed
+  // x semi-axis by `ins` toward the shadow and growing/shrinking its y semi-axis to match.
+  function shadowRegion(info, R, ins) {
+    const A = info.bulge * R + info.side * ins;   // signed x semi-axis of the offset terminator
+    const Ry = R - Math.sign(info.c) * ins;       // its y semi-axis
+    const Rd = R - ins;                           // disc radius
+    const inside = (x, y) => {
+      if (x * x + y * y > Rd * Rd) return false;
+      if (info.isNew) return true;
+      if (info.isFull) return false;
+      return info.side * (x - A * Math.sqrt(Math.max(0, 1 - y * y / (Ry * Ry)))) > 0;
+    };
+    return { A, Ry, Rd, inside };
+  }
+
+  function outlineMarkup(info, R, o) {
+    const rx = Math.abs(info.c) * R;
+    const straight = rx < 0.0005;
+    const sweepT = info.bulge > 0 ? 1 : 0;     // terminator top->bottom
+    const sweepL = info.side > 0 ? 1 : 0;      // shadowed limb top->bottom
+    const top = `0,${fmt(-R)}`, bot = `0,${fmt(R)}`;
+    const circle = `<circle cx="0" cy="0" r="${fmt(R)}"/>`;
+    if (info.isNew) return circle;
+    if (info.isFull) return o.outline ? circle : '';
+    if (o.outline) {
+      const term = straight ? `M ${top} L ${bot}` : `M ${top} A ${fmt(rx)},${fmt(R)} 0 0 ${sweepT} ${bot}`;
+      return circle + `<path d="${term}"/>`;
+    }
+    const back = straight ? `L ${top}` : `A ${fmt(rx)},${fmt(R)} 0 0 ${1 - sweepT} ${top}`;
+    return `<path d="M ${top} A ${fmt(R)},${fmt(R)} 0 0 ${sweepL} ${bot} ${back} Z"/>`;
+  }
+
+  // Parallel lines at `angleDeg`, clipped to the shadow region. Returns path segments.
+  function hatchSegments(info, R, N, angleDeg, ins) {
+    const reg = shadowRegion(info, R, ins);
+    if (reg.Rd <= 0) return [];
+    const th = angleDeg * Math.PI / 180;
+    const ux = Math.cos(th), uy = Math.sin(th);   // along the line
+    const nx = -uy, ny = ux;                      // perpendicular (offset direction)
+    const a = Math.abs(reg.A), Ry = reg.Ry, Rd = reg.Rd;
+    const step = 2 * R / (N + 1), out = [];       // spacing is based on the full radius, independent of clearance
+    for (let j = 1; j <= N; j++) {
+      const d = -R + j * step;
+      const h = Math.sqrt(Math.max(0, Rd * Rd - d * d));
+      if (h < 1e-6) continue;
+      // breakpoints along the chord: disc edges plus crossings of the (offset) terminator ellipse
+      let ts = [-h, h];
+      if (!info.isNew && !info.isFull) {
+        if (a < 1e-6) {
+          if (Math.abs(ux) > 1e-9) ts.push(-d * nx / ux);
+        } else {
+          const A = ux * ux / (a * a) + uy * uy / (Ry * Ry);
+          const B = 2 * d * (nx * ux / (a * a) + ny * uy / (Ry * Ry));
+          const C = d * d * (nx * nx / (a * a) + ny * ny / (Ry * Ry)) - 1;
+          const disc = B * B - 4 * A * C;
+          if (disc > 0) { const s = Math.sqrt(disc); ts.push((-B - s) / (2 * A), (-B + s) / (2 * A)); }
+        }
+        ts = ts.filter(t => t >= -h && t <= h).sort((p, q) => p - q);
+      }
+      // keep intervals whose midpoint is in shadow, merging neighbours
+      const segs = [];
+      for (let i = 0; i < ts.length - 1; i++) {
+        const mid = (ts[i] + ts[i + 1]) / 2;
+        if (reg.inside(d * nx + mid * ux, d * ny + mid * uy)) {
+          const last = segs[segs.length - 1];
+          if (last && Math.abs(last[1] - ts[i]) < 1e-9) last[1] = ts[i + 1];
+          else segs.push([ts[i], ts[i + 1]]);
+        }
+      }
+      const flip = j % 2 === 0;                   // serpentine order for the plotter
+      if (flip) segs.reverse();
+      for (const [t0, t1] of segs) {
+        if (t1 - t0 < 0.001) continue;
+        const [ta, tb] = flip ? [t1, t0] : [t0, t1];
+        out.push(`M ${fmt(d * nx + ta * ux)},${fmt(d * ny + ta * uy)} L ${fmt(d * nx + tb * ux)},${fmt(d * ny + tb * uy)}`);
+      }
+    }
+    return out;
+  }
+
+  function mulberry32(a) {
+    return function () {
+      a |= 0; a = a + 0x6D2B79F5 | 0;
+      let t = Math.imul(a ^ a >>> 15, 1 | a);
+      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
+
+  // Poisson-disk (Bridson) sampling of the shadow region with minimum spacing r.
+  function stipplePoints(info, R, r, dotR, seed, ins) {
+    if (info.isFull) return [];
+    const reg = shadowRegion(info, R, ins + dotR);   // dots stay clear by the clearance plus their own radius
+    if (reg.Rd <= 0) return [];
+    const rng = mulberry32(seed);
+    const inside = reg.inside;
+    const cell = r / Math.SQRT2, gw = Math.ceil(2 * R / cell) + 1;
+    const grid = new Int32Array(gw * gw).fill(-1);
+    const pts = [], active = [];
+    const cellOf = v => Math.floor((v + R) / cell);
+    const clear = (x, y) => {
+      const cx = cellOf(x), cy = cellOf(y);
+      for (let dy = -2; dy <= 2; dy++) for (let dx = -2; dx <= 2; dx++) {
+        const X = cx + dx, Y = cy + dy;
+        if (X < 0 || Y < 0 || X >= gw || Y >= gw) continue;
+        const k = grid[Y * gw + X];
+        if (k >= 0) { const q = pts[k]; if ((q.x - x) ** 2 + (q.y - y) ** 2 < r * r) return false; }
+      }
+      return true;
+    };
+    const add = (x, y) => { grid[cellOf(y) * gw + cellOf(x)] = pts.length; pts.push({ x, y }); active.push(pts.length - 1); };
+    for (let i = 0; i < 4000 && !pts.length; i++) {
+      const x = (rng() * 2 - 1) * R, y = (rng() * 2 - 1) * R;
+      if (inside(x, y)) add(x, y);
+    }
+    while (active.length) {
+      const ai = Math.floor(rng() * active.length), p = pts[active[ai]];
+      let found = false;
+      for (let k = 0; k < 30; k++) {
+        const ang = rng() * 2 * Math.PI, rad = r * (1 + rng());
+        const x = p.x + rad * Math.cos(ang), y = p.y + rad * Math.sin(ang);
+        if (Math.abs(x) >= R || Math.abs(y) >= R || !inside(x, y) || !clear(x, y)) continue;
+        add(x, y); found = true; break;
+      }
+      if (!found) { active[ai] = active[active.length - 1]; active.pop(); }
+    }
+    // order dots in horizontal bands, alternating direction, to shorten plotter travel
+    pts.forEach(q => { q.band = Math.floor((q.y + R) / r); });
+    pts.sort((p, q) => p.band - q.band || (p.band % 2 ? q.x - p.x : p.x - q.x));
+    return pts;
+  }
+
+  function fillMarkup(info, R, o, seed) {
+    if (o.fillMode === 'hatch') {
+      let segs = hatchSegments(info, R, o.fillLines, o.hatchAngle, o.inset);
+      if (o.crossHatch) segs = segs.concat(hatchSegments(info, R, o.fillLines, o.hatchAngle + 90, o.inset));
+      return segs.length ? `<path d="${segs.join(' ')}"/>` : '';
+    }
+    if (o.fillMode === 'stipple') {
+      const pts = stipplePoints(info, R, o.dotSpacing, o.dotRadius, seed, o.inset);
+      const r = fmt(Math.max(o.dotRadius, 0.001));
+      return pts.map(q => `<circle cx="${fmt(q.x)}" cy="${fmt(q.y)}" r="${r}"/>`).join('');
+    }
+    return '';
+  }
+
+  // ---- Layout ------------------------------------------------------------------
+  function autoRing(n, D, g) {
+    return n < 2 ? 0 : (D + g) / (2 * Math.sin(Math.PI / n));
+  }
+
+  function layout(s) {
+    const { n, diameter: D, gap: g } = s, R = D / 2, pitch = D + g;
+    const pos = [];
+    let bbox;
+    if (s.layout === 'linear') {
+      for (let i = 0; i < n; i++)
+        pos.push(s.orientation === 'horizontal' ? { x: i * pitch, y: 0, rot: 0 } : { x: 0, y: i * pitch, rot: 0 });
+    } else if (s.layout === 'circle') {
+      const rr = s.ringAuto ? autoRing(n, D, g) : s.ringRadius;
+      const dir = s.clockwise ? 1 : -1;
+      for (let i = 0; i < n; i++) {
+        const a = s.startAngle + dir * i * 360 / n, t = a * Math.PI / 180;
+        pos.push({ x: rr * Math.cos(t), y: rr * Math.sin(t), rot: s.faceCenter ? a + 90 : 0 });
+      }
+    } else {
+      const count = Math.min(n, s.rows * s.cols);
+      for (let i = 0; i < count; i++)
+        pos.push({ x: (i % s.cols) * pitch, y: Math.floor(i / s.cols) * pitch, rot: 0 });
+      bbox = { minX: -R, minY: -R, maxX: (s.cols - 1) * pitch + R, maxY: (s.rows - 1) * pitch + R };
+    }
+    if (!bbox) {
+      bbox = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+      for (const q of pos) {
+        bbox.minX = Math.min(bbox.minX, q.x - R); bbox.maxX = Math.max(bbox.maxX, q.x + R);
+        bbox.minY = Math.min(bbox.minY, q.y - R); bbox.maxY = Math.max(bbox.maxY, q.y + R);
+      }
+    }
+    const w = bbox.maxX - bbox.minX, h = bbox.maxY - bbox.minY;
+    const dx = s.pageW / 2 - (bbox.minX + bbox.maxX) / 2, dy = s.pageH / 2 - (bbox.minY + bbox.maxY) / 2;
+    for (const q of pos) { q.x += dx; q.y += dy; }
+    return { pos, width: w, height: h };
+  }
+
+  // Largest diameter for which the layout fits inside the page margins (gap held fixed).
+  function fitDiameter(s) {
+    const W = s.pageW - 2 * s.margin, H = s.pageH - 2 * s.margin, n = s.n, g = s.gap;
+    let D;
+    if (s.layout === 'linear') {
+      const along = s.orientation === 'horizontal' ? W : H, across = s.orientation === 'horizontal' ? H : W;
+      D = Math.min((along - (n - 1) * g) / n, across);
+    } else if (s.layout === 'circle') {
+      const S = Math.min(W, H);
+      if (n < 2) D = S;
+      else if (s.ringAuto) { const si = Math.sin(Math.PI / n); D = (S - g / si) / (1 + 1 / si); }
+      else D = S - 2 * s.ringRadius;
+    } else {
+      D = Math.min((W - (s.cols - 1) * g) / s.cols, (H - (s.rows - 1) * g) / s.rows);
+    }
+    return Math.max(0.5, Math.floor(D * 10) / 10);
+  }
+
+  // ---- SVG assembly ------------------------------------------------------------
+  function buildSVG(s, preview) {
+    const R = s.diameter / 2;
+    const { pos } = layout(s);
+    const outlines = [], fills = [];
+    pos.forEach((q, i) => {
+      const info = phaseInfo(i / s.n, s);
+      const om = outlineMarkup(info, R, s);
+      const fm = fillMarkup(info, R, s, s.seed * 1000 + i);
+      const tf = `translate(${fmt(q.x)},${fmt(q.y)})` + (q.rot ? ` rotate(${fmt(q.rot)})` : '');
+      if (om) outlines.push(`    <g id="moon${i + 1}-outline" transform="${tf}">${om}</g>`);
+      if (fm) fills.push(`    <g id="moon${i + 1}-fill" transform="${tf}">${fm}</g>`);
+    });
+    const style = `fill="none" stroke="#000" stroke-width="${fmt(s.strokeW)}" stroke-linecap="round" stroke-linejoin="round"`;
+    const size = preview ? '' : ` width="${fmt(s.pageW)}mm" height="${fmt(s.pageH)}mm"`;
+    const lines = [
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"${size} viewBox="0 0 ${fmt(s.pageW)} ${fmt(s.pageH)}">`,
+    ];
+    if (preview) {
+      lines.push(`  <rect x="${fmt(s.margin)}" y="${fmt(s.margin)}" width="${fmt(s.pageW - 2 * s.margin)}" height="${fmt(s.pageH - 2 * s.margin)}" fill="none" stroke="#9ab" stroke-width="0.4" stroke-dasharray="2 2"/>`);
+    }
+    lines.push(`  <g id="outlines" inkscape:groupmode="layer" inkscape:label="1-outlines" ${style}>`, ...outlines, `  </g>`);
+    if (fills.length) lines.push(`  <g id="fill" inkscape:groupmode="layer" inkscape:label="2-fill" ${style}>`, ...fills, `  </g>`);
+    lines.push(`</svg>`);
+    return lines.join('\n') + '\n';
+  }
+
+  // ---- UI ----------------------------------------------------------------------
+  function defaultFilename(s) {
+    return `moons_${s.n}_${s.layout}_${String(saveCounter).padStart(3, '0')}.svg`;
+  }
+
+  function syncVisibility() {
+    const l = $('layout').value, f = $('fillMode').value;
+    $('linearOpts').classList.toggle('hidden', l !== 'linear');
+    $('circleOpts').classList.toggle('hidden', l !== 'circle');
+    $('boxOpts').classList.toggle('hidden', l !== 'box');
+    $('hatchOpts').classList.toggle('hidden', f !== 'hatch');
+    $('stippleOpts').classList.toggle('hidden', f !== 'stipple');
+    $('clearOpts').classList.toggle('hidden', f === 'none');
+    $('ringRadius').disabled = $('ringAuto').checked;
+    $('clearance').disabled = $('clearAuto').checked;
+  }
+
+  function fitPreview() {
+    const svg = $('preview').querySelector('svg');
+    if (!svg) return;
+    const s = readState(), box = $('preview').getBoundingClientRect(), pad = 24;
+    const k = Math.min((box.width - 2 * pad) / s.pageW, (box.height - 2 * pad) / s.pageH);
+    svg.style.width = (s.pageW * k) + 'px';
+    svg.style.height = (s.pageH * k) + 'px';
+  }
+
+  function render() {
+    syncVisibility();
+    const s = readState();
+    if (s.layout === 'circle' && s.ringAuto) $('ringRadius').value = fmt(autoRing(s.n, s.diameter, s.gap));
+    if (s.clearAuto) $('clearance').value = fmt(s.inset);
+    $('preview').innerHTML = buildSVG(s, true);
+    fitPreview();
+
+    const L = layout(s);
+    const R = s.diameter / 2;
+    const msgs = [`Layout extents: ${fmt(L.width)} × ${fmt(L.height)} mm on ${fmt(s.pageW)} × ${fmt(s.pageH)} mm page`];
+    if (L.width > s.pageW - 2 * s.margin + 1e-6 || L.height > s.pageH - 2 * s.margin + 1e-6)
+      msgs.push('<span class="warn">Warning: layout exceeds the page margins.</span>');
+    if (s.layout === 'box' && s.rows * s.cols < s.n)
+      msgs.push(`<span class="warn">Warning: grid has ${s.rows * s.cols} cells but ${s.n} phases; the last ${s.n - s.rows * s.cols} are not drawn.</span>`);
+    if (s.layout === 'circle' && !s.ringAuto && s.n > 1 && s.ringRadius < autoRing(s.n, s.diameter, s.gap) - 1e-6)
+      msgs.push('Note: ring radius is small enough that neighbouring moons overlap or violate the gap.');
+    if (!s.outline)
+      msgs.push('Note: with Outline off, the full moon has no shadow, so it is drawn as nothing.');
+    $('status').innerHTML = msgs.join('\n');
+
+    let hint = '';
+    if (s.fillMode === 'hatch') hint = `Line spacing ≈ ${fmt(2 * R / (s.fillLines + 1))} mm, clearance ${fmt(s.inset)} mm`;
+    else if (s.fillMode === 'stipple') hint = `${$('preview').querySelectorAll('#fill circle').length} dots in total, clearance ${fmt(s.inset)} mm`;
+    $('fillHint').textContent = hint;
+
+    if (!filenameDirty) $('filename').value = defaultFilename(s);
+    localStorage.setItem(STORE_KEY, JSON.stringify(Object.fromEntries(fieldIds.map(id => {
+      const el = $(id); return [id, el.type === 'checkbox' ? el.checked : el.value];
+    }))));
+  }
+
+  function save() {
+    const s = readState();
+    let name = $('filename').value.trim() || defaultFilename(s);
+    if (!/\.svg$/i.test(name)) name += '.svg';
+    const blob = new Blob([buildSVG(s, false)], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+    saveCounter += 1;
+    localStorage.setItem(COUNTER_KEY, String(saveCounter));
+    filenameDirty = false;
+    $('filename').value = defaultFilename(s);
+  }
+
+  // events
+  for (const id of fieldIds) {
+    $(id).addEventListener('input', () => {
+      if (id === 'preset' && PRESETS[$('preset').value]) {
+        [$('pageW').value, $('pageH').value] = PRESETS[$('preset').value];
+      } else if (id === 'pageW' || id === 'pageH') {
+        $('preset').value = 'custom';
+      }
+      render();
+    });
+  }
+  $('n').addEventListener('change', () => { $('n').value = evenInt('n'); render(); });  // snap odd/out-of-range entries
+  $('filename').addEventListener('input', () => { filenameDirty = true; });
+  $('saveBtn').addEventListener('click', save);
+  $('copyBtn').addEventListener('click', () => {
+    navigator.clipboard.writeText(buildSVG(readState(), false)).then(() => { $('copyBtn').textContent = 'Copied!'; setTimeout(() => $('copyBtn').textContent = 'Copy SVG', 1200); });
+  });
+  $('rotatePage').addEventListener('click', () => {
+    const w = $('pageW').value; $('pageW').value = $('pageH').value; $('pageH').value = w; render();
+  });
+  $('fitBtn').addEventListener('click', () => { $('diameter').value = fitDiameter(readState()); render(); });
+  $('autoGrid').addEventListener('click', () => {
+    const n = evenInt('n'), cols = Math.ceil(Math.sqrt(n));
+    $('cols').value = cols; $('rows').value = Math.ceil(n / cols); render();
+  });
+  $('reseed').addEventListener('click', () => { $('seed').value = Math.floor(Math.random() * 100000); render(); });
+  $('resetBtn').addEventListener('click', () => { localStorage.removeItem(STORE_KEY); location.reload(); });
+  window.addEventListener('resize', fitPreview);
+
+  // restore settings
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
+    if (saved) for (const id of fieldIds) if (id in saved) {
+      const el = $(id); if (el.type === 'checkbox') el.checked = !!saved[id]; else el.value = saved[id];
+    }
+  } catch (e) { /* ignore */ }
+  render();
+})();
+</script>
+</body>
+</html>
