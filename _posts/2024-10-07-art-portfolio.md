@@ -46,7 +46,7 @@ We were exhibitors at [Open Sauce](https://www.opensauce.com/) maker fair in 202
 
 *with Elise · Quinobequin Review, Issue 7 ("Magic") · [Project page](https://jeffreyfossett.com/2026/05/27/seance-oaks.html)*
 
-*Seance for a Stand of Oaks* is a shibori natural dye project and written piece about remembering the Waverley Oaks in Belmont, MA -- an influential stand of white oak trees which helped inspire the conservation movement in the United States. The piece was published in [Issue 7 ("Magic") of the Quinobequin Review](https://www.quinobequin.press/issue7), a place-based literary journal for the Charles River watershed. You can also read the [full proof of the piece]({% link /files/waverley_oaks_proof.pdf %}) (PDF).
+*Seance for a Stand of Oaks* is a shibori natural dye project and written piece about remembering the Waverley Oaks in Belmont, MA -- an influential stand of white oak trees which helped inspire the conservation movement in the United States. The piece was published in [Issue 7 ("Magic") of the Quinobequin Review](https://www.quinobequin.press/issue7), a place-based literary journal for the Charles River watershed. You can also read the [full proof of the piece]({% link /files/Seance_Oaks_Upload.pdf %}) (PDF).
 
 {% include image-pair.html src1="/figs/2026-05-27-seance-oaks/waverley_oaks.jpg" alt1="Upward view of a large leafless oak tree against a blue sky" src2="/figs/2026-05-27-seance-oaks/shibori_cloth.jpg" alt2="The finished dyed cloth from Seance for a Stand of Oaks, suspended outdoors in winter" %}
 
