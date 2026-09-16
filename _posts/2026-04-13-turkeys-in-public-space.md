@@ -28,4 +28,6 @@ There is a bit more about the project [here](https://www.turkeysinpublic.space/a
 >
 > This project is a small way to draw attention to these non-human stakeholders in our public spaces.
 
+Anyhow, the zines include a QR code which links to the website. So the idea is to start placing the zines around town and then we will see if anyone wants to contribute.
 
+**Update** (9/15/26): Turkeys in Public Space was [covered in Cambridge Day](https://www.cambridgeday.com/2026/09/15/turkeys-in-public-space-app/).
