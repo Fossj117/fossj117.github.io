@@ -1,0 +1,209 @@
+<!-- Slide deck carousel. Expects images named slide_01.jpg ... slide_NN.jpg in `dir`.
+     Params: dir (required), count (required), title (optional, used for labels),
+     alts (optional list of per-slide alt text, e.g. alts=site.data.slides.my_deck). -->
+<div markdown="0">
+<style>
+.slide-carousel {
+  position: relative;
+  margin: 1.5rem auto 2rem;
+}
+.slide-carousel:focus {
+  outline: none;
+}
+.slide-carousel:focus-visible .slide-carousel__viewport {
+  outline: 2px solid #999;
+  outline-offset: 2px;
+}
+.slide-carousel__viewport {
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+body.dark-mode .slide-carousel__viewport {
+  border-color: #444;
+}
+.slide-carousel__track {
+  display: flex;
+  transition: transform 0.35s ease;
+}
+.slide-carousel__slide {
+  min-width: 100%;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-carousel__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.slide-carousel__nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0.75rem;
+}
+.slide-carousel__btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  transition: background 0.2s, border-color 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+.slide-carousel__btn:hover {
+  background: #f0f0f0;
+  border-color: #999;
+}
+body.dark-mode .slide-carousel__btn {
+  color: #e8e5e0;
+  border-color: #555;
+}
+body.dark-mode .slide-carousel__btn:hover {
+  background: #3a3940;
+  border-color: #888;
+}
+.slide-carousel__btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.slide-carousel__btn:disabled:hover {
+  background: none;
+}
+.slide-carousel__btn--fullscreen {
+  position: absolute;
+  right: 0;
+}
+.slide-carousel__btn--fullscreen[hidden] {
+  display: none;
+}
+.slide-carousel__counter {
+  font-size: 0.85rem;
+  color: #828282;
+  min-width: 3.5rem;
+  text-align: center;
+  user-select: none;
+}
+.slide-carousel:fullscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 2vh 2vw;
+  background: #111;
+}
+.slide-carousel:fullscreen .slide-carousel__viewport {
+  width: min(100%, calc((100vh - 4vh - 3.5rem) * 16 / 9));
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+}
+.slide-carousel:fullscreen .slide-carousel__btn {
+  color: #e8e5e0;
+  border-color: #555;
+}
+.slide-carousel:fullscreen .slide-carousel__btn:hover {
+  background: #2a2a2a;
+  border-color: #888;
+}
+</style>
+
+{% assign total = include.count | plus: 0 %}
+{% assign label = include.title | default: "Slides" %}
+{% if total > 0 %}
+<div class="slide-carousel" role="region" aria-roledescription="carousel" aria-label="{{ label | escape }}" tabindex="0">
+<div class="slide-carousel__viewport">
+<div class="slide-carousel__track">
+{% for i in (1..total) %}
+{% assign n = i | prepend: "00" | slice: -2, 2 %}
+<div class="slide-carousel__slide" role="group" aria-roledescription="slide" aria-label="{{ i }} of {{ total }}"{% if i > 1 %} aria-hidden="true"{% endif %}>
+<img src="{{ include.dir }}/slide_{{ n }}.jpg" alt="{% if include.alts %}{{ include.alts[forloop.index0] | escape }}{% else %}{{ label | escape }}, slide {{ i }}{% endif %}" loading="{% if i <= 2 %}eager{% else %}lazy{% endif %}">
+</div>
+{% endfor %}
+</div>
+</div>
+<div class="slide-carousel__nav">
+<button type="button" class="slide-carousel__btn slide-carousel__btn--prev" aria-label="Previous slide" disabled>&larr;</button>
+<span class="slide-carousel__counter" aria-live="polite">1 / {{ total }}</span>
+<button type="button" class="slide-carousel__btn slide-carousel__btn--next" aria-label="Next slide" {% if total <= 1 %}disabled{% endif %}>&rarr;</button>
+<button type="button" class="slide-carousel__btn slide-carousel__btn--fullscreen" aria-label="Toggle fullscreen" hidden>
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+</button>
+</div>
+</div>
+{% endif %}
+<script>
+(function() {
+  var carousels = document.querySelectorAll('.slide-carousel:not([data-ready])');
+  Array.prototype.forEach.call(carousels, function(carousel) {
+    carousel.setAttribute('data-ready', '');
+    var track = carousel.querySelector('.slide-carousel__track');
+    var slides = carousel.querySelectorAll('.slide-carousel__slide');
+    var imgs = carousel.querySelectorAll('.slide-carousel__slide img');
+    var prevBtn = carousel.querySelector('.slide-carousel__btn--prev');
+    var nextBtn = carousel.querySelector('.slide-carousel__btn--next');
+    var fsBtn = carousel.querySelector('.slide-carousel__btn--fullscreen');
+    var counter = carousel.querySelector('.slide-carousel__counter');
+    var total = slides.length;
+    var current = 0;
+
+    function go(i) {
+      if (i < 0 || i >= total || i === current) return;
+      current = i;
+      update();
+    }
+    function update() {
+      track.style.transform = 'translateX(-' + (current * 100) + '%)';
+      counter.textContent = (current + 1) + ' / ' + total;
+      prevBtn.disabled = (current === 0);
+      nextBtn.disabled = (current === total - 1);
+      for (var j = 0; j < total; j++) {
+        if (j === current) slides[j].removeAttribute('aria-hidden');
+        else slides[j].setAttribute('aria-hidden', 'true');
+        // Lazy images clipped by the viewport won't load until visible, so warm up neighbors.
+        if (Math.abs(j - current) <= 1) imgs[j].loading = 'eager';
+      }
+    }
+
+    prevBtn.addEventListener('click', function() { go(current - 1); });
+    nextBtn.addEventListener('click', function() { go(current + 1); });
+    carousel.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowLeft') { go(current - 1); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { go(current + 1); e.preventDefault(); }
+    });
+
+    var startX = null;
+    carousel.addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+    }, { passive: true });
+    carousel.addEventListener('touchend', function(e) {
+      if (startX === null) return;
+      var diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) go(current + (diff > 0 ? 1 : -1));
+      startX = null;
+    }, { passive: true });
+
+    if (document.fullscreenEnabled && carousel.requestFullscreen) {
+      fsBtn.hidden = false;
+      fsBtn.addEventListener('click', function() {
+        if (document.fullscreenElement === carousel) document.exitFullscreen();
+        else carousel.requestFullscreen().then(function() { carousel.focus(); });
+      });
+    }
+  });
+})();
+</script>
+</div>
