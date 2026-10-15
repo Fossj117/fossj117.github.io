@@ -8,9 +8,11 @@ comments: true
 tag: ["repair"]
 ---
 
+{% include image.html src="/figs/2026-10-04-monthly-maintenance-session/monthly_maintenance_sessions_2026_2027.jpg" alt="Flyer for the 2026-2027 Monthly Maintenance Sessions" %}
+
 I have been helping to organize the next iteration of the [Monthly Maintenance Session](https://themaintainers.org/monthly-maintenance-sessions/) with [The Maintainers](https://themaintainers.org/). 
 
-The Monthly Maintenance Session is a free, virtual accountability space to support you in prioritizing your maintenance practice. You can tThink of these sessions as a casual collective study hall, where we set aside time together to dedicate to the often over-looked maintenance required to sustain in our individual, work, and community lives.
+The Monthly Maintenance Session is a free, virtual accountability space to support you in prioritizing your maintenance practice. You can think of these sessions as a casual collective study hall, where we set aside time together to dedicate to the often over-looked maintenance required to sustain in our individual, work, and community lives.
 
 Sessions are on the second Wednesday of the month from noon-1:30pm ET on Zoom. If you are interested to join, you can sign up [on Luma](https://luma.com/monthly-maintenance) to receive the Zoom info. 
 
