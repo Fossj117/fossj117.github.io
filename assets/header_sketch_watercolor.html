@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js Sketch</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // ---- Tunable constants -------------------------------------------
+        const TEXTURE_PATH = 'watercolor_processed/equalize_ink45_t113.png';
+        const CROP_SIZE = 200;      // source pixels shown per square (bigger = more of the painting per tile)
+        // Per-theme palette + contrast. paperMix = how far the paper shade is pushed toward white (0 = same as ink, 1 = white);
+        // inkDarken = how far the ink shade is pushed toward black. Raising both increases light/dark contrast within a square.
+        const THEMES = {
+            light: {
+                paperMix: 0.6,
+                inkDarken: 0.15,
+                palette: ['#2a7ae2', '#4a8ae2', '#6aaae2', '#8ac2e2', '#4069B1'],
+            },
+            dark: { // mix of mid and light tones so the squares stand out against the dark (#212026) background
+                paperMix: 0.5,
+                inkDarken: 0.15,
+                palette: ['#2a7ae2', '#4a8ae2', '#6aaae2', '#88baec', '#8ac2e2', '#aad2e2', '#c1dbe6', '#d8e9f3'],
+            },
+        };
+        // Share of grid slots that get a square, fading from the left column to the right column
+        // so the panel dissolves into the page. Set both equal for a uniform fill (original sketch: 0.5).
+        const FILL_LEFT = 0.6;
+        const FILL_RIGHT = 0.6;
+        const INK_TARGET = '#1b3a75'; // ink shades darken toward this deep blue (not black) so pale tones stay blue, not gray
+        const COLOR_MODE = 'twotone'; // 'twotone' (ink = blue, paper = light blue) | 'tint' (paper transparent) | 'flat' (original look)
+        // ------------------------------------------------------------------
+
+        let squares = [];
+        let squareSize = 47;
+        let padding = 3;
+        let rectSizing = 8;
+        let colors;
+        let flippingSquares = [];
+        let sourceImg = null;
+        let theme = 'light';
+
+        function preload() {
+            // If the image fails to load, sourceImg stays null and squares fall back to flat fills.
+            loadImage(TEXTURE_PATH, img => { sourceImg = img; }, () => { sourceImg = null; });
+        }
+
+        function setup() {
+            theme = detectTheme();
+            colors = THEMES[theme].palette.map(c => color(c));
+
+            let canvas = createCanvas(windowWidth, 200);
+            canvas.parent(document.body);
+            noStroke();
+            rectMode(CENTER);
+            imageMode(CENTER);
+            initializeSquares();
+            watchTheme();
+        }
+
+        // ---- Theme (the site toggles `dark-mode` on the parent page's <body>) ----
+
+        function detectTheme() {
+            try {
+                return window.parent.document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+            } catch (e) { // not embedded, or cross-origin: fall back to the site's stored preference
+                try { return localStorage.getItem('theme') === 'dark' ? 'dark' : 'light'; } catch (e2) { return 'light'; }
+            }
+        }
+
+        function watchTheme() {
+            try {
+                let body = window.parent.document.body;
+                if (window.parent === window) return;
+                new MutationObserver(() => {
+                    let t = detectTheme();
+                    if (t !== theme) setTheme(t);
+                }).observe(body, { attributes: true, attributeFilter: ['class'] });
+            } catch (e) { /* cross-origin: keep the initial theme */ }
+        }
+
+        // Switch palettes with a left-to-right wave of flips; each square picks up its new colour mid-flip.
+        function setTheme(t) {
+            theme = t;
+            colors = THEMES[theme].palette.map(c => color(c));
+            flippingSquares = [];
+            for (let square of squares) {
+                square.w = squareSize;
+                let delay = (square.x / width) * 0.8 + random(0.15);
+                flippingSquares.push({ square, newColor: random(colors), progress: -delay });
+            }
+        }
+
+        function draw() {
+            clear(); // This makes the background transparent
+            for (let square of squares) {
+                if (square.tex) {
+                    if (square.w > 0.5) image(square.tex, square.x, square.y, square.w, squareSize);
+                } else {
+                    fill(square.color);
+                    rect(square.x, square.y, square.w, squareSize, rectSizing);
+                }
+            }
+            updateFlippingSquares();
+
+            // Randomly trigger a square to flip by itself
+            if (random() < 0.001 && squares.length > 0) {
+                let randomSquare = random(squares);
+                let newColor;
+                do {
+                    newColor = random(colors);
+                } while (newColor === randomSquare.color);
+                flippingSquares.push({ square: randomSquare, newColor, progress: 0 });
+            }
+        }
+
+        // ---- Texture building --------------------------------------------
+
+        function useTextures() {
+            return sourceImg !== null && COLOR_MODE !== 'flat';
+        }
+
+        // Pick a random CROP_SIZE x CROP_SIZE window inside the source image.
+        function randomCrop() {
+            let cw = min(CROP_SIZE, sourceImg.width);
+            let ch = min(CROP_SIZE, sourceImg.height);
+            return {
+                sx: floor(random(sourceImg.width - cw + 1)),
+                sy: floor(random(sourceImg.height - ch + 1)),
+                cw, ch
+            };
+        }
+
+        // Coverage (0..1) of a pixel centre at (x, y) inside a rounded square of size s, radius r.
+        function roundedCoverage(x, y, s, r) {
+            if (r <= 0) return 1;
+            let cx = x < r ? r : (x > s - r ? s - r : x);
+            let cy = y < r ? r : (y > s - r ? s - r : y);
+            let d = Math.hypot(x - cx, y - cy);
+            return constrain(r - d + 0.5, 0, 1);
+        }
+
+        // Render the square's crop into its graphics buffer, recoloured and clipped to a rounded rect.
+        function buildTexture(square) {
+            if (!square.tex) {
+                square.tex = createGraphics(squareSize, squareSize);
+            }
+            let pg = square.tex;
+            let c = square.crop;
+            pg.clear();
+            pg.image(sourceImg, 0, 0, squareSize, squareSize, c.sx, c.sy, c.cw, c.ch);
+
+            let ink = lerpColor(square.color, color(INK_TARGET), THEMES[theme].inkDarken);
+            let paper = lerpColor(square.color, color(255), THEMES[theme].paperMix);
+            let ir = red(ink), ig = green(ink), ib = blue(ink);
+            let pr = red(paper), pgc = green(paper), pb = blue(paper);
+
+            let d = pg.pixelDensity();
+            let n = squareSize * d;
+            pg.loadPixels();
+            let px = pg.pixels;
+            for (let yy = 0; yy < n; yy++) {
+                for (let xx = 0; xx < n; xx++) {
+                    let i = 4 * (yy * n + xx);
+                    let lum = px[i] / 255; // source is grayscale; 0 = ink, 1 = paper
+                    let cover = roundedCoverage((xx + 0.5) / d, (yy + 0.5) / d, squareSize, rectSizing);
+                    if (COLOR_MODE === 'tint') {
+                        px[i] = ir; px[i + 1] = ig; px[i + 2] = ib;
+                        px[i + 3] = 255 * (1 - lum) * cover;
+                    } else { // twotone
+                        px[i]     = pr + (ir - pr) * (1 - lum);
+                        px[i + 1] = pgc + (ig - pgc) * (1 - lum);
+                        px[i + 2] = pb + (ib - pb) * (1 - lum);
+                        px[i + 3] = 255 * cover;
+                    }
+                }
+            }
+            pg.updatePixels();
+        }
+
+        // ---- Layout & interaction (same logic as header_sketch.html) -----
+
+        function initializeSquares() {
+            for (let x = squareSize / 2; x <= width - squareSize / 2; x += squareSize + padding) {
+                for (let y = squareSize / 2; y <= height - squareSize / 2; y += squareSize + padding) {
+                    let t = constrain((x - squareSize / 2) / max(1, width - squareSize), 0, 1);
+                    if (random() < lerp(FILL_LEFT, FILL_RIGHT, t)) { // Randomly decide whether to draw a square
+                        let col = random(colors);
+                        let square = { x, y, color: col, w: squareSize, tex: null };
+                        if (useTextures()) {
+                            square.crop = randomCrop();
+                            buildTexture(square);
+                        }
+                        squares.push(square);
+                    }
+                }
+            }
+        }
+
+        function mousePressed() {
+            for (let square of squares) {
+                if (mouseX > square.x - square.w / 2 && mouseX < square.x + square.w / 2 &&
+                    mouseY > square.y - squareSize / 2 && mouseY < square.y + squareSize / 2) {
+                    let newColor;
+                    do {
+                        newColor = random(colors);
+                    } while (newColor === square.color);
+                    flippingSquares.push({ square, newColor, progress: 0 });
+                }
+            }
+        }
+
+        function updateFlippingSquares() {
+            for (let i = flippingSquares.length - 1; i >= 0; i--) {
+                let flip = flippingSquares[i];
+                let square = flip.square;
+                flip.progress += 0.03; // Slower speed of animation
+
+                if (flip.progress < 0) continue; // staggered start (theme-change wave)
+                if (flip.progress < 1) {
+                    // Use sine easing for smooth transition
+                    let easedProgress = sin(flip.progress * PI);
+                    square.w = squareSize * (1 - easedProgress);
+
+                    // Change color (and crop) at the midpoint of the animation
+                    if (easedProgress > 0.99 && !flip.colorChanged) {
+                        square.color = flip.newColor;
+                        if (square.tex) {
+                            square.crop = randomCrop();
+                            buildTexture(square);
+                        }
+                        flip.colorChanged = true;
+                    }
+                } else {
+                    square.w = squareSize;
+                    flippingSquares.splice(i, 1);
+                }
+            }
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, 200);
+            for (let square of squares) {
+                if (square.tex) square.tex.remove();
+            }
+            squares = [];
+            flippingSquares = [];
+            initializeSquares();
+        }
+    </script>
+</body>
+</html>

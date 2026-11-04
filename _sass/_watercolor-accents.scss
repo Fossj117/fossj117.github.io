@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Watercolor accents — echoes of the header sketch's textured tiles
+   (assets/header_sketch_watercolor.html).
+   ========================================================================== */
+
+/* Dark-mode toggle: a round two-tone watercolor tile that flips when clicked.
+   The button's background is the "paper" colour; a ::before layer in the "ink"
+   colour is masked by ink_mask.png (ink = opaque). dark-mode.js sets --wc-ink,
+   --wc-paper and --wc-pos to a random midtone colour + crop on load and on
+   each click; the values below are the defaults before the script runs. */
+#dark-mode-toggle {
+    --wc-ink: #2560b4;     /* #2a7ae2 → #1b3a75 @ 30% */
+    --wc-paper: #74a5eb;   /* #2a7ae2 → white  @ 35% */
+    --wc-size: 390px;      /* must match WC_MASK_SIZE in dark-mode.js */
+    --wc-pos: -205px -245px;
+    background-color: var(--wc-paper);
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: var(--wc-ink);
+        -webkit-mask-image: url("/assets/watercolor_processed/ink_mask.png");
+        mask-image: url("/assets/watercolor_processed/ink_mask.png");
+        -webkit-mask-size: var(--wc-size);
+        mask-size: var(--wc-size);
+        -webkit-mask-position: var(--wc-pos);
+        mask-position: var(--wc-pos);
+        -webkit-mask-repeat: repeat;
+        mask-repeat: repeat;
+        pointer-events: none;
+    }
+
+    &:hover {
+        background-color: var(--wc-paper);
+        filter: brightness(1.08);
+    }
+
+    &.wc-flip { animation: wc-flip 0.5s ease-in-out; }
+}
+
+@keyframes wc-flip {
+    0%   { transform: scaleX(1); }
+    50%  { transform: scaleX(0); }
+    100% { transform: scaleX(1); }
+}

@@ -7,7 +7,7 @@ layout: empty
 </center>  -->
 
 <!-- <center> -->
-<iframe src="/assets/header_sketch.html" width="350" height="200" style="border:none;"></iframe>
+<iframe src="/assets/header_sketch_watercolor.html" width="350" height="200" style="border:none;"></iframe>
 <!-- </center> -->
 
 Hi, I'm Jeff. I like learning and making things.
