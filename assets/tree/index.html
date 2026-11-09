@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A real tree</title>
+  <style>html,body{background:#0b1018;height:100%;margin:0;font-family:Georgia,Times New Roman,serif;overflow:hidden}canvas{display:block}#hint,#loading{color:#c9d2cf;letter-spacing:.03em;pointer-events:none;text-align:center;font:14px/1.4 Georgia,Times New Roman,serif;transition:opacity 2s;position:fixed;left:50%;transform:translate(-50%)}#hint{opacity:0;width:max-content;max-width:calc(100vw - 32px);bottom:30px}#hint .keys{flex-wrap:wrap;justify-content:center;gap:8px 22px;font-size:13px;display:flex}#hint kbd{text-align:center;color:#e4e8e4;background:#0a0e1459;border:1px solid #dce1dc4d;border-bottom-width:2px;border-radius:5px;min-width:1.6em;margin-right:3px;padding:3px 6px;font:12px/1 Georgia,Times New Roman,serif;display:inline-block}#hint kbd+kbd{margin-left:-1px}#hint small{opacity:.55;margin-left:2px;font-size:11px}#hint .quiet{opacity:.5;margin-top:9px;font-size:12px}#loading{top:50%}.hidden{opacity:0!important}#corner{gap:10px;display:flex;position:fixed;top:18px;right:18px}#corner button{color:#d7ddd8;opacity:.35;cursor:pointer;background:#0a0e1459;border:1px solid #dce1dc59;border-radius:50%;justify-content:center;align-items:center;width:30px;height:30px;padding:0;font:italic 15px/1 Georgia,serif;transition:opacity .4s;display:flex}#corner button:hover,#corner button:focus-visible{opacity:.9}#corner svg{stroke:currentColor;fill:none;stroke-width:1.4px;width:15px;height:15px}#about{color:#d7ddd8;letter-spacing:.01em;opacity:0;pointer-events:none;background:#080b10c7;border-radius:6px;max-width:min(320px,100vw - 36px);padding:16px 18px;font:14px/1.55 Georgia,serif;transition:opacity .6s;position:fixed;top:60px;right:18px}#about.open{opacity:1;pointer-events:auto}#about p{margin:0 0 8px}#about p:last-child{opacity:.6;margin:0;font-size:12px}#about a{color:#f0dcb4;text-underline-offset:3px;text-decoration-color:#f0dcb473}#about a:hover{text-decoration-color:currentColor}#about .setting{letter-spacing:.02em;align-items:center;gap:6px;margin:12px 0 10px;font:13px/1 Georgia,Times New Roman,serif;display:flex}#about .setting span{opacity:.6;margin-right:4px}#about .setting button{font:inherit;color:#d7ddd8;cursor:pointer;opacity:.6;background:0 0;border:1px solid #dce1dc40;border-radius:12px;padding:5px 10px}#about .setting button:hover{opacity:.9}#about .setting button[aria-pressed=true]{opacity:1;background:#f0e1c814;border-color:#f0e1c8b3}</style>
+  <script type="module" crossorigin src="./assets/index-C38aSvok.js"></script>
+</head>
+<body>
+  <div id="loading">gathering bark…</div>
+  <div id="hint">
+    <div class="keys">
+      <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move</span>
+      <span><kbd>Space</kbd> jump <small>hold to float</small></span>
+      <span><kbd>Shift</kbd> move faster</span>
+      <span><kbd>Left click</kbd> glow</span>
+    </div>
+    <div class="quiet">mouse to look · scroll to zoom</div>
+  </div>
+  <div id="about" role="dialog" aria-label="About this tree">
+    <p>This is a 3D scan of a real tree, built with photogrammetry.</p>
+    <p>The real tree is <a href="https://maps.app.goo.gl/H7hZde9GBUrxLYSK7" target="_blank" rel="noopener">right here</a>.</p>
+    <div class="setting" role="group" aria-label="Detail">
+      <span>Detail</span>
+      <button data-detail="standard">Standard</button>
+      <button data-detail="hq">High</button>
+    </div>
+    <p>Scanned 28 October 2026</p>
+  </div>
+  <div id="corner">
+    <button id="info" aria-label="About this tree" aria-expanded="false">i</button>
+    <button id="mute" aria-label="Mute sound" aria-pressed="false">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 6h3l4-3v10l-4-3H2z"/><path class="waves" d="M11 5.5c1 1.4 1 3.6 0 5M12.8 4c1.8 2.3 1.8 5.7 0 8"/></svg>
+    </button>
+  </div>
+</body>
+</html>
