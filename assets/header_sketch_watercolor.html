@@ -36,6 +36,9 @@
         const FILL_LEFT = 0.6;
         const FILL_RIGHT = 0.6;
         const INK_TARGET = '#1b3a75'; // ink shades darken toward this deep blue (not black) so pale tones stay blue, not gray
+        // The grid is always laid out for this width (7 columns). When the iframe is narrower, only the
+        // columns that fully fit are shown, so the panel never extends past the page's text column.
+        const GRID_WIDTH = 350;
         const COLOR_MODE = 'twotone'; // 'twotone' (ink = blue, paper = light blue) | 'tint' (paper transparent) | 'flat' (original look)
         // ------------------------------------------------------------------
 
@@ -94,7 +97,7 @@
             flippingSquares = [];
             for (let square of squares) {
                 square.w = squareSize;
-                let delay = (square.x / width) * 0.8 + random(0.15);
+                let delay = (square.x / GRID_WIDTH) * 0.8 + random(0.15);
                 flippingSquares.push({ square, newColor: random(colors), progress: -delay });
             }
         }
@@ -102,6 +105,7 @@
         function draw() {
             clear(); // This makes the background transparent
             for (let square of squares) {
+                if (!fits(square)) continue;
                 if (square.tex) {
                     if (square.w > 0.5) image(square.tex, square.x, square.y, square.w, squareSize);
                 } else {
@@ -188,10 +192,15 @@
 
         // ---- Layout & interaction (same logic as header_sketch.html) -----
 
+        // True if the square's column lies fully inside the current canvas.
+        function fits(square) {
+            return square.x + squareSize / 2 <= width;
+        }
+
         function initializeSquares() {
-            for (let x = squareSize / 2; x <= width - squareSize / 2; x += squareSize + padding) {
+            for (let x = squareSize / 2; x <= GRID_WIDTH - squareSize / 2; x += squareSize + padding) {
                 for (let y = squareSize / 2; y <= height - squareSize / 2; y += squareSize + padding) {
-                    let t = constrain((x - squareSize / 2) / max(1, width - squareSize), 0, 1);
+                    let t = constrain((x - squareSize / 2) / max(1, GRID_WIDTH - squareSize), 0, 1);
                     if (random() < lerp(FILL_LEFT, FILL_RIGHT, t)) { // Randomly decide whether to draw a square
                         let col = random(colors);
                         let square = { x, y, color: col, w: squareSize, tex: null };
@@ -207,6 +216,7 @@
 
         function mousePressed() {
             for (let square of squares) {
+                if (!fits(square)) continue;
                 if (mouseX > square.x - square.w / 2 && mouseX < square.x + square.w / 2 &&
                     mouseY > square.y - squareSize / 2 && mouseY < square.y + squareSize / 2) {
                     let newColor;
@@ -247,13 +257,8 @@
         }
 
         function windowResized() {
+            // The grid itself is fixed; draw() just shows whichever columns fit the new width.
             resizeCanvas(windowWidth, 200);
-            for (let square of squares) {
-                if (square.tex) square.tex.remove();
-            }
-            squares = [];
-            flippingSquares = [];
-            initializeSquares();
         }
     </script>
 </body>
