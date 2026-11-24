@@ -1,0 +1,87 @@
+Inman Square 733 m
+Compiled with Placebased Typeface
+
+Pin:      42.37065°N 71.09670°W
+Radius:   733 m
+Compiled: 2026-11-24
+Link:     /f/w96htwjnc
+Letters:  25 of 26 uppercase, 59 characters in total
+
+LICENCE
+This typeface and every letter in it are dedicated to the public domain under
+CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).
+The contributors who photographed these letters released them for any use.
+You may use, modify and redistribute the font for any purpose, without credit.
+
+FILES
+Inman-Square-733-m.otf    install on Mac or Windows
+Inman-Square-733-m.woff2  for websites
+svg/               one outline per letter
+
+SOURCES
+char  found at                    from pin   source
+A     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+B     42.37377°N 71.10082°W          485 m   /?sign=2b2517eb-ba5f-4d39-bffd-ba7e5b63b19a
+C     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+D     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+E     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+F     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+G     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+H     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+I     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+J     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+K     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+L     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+M     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+N     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+O     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+P     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+R     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+S     42.37361°N 71.10041°W          449 m   /?sign=69e67a33-8776-4d60-9c87-f88964ff7e42
+T     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+U     42.37361°N 71.10041°W          449 m   /?sign=69e67a33-8776-4d60-9c87-f88964ff7e42
+V     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+W     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+X     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+Y     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+Z     42.37253°N 71.09936°W          303 m   /?sign=304de55f-1225-4f66-bbdd-00c65d49a656
+a     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+b     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+c     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+d     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+e     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+g     42.37335°N 71.10030°W          422 m   /?sign=5151a7b8-f30f-4ead-8f3e-6d0ca791e00f
+h     42.37377°N 71.10082°W          485 m   /?sign=2b2517eb-ba5f-4d39-bffd-ba7e5b63b19a
+i     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+k     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+l     42.37377°N 71.10082°W          485 m   /?sign=2b2517eb-ba5f-4d39-bffd-ba7e5b63b19a
+m     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+n     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+o     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+q     42.37361°N 71.10041°W          449 m   /?sign=69e67a33-8776-4d60-9c87-f88964ff7e42
+r     42.37335°N 71.10030°W          422 m   /?sign=5151a7b8-f30f-4ead-8f3e-6d0ca791e00f
+s     42.37335°N 71.10030°W          422 m   /?sign=5151a7b8-f30f-4ead-8f3e-6d0ca791e00f
+t     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+u     42.37361°N 71.10041°W          449 m   /?sign=69e67a33-8776-4d60-9c87-f88964ff7e42
+v     42.37361°N 71.10041°W          449 m   /?sign=69e67a33-8776-4d60-9c87-f88964ff7e42
+w     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+y     42.37200°N 71.09880°W          229 m   /?sign=0bcd3c2e-10b1-422f-897a-1f8b63ca5390
+0     42.37361°N 71.10041°W          449 m   /?sign=69e67a33-8776-4d60-9c87-f88964ff7e42
+1     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+2     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+3     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+4     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+5     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+6     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+7     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+8     42.37166°N 71.09827°W          171 m   /?sign=ec02f546-fcef-489d-b923-bcbcfd6f43e3
+9     42.36863°N 71.09456°W          285 m   /?sign=528696e0-edde-4b77-945d-316a422db562
+!     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+#     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+@     42.36580°N 71.09125°W          701 m   /?sign=e8d64c91-bd02-46f6-911c-9ee5d4f7b973
+
+MISSING (1)
+Q
+No example of these letters was inside the radius. They appear as an empty box.
+
+Lowercase letters with no example of their own use the uppercase letter: f j p x z
