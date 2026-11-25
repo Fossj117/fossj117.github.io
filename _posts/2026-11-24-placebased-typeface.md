@@ -26,6 +26,17 @@ So far, I've found the project fun to play with, as it draws attention to a part
 
 The code and interface was mostly built with Claude Code. There is a draft version of the site (still mostly closed to submissions) up [here](https://placebased-typeface.vercel.app/).
 
+## Related Projects
+
+After exploring this idea, I found that it is very similar to a project called [Urban Alphabets](https://vimeo.com/117375299) developed by Suse Miessner in 2014. A few links about the project: [1](https://www.connectingcities.net/projects/urban-alphabets/), [2](https://www.behance.net/gallery/25496187/Urban-Alphabets). The website listed for the Urban Alphabets project seems to be down, and I don't see the app in the app store currently. So maybe I can consider my project a kind of revival. Perhaps I will reach out to Miessner at some point after I've played around with this idea a bit more. From some of the media about the Urban Alphabets, Miessner seems to be interested in this direction for similar reasons to me; for example, the project "encourages users to re-experience their surroundings"--a way to encourage people to engage with the city and its particular character in a new and different way.   
+
+A few other related projects connected to collecting letters/type connected to specific places:
+
+* [Type of Place](https://www.metanewhouse.com/typeofplace) (2011) by Meta Newhouse and Nathan Davis
+* [Typewalk](https://typewalk.net/)
+* [Type of Berlin](https://iammartin.dk/work/type-of-berlin/)
+* [Letters & Landmarks](https://designsbytellie.com/case-studies/letters-landmarks)
+
 <style>
 @font-face {
   font-family: "Inman Square 733 m";
